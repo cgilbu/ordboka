@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+	<title>Ordboka</title>
+
+	<meta charset="UTF-8">
+	<meta name="theme-color" content="#08253b"> <!-- Dark blue -->
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<meta name="description" content="Er det mange vanskelige ord i menigheten? Finn forklaringene her!">
+
+	<meta property="og:url" content="https://ordbok.joinmyblog.com">
+	<meta property="og:title" content="Ordboka">
+	<meta property="og:description" content="Er det mange vanskelige ord i menigheten? Finn forklaringene her!">
+	<meta property="og:image" content="https://ordbok.joinmyblog.com/resources/images/touch-icon-500px.png">
+
+	<link rel="shortcut icon" href="/resources/images/favicon.png">
+	<link rel="apple-touch-icon" href="/resources/images/touch-icon-500px.png">
+
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans">
+	<link rel="stylesheet" href="/vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="/resources/css/app.css">
+
+	<link rel="manifest" href="/manifest.json">
+</head>
+<body>
+	<input type="text" class="search" autocomplete="off">
+	<div class="dictionary"></div>
+	<div class="overlay"></div>
+
+	<div class="menuButton">
+		<i class="fas fa-bars"></i>
+		<i class="fas fa-times"></i>
+	</div>
+
+	<div class="tip">Tips: Klikk utenfor teksten for å gå tilbake</div>
+
+	<div class="popup menu">
+		<div class="contact">Kom med forslag</div>
+		<div class="defining">Definering av ord</div>
+		<div class="foss">Kode og sikkerhet</div>
+	</div>
+
+	<div class="popup welcome">
+		<p>Velkommen til ordboka! <b>Klikk på ordene</b> for å se hva de betyr. Kom gjerne med forslag til <b>nye ord</b> eller <b>endringer</b> via menyen.</p>
+		<p>Du kan lagre ordboka som app på mobilen din via menyen i nettleseren.</p>
+		<div class="button start">Sett i gang</div>
+	</div>
+
+	<div class="popup contact">
+		<p>Husk å lese om hvordan vi definerer ord før du sender inn forslag til nye ord eller endringer. Alle henvendelser blir nøye vurdert og sjekket opp mot sikre kilder. Dersom forslaget ditt blir godtatt vil det bli synlig i ordboka innen en ukes tid.</p>
+		<p>
+			<input type="text" class="wordSuggestion" placeholder="Nytt eller eksisterende ord">
+			<textarea class="textSuggestion" placeholder="Forslag til definisjon eller endring"></textarea>
+		</p>
+		<div class="button contact">Send inn</div>
+		<div class="button back">Gå tilbake</div>
+	</div>
+
+	<div class="popup defining">
+		<p>Vi benytter oss først og fremst av norske ordbøker. Deretter tar vi ofte en titt i synonymordboka. Noen ganger ser vi også på hva ordet betyr på andre språk. Innspill fra andre er også viktig.</p>
+		<p>Merk at vi retter oss mot unge tenåringer. Derfor er vi ofte nødt til å overforenkle betydningene, og velge vekk ord som kanskje hadde passet bedre, men som kun voksne hadde forstått.</p>
+		<div class="button ok">Greit</div>
+	</div>
+
+	<div class="popup foss">
+		<p>Denne appen har en <a href="https://github.com/cgilbu/" target="_blank">åpen kildekode</a>. Ta gjerne en titt på koden, og hjelp oss med å gjøre appen enda bedre!</p>
+		<p>Personvern er viktig. Det finnes derfor ingen sporingskoder i appen, og vi benytter oss heller ikke av informasjonskapsler.</p>
+		<div class="button ok">Heftig</div>
+	</div>
+
+	<script src="/vendors/jquery-3.3.1.min.js"></script>
+	<script src="/resources/js/app.js"></script>
+</body>
+</html>

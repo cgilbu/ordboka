@@ -1,0 +1,15 @@
+{
+	"name": "Ordboka",
+	"short_name": "Ordboka",
+	"start_url": ".",
+	"icons": [
+		{
+			"src": "/resources/images/touch-icon-500px.png",
+			"type": "image/png",
+			"sizes": "500x500"
+		}
+	],
+	"background_color": "#08253b",
+	"theme_color": "#08253b",
+	"display": "standalone"
+}

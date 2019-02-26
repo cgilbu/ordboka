@@ -1,40 +1,154 @@
 [
-	{ "Title": "Barmhjertig", "Definition": "Vennlig og god mot andre" },
-	{ "Title": "Barnekår", "Definition": "Ha samme vilkår eller betingelser som et barn" },
-	{ "Title": "Blygsel", "Definition": "(usikkert) Utsatt og uten skjulested. Føler seg naken." },
-	{ "Title": "Enfoldig", "Definition": "Enten tenke veldig enkelt om noe, eller ikke være så smart" },
-	{ "Title": "Ettergivende", "Definition": "Ofte gå med på å gjøre det andre vil, på en positiv måte. Være fleksibel. Oppfylle andre sine ønsker." },
-	{ "Title": "Formynder", "Definition": "(usikkert) En som tar personlige avgjørelser for noen som ikke klarer det selv" },
-	{ "Title": "Førstegrøde", "Definition": "Det første kornet som høstes inn fra åkeren, eller det første resultatet av noe" },
-	{ "Title": "Gagnlig", "Definition": "Noe som hjelper og er til nytte" },
-	{ "Title": "Husvalelse", "Definition": "Kombinasjon av lindring, bedring, hjelp og lettelse." },
-	{ "Title": "Især", "Definition": "Spesielt eller særlig" },
-	{ "Title": "Kiv", "Definition": "(mangler definisjon)" },
-	{ "Title": "Kjød", "Definition": "Kroppen til et menneske, inkludert tanker og indre følelser. Ånden, og eventuelt kontakten med Gud, er ikke en del av kjødet. Kjødet er noe Gud har skapt, og er ikke negativt i seg selv, men kan være sykt, urent, eller ødelagt på grunn av synden." },
-	{ "Title": "Kjødelig", "Definition": "Leve etter kroppens instinkter og lyster, uten å la seg lede av ånden eller ha kontakt med Gud." },
-	{ "Title": "Klædebon", "Definition": "Klær eller klesplagg" },
-	{ "Title": "Langmodig", "Definition": "(usikkert) Kombinasjon av å være tålmodig, utholden og tilgivende" },
-	{ "Title": "Legeme", "Definition": "Kroppen til et menneske, mest sannsynlig uten tanker og indre følelser" },
-	{ "Title": "Miskunn", "Definition": "Kombinasjon av nåde, hjelp, vennlighet og godhet" },
-	{ "Title": "Nidkjær", "Definition": "Ekstremt ivrig til å gjøre noe, ofte med stor kraft og viljestyrke" },
-	{ "Title": "Nåde", "Definition": "Få lov til å få hjelp når du har problemer, ofte på en sympatisk og vennlig måte, fra noen som er mektigere og sterkere enn deg" },
-	{ "Title": "Oppriktig", "Definition": "Ekte og ærlig" },
-	{ "Title": "Overtredelse", "Definition": "Lovbrudd - gjøre noe galt" },
-	{ "Title": "Overvettes", "Definition": "(usikkert) Veldig" },
-	{ "Title": "Redebonhet", "Definition": "(usikkert) Være klar til å gjøre noe" },
-	{ "Title": "Ryggesløs", "Definition": "Frekk. Bryr seg ikke. Har ikke grenser." },
-	{ "Title": "Saktmodig", "Definition": "Stille og fredelig, selv om andre behandler deg slemt og urettferdig" },
-	{ "Title": "Sjel", "Definition": "Tanker og følelser. Ånden, og eventuelt kontakten med Gud, er ikke en del av sjelen. Sjelen er noe Gud har skapt, og er ikke negativt i seg selv, men kan være sykt, urent, eller ødelagt på grunn av synden." },
-	{ "Title": "Skussmål", "Definition": "Hva noen sier eller skriver om deg og det du har gjort. Vitnesbyrd. Attest." },
-	{ "Title": "Stadfeste", "Definition": "Bekrefte på en skikkelig måte." },
-	{ "Title": "Synd", "Definition": "Gjøre eller tenke noe som Gud har sagt at menneskene ikke skal gjøre eller tenke" },
-	{ "Title": "Sømmelig", "Definition": "Ha god folkeskikk og gjøre det som er riktig og som passer seg" },
-	{ "Title": "Sønderbryte", "Definition": "Knuse eller slå i stykker" },
-	{ "Title": "Tilbøyelig", "Definition": "Lett velge å gjøre noe dumt, eller holde på å endre mening om noe" },
-	{ "Title": "Tukt", "Definition": "Positiv straff som gjør at du blir bedre" },
-	{ "Title": "Uforgjengelig", "Definition": "Blir aldri borte - kommer alltid til å finnes" },
-	{ "Title": "Ulastelig", "Definition": "Helt uten feil - ingen kan klage på deg" },
-	{ "Title": "Vanskjøtt", "Definition": "Behandlet dårlig. Omsorgssvikt." },
-	{ "Title": "Vitterlig", "Definition": "Kjent og åpenbart" },
-	{ "Title": "Vred", "Definition": "Veldig sinna, ofte fordi noen har gjort noe slemt eller ondt" }
+  {
+    "Title": "Barmhjertig",
+    "Definition": "Ha lyst til å være hjelpende, vennlig og god mot andre, selv om de kanskje ikke fortjener det"
+  },
+  {
+    "Title": "Barnekår",
+    "Definition": "Ha de samme mulighetene som barnet til noen andre"
+  },
+  {
+    "Title": "Blygsel",
+    "Definition": "Føle seg sjenert, skamfull og naken"
+  },
+  {
+    "Title": "Enfoldig",
+    "Definition": "Tenke enkelt om ting. Være enkel og ærlig. Kan noen ganger (ikke vanligvis) bety at man er dum."
+  },
+  {
+    "Title": "Ettergivende",
+    "Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en bra måte. Det kan likevel være dumt å være altfor ettergivende."
+  },
+  {
+    "Title": "Formynder",
+    "Definition": "En som passer på, hjelper og tar personlige bestemmelser for noen som ikke er klar for å gjøre det selv"
+  },
+  {
+    "Title": "Førstegrøde",
+    "Definition": "Det første kornet som høstes inn fra åkeren (vanligvis det beste kornet). Kan også bety det første resultatet av noe."
+  },
+  {
+    "Title": "Gagnlig",
+    "Definition": "Noe som hjelper og er til nytte"
+  },
+  {
+    "Title": "Husvalelse",
+    "Definition": "Kombinasjon av glede, trøst, hjelp og lettelse."
+  },
+  {
+    "Title": "Især",
+    "Definition": "Spesielt viktig. Først og fremst. \"Hver især\" kan også bety \"hver for seg\"."
+  },
+  {
+    "Title": "Kiv",
+    "Definition": "Krangling"
+  },
+  {
+    "Title": "Kjød",
+    "Definition": "Kroppen til et menneske, pluss vanligvis tanker og følelser. Kjødet er noe Gud har skapt, og er ikke dårlig, men kan være sykt, skittent, eller ødelagt på grunn av synd. Kjød og synd er to forskjellige ting."
+  },
+  {
+    "Title": "Kjødelig",
+    "Definition": "Leve etter kroppens instinkter, følelser og tanker, uten å ha kontakt med Gud."
+  },
+  {
+    "Title": "Klædebon",
+    "Definition": "Klær eller klesplagg"
+  },
+  {
+    "Title": "Langmodig",
+    "Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge, og være tålmodig og tilgivende."
+  },
+  {
+    "Title": "Legeme",
+    "Definition": "Kroppen til et menneske, uten tanker og indre følelser"
+  },
+  {
+    "Title": "Miskunnelig",
+    "Definition": "Være hjelpende, vennlig, nådig og god mot andre"
+  },
+  {
+    "Title": "Nidkjær",
+    "Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke. Kan noen ganger (ikke vanligvis) bety at man er veldig streng og rettferdig."
+  },
+  {
+    "Title": "Nåde",
+    "Definition": "Få lov til å få hjelp og beskyttelse når du har problemer, ofte på en god og vennlig måte, fra noen som er større og sterkere enn deg"
+  },
+  {
+    "Title": "Oppriktig",
+    "Definition": "Ekte, åpen og ærlig"
+  },
+  {
+    "Title": "Overtredelse",
+    "Definition": "Bryte loven. Gjøre noe galt."
+  },
+  {
+    "Title": "Overvettes",
+    "Definition": "Uvanlig mye"
+  },
+  {
+    "Title": "Redebonhet",
+    "Definition": "Ha lyst til å hjelpe til"
+  },
+  {
+    "Title": "Ryggesløs",
+    "Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva man vil."
+  },
+  {
+    "Title": "Saktmodig",
+    "Definition": "Stille og fredelig, selv om andre kanskje behandler deg slemt og urettferdig"
+  },
+  {
+    "Title": "Sjel",
+    "Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger ligne på \"ånd\"."
+  },
+  {
+    "Title": "Skussmål",
+    "Definition": "Hva noen har sagt eller skrevet om deg og det du har gjort. Kan være det samme som vitnemål eller attest."
+  },
+  {
+    "Title": "Stadfeste",
+    "Definition": "Bekrefte på en skikkelig måte. Slå noe fast (ikke fysisk)."
+  },
+  {
+    "Title": "Synd",
+    "Definition": "Noe som Gud har sagt at menneskene ikke skal gjøre eller tenke"
+  },
+  {
+    "Title": "Sømmelig",
+    "Definition": "God folkeskikk og oppførsel. Gøre det som er riktig og som passer seg."
+  },
+  {
+    "Title": "Sønderbryte",
+    "Definition": "Knuse eller slå i stykker"
+  },
+  {
+    "Title": "Tilbøyelig",
+    "Definition": "Lett bestemme seg for å gjøre noe, vanligvis noe dumt"
+  },
+  {
+    "Title": "Tukt",
+    "Definition": "Streng oppdragelse som er hjelpende, nødvendig og positiv"
+  },
+  {
+    "Title": "Uforgjengelig",
+    "Definition": "Blir aldri borte - kommer alltid til å finnes"
+  },
+  {
+    "Title": "Ulastelig",
+    "Definition": "Helt uten feil - ingen kan klage på deg"
+  },
+  {
+    "Title": "Vanskjøtt",
+    "Definition": "Behandlet dårlig. Omsorgssvikt."
+  },
+  {
+    "Title": "Vitterlig",
+    "Definition": "Kjent og åpenbart"
+  },
+  {
+    "Title": "Vred",
+    "Definition": "Sinna. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt."
+  }
 ]

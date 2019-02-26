@@ -5,6 +5,7 @@
 var Core = {};
 var DOM = {};
 var Events = {};
+var Helpers = {};
 var View = {};
 
 'use strict';
@@ -25,8 +26,6 @@ $(document).ready(function() {
 	View.cacheDom();
 	Core.getWords(View.loadWords);
 
-	//localStorage.removeItem("returning");
-
 	if (!localStorage.getItem("returning")) {
 		View.showPopup(DOM.welcomePopup);
 	}
@@ -40,7 +39,7 @@ Core.getWords = function(callback) {
 	$.getJSON("/resources/data/words.json", function(data) {
 		callback(data);
 	}).fail(function() {
-		alert("Something went wrong: Failed to load words");
+		alert("Noe gikk galt: Kunne ikke laste ord");
 	});
 }
 
@@ -112,6 +111,18 @@ View.search = function(term) {
 }
 
 // ******************************************************
+// View: Reset search
+// ******************************************************
+
+View.resetSearch = function() {
+	if (DOM.search.val()) {
+		DOM.search.val("");
+		DOM.search.blur();
+		View.search("");
+	}
+}
+
+// ******************************************************
 // View: Popups
 // ******************************************************
 
@@ -170,17 +181,11 @@ Events.bindEvents = function() {
 	});
 
 	DOM.search.click(function() {
-		if ($(this).val()) {
-			$(this).val("");
-			$(this).blur();
-			View.search("");
-		}
+		View.resetSearch();
 	});
 
 	DOM.word.click(function() {
-		DOM.body.css("overflow", "hidden");
-		DOM.overlay.show();
-		$(this).find(".definition").show();
+		View.showPopup($(this).find(".definition"));
 		DOM.tip.show();
 	});
 
@@ -212,24 +217,29 @@ Events.bindEvents = function() {
 	});
 
 	DOM.contactButton.click(function() {
-
-		if (!DOM.wordSuggestion.val()) {
-			return;
+		if (DOM.wordSuggestion.val()) {
+			Helpers.sendSuggestion();
 		}
+	});
+}
 
-		var content = DOM.wordSuggestion.val() + ": " + DOM.textSuggestion.val();
+// ******************************************************
+// Helpers: Send suggestion
+// ******************************************************
 
-		$.ajax({
-			type: "post",
-			url: "/resources/php/sendMail.php",
-			data: { subject: "Ordboka: Nytt forslag", message: content }
-		}).done(function(data) {
-			View.hidePopups();
-			DOM.wordSuggestion.val("");
-			DOM.textSuggestion.val("");
-			alert("Forslaget har blitt sendt inn. Tusen takk.");
-		}).fail(function() {
-			alert("Something went wrong: Failed to send form");
-		});
+Helpers.sendSuggestion = function() {
+	var content = DOM.wordSuggestion.val() + ": " + DOM.textSuggestion.val();
+
+	$.ajax({
+		type: "post",
+		url: "/resources/php/sendMail.php",
+		data: { subject: "Ordboka: Nytt forslag", message: content }
+	}).done(function(data) {
+		View.hidePopups();
+		DOM.wordSuggestion.val("");
+		DOM.textSuggestion.val("");
+		alert("Forslaget ditt har blitt sendt inn. Tusen takk.");
+	}).fail(function() {
+		alert("Noe gikk galt: Kunne ikke sende inn forslag");
 	});
 }

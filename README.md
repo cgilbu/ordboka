@@ -1,5 +1,5 @@
 # Ordboka (Norwegian Church Dictionary)
-This app is a Norwegian church dictionary, targeting young teenagers, containing definitions of difficult words.
+This progressive web app is a Norwegian church dictionary, targeting young teenagers, containing definitions of difficult words.
 
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See "Deployment" for notes on how to deploy the project on a live system.

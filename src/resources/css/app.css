@@ -83,8 +83,9 @@ a {
 .button {
 	background-color: var(--color-dark-red);
 	margin-bottom: 5px;
-	padding: 6px;
+	padding: 7px;
 	border-radius: 2px;
+	font-weight: bold;
 	text-align: center;
 	cursor: pointer;
 
@@ -139,14 +140,14 @@ a {
 
 .menuButton {
 	background-color: var(--color-dark-red);
-	width: 55px;
-	height: 55px;
+	width: 60px;
+	height: 60px;
 	border-radius: 50%;
-	font-size: 25px;
+	font-size: 29px;
 	cursor: pointer;
 	position: fixed;
-	bottom: 12px;
-	right: 12px;
+	bottom: 15px;
+	right: 15px;
 
 	display: flex;
 	align-items: center;
@@ -163,7 +164,7 @@ a {
 
 .menu div {
 	padding: 10px;
-	font-size: 21px;
+	font-size: 23px;
 	text-align: center;
 	cursor: pointer;
 }

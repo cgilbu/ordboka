@@ -240,6 +240,6 @@ Helpers.sendSuggestion = function() {
 		DOM.textSuggestion.val("");
 		alert("Forslaget ditt har blitt sendt inn. Tusen takk.");
 	}).fail(function() {
-		alert("Noe gikk galt: Kunne ikke sende inn forslag");
+		alert("Noe gikk galt: Kunne ikke sende inn forslag. Sjekk at du er koblet til nettet.");
 	});
 }

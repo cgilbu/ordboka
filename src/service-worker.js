@@ -1,6 +1,10 @@
-self.addEventListener('install', function(e) {
-	e.waitUntil(
-		caches.open('ordbok').then(function(cache) {
+var appVersion = '1';
+var cacheObject = 'ordbok-' + appVersion;
+
+self.addEventListener('install', function(event) {
+	self.skipWaiting();
+	event.waitUntil(
+		caches.open(cacheObject).then(function(cache) {
 			return cache.addAll([
 				'/',
 				'/resources/css/app.css',
@@ -20,6 +24,20 @@ self.addEventListener('fetch', function(event) {
 	event.respondWith(
 		caches.match(event.request).then(function(response) {
 			return response || fetch(event.request);
+		})
+	);
+});
+
+self.addEventListener('activate', function(event) {
+	event.waitUntil(
+		caches.keys().then(function(cacheNames) {
+			return Promise.all(
+				cacheNames.map(function(cacheName) {
+					if (cacheName != cacheObject) {
+						return caches.delete(cacheName);
+					}
+				})
+			);
 		})
 	);
 });

@@ -75,10 +75,11 @@ View.cacheDom = function() {
 // ******************************************************
 
 View.loadWords = function(words) {
-	words.sort(function(wordObject) {
-		var title = wordObject.Title.toLowerCase();
-		title = title.replace("æ", "z").replace("ø", "zz").replace("å", "zzz"); // Norwegian characters
-		return title.localeCompare(title);
+	words.sort(function(a, b) {
+		var titleA = a.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
+		var titleB = b.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
+
+		return titleA.localeCompare(titleB);
 	});
 
 	DOM.dictionary = $(".dictionary");

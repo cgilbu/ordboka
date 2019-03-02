@@ -68,6 +68,8 @@ View.cacheDom = function() {
 	DOM.overlay = $(".overlay");
 	DOM.popup = $(".popup");
 	DOM.search = $(".search");
+	DOM.shareMenuItem = $(".menu .share");
+	DOM.sharePopup = $(".popup.share");
 	DOM.startButton = $(".button.start")
 	DOM.textSuggestion = $(".textSuggestion");
 	DOM.tip = $(".tip");
@@ -233,6 +235,11 @@ Events.bindEvents = function() {
 		View.showPopup(DOM.fossPopup);
 	});
 
+	DOM.shareMenuItem.click(function() {
+		View.triggerMenu();
+		Helpers.shareApp();
+	});
+
 	DOM.contactButton.click(function() {
 		if (DOM.wordSuggestion.val()) {
 			Helpers.sendSuggestion();
@@ -318,4 +325,23 @@ Helpers.isStandalone = function() {
 	}
 
 	return false;
+}
+
+// ******************************************************
+// Helpers: Share app
+// ******************************************************
+
+Helpers.shareApp = function() {
+	var link = window.location.href.replace(/\/$/, ""); // Remove trailing slash
+
+	if (navigator.share) {
+		navigator.share({
+			title: "Ordboka",
+			text: "Er det mange vanskelige ord i menigheten? Finn forklaringene her!",
+			url: link,
+		});
+		return;
+	}
+
+	View.showPopup(DOM.sharePopup); // For iOS devices
 }

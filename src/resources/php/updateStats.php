@@ -1,7 +1,7 @@
 <?php
 
 if (!empty($_POST['newStats'])) {
-	$statFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.json';
+	$statFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.php';
 	$newStats;
 
 	if (filesize($statFile) > 1) {

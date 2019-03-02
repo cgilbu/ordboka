@@ -266,6 +266,12 @@ Helpers.sendSuggestion = function() {
 // ******************************************************
 
 Helpers.prepareDownload = function() {
+
+	if (Helpers.isStandalone()) {
+		DOM.appMenuItem.hide();
+		return;
+	}
+
 	var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
 
 	if (iOS) {
@@ -300,4 +306,16 @@ Helpers.getStatistics = function(wordClicked) {
 			console.log("Noe gikk galt: Kunne ikke oppdatere statistikk");
 		}
 	});
+}
+
+// ******************************************************
+// Helpers: Is standalone (launched from home screen)
+// ******************************************************
+
+Helpers.isStandalone = function() {
+	if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone == true) {
+		return true;
+	}
+
+	return false;
 }

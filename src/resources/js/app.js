@@ -29,6 +29,8 @@ $(document).ready(function() {
 	if (!localStorage.getItem("returning")) {
 		View.showPopup(DOM.welcomePopup);
 	}
+
+	Helpers.prepareDownload();
 });
 
 // ******************************************************
@@ -48,6 +50,8 @@ Core.getWords = function(callback) {
 // ******************************************************
 
 View.cacheDom = function() {
+	DOM.appMenuItem = $(".menu .app");
+	DOM.appPopup = $(".popup.app");
 	DOM.backButton = $(".button.back");
 	DOM.body = $("body");
 	DOM.contactButton = $(".button.contact");
@@ -55,6 +59,7 @@ View.cacheDom = function() {
 	DOM.contactPopup = $(".popup.contact");
 	DOM.definingMenuItem = $(".menu .defining");
 	DOM.definingPopup = $(".popup.defining");
+	DOM.downloadButton = $(".button.download");
 	DOM.fossMenuItem = $(".menu .foss");
 	DOM.fossPopup = $(".popup.foss");
 	DOM.menu = $(".popup.menu");
@@ -202,6 +207,16 @@ Events.bindEvents = function() {
 		View.triggerMenu();
 	});
 
+	DOM.appMenuItem.click(function() {
+		View.triggerMenu();
+		View.showPopup(DOM.appPopup);
+	});
+
+	DOM.downloadButton.click(function() {
+		View.hidePopups();
+		window.location.href = "googlechrome://ordbok.joinmyblog.com";
+	});
+
 	DOM.contactMenuItem.click(function() {
 		View.triggerMenu();
 		View.showPopup(DOM.contactPopup);
@@ -243,4 +258,18 @@ Helpers.sendSuggestion = function() {
 	}).fail(function() {
 		alert("Noe gikk galt: Kunne ikke sende inn forslag. Sjekk at du er koblet til nettet.");
 	});
+}
+
+// ******************************************************
+// Helpers: Prepare download
+// ******************************************************
+
+Helpers.prepareDownload = function() {
+	var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
+
+	if (iOS) {
+		DOM.downloadButton.hide();
+		DOM.appPopup.find(".android").hide();
+		DOM.appPopup.find(".ios").show();
+	}
 }

@@ -1,242 +1,386 @@
 [
-  {
-    "Title": "Barmhjertig",
-    "Definition": "Ha lyst til å være hjelpende, vennlig og god mot andre, selv om de kanskje ikke fortjener det"
-  },
-  {
-    "Title": "Barnekår",
-    "Definition": "Ha de samme mulighetene som barnet til noen andre"
-  },
-  {
-    "Title": "Blygsel",
-    "Definition": "Føle seg sjenert, skamfull og naken"
-  },
-  {
-    "Title": "Enfoldig",
-    "Definition": "Tenke enkelt om ting. Være enkel og ærlig. Kan noen ganger (ikke vanligvis) bety at man er dum."
-  },
-  {
-    "Title": "Ettergivende",
-    "Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en bra måte. Det kan likevel være dumt å være altfor ettergivende."
-  },
-  {
-    "Title": "Formynder",
-    "Definition": "En som passer på, hjelper og tar personlige bestemmelser for noen som ikke er klar for å gjøre det selv"
-  },
-  {
-    "Title": "Førstegrøde",
-    "Definition": "Det første kornet som høstes inn fra åkeren (vanligvis det beste kornet). Kan også bety det første resultatet av noe."
-  },
-  {
-    "Title": "Gagnlig",
-    "Definition": "Noe som hjelper og er til nytte"
-  },
-  {
-    "Title": "Husvalelse",
-    "Definition": "Kombinasjon av glede, trøst, hjelp og lettelse."
-  },
-  {
-    "Title": "Især",
-    "Definition": "Først og fremst. Spesielt dette. \"Hver især\" kan også bety \"hver for seg\"."
-  },
-  {
-    "Title": "Kiv",
-    "Definition": "Krangling"
-  },
-  {
-    "Title": "Kjød",
-    "Definition": "Kroppen til et menneske, pluss vanligvis tanker og følelser. Kjødet er noe Gud har skapt, og er ikke dårlig, men kan være sykt, skittent, eller ødelagt på grunn av synd. Kjød og synd er to forskjellige ting."
-  },
-  {
-    "Title": "Kjødelig",
-    "Definition": "Leve etter kroppens instinkter, følelser og tanker, uten å ha kontakt med Gud."
-  },
-  {
-    "Title": "Klædebon",
-    "Definition": "Klær eller klesplagg"
-  },
-  {
-    "Title": "Langmodig",
-    "Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge, og være tålmodig og tilgivende."
-  },
-  {
-    "Title": "Legeme",
-    "Definition": "Kroppen til et menneske, uten tanker og indre følelser"
-  },
-  {
-    "Title": "Miskunnelig",
-    "Definition": "Være hjelpende, vennlig, nådig og god mot andre"
-  },
-  {
-    "Title": "Nidkjær",
-    "Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke. Kan noen ganger (ikke vanligvis) bety at man er veldig streng og rettferdig."
-  },
-  {
-    "Title": "Nåde",
-    "Definition": "Få lov til å få hjelp og beskyttelse når du har problemer, ofte på en god og vennlig måte, fra noen som er større og sterkere enn deg"
-  },
-  {
-    "Title": "Oppriktig",
-    "Definition": "Ekte, åpen og ærlig"
-  },
-  {
-    "Title": "Overtredelse",
-    "Definition": "Bryte loven. Gjøre noe galt."
-  },
-  {
-    "Title": "Overvettes",
-    "Definition": "Uvanlig mye"
-  },
-  {
-    "Title": "Redebonhet",
-    "Definition": "Ha lyst til å hjelpe til"
-  },
-  {
-    "Title": "Ryggesløs",
-    "Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva man vil."
-  },
-  {
-    "Title": "Saktmodig",
-    "Definition": "Stille og fredelig, selv om andre kanskje behandler deg slemt og urettferdig"
-  },
-  {
-    "Title": "Sjel",
-    "Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger ligne på \"ånd\"."
-  },
-  {
-    "Title": "Skussmål",
-    "Definition": "Hva noen har sagt eller skrevet om deg og det du har gjort. Kan være det samme som vitnemål eller attest."
-  },
-  {
-    "Title": "Stadfeste",
-    "Definition": "Bekrefte på en skikkelig måte. Slå noe fast (ikke fysisk)."
-  },
-  {
-    "Title": "Synd",
-    "Definition": "Noe som Gud har sagt at menneskene ikke skal gjøre eller tenke"
-  },
-  {
-    "Title": "Sømmelig",
-    "Definition": "God folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg."
-  },
-  {
-    "Title": "Sønderbryte",
-    "Definition": "Knuse eller slå i stykker"
-  },
-  {
-    "Title": "Tilbøyelig",
-    "Definition": "Lett bestemme seg for å gjøre noe, vanligvis noe dumt"
-  },
-  {
-    "Title": "Tukt",
-    "Definition": "Streng oppdragelse som er hjelpende, nødvendig og positiv"
-  },
-  {
-    "Title": "Uforgjengelig",
-    "Definition": "Blir aldri borte - kommer alltid til å finnes"
-  },
-  {
-    "Title": "Ulastelig",
-    "Definition": "Helt uten feil - ingen kan klage på deg"
-  },
-  {
-    "Title": "Vanskjøtt",
-    "Definition": "Behandlet dårlig. Omsorgssvikt."
-  },
-  {
-    "Title": "Vitterlig",
-    "Definition": "Kjent og åpenbart"
-  },
-  {
-    "Title": "Vred",
-    "Definition": "Sinna. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt."
-  },
-  {
-    "Title": "Vantro",
-    "Definition": "Skeptisk. Tvilende. Ikke overbevist. Tror ikke."
-  },
-  {
-    "Title": "Fortapelse",
-    "Definition": "Tape. Gå til grunne. Miste retten sin. Gå glipp av noe. Miste håpet."
-  },
-  {
-    "Title": "Salig",
-    "Definition": "Utrolig glad og 100% lykkelig inni seg"
-  },
-  {
-    "Title": "Gavmild",
-    "Definition": "Gir ofte gaver til andre fordi man har lyst"
-  },
-  {
-    "Title": "Innvortes",
-    "Definition": "På innsiden av kroppen, enten fysisk eller i tankene"
-  },
-  {
-    "Title": "Surdeig",
-    "Definition": "Sterkt gjæret deig med sur lukt og smak. Gammel og verdiløs tradisjon for å lage mat."
-  },
-  {
-    "Title": "Fariseer",
-    "Definition": "En jøde som følger Moseloven veldig nøye, og som kanskje ser bra ut på utsiden (god oppførsel), men som lever et dårlig liv på innsiden, i tankene og når ingen ser"
-  },
-  {
-    "Title": "Gi akt på",
-    "Definition": "Følge med og vise oppmerksomhet"
-  },
-  {
-    "Title": "Lefle",
-    "Definition": "Ikke tenke seg om. Ikke ta ting seriøst. Være overfladisk. Ikke tenke konsekvenser."
-  },
-  {
-    "Title": "Skjøge",
-    "Definition": "En prostituert, eller en som er utro i ekteskapet"
-  },
-  {
-    "Title": "Vederkvege",
-    "Definition": "Kombinasjon av fornye, forfriske, styrke, oppmuntre, glede og trøste"
-  },
-  {
-    "Title": "Avind",
-    "Definition": "Veldig sterk misunnelse, nesten som hat"
-  },
-  {
-    "Title": "Begjær",
-    "Definition": "Sterkt seksuelt krav mot kroppen til en annen person. Kan sammenlignes med en hund som sikler etter et kjøttbein. Viktig: Ikke det samme som å synes noen er søt eller pen. Kan noen ganger også bety \"sterk lengsel\"."
-  },
-  {
-    "Title": "Grunne",
-    "Definition": "Tenke dypt og lenge på noe"
-  },
-  {
-    "Title": "Ånd",
-    "Definition": "Brukes ofte om flere ting. Først og fremst overnaturlig vesen eller kraft. Deretter sjelen og det indre mennesket. Kan noen ganger også bety sinnelag, innstilling eller tankesett."
-  },
-  {
-    "Title": "Gudsfrykt",
-    "Definition": "Ha respekt og kjærlighet til Gud, og være redd for å svikte ham"
-  },
-  {
-    "Title": "Higen",
-    "Definition": "Lengsel"
-  },
-  {
-    "Title": "Utukt",
-    "Definition": "Seksuell handling som går imot Guds lover og bud"
-  },
-  {
-    "Title": "Nøysom",
-    "Definition": "Klare seg fint med det lille man har"
-  },
-  {
-    "Title": "Formane",
-    "Definition": "Sterk oppmuntring til å gjøre noe"
-  },
-  {
-    "Title": "Refse",
-    "Definition": "Snakke strengt eller gi straff"
-  },
-  {
-    "Title": "Helliggjørelse",
-    "Definition": "Bli mer hellig, ren og rettferdig"
-  }
+	{
+		"Title": "Barmhjertig",
+		"Definition": "Ha lyst til å være hjelpende, vennlig og god mot andre, selv om de kanskje ikke fortjener det"
+	},
+	{
+		"Title": "Barnekår",
+		"Definition": "Ha de samme mulighetene som barnet til noen andre"
+	},
+	{
+		"Title": "Blygsel",
+		"Definition": "Føle seg sjenert, skamfull og naken"
+	},
+	{
+		"Title": "Enfoldig",
+		"Definition": "Tenke enkelt om ting. Være enkel og ærlig. Kan noen ganger (ikke vanligvis) bety at man er dum."
+	},
+	{
+		"Title": "Ettergivende",
+		"Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en bra måte. Det kan likevel være dumt å være altfor ettergivende."
+	},
+	{
+		"Title": "Formynder",
+		"Definition": "En som passer på, hjelper og tar personlige bestemmelser for noen som ikke er klar for å gjøre det selv"
+	},
+	{
+		"Title": "Førstegrøde",
+		"Definition": "Det første kornet som høstes inn fra åkeren (vanligvis det beste kornet). Kan også bety det første resultatet av noe."
+	},
+	{
+		"Title": "Gagnlig",
+		"Definition": "Noe som hjelper og er til nytte"
+	},
+	{
+		"Title": "Husvalelse",
+		"Definition": "Glede, trøst, hjelp og lettelse"
+	},
+	{
+		"Title": "Især",
+		"Definition": "Særlig. Spesielt. Først og fremst. \"Hver især\" kan også bety \"hver for seg\"."
+	},
+	{
+		"Title": "Kiv",
+		"Definition": "Krangling"
+	},
+	{
+		"Title": "Kjød",
+		"Definition": "Kroppen til et menneske, pluss vanligvis tanker og følelser. Kjødet er noe Gud har skapt, og er ikke dårlig, men kan være sykt, skittent eller ødelagt på grunn av synd. Kjød og synd er to forskjellige ting."
+	},
+	{
+		"Title": "Kjødelig",
+		"Definition": "Leve etter kroppens instinkter, følelser og tanker, uten å ha kontakt med Gud"
+	},
+	{
+		"Title": "Klædebon",
+		"Definition": "Klær eller klesplagg"
+	},
+	{
+		"Title": "Langmodig",
+		"Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge og være tålmodig og tilgivende."
+	},
+	{
+		"Title": "Legeme",
+		"Definition": "Kroppen til et menneske, uten tanker og indre følelser"
+	},
+	{
+		"Title": "Miskunnelig",
+		"Definition": "Være hjelpende, vennlig, nådig og god mot andre"
+	},
+	{
+		"Title": "Nidkjær",
+		"Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke. Kan noen ganger (ikke vanligvis) bety at man er veldig streng og rettferdig."
+	},
+	{
+		"Title": "Nåde",
+		"Definition": "Få lov til å få hjelp og beskyttelse når du har problemer, ofte på en god og vennlig måte, fra noen som er større og mektigere enn deg"
+	},
+	{
+		"Title": "Oppriktig",
+		"Definition": "Ekte, åpen og ærlig"
+	},
+	{
+		"Title": "Overtredelse",
+		"Definition": "Lovbrudd. Gjøre noe galt."
+	},
+	{
+		"Title": "Overvettes",
+		"Definition": "Uvanlig eller svært mye"
+	},
+	{
+		"Title": "Redebonhet",
+		"Definition": "Ha lyst til å hjelpe andre"
+	},
+	{
+		"Title": "Ryggesløs",
+		"Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva man vil."
+	},
+	{
+		"Title": "Saktmodig",
+		"Definition": "Stille og fredelig, selv om andre kanskje behandler deg slemt og urettferdig"
+	},
+	{
+		"Title": "Sjel",
+		"Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger ligne på \"ånd\"."
+	},
+	{
+		"Title": "Skussmål",
+		"Definition": "Hva noen har sagt eller skrevet om deg og det du har gjort. Ligner på vitnemål eller attest."
+	},
+	{
+		"Title": "Stadfeste",
+		"Definition": "Bekrefte på en skikkelig måte. Slå noe fast (ikke fysisk)."
+	},
+	{
+		"Title": "Synd",
+		"Definition": "Noe som Gud har sagt at menneskene ikke skal gjøre eller tenke"
+	},
+	{
+		"Title": "Sømmelig",
+		"Definition": "God folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg."
+	},
+	{
+		"Title": "Sønderbryte",
+		"Definition": "Knuse eller slå i stykker"
+	},
+	{
+		"Title": "Tilbøyelig",
+		"Definition": "Lett bestemme seg for å gjøre noe, vanligvis noe dumt"
+	},
+	{
+		"Title": "Tukt",
+		"Definition": "Streng oppdragelse som er hjelpende, nødvendig og positiv"
+	},
+	{
+		"Title": "Uforgjengelig",
+		"Definition": "Blir aldri borte - kommer alltid til å finnes"
+	},
+	{
+		"Title": "Ulastelig",
+		"Definition": "Helt uten feil - ingen kan klage på deg"
+	},
+	{
+		"Title": "Vanskjøtt",
+		"Definition": "Behandlet dårlig. Omsorgssvikt."
+	},
+	{
+		"Title": "Vitterlig",
+		"Definition": "Kjent og åpenbart"
+	},
+	{
+		"Title": "Vred",
+		"Definition": "Sinna. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt."
+	},
+	{
+		"Title": "Vantro",
+		"Definition": "Skeptisk. Tvilende. Ikke overbevist. Tror ikke."
+	},
+	{
+		"Title": "Fortapelse",
+		"Definition": "Tape. Gå til grunne. Miste retten sin. Gå glipp av noe. Miste håpet."
+	},
+	{
+		"Title": "Salig",
+		"Definition": "Utrolig glad og 100% lykkelig inni seg"
+	},
+	{
+		"Title": "Gavmild",
+		"Definition": "Ofte gi gaver til andre fordi man har lyst"
+	},
+	{
+		"Title": "Innvortes",
+		"Definition": "Innsiden av kroppen, enten fysisk eller i tankene"
+	},
+	{
+		"Title": "Surdeig",
+		"Definition": "Sterkt gjæret deig med sur lukt og smak. Gammel og verdiløs tradisjon for å lage mat."
+	},
+	{
+		"Title": "Fariseer",
+		"Definition": "En jøde som følger Moseloven veldig nøye, og som kanskje ser bra ut på utsiden (god oppførsel), men som lever et dårlig liv på innsiden, i tankene og når ingen ser"
+	},
+	{
+		"Title": "Gi akt på",
+		"Definition": "Følge med og vise oppmerksomhet"
+	},
+	{
+		"Title": "Lefle",
+		"Definition": "Ikke tenke seg om. Ikke ta ting seriøst. Være overfladisk. Ikke tenke konsekvenser."
+	},
+	{
+		"Title": "Skjøge",
+		"Definition": "En prostituert, eller en som er utro i ekteskapet"
+	},
+	{
+		"Title": "Vederkvege",
+		"Definition": "Fornye, forfriske, styrke, oppmuntre, glede og trøste"
+	},
+	{
+		"Title": "Avind",
+		"Definition": "Veldig sterk misunnelse, nesten som hat"
+	},
+	{
+		"Title": "Begjær",
+		"Definition": "Sterkt seksuelt krav mot kroppen til en annen person. Kan sammenlignes med en hund som sikler etter et kjøttbein. Viktig: Ikke det samme som å synes noen er søt eller pen. Kan noen ganger også bety \"sterk lengsel\"."
+	},
+	{
+		"Title": "Grunne",
+		"Definition": "Tenke dypt og lenge på noe"
+	},
+	{
+		"Title": "Ånd",
+		"Definition": "Brukes ofte om flere ting. Først og fremst overnaturlig vesen eller kraft. Deretter sjelen og det indre mennesket. Kan noen ganger også bety sinnelag, innstilling eller tankesett."
+	},
+	{
+		"Title": "Gudsfrykt",
+		"Definition": "Ha respekt og kjærlighet til Gud, og være redd for å svikte ham"
+	},
+	{
+		"Title": "Higen",
+		"Definition": "Lengsel"
+	},
+	{
+		"Title": "Utukt",
+		"Definition": "Seksuell handling som går imot Guds lover og bud"
+	},
+	{
+		"Title": "Nøysom",
+		"Definition": "Klare seg fint med det man har"
+	},
+	{
+		"Title": "Formane",
+		"Definition": "Sterk oppmuntring til å gjøre noe"
+	},
+	{
+		"Title": "Refse",
+		"Definition": "Snakke strengt eller gi straff"
+	},
+	{
+		"Title": "Helliggjørelse",
+		"Definition": "Bli mer hellig, ren og rettferdig"
+	},
+	{
+		"Title": "Kolossal",
+		"Definition": "Kjempestor. Gigantisk. Veldig."
+	},
+	{
+		"Title": "Hvorledes",
+		"Definition": "Hvordan"
+	},
+	{
+		"Title": "Løseord",
+		"Definition": "Ord som løser opp vanskeligheter og setter deg fri"
+	},
+	{
+		"Title": "Fredsommelig",
+		"Definition": "Ha lyst til å ha fred og ro rundt seg og med andre mennesker"
+	},
+	{
+		"Title": "Rimelig",
+		"Definition": "Lager ikke vanskeligheter. Behandler andre fornuftig. Lett å samarbeide med."
+	},
+	{
+		"Title": "Skrømt",
+		"Definition": "Noe som ikke er ekte"
+	},
+	{
+		"Title": "Fåfengt",
+		"Definition": "Nytter ikke. Er ikke vits."
+	},
+	{
+		"Title": "Hykleri",
+		"Definition": "Late som man er noe man ikke er"
+	},
+	{
+		"Title": "I / Eder",
+		"Definition": "Dere"
+	},
+	{
+		"Title": "Uselvisk",
+		"Definition": "Ikke egoistisk. Tenker på andre sitt beste."
+	},
+	{
+		"Title": "Broderskap",
+		"Definition": "Utrolig gode venner, som to brødre i en familie, som er glade i hverandre"
+	},
+	{
+		"Title": "Fortære",
+		"Definition": "Spise eller ødelegge"
+	},
+	{
+		"Title": "Fullende",
+		"Definition": "Avslutte noe så det blir helt ferdig"
+	},
+	{
+		"Title": "Radikal",
+		"Definition": "Ekstremt ivrig til å gjøre noe raskt og skikkelig"
+	},
+	{
+		"Title": "Religiøs",
+		"Definition": "Tror på noe overnaturlig (noe som ikke kan bevises med vitenskap), som for eksempel Gud og Jesus. Brukes ofte i menigheten om kristne som ikke vil tro på seier over synd."
+	},
+	{
+		"Title": "Fornekte",
+		"Definition": "Nekte å kjenne eller ha forbindelse med noe eller noen"
+	},
+	{
+		"Title": "Verdslig",
+		"Definition": "Er ikke kristen og tenker bare på tingene og menneskene i verden uten å ha forbindelse med Gud"
+	},
+	{
+		"Title": "Utrette",
+		"Definition": "Gjøre noe, eller bli ferdig med noe"
+	},
+	{
+		"Title": "Helhjertet",
+		"Definition": "Gjøre noe 100% uten å tvile"
+	},
+	{
+		"Title": "Dårskap",
+		"Definition": "Dumhet"
+	},
+	{
+		"Title": "Skikk",
+		"Definition": "Sånn man ønsker at ting skal være. Orden og riktighet. Kan også bety tradisjon, eller noe man vanligvis gjør."
+	},
+	{
+		"Title": "Natur",
+		"Definition": "Hvordan du er - sånn du ble født"
+	},
+	{
+		"Title": "Berede",
+		"Definition": "Gjøre noe klart"
+	},
+	{
+		"Title": "Dyrebar",
+		"Definition": "Verdifull. Setter stor pris på."
+	},
+	{
+		"Title": "Edel",
+		"Definition": "Fin eller spesielt bra. Kan også bety å tenke fint om noe, og ikke være egoistisk."
+	},
+	{
+		"Title": "Vitnesbyrd",
+		"Definition": "Kort tale eller beskjed om hvordan man har det"
+	},
+	{
+		"Title": "Hedning",
+		"Definition": "En som ikke er kristen fordi man bor et sted hvor kristendommen ikke har kommet enda. Vokser opp uten å høre eller lære om kristendom."
+	},
+	{
+		"Title": "Ydmyk",
+		"Definition": "Ha små tanker om seg selv og være klar over hvor man er svak, så man unngår situasjoner som blir for store og vanskelige. Betyr også at man er lydig mot Gud."
+	},
+	{
+		"Title": "Hovmodig",
+		"Definition": "Overlegen"
+	},
+	{
+		"Title": "From",
+		"Definition": "Brukes ofte om flere ting. Først og fremst at man er ekte og ærlig, uten skjulte baktanker. Kan også bety at man er religiøs og gudfryktig."
+	},
+	{
+		"Title": "Ta seg i vare",
+		"Definition": "Passe seg for"
+	},
+	{
+		"Title": "Dyd",
+		"Definition": "Verdifulle egenskaper, som f.eks. tålmodighet, gavmildhet, barmhjertighet, saktmodighet osv."
+	},
+	{
+		"Title": "Tilgift",
+		"Definition": "Noe man får i tillegg til noe annet"
+	},
+	{
+		"Title": "Omsorgsfull",
+		"Definition": "Er full av omsorg og omtanke for andre. Er hjelpsom og viser oppmerksomhet."
+	},
+	{
+		"Title": "Fremstille",
+		"Definition": "Føre frem"
+	},
+	{
+		"Title": "Armod",
+		"Definition": "Stor fattigdom"
+	}
 ]

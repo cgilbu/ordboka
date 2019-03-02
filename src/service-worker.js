@@ -1,4 +1,4 @@
-var appVersion = '3';
+var appVersion = '9';
 var cacheObject = 'ordbok-' + appVersion;
 
 self.addEventListener('install', function(event) {
@@ -9,8 +9,10 @@ self.addEventListener('install', function(event) {
 				'/',
 				'/resources/css/app.css',
 				'/resources/data/words.json',
+				'/resources/images/apple-touch-icon.png',
 				'/resources/images/favicon.png',
-				'/resources/images/touch-icon-500px.png',
+				'/resources/images/icon-192.png',
+				'/resources/images/icon-512.png',
 				'/resources/js/app.js',
 				'/vendors/jquery-3.3.1.min.js'
 			]);

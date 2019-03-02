@@ -4,9 +4,14 @@
 	"start_url": ".",
 	"icons": [
 		{
-			"src": "/resources/images/touch-icon-500px.png",
+			"src": "/resources/images/icon-192.png",
 			"type": "image/png",
-			"sizes": "500x500"
+			"sizes": "192x192"
+		},
+		{
+			"src": "/resources/images/icon-512.png",
+			"type": "image/png",
+			"sizes": "512x512"
 		}
 	],
 	"background_color": "#08253b",

@@ -1,4 +1,4 @@
-var appVersion = '12';
+var appVersion = '15';
 var cacheObject = 'ordbok-' + appVersion;
 
 self.addEventListener('install', function(event) {
@@ -7,10 +7,10 @@ self.addEventListener('install', function(event) {
 		caches.open(cacheObject).then(function(cache) {
 			return cache.addAll([
 				'/',
+				'/favicon.png',
 				'/resources/css/app.css',
 				'/resources/data/words.json',
 				'/resources/images/apple-touch-icon.png',
-				'/resources/images/favicon.png',
 				'/resources/images/icon-192.png',
 				'/resources/images/icon-512.png',
 				'/resources/js/app.js',

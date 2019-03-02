@@ -26,7 +26,7 @@ $(document).ready(function() {
 	View.cacheDom();
 	Core.getWords(View.loadWords);
 
-	if (!localStorage.getItem("returning")) {
+	if (!localStorage.getItem("userID")) {
 		View.showPopup(DOM.welcomePopup);
 	}
 
@@ -170,8 +170,8 @@ View.triggerMenu = function() {
 
 Events.bindEvents = function() {
 	DOM.startButton.click(function() {
-		localStorage.setItem("returning", "1");
 		View.hidePopups();
+		Helpers.getStatistics();
 	});
 
 	DOM.okButton.click(function() {
@@ -190,9 +190,10 @@ Events.bindEvents = function() {
 		View.resetSearch();
 	});
 
-	DOM.word.click(function() {
-		View.showPopup($(this).find(".definition"));
+	DOM.word.find(".title").click(function() {
+		View.showPopup($(this).parent().find(".definition"));
 		DOM.tip.show();
+		Helpers.getStatistics($(this).html());
 	});
 
 	DOM.overlay.click(function() {
@@ -272,4 +273,31 @@ Helpers.prepareDownload = function() {
 		DOM.appPopup.find(".android").hide();
 		DOM.appPopup.find(".ios").show();
 	}
+}
+
+// ******************************************************
+// Helpers: Get statistics
+// ******************************************************
+
+Helpers.getStatistics = function(wordClicked) {
+	if (!localStorage.getItem("userID")) {
+		var randomID = new Uint32Array(1);
+		window.crypto.getRandomValues(randomID);
+		localStorage.setItem("userID", parseInt(randomID));
+	}
+
+	if (!wordClicked) {
+		return;
+	}
+
+	var newStats = { word: wordClicked, userID: localStorage.getItem("userID") };
+
+	$.ajax({
+		type: "post",
+		url: "/resources/php/updateStats.php",
+		data: { newStats: JSON.stringify(newStats) },
+		error: function(data) {
+			console.log("Noe gikk galt: Kunne ikke oppdatere statistikk");
+		}
+	});
 }

@@ -270,7 +270,7 @@ Helpers.sendSuggestion = function() {
 		View.hidePopups();
 		DOM.wordSuggestion.val("");
 		DOM.textSuggestion.val("");
-		alert("Forslaget ditt har blitt sendt inn. Tusen takk.");
+		View.showPopup("suggestionSent");
 	}).fail(function() {
 		alert("Noe gikk galt: Kunne ikke sende inn forslag. Sjekk at du er koblet til nettet.");
 	});
@@ -289,6 +289,8 @@ Helpers.shareApp = function() {
 			text: "Er det mange vanskelige ord i menigheten? Finn forklaringene her!",
 			url: link
 		});
+
+		View.hidePopups();
 	}
 }
 
@@ -307,7 +309,10 @@ Helpers.getStatistics = function(wordClicked) {
 		return;
 	}
 
-	var newStats = { word: wordClicked, userID: localStorage.getItem("userID") };
+	var d = new Date();
+	var utcDateTime = d.getUTCDate() + "/" + (d.getUTCMonth() + 1) + "/" + d.getUTCFullYear() + " " + d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds();
+
+	var newStats = { word: wordClicked, userID: localStorage.getItem("userID"), utcDateTime: utcDateTime };
 
 	$.ajax({
 		type: "post",

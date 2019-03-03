@@ -173,11 +173,11 @@ a {
 ## Download
 ******************************************************/
 
-.ios {
+.download .ios {
 	display: none;
 }
 
-.ios img {
+.download .ios img {
 	width: 100%;
 }
 

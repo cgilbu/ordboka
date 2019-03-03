@@ -8,8 +8,11 @@ if (empty($_POST['subject']) || empty($_POST['message'])) {
 
 $mailSent = mail($_config_admin_email, $_POST['subject'], $_POST['message']);
 
-if (!$mailSent) {
-	return false;
+if ($mailSent) {
+	exit();
 }
+
+header("HTTP/1.1 500 Internal Server Error");
+exit();
 
 ?>

@@ -27,7 +27,7 @@ $(document).ready(function() {
 	Core.getWords(View.loadWords);
 
 	if (!localStorage.getItem("userID")) {
-		View.showPopup(DOM.welcomePopup);
+		View.showPopup("welcome");
 	}
 
 	Helpers.prepareDownload();
@@ -50,30 +50,21 @@ Core.getWords = function(callback) {
 // ******************************************************
 
 View.cacheDom = function() {
-	DOM.appMenuItem = $(".menu .app");
-	DOM.appPopup = $(".popup.app");
-	DOM.backButton = $(".button.back");
 	DOM.body = $("body");
+	DOM.closeButtons = $(".button.close");
 	DOM.contactButton = $(".button.contact");
-	DOM.contactMenuItem = $(".menu .contact");
-	DOM.contactPopup = $(".popup.contact");
-	DOM.definingMenuItem = $(".menu .defining");
-	DOM.definingPopup = $(".popup.defining");
 	DOM.downloadButton = $(".button.download");
-	DOM.fossMenuItem = $(".menu .foss");
-	DOM.fossPopup = $(".popup.foss");
-	DOM.menu = $(".popup.menu");
+	DOM.downloadMenuItem = $(".menu .download");
+	DOM.downloadPopup = $(".popup.download");
+	DOM.menu = $(".menu");
 	DOM.menuButton = $(".menuButton");
-	DOM.okButton = $(".button.ok");
 	DOM.overlay = $(".overlay");
-	DOM.popup = $(".popup");
+	DOM.popups = $(".popup");
 	DOM.search = $(".search");
 	DOM.shareMenuItem = $(".menu .share");
-	DOM.sharePopup = $(".popup.share");
-	DOM.startButton = $(".button.start")
+	DOM.startButton = $(".button.start");
 	DOM.textSuggestion = $(".textSuggestion");
 	DOM.tip = $(".tip");
-	DOM.welcomePopup = $(".popup.welcome");
 	DOM.wordSuggestion = $(".wordSuggestion");
 }
 
@@ -98,8 +89,8 @@ View.loadWords = function(words) {
 		DOM.dictionary.append('<div class="word"><div class="title">' + title + '</div><div class="definition popup"><b>' + title + '</b><br>' + definition + '</div></div>');
 	});
 
-	DOM.word = $(".word");
-	DOM.definition = $(".definition");
+	DOM.words = $(".word .title");
+	DOM.definitions = $(".word .definition");
 
 	Events.bindEvents();
 
@@ -112,9 +103,9 @@ View.loadWords = function(words) {
 
 View.search = function(term) {
 	var term = term.toLowerCase();
-	DOM.word.each(function() {
-		var text = $(this).find(".title").text().toLowerCase();
-		(text.indexOf(term) == 0) ? $(this).show() : $(this).hide();
+	DOM.words.each(function() {
+		var word = $(this).text().toLowerCase();
+		(word.indexOf(term) == 0) ? $(this).parent().show() : $(this).parent().hide();
 	});
 }
 
@@ -134,16 +125,16 @@ View.resetSearch = function() {
 // View: Popups
 // ******************************************************
 
-View.showPopup = function(popup) {
+View.showPopup = function(popupID) {
 	DOM.body.css("overflow", "hidden");
 	DOM.overlay.show();
-	popup.show();
+	$(".popup." + popupID).show();
 }
 
 View.hidePopups = function() {
 	DOM.body.css("overflow", "visible");
 	DOM.overlay.hide();
-	DOM.popup.hide();
+	DOM.popups.hide();
 }
 
 // ******************************************************
@@ -162,7 +153,7 @@ View.triggerMenu = function() {
 		DOM.menuButton.addClass("isOpen");
 		DOM.menuButton.find(".fa-bars").hide();
 		DOM.menuButton.find(".fa-times").show();
-		View.showPopup(DOM.menu);
+		View.showPopup("menu");
 	}
 }
 
@@ -171,17 +162,12 @@ View.triggerMenu = function() {
 // ******************************************************
 
 Events.bindEvents = function() {
+	DOM.closeButtons.click(function() {
+		View.hidePopups();
+	});
+
 	DOM.startButton.click(function() {
-		View.hidePopups();
 		Helpers.getStatistics();
-	});
-
-	DOM.okButton.click(function() {
-		View.hidePopups();
-	});
-
-	DOM.backButton.click(function() {
-		View.hidePopups();
 	});
 
 	DOM.search.keyup(function() {
@@ -192,16 +178,19 @@ Events.bindEvents = function() {
 		View.resetSearch();
 	});
 
-	DOM.word.find(".title").click(function() {
-		View.showPopup($(this).parent().find(".definition"));
+	DOM.words.click(function() {
+		DOM.body.css("overflow", "hidden");
+		DOM.overlay.show();
+		$(this).next().show();
 		DOM.tip.show();
-		Helpers.getStatistics($(this).html());
+
+		Helpers.getStatistics($(this).text());
 	});
 
 	DOM.overlay.click(function() {
-		if (DOM.definition.is(":visible")) {
+		if (DOM.definitions.is(":visible")) {
 			View.hidePopups();
-			DOM.definition.hide();
+			DOM.definitions.hide();
 			DOM.tip.hide();
 		}
 	});
@@ -210,34 +199,18 @@ Events.bindEvents = function() {
 		View.triggerMenu();
 	});
 
-	DOM.appMenuItem.click(function() {
+	DOM.menu.children().click(function() {
+		var targetPopup = $(this).attr("class");
 		View.triggerMenu();
-		View.showPopup(DOM.appPopup);
-	});
-
-	DOM.downloadButton.click(function() {
-		View.hidePopups();
-		window.location.href = "googlechrome://ordbok.joinmyblog.com";
-	});
-
-	DOM.contactMenuItem.click(function() {
-		View.triggerMenu();
-		View.showPopup(DOM.contactPopup);
-	});
-
-	DOM.definingMenuItem.click(function() {
-		View.triggerMenu();
-		View.showPopup(DOM.definingPopup);
-	});
-
-	DOM.fossMenuItem.click(function() {
-		View.triggerMenu();
-		View.showPopup(DOM.fossPopup);
+		View.showPopup(targetPopup);
 	});
 
 	DOM.shareMenuItem.click(function() {
-		View.triggerMenu();
 		Helpers.shareApp();
+	});
+
+	DOM.downloadButton.click(function() {
+		window.location.href = "googlechrome://ordbok.joinmyblog.com";
 	});
 
 	DOM.contactButton.click(function() {
@@ -248,16 +221,51 @@ Events.bindEvents = function() {
 }
 
 // ******************************************************
+// Helpers: Prepare download
+// ******************************************************
+
+Helpers.prepareDownload = function() {
+	if (Helpers.isStandalone()) {
+		DOM.downloadMenuItem.hide();
+		return;
+	}
+
+	var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
+
+	if (iOS) {
+		DOM.downloadButton.hide();
+		DOM.downloadPopup.find(".android").hide();
+		DOM.downloadPopup.find(".ios").show();
+	}
+}
+
+// ******************************************************
+// Helpers: Is standalone (launched from home screen)
+// ******************************************************
+
+Helpers.isStandalone = function() {
+	if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone == true) {
+		return true;
+	}
+
+	return false;
+}
+
+// ******************************************************
 // Helpers: Send suggestion
 // ******************************************************
 
 Helpers.sendSuggestion = function() {
-	var content = DOM.wordSuggestion.val() + ": " + DOM.textSuggestion.val();
+	var message = DOM.wordSuggestion.val();
+
+	if (DOM.textSuggestion.val()) {
+		message += ": " + DOM.textSuggestion.val();
+	}
 
 	$.ajax({
 		type: "post",
 		url: "/resources/php/sendMail.php",
-		data: { subject: "Ordboka: Nytt forslag", message: content }
+		data: { subject: "Ordboka: Nytt forslag", message: message }
 	}).done(function(data) {
 		View.hidePopups();
 		DOM.wordSuggestion.val("");
@@ -269,22 +277,18 @@ Helpers.sendSuggestion = function() {
 }
 
 // ******************************************************
-// Helpers: Prepare download
+// Helpers: Share app
 // ******************************************************
 
-Helpers.prepareDownload = function() {
+Helpers.shareApp = function() {
+	var link = window.location.href.replace(/\/$/, ""); // Remove trailing slash
 
-	if (Helpers.isStandalone()) {
-		DOM.appMenuItem.hide();
-		return;
-	}
-
-	var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
-
-	if (iOS) {
-		DOM.downloadButton.hide();
-		DOM.appPopup.find(".android").hide();
-		DOM.appPopup.find(".ios").show();
+	if (navigator.share) {
+		navigator.share({
+			title: "Ordboka",
+			text: "Er det mange vanskelige ord i menigheten? Finn forklaringene her!",
+			url: link
+		});
 	}
 }
 
@@ -313,35 +317,4 @@ Helpers.getStatistics = function(wordClicked) {
 			console.log("Noe gikk galt: Kunne ikke oppdatere statistikk");
 		}
 	});
-}
-
-// ******************************************************
-// Helpers: Is standalone (launched from home screen)
-// ******************************************************
-
-Helpers.isStandalone = function() {
-	if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone == true) {
-		return true;
-	}
-
-	return false;
-}
-
-// ******************************************************
-// Helpers: Share app
-// ******************************************************
-
-Helpers.shareApp = function() {
-	var link = window.location.href.replace(/\/$/, ""); // Remove trailing slash
-
-	if (navigator.share) {
-		navigator.share({
-			title: "Ordboka",
-			text: "Er det mange vanskelige ord i menigheten? Finn forklaringene her!",
-			url: link,
-		});
-		return;
-	}
-
-	View.showPopup(DOM.sharePopup); // For iOS devices
 }

@@ -1,17 +1,17 @@
 <?php
 
 if (!empty($_POST['newStats'])) {
-	$statFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.php';
+	$statsFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.php';
 	$newStats;
 
-	if (filesize($statFile) > 1) {
+	if (filesize($statsFile) > 1) {
 		$newStats = ',' . $_POST['newStats'];
 	} else {
 		$newStats = $_POST['newStats'];
 	}
 
 	if (strlen($newStats) > 1) {
-		$write = file_put_contents($statFile, $newStats.PHP_EOL, FILE_APPEND | LOCK_EX);
+		$write = file_put_contents($statsFile, $newStats.PHP_EOL, FILE_APPEND | LOCK_EX);
 
 		if ($write > 0) {
 			exit();

@@ -13,7 +13,7 @@
 	<meta property="og:url" content="https://ordbok.joinmyblog.com">
 	<meta property="og:title" content="Ordboka">
 	<meta property="og:description" content="Er det mange vanskelige ord i menigheten? Finn forklaringene her!">
-	<meta property="og:image" content="https://ordbok.joinmyblog.com/resources/images/touch-icon-500px.png">
+	<meta property="og:image" content="https://ordbok.joinmyblog.com/resources/images/apple-touch-icon.png">
 
 	<link rel="shortcut icon" href="/favicon.png">
 	<link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png">
@@ -29,15 +29,15 @@
 	<div class="dictionary"></div>
 	<div class="overlay"></div>
 
+	<div class="tip">Tips: Klikk utenfor teksten for å gå tilbake</div>
+
 	<div class="menuButton">
 		<i class="fas fa-bars"></i>
 		<i class="fas fa-times"></i>
 	</div>
 
-	<div class="tip">Tips: Klikk utenfor teksten for å gå tilbake</div>
-
 	<div class="popup menu">
-		<div class="app">Last ned som app</div>
+		<div class="download">Last ned som app</div>
 		<div class="contact">Kom med forslag</div>
 		<div class="defining">Definering av ord</div>
 		<div class="foss">Kode og personvern</div>
@@ -46,15 +46,15 @@
 
 	<div class="popup welcome">
 		<p>Velkommen til ordboka! <b>Klikk på ordene</b> for å se hva de betyr. Kom gjerne med forslag til <b>nye ord</b> eller <b>endringer</b> via menyen.</p>
-		<p>Du kan laste ned ordboka som en <b>app på mobilen</b> din via menyen.</p>
-		<div class="button start">Sett i gang</div>
+		<p>Du kan laste ned ordboka som en <b>app på mobilen</b> via menyen.</p>
+		<div class="button close start">Sett i gang</div>
 	</div>
 
-	<div class="popup app">
+	<div class="popup download">
 		<p class="android">Klikk på knappen nedenfor for å åpne ordboka i Chrome. Det vil da dukke opp et spørsmål nederst på siden om du vil lagre den på mobilen.</p>
 		<p class="ios"><img src="/resources/images/ios-add-home-screen.png" alt="Add to Home Screen"></p>
 		<div class="button download">Last ned som app</div>
-		<div class="button back">Gå tilbake</div>
+		<div class="button close">Gå tilbake</div>
 	</div>
 
 	<div class="popup contact">
@@ -64,7 +64,7 @@
 			<textarea class="textSuggestion" placeholder="Forslag til definisjon eller endring" maxlength="150"></textarea>
 		</p>
 		<div class="button contact">Send inn</div>
-		<div class="button back">Gå tilbake</div>
+		<div class="button close">Gå tilbake</div>
 	</div>
 
 	<div class="popup defining">
@@ -72,19 +72,19 @@
 		<p>Vi retter oss mot unge tenåringer, og er derfor ofte nødt til å overforenkle betydninger, og velge vekk ord som kanskje hadde passet bedre, men som kun voksne hadde forstått.</p>
 		<p>Vi definerer i første omgang kun ord - ikke navn eller uttrykk som "henge på korset".</p>
 		<p>Vi gjør vårt beste for at definisjonene skal bli så riktige som mulig, men står ikke ansvarlige for feilaktige eller mangelfulle definisjoner.</p>
-		<div class="button ok">Greit</div>
+		<div class="button close">Greit</div>
 	</div>
 
 	<div class="popup foss">
 		<p>Denne appen har en <a href="https://github.com/cgilbu/ordbok" target="_blank">åpen kildekode</a>. Ta gjerne en titt på koden og hjelp oss med å gjøre appen enda bedre!</p>
 		<p>Personvern er svært viktig. Vi benytter oss derfor verken av Google Analytics eller informasjonskapsler (cookies). Vi sporer heller ikke IP-adressen din. Vi kan på ingen måte vite om det er du eller Frodo Baggins som bruker ordboka, med unntak av dersom du sender inn et forslag hvor du avslører deg selv i teksten.</p>
 		<p>Alt vi kan se er hvilke ord som er klikket på, og om ordene er klikket på av samme person. På den måten kan vi se hvor mange som bruker ordboka, og hvilke ord som er mest populære.</p>
-		<div class="button ok">Heftig</div>
+		<div class="button close">Greit</div>
 	</div>
 
 	<div class="popup share">
 		<p>Del denne linken:<br>https://ordbok.joinmyblog.com</p>
-		<div class="button ok">Lukk</div>
+		<div class="button close">Lukk</div>
 	</div>
 
 	<script src="/vendors/jquery-3.3.1.min.js"></script>

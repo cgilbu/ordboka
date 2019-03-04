@@ -181,16 +181,16 @@ Events.bindEvents = function() {
 	DOM.words.click(function() {
 		DOM.body.css("overflow", "hidden");
 		DOM.overlay.show();
-		$(this).next().removeClass("hidden");
+		$(this).next().removeClass("hidden").addClass("isOpen");
 		DOM.tip.removeClass("hidden");
 
 		Helpers.getStatistics($(this).text());
 	});
 
 	DOM.overlay.click(function() {
-		if (DOM.definitions.is(":visible")) {
+		if (DOM.definitions.hasClass("isOpen")) {
 			View.hidePopups();
-			DOM.definitions.addClass("hidden");
+			DOM.definitions.addClass("hidden").removeClass("isOpen");
 			DOM.tip.addClass("hidden");
 		}
 	});

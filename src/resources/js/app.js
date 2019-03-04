@@ -51,9 +51,9 @@ Core.getWords = function(callback) {
 
 View.cacheDom = function() {
 	DOM.body = $("body");
+	DOM.chromeButton = $(".button.openInChrome");
 	DOM.closeButtons = $(".button.close");
 	DOM.contactButton = $(".button.contact");
-	DOM.downloadButton = $(".button.download");
 	DOM.downloadMenuItem = $(".menu .download");
 	DOM.downloadPopup = $(".popup.download");
 	DOM.menu = $(".menu");
@@ -209,7 +209,7 @@ Events.bindEvents = function() {
 		Helpers.shareApp();
 	});
 
-	DOM.downloadButton.click(function() {
+	DOM.chromeButton.click(function() {
 		window.location.href = "googlechrome://ordbok.joinmyblog.com";
 	});
 
@@ -233,10 +233,25 @@ Helpers.prepareDownload = function() {
 	var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
 
 	if (iOS) {
-		DOM.downloadButton.hide();
-		DOM.downloadPopup.find(".android").hide();
 		DOM.downloadPopup.find(".ios").show();
+		var isIOSChrome = navigator.userAgent.match("CriOS");
+
+		if (isIOSChrome) {
+			DOM.downloadPopup.find(".iosChrome").show();
+		}
+
+		return;
 	}
+
+	var isChrome = navigator.userAgent.match("Chrome");
+
+	if (!isChrome) {
+		DOM.downloadPopup.find(".androidOther").show();
+		DOM.chromeButton.show();
+		return;
+	}
+
+	DOM.downloadPopup.find(".androidChrome").show();
 }
 
 // ******************************************************

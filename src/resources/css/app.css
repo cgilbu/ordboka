@@ -178,11 +178,11 @@ a {
 ## Download
 ******************************************************/
 
-.download .ios {
+.download p, .button.openInChrome {
 	display: none;
 }
 
-.download .ios img {
+.download img {
 	width: 100%;
 }
 

@@ -86,7 +86,7 @@ View.loadWords = function(words) {
 		var title = wordObject.Title;
 		var definition = wordObject.Definition;
 
-		DOM.dictionary.append('<div class="word"><div class="title">' + title + '</div><div class="definition popup"><b>' + title + '</b><br>' + definition + '</div></div>');
+		DOM.dictionary.append('<div class="word"><div class="title">' + title + '</div><div class="definition popup hidden"><b>' + title + '</b><br>' + definition + '</div></div>');
 	});
 
 	DOM.words = $(".word .title");
@@ -128,13 +128,13 @@ View.resetSearch = function() {
 View.showPopup = function(popupID) {
 	DOM.body.css("overflow", "hidden");
 	DOM.overlay.show();
-	$(".popup." + popupID).show();
+	$(".popup." + popupID).removeClass("hidden");
 }
 
 View.hidePopups = function() {
 	DOM.body.css("overflow", "visible");
 	DOM.overlay.hide();
-	DOM.popups.hide();
+	DOM.popups.addClass("hidden");
 }
 
 // ******************************************************
@@ -181,8 +181,8 @@ Events.bindEvents = function() {
 	DOM.words.click(function() {
 		DOM.body.css("overflow", "hidden");
 		DOM.overlay.show();
-		$(this).next().show();
-		DOM.tip.show();
+		$(this).next().removeClass("hidden");
+		DOM.tip.removeClass("hidden");
 
 		Helpers.getStatistics($(this).text());
 	});
@@ -190,8 +190,8 @@ Events.bindEvents = function() {
 	DOM.overlay.click(function() {
 		if (DOM.definitions.is(":visible")) {
 			View.hidePopups();
-			DOM.definitions.hide();
-			DOM.tip.hide();
+			DOM.definitions.addClass("hidden");
+			DOM.tip.addClass("hidden");
 		}
 	});
 

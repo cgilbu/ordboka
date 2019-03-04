@@ -32,6 +32,13 @@ a {
 	color: white;
 }
 
+/* Helps screen readers and rendering of hidden content */
+.hidden {
+	position: absolute !important;
+	top: -9999px !important;
+	left: -9999px !important;
+}
+
 /*****************************************************
 ## Overlay
 ******************************************************/
@@ -52,7 +59,6 @@ a {
 ******************************************************/
 
 .tip {
-	display: none;
 	width: 100%;
 	font-size: 12px;
 	text-align: center;
@@ -67,7 +73,6 @@ a {
 ******************************************************/
 
 .popup {
-	display: none;
 	width: 90%;
 	position: fixed;
 	top: 50%;

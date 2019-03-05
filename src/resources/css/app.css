@@ -208,10 +208,10 @@ a {
 }
 
 /*****************************************************
-## Share
+## Share-links
 ******************************************************/
 
-.share a {
+.share a, .iosChrome a {
 	font-weight: bold;
 	text-decoration: none;
 }

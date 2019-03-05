@@ -1,6 +1,6 @@
 [
   {
-    "Title": "Barmhjertighet",
+    "Title": "Barmhjertig",
     "Definition": "Stor lyst til å være hjelpende, vennlig og god mot andre, selv om de kanskje ikke fortjener det"
   },
   {
@@ -12,12 +12,12 @@
     "Definition": "Føle seg sjenert, skamfull og naken"
   },
   {
-    "Title": "Enfoldighet",
+    "Title": "Enfoldig",
     "Definition": "Tenke enkelt om ting og være ærlig. Kan noen ganger (ikke vanligvis) bety dum."
   },
   {
-    "Title": "Ettergivenhet",
-    "Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en bra måte. Det kan likevel være dumt å være altfor ettergivende."
+    "Title": "Ettergiven",
+    "Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en god måte. Det kan likevel være dumt å være altfor ettergivende."
   },
   {
     "Title": "Formynder",
@@ -56,7 +56,7 @@
     "Definition": "Klær eller klesplagg"
   },
   {
-    "Title": "Langmodighet",
+    "Title": "Langmodig",
     "Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge og være tålmodig og tilgivende."
   },
   {
@@ -64,11 +64,11 @@
     "Definition": "Kroppen til et menneske, uten tanker og indre følelser"
   },
   {
-    "Title": "Miskunnhet",
-    "Definition": "Være hjelpende, nådig og god mot andre"
+    "Title": "Miskunn",
+    "Definition": "Hjelp, nåde og godhet"
   },
   {
-    "Title": "Nidkjærhet",
+    "Title": "Nidkjær",
     "Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke. Kan noen ganger (ikke vanligvis) bety veldig streng og rettferdig."
   },
   {
@@ -76,8 +76,8 @@
     "Definition": "Få lov til å få hjelp og beskyttelse når du har problemer, ofte på en god og vennlig måte, fra noen som er større og mektigere enn deg"
   },
   {
-    "Title": "Oppriktighet",
-    "Definition": "Være ekte, åpen og ærlig"
+    "Title": "Oppriktig",
+    "Definition": "Ekte, åpen og ærlig"
   },
   {
     "Title": "Overtredelse",
@@ -89,15 +89,15 @@
   },
   {
     "Title": "Redebonhet",
-    "Definition": "Ha lyst til å hjelpe andre"
+    "Definition": "Lyst til å hjelpe andre"
   },
   {
-    "Title": "Ryggesløshet",
-    "Definition": "Ikke ha grenser. Være frekk og ikke bry seg. Gjøre hva man vil."
+    "Title": "Ryggesløs",
+    "Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva man vil."
   },
   {
-    "Title": "Saktmodighet",
-    "Definition": "Være stille og fredelig, selv om andre kanskje behandler deg slemt og urettferdig"
+    "Title": "Saktmodig",
+    "Definition": "Stille og fredelig, selv om andre kanskje behandler deg slemt og urettferdig"
   },
   {
     "Title": "Sjel",
@@ -116,15 +116,15 @@
     "Definition": "Noe som Gud har sagt at menneskene ikke skal gjøre eller tenke"
   },
   {
-    "Title": "Sømmelighet",
-    "Definition": "Ha god folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg."
+    "Title": "Sømmelig",
+    "Definition": "God folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg."
   },
   {
     "Title": "Sønderbryte",
     "Definition": "Knuse eller slå i stykker"
   },
   {
-    "Title": "Tilbøyelighet",
+    "Title": "Tilbøyelig",
     "Definition": "Ha lett for å gjøre noe, ofte noe dumt"
   },
   {
@@ -132,12 +132,12 @@
     "Definition": "Streng oppdragelse som er hjelpende, nødvendig og positiv"
   },
   {
-    "Title": "Uforgjengelighet",
-    "Definition": "Noe som aldri blir borte, som alltid kommer til å finnes"
+    "Title": "Uforgjengelig",
+    "Definition": "Blir aldri borte. Kommer alltid til å finnes."
   },
   {
-    "Title": "Ulastelighet",
-    "Definition": "Være helt uten feil, slik at ingen kan klage på at du har gjort noe galt"
+    "Title": "Ulastelig",
+    "Definition": "Helt uten feil, slik at ingen kan klage på at du har gjort noe galt"
   },
   {
     "Title": "Vanskjøtt",
@@ -153,18 +153,18 @@
   },
   {
     "Title": "Vantro",
-    "Definition": "Skeptisk. Tvilende. Ikke overbevist. Tror ikke."
+    "Definition": "Tvil. Skepsis. Mangel på overbevisning og tro."
   },
   {
     "Title": "Fortapelse",
     "Definition": "Tape. Gå til grunne. Miste retten sin. Gå glipp av noe. Miste håpet."
   },
   {
-    "Title": "Salighet",
-    "Definition": "Være utrolig glad og 100% lykkelig inni seg"
+    "Title": "Salig",
+    "Definition": "Utrolig glad og 100% lykkelig inni seg"
   },
   {
-    "Title": "Gavmildhet",
+    "Title": "Gavmild",
     "Definition": "Ofte gi gaver til andre fordi man har lyst"
   },
   {
@@ -177,7 +177,7 @@
   },
   {
     "Title": "Fariseer",
-    "Definition": "En jøde som følger Moseloven veldig nøye, og som kanskje ser bra ut på utsiden (god oppførsel), men som lever et dårlig liv på innsiden, i tankene og når ingen ser"
+    "Definition": "En jøde som følger Moseloven veldig nøye, og som kanskje ser bra ut på utsiden (god oppførsel), men som lever et dårlig liv på innsiden - i tankene og når ingen ser"
   },
   {
     "Title": "Gi akt på",
@@ -252,11 +252,11 @@
     "Definition": "Ord som løser opp vanskeligheter og setter deg fri"
   },
   {
-    "Title": "Fredsommelighet",
-    "Definition": "Ha lyst til å ha fred og ro rundt seg og med andre mennesker"
+    "Title": "Fredsommelig",
+    "Definition": "Lyst til å ha fred og ro rundt seg og med andre mennesker"
   },
   {
-    "Title": "Rimelighet",
+    "Title": "Rimelig",
     "Definition": "Ikke lage vanskeligheter. Behandle andre på en smart måte. Være lett å samarbeide med."
   },
   {
@@ -276,8 +276,8 @@
     "Definition": "Dere"
   },
   {
-    "Title": "Uselviskhet",
-    "Definition": "Ikke være egoistisk. Tenke på andre sitt beste."
+    "Title": "Uselvisk",
+    "Definition": "Ikke egoistisk. Tenker på andre sitt beste."
   },
   {
     "Title": "Broderskap",
@@ -288,7 +288,7 @@
     "Definition": "Spise eller ødelegge"
   },
   {
-    "Title": "Fullendelse",
+    "Title": "Fullende",
     "Definition": "Avslutte noe så det blir helt ferdig"
   },
   {
@@ -296,19 +296,19 @@
     "Definition": "Ekstremt ivrig til å gjøre noe raskt og skikkelig"
   },
   {
-    "Title": "Religiøsitet",
-    "Definition": "Tro på noe overnaturlig (noe som ikke kan bevises med vitenskap), som for eksempel Gud. Viktig: Brukes ofte i menigheten om kristne som ikke vil tro på seier over synd."
+    "Title": "Religiøs",
+    "Definition": "Tror på noe overnaturlig (noe som ikke kan bevises med vitenskap), som for eksempel Gud. Viktig: Brukes ofte i menigheten om kristne som ikke vil tro på seier over synd."
   },
   {
     "Title": "Fornektelse",
     "Definition": "Nekte å kjenne eller ha forbindelse med noe eller noen. Kan også bety å tvinge seg selv til å ikke gjøre det man egentlig har lyst til."
   },
   {
-    "Title": "Verdslighet",
-    "Definition": "Ikke være kristen og bare tenke på tingene og menneskene i verden, uten å ha forbindelse med Gud"
+    "Title": "Verdslig",
+    "Definition": "Er ikke kristen og tenker bare på tingene og menneskene i verden, uten å ha forbindelse med Gud"
   },
   {
-    "Title": "Utrettelse",
+    "Title": "Utrette",
     "Definition": "Gjøre noe, eller bli ferdig med noe"
   },
   {
@@ -325,7 +325,7 @@
   },
   {
     "Title": "Natur",
-    "Definition": "Medfødt egenskap. Eksempel: Han er mistenksom av natur"
+    "Definition": "Medfødt egenskap. Eksempel: Han er nøye av natur"
   },
   {
     "Title": "Beredelse",
@@ -352,11 +352,11 @@
     "Definition": "Ha små tanker om seg selv, og vite hvor man er svak, så man unngår situasjoner som blir for store og for vanskelige. Heller velge situasjoner som passer bra. Betyr også at man er lydig mot Gud."
   },
   {
-    "Title": "Hovmodighet",
-    "Definition": "Være overlegen. Tro at man er viktig og bedre enn andre."
+    "Title": "Hovmodig",
+    "Definition": "Overlegen. Tror at man er viktig og bedre enn andre."
   },
   {
-    "Title": "Fromhet",
+    "Title": "From",
     "Definition": "Brukes ofte om flere ting. Først og fremst at man er ekte og ærlig, uten skjulte baktanker. Kan også bety at man er religiøs og gudfryktig."
   },
   {
@@ -365,7 +365,7 @@
   },
   {
     "Title": "Dyd",
-    "Definition": "Verdifull egenskap. Eksempel: Tålmodig, gavmild, barmhjertig, saktmodig osv."
+    "Definition": "Verdifull egenskap. Eksempler: Tålmodig, gavmild, barmhjertig, saktmodig osv."
   },
   {
     "Title": "Tilgift",
@@ -388,8 +388,8 @@
     "Definition": "Absolutt ikke"
   },
   {
-    "Title": "Bluferdighet",
-    "Definition": "Oppføre seg veldig høflig og forsiktig. Ikke være for raskt til å vise følelser."
+    "Title": "Bluferdig",
+    "Definition": "Veldig høflig og forsiktig. Er ikke for raskt til å vise følelser."
   },
   {
     "Title": "Tvette",
@@ -406,5 +406,53 @@
   {
     "Title": "Sinnelag",
     "Definition": "Hva man helt innerst inne egentlig vil som person"
+  },
+  {
+    "Title": "Just",
+    "Definition": "Nettopp. Nøyaktig. Akkurat."
+  },
+  {
+    "Title": "Attrå",
+    "Definition": "Sterk lyst, lengsel eller ønske, ofte etter å få noe"
+  },
+  {
+    "Title": "Forsagt",
+    "Definition": "Engstelig, beskjeden og redd"
+  },
+  {
+    "Title": "Opphav",
+    "Definition": "Begynnelse. Hvor noe kommer fra."
+  },
+  {
+    "Title": "Helligdom",
+    "Definition": "Et hellig sted eller en hellig ting"
+  },
+  {
+    "Title": "Lærdom",
+    "Definition": "Kunnskap"
+  },
+  {
+    "Title": "Anvende",
+    "Definition": "Bruke"
+  },
+  {
+    "Title": "Påskynde",
+    "Definition": "Øke hastigheten, eller gjøre sånn at noe skjer tidligere enn planlagt"
+  },
+  {
+    "Title": "Fremskynde",
+    "Definition": "Gjøre sånn at noe skjer tidligere enn planlagt"
+  },
+  {
+    "Title": "Ledemot",
+    "Definition": "Kroppsdel. Ledd."
+  },
+  {
+    "Title": "Tveegget",
+    "Definition": "Skarpt på begge sider"
+  },
+  {
+    "Title": "Bitter",
+    "Definition": "Brukes ofte om flere ting. Enten at man føler seg skuffet, krenket og satt til side. Eller at man er hatende og hard, og ikke vil bli venner igjen. Eller noe som svir eller gjør vondt. Eller noe som smaker veldig sterkt."
   }
 ]

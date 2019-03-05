@@ -3,7 +3,8 @@
 include($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 
 if (empty($_POST['subject']) || empty($_POST['message'])) {
-	return false;
+	header("HTTP/1.1 500 Internal Server Error");
+	exit();
 }
 
 $mailSent = mail($_config_admin_email, $_POST['subject'], $_POST['message']);

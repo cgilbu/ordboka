@@ -15,7 +15,7 @@ var View = {};
 // ******************************************************
 
 if ("serviceWorker" in navigator) {
-	navigator.serviceWorker.register("/service-worker.js");
+	navigator.serviceWorker.register("/service-worker.js"); // One Ring to rule them all
 }
 
 // ******************************************************
@@ -23,8 +23,8 @@ if ("serviceWorker" in navigator) {
 // ******************************************************
 
 $(document).ready(function() {
-	View.cacheDom();
-	Core.getWords(View.loadWords);
+	View.cacheDom(); // One Ring to find them
+	Core.getWords(View.loadWords); // One Ring to bring them all
 
 	if (!localStorage.getItem("userID")) {
 		View.showPopup("welcome");
@@ -74,7 +74,7 @@ View.cacheDom = function() {
 
 View.loadWords = function(words) {
 	words.sort(function(a, b) {
-		var titleA = a.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
+		var titleA = a.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz"); // Unicode sorting (room for improvement)
 		var titleB = b.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
 
 		return titleA.localeCompare(titleB);
@@ -92,7 +92,7 @@ View.loadWords = function(words) {
 	DOM.words = $(".word .title");
 	DOM.definitions = $(".word .definition");
 
-	Events.bindEvents();
+	Events.bindEvents(); // and in the darkness bind them
 
 	DOM.search.attr("placeholder", "Søk blant " + words.length + " ord");
 }
@@ -126,7 +126,7 @@ View.resetSearch = function() {
 // ******************************************************
 
 View.showPopup = function(popupID) {
-	DOM.body.css("overflow", "hidden");
+	DOM.body.css("overflow", "hidden"); // Does not work on iPhone (room for improvement)
 	DOM.overlay.show();
 	$(".popup." + popupID).removeClass("hidden");
 }
@@ -162,12 +162,12 @@ View.triggerMenu = function() {
 // ******************************************************
 
 Events.bindEvents = function() {
-	DOM.closeButtons.click(function() {
-		View.hidePopups();
-	});
-
 	DOM.startButton.click(function() {
 		Helpers.getStatistics();
+	});
+
+	DOM.closeButtons.click(function() {
+		View.hidePopups();
 	});
 
 	DOM.search.keyup(function() {
@@ -287,7 +287,7 @@ Helpers.sendSuggestion = function() {
 		DOM.textSuggestion.val("");
 		View.showPopup("suggestionSent");
 	}).fail(function() {
-		alert("Noe gikk galt: Kunne ikke sende inn forslag. Sjekk at du er koblet til nettet.");
+		alert("Noe gikk galt: Kunne ikke sende forslag. Sjekk at du er koblet til nettet.");
 	});
 }
 
@@ -305,7 +305,7 @@ Helpers.shareApp = function() {
 			url: link
 		});
 
-		View.hidePopups();
+		View.hidePopups(); // Share-popup will only show if navigator.share is not supported
 	}
 }
 

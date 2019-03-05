@@ -1,22 +1,23 @@
 <?php
 
-if (!empty($_POST['newStats'])) {
-	$statsFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.php';
-	$newStats;
+if (empty($_POST['newStats'])) {
+	header("HTTP/1.1 500 Internal Server Error");
+	exit();
+}
 
-	if (filesize($statsFile) > 1) {
-		$newStats = ',' . $_POST['newStats'];
-	} else {
-		$newStats = $_POST['newStats'];
-	}
+$statsFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.php';
+$newStats = "";
 
-	if (strlen($newStats) > 1) {
-		$write = file_put_contents($statsFile, $newStats.PHP_EOL, FILE_APPEND | LOCK_EX);
+if (filesize($statsFile) > 1) {
+	$newStats = ',' . $_POST['newStats'];
+} else {
+	$newStats = $_POST['newStats'];
+}
 
-		if ($write > 0) {
-			exit();
-		}
-	}
+$write = file_put_contents($statsFile, $newStats.PHP_EOL, FILE_APPEND | LOCK_EX);
+
+if ($write > 0) {
+	exit();
 }
 
 header("HTTP/1.1 500 Internal Server Error");

@@ -55,17 +55,33 @@ a {
 }
 
 /*****************************************************
-## Tip
+## Tips
 ******************************************************/
 
 .tip {
 	width: 100%;
 	font-size: 12px;
-	text-align: center;
 	position: fixed;
-	bottom: 15px;
-	left: 0;
 	z-index: 10;
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.tip.info {
+	background-color: var(--color-dark-red);
+	height: 40px;
+	top: -40px;
+}
+
+.tip.close  {
+	bottom: 15px;
 }
 
 /*****************************************************

@@ -25,12 +25,18 @@ if ("serviceWorker" in navigator) {
 $(document).ready(function() {
 	View.cacheDom(); // One Ring to find them
 	Core.getWords(View.loadWords); // One Ring to bring them all
+	Helpers.prepareDownload();
 
 	if (!localStorage.getItem("userID")) {
 		View.showPopup("welcome");
+		return;
 	}
 
-	Helpers.prepareDownload();
+	if (!localStorage.getItem("definitionTip")) {
+		View.showTip("definitionTip", "Tips: Les om hvordan vi definerer ord i menyen");
+	} else if (!localStorage.getItem("appTip") && !Helpers.isStandalone()) {
+		View.showTip("appTip", "Tips: Du kan lagre ordboka som en app via menyen");
+	}
 });
 
 // ******************************************************
@@ -53,9 +59,11 @@ View.cacheDom = function() {
 	DOM.body = $("body");
 	DOM.chromeButton = $(".button.openInChrome");
 	DOM.closeButtons = $(".button.close");
+	DOM.closeTip = $(".tip.close");
 	DOM.contactButton = $(".button.contact");
 	DOM.downloadMenuItem = $(".menu .download");
 	DOM.downloadPopup = $(".popup.download");
+	DOM.infoTip = $(".tip.info");
 	DOM.menu = $(".menu");
 	DOM.menuButton = $(".menuButton");
 	DOM.overlay = $(".overlay");
@@ -64,7 +72,6 @@ View.cacheDom = function() {
 	DOM.shareMenuItem = $(".menu .share");
 	DOM.startButton = $(".button.start");
 	DOM.textSuggestion = $(".textSuggestion");
-	DOM.tip = $(".tip");
 	DOM.wordSuggestion = $(".wordSuggestion");
 }
 
@@ -158,6 +165,23 @@ View.triggerMenu = function() {
 }
 
 // ******************************************************
+// View: Show tip
+// ******************************************************
+
+View.showTip = function(title, text) {
+	DOM.infoTip.text(text);
+
+	setTimeout(function() {
+		DOM.infoTip.animate({ top: "0" }, 300, function() {
+			setTimeout(function() {
+				DOM.infoTip.animate({ top: "-40px" }, 300);
+				localStorage.setItem(title, true);
+			}, 4000);
+		});
+	}, 4000);
+}
+
+// ******************************************************
 // Events: Bind events
 // ******************************************************
 
@@ -182,7 +206,7 @@ Events.bindEvents = function() {
 		DOM.body.css("overflow", "hidden");
 		DOM.overlay.show();
 		$(this).next().removeClass("hidden").addClass("isOpen");
-		DOM.tip.removeClass("hidden");
+		DOM.closeTip.removeClass("hidden");
 
 		Helpers.getStatistics($(this).text());
 	});
@@ -191,7 +215,7 @@ Events.bindEvents = function() {
 		if (DOM.definitions.hasClass("isOpen")) {
 			View.hidePopups();
 			DOM.definitions.addClass("hidden").removeClass("isOpen");
-			DOM.tip.addClass("hidden");
+			DOM.closeTip.addClass("hidden");
 		}
 	});
 

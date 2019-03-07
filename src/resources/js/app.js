@@ -16,6 +16,10 @@ var View = {};
 
 if ("serviceWorker" in navigator) {
 	navigator.serviceWorker.register("/service-worker.js"); // One Ring to rule them all
+
+	navigator.serviceWorker.addEventListener("controllerchange", function() {
+		window.location.reload(); // Should be replaced by update-question
+	});
 }
 
 // ******************************************************

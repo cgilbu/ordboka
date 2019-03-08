@@ -116,7 +116,7 @@ View.search = function(term) {
 	var term = term.toLowerCase();
 	DOM.words.each(function() {
 		var word = $(this).text().toLowerCase();
-		(word.indexOf(term) == 0) ? $(this).parent().show() : $(this).parent().hide();
+		(word.search(term) != -1) ? $(this).parent().show() : $(this).parent().hide();
 	});
 }
 
@@ -262,10 +262,12 @@ Helpers.prepareDownload = function() {
 
 	if (iOS) {
 		DOM.downloadPopup.find(".ios").show();
+		DOM.downloadPopup.find(".telegram").show();
 		var isIOSChrome = navigator.userAgent.match("CriOS");
 
 		if (isIOSChrome) {
 			DOM.downloadPopup.find(".iosChrome").show();
+			DOM.downloadPopup.find(".telegram").hide();
 		}
 
 		return;

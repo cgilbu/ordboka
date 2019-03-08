@@ -18,7 +18,6 @@
 	<link rel="shortcut icon" href="/favicon.png">
 	<link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png">
 
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
 	<link rel="stylesheet" href="/vendors/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="/resources/css/app.css">
 
@@ -57,6 +56,7 @@
 		<p class="androidOther">Klikk på knappen nedenfor for å åpne ordboka i Chrome. Det vil da dukke opp et spørsmål nederst på skjermen om du vil lagre den på mobilen.</p>
 		<p class="iosChrome">Åpne ordboka i Safari og følg oppskriften nedenfor. Du kan kopiere denne linken over i Safari: <a href="#">https://ordbok.joinmyblog.com</a></p>
 		<p class="ios"><img src="/resources/images/ios-add-home-screen.png" alt="Add to Home Screen"></p>
+		<p class="telegram"><b>Viktig:</b> Fungerer ikke hvis du åpnet appen via Telegram. Kopier heller denne linken over i Safari: <a href="#">https://ordbok.joinmyblog.com</a></p>
 
 		<div class="button openInChrome">Åpne i Chrome</div>
 		<div class="button close">Gå tilbake</div>
@@ -85,7 +85,7 @@
 	</div>
 
 	<div class="popup foss hidden">
-		<p>Denne appen har en <a href="https://github.com/cgilbu/ordbok" target="_blank">åpen kildekode</a>. Ta gjerne en titt på koden og hjelp oss med å gjøre ordboka enda bedre!</p>
+		<p>Denne appen har en <a href="https://github.com/cgilbu/ordbok" target="_blank" rel="noreferrer">åpen kildekode</a>. Ta gjerne en titt på koden og hjelp oss med å gjøre ordboka enda bedre!</p>
 		<p>Personvern er viktig. Vi benytter oss derfor verken av Google Analytics eller informasjonskapsler (cookies). Vi sporer heller ikke IP-adressen din. Vi kan på ingen måte vite om det er du eller Frodo Baggins som bruker ordboka, med unntak av dersom du sender inn et forslag hvor du avslører deg selv i teksten.</p>
 		<div class="button close">Greit</div>
 	</div>
@@ -104,5 +104,14 @@
 
 	<script src="/vendors/jquery-3.3.1.min.js"></script>
 	<script src="/resources/js/app.js"></script>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+	<script>
+	WebFont.load({
+		google: {
+			families: ['Open Sans:400,700']
+		}
+	});
+	</script>
 </body>
 </html>

@@ -238,7 +238,7 @@ a {
 
 /* Quick fix for PC */
 @media only screen and (min-width: 700px) {
-	body, .popup {
+	body, .popup, .tip {
 		width: 50%;
 	}
 

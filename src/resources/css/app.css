@@ -142,6 +142,8 @@ a {
 	cursor: pointer;
 	font-size: 18px;
 	padding: 8px 7px;
+
+	-webkit-tap-highlight-color: transparent;
 }
 
 .dictionary div:nth-child(odd) {
@@ -245,10 +247,6 @@ a {
 .loading {
 	padding: 10px;
 	text-align: center;
-}
-
-.loading img {
-	width: 30px;
 }
 
 /*****************************************************

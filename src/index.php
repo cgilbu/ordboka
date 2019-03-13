@@ -10,23 +10,24 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	<meta name="description" content="Er det mange vanskelige ord i menigheten? Finn forklaringene her!">
 
-	<meta property="og:url" content="https://ordbok.joinmyblog.com">
+	<meta property="og:url" content="https://<?= $_SERVER['HTTP_HOST'] ?>">
 	<meta property="og:title" content="Ordboka">
 	<meta property="og:description" content="Er det mange vanskelige ord i menigheten? Finn forklaringene her!">
-	<meta property="og:image" content="https://ordbok.joinmyblog.com/resources/images/apple-touch-icon.png">
+	<meta property="og:image" content="https://<?= $_SERVER['HTTP_HOST'] ?>/resources/images/apple-touch-icon.png">
 
 	<link rel="shortcut icon" href="/favicon.png">
 	<link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png">
 
 	<link rel="stylesheet" href="/vendors/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="/resources/css/app.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
 
 	<link rel="manifest" href="/manifest.json">
 </head>
 <body>
 	<input type="text" class="search" autocomplete="off">
 	<div class="dictionary"></div>
-	<div class="loading"><img src="/resources/images/loading.gif" alt="Laster"></div>
+	<div class="loading"><img src="/resources/images/loading.svg" alt="Laster"></div>
 
 	<div class="definitions"></div>
 
@@ -68,9 +69,9 @@
 		<div class="popupContent">
 			<p class="androidChrome">Du burde allerede ha fått opp et spørsmål nederst på skjermen om du vil lagre ordboka på mobilen. Hvis du takket nei kan du fortsatt gjøre det via menyen i Chrome: <b>Legg til på startsiden</b>.</p>
 			<p class="androidOther">Klikk på knappen nedenfor for å <b>åpne ordboka i Chrome</b>. Det vil da dukke opp et spørsmål nederst på skjermen om du vil lagre den på mobilen. Du kan også gjøre det via menyen i Chrome: <b>Legg til på startsiden</b>.</p>
-			<p class="iosChrome">Åpne ordboka i Safari og følg oppskriften nedenfor. Du kan kopiere denne linken over i Safari: <a href="#">https://ordbok.joinmyblog.com</a></p>
+			<p class="iosChrome">Åpne ordboka i Safari og følg oppskriften nedenfor. Du kan kopiere denne linken over i Safari: <a href="#">https://<?= $_SERVER['HTTP_HOST'] ?></a></p>
 			<p class="ios"><img src="/resources/images/ios-add-home-screen.png" alt="Add to Home Screen"></p>
-			<p class="telegram"><b>Viktig:</b> Fungerer ikke hvis du åpnet appen via Telegram. Kopier heller denne linken over i Safari: <a href="#">https://ordbok.joinmyblog.com</a></p>
+			<p class="telegram"><b>Viktig:</b> Fungerer ikke hvis du åpnet appen via Telegram. Kopier heller denne linken over i Safari: <a href="#">https://<?= $_SERVER['HTTP_HOST'] ?></a></p>
 
 			<div class="button openInChrome">Åpne i Chrome</div>
 			<div class="button close">Gå tilbake</div>
@@ -116,7 +117,7 @@
 	<div class="popup share hidden">
 		<div class="popupContent">
 			<p>Du kan dele ordboka med andre ved å sende dem linken nedenfor, eller du kan trykke på <b>delingsknappen</b> på mobilen.</p>
-			<p><a href="#">https://ordbok.joinmyblog.com</a></p>
+			<p><a href="#">https://<?= $_SERVER['HTTP_HOST'] ?></a></p>
 			<div class="button close">Lukk</div>
 		</div>
 	</div>
@@ -132,14 +133,5 @@
 	<script src="/vendors/jquery-3.3.1.min.js"></script>
 	<script src="/vendors/underscore-min.js"></script>
 	<script src="/resources/js/app.js"></script>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-	<script>
-	WebFont.load({
-		google: {
-			families: ['Open Sans:400,700']
-		}
-	});
-	</script>
 </body>
 </html>

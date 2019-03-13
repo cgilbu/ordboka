@@ -1,4 +1,4 @@
-var appVersion = '62';
+var appVersion = '70';
 var cacheObject = 'ordbok-' + appVersion;
 
 self.addEventListener('install', function(event) {
@@ -14,7 +14,7 @@ self.addEventListener('install', function(event) {
 				'/resources/images/icon-192.png',
 				'/resources/images/icon-512.png',
 				'/resources/images/ios-add-home-screen.png',
-				'/resources/images/loading.gif',
+				'/resources/images/loading.svg',
 				'/resources/js/app.js',
 				'/vendors/jquery-3.3.1.min.js',
 				'/vendors/underscore-min.js'

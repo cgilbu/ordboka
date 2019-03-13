@@ -3,10 +3,10 @@
 ******************************************************/
 
 :root {
-	--color-dark-blue: #08253b;
 	--color-bright-blue: #0b3049;
-	--color-dark-red: #bc4b50;
 	--color-bright-red: #f04e51;
+	--color-dark-blue: #08253b;
+	--color-dark-red: #bc4b50;
 	--color-yellow: #e5d948;
 }
 
@@ -15,12 +15,12 @@
 ******************************************************/
 
 body {
-	margin: 0 auto;
-	padding-bottom: 7px; /* Prevent cutting edges on certain phones */
 	background-color: var(--color-dark-blue);
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
+	margin: 0 auto;
+	padding-bottom: 7px; /* Prevents cutting edges on certain phones */
 }
 
 * {
@@ -40,37 +40,23 @@ a {
 }
 
 /*****************************************************
-## Overlay
-******************************************************/
-
-.overlay {
-	display: none;
-	background-color: rgba(0,0,0,0.9);
-	width: 100%;
-	height: 100%;
-	position: fixed;
-	top: 0;
-	left: 0;
-	z-index: 10;
-}
-
-/*****************************************************
 ## Tips
 ******************************************************/
 
 .tip {
-	width: 100%;
 	font-size: 12px;
+	width: 100%;
+
 	position: fixed;
-	z-index: 10;
+	z-index: 20;
 
 	display: flex;
 	align-items: center;
 	justify-content: center;
 
-	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
+	-webkit-user-select: none;
 	user-select: none;
 }
 
@@ -89,12 +75,27 @@ a {
 ******************************************************/
 
 .popup {
-	width: 90%;
+	background-color: rgba(0,0,0,0.9);
+	overflow-y: scroll; /* Overflow scrolling */
+	width: 100%;
+
 	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	z-index: 20;
+	top: 0;
+	bottom: 0;
+	z-index: 10;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.popup .popupContent {
+	min-height: 0; /* Overflow scrolling */
+	padding: 0 15px;
+}
+
+.popup .popupContent p:first-of-type {
+	margin-top: 15px; /* Flexbox padding */
 }
 
 /*****************************************************
@@ -103,21 +104,21 @@ a {
 
 .button {
 	background-color: var(--color-dark-red);
+	border-radius: 2px;
+	cursor: pointer;
+	font-weight: bold;
 	margin-bottom: 5px;
 	padding: 7px;
-	border-radius: 2px;
-	font-weight: bold;
 	text-align: center;
-	cursor: pointer;
 
-	-webkit-user-select: none;
 	-moz-user-select: none;
 	-ms-user-select: none;
+	-webkit-user-select: none;
 	user-select: none;
 }
 
 .button:last-of-type {
-	margin-bottom: 0;
+	margin-bottom: 15px; /* Flexbox padding */
 }
 
 /*****************************************************
@@ -125,25 +126,25 @@ a {
 ******************************************************/
 
 .search {
-	width: 100%;
-	height: 40px; /* For getting the same height as the words below */
-	padding: 8px 7px;
+	border-radius: 0; /* Reset */
+	border: none; /* Reset */
 	font-size: 18px;
-	border-radius: 0;
-	border: none;
+	height: 40px; /* Applies the same height as the words below */
+	padding: 8px 7px;
+	width: 100%;
 }
 
 /*****************************************************
-## Words
+## Dictionary
 ******************************************************/
 
-.word .title {
-	padding: 8px 7px;
-	font-size: 18px;
+.dictionary div {
 	cursor: pointer;
+	font-size: 18px;
+	padding: 8px 7px;
 }
 
-.word:nth-child(odd) .title {
+.dictionary div:nth-child(odd) {
 	background-color: var(--color-bright-blue);
 }
 
@@ -151,7 +152,7 @@ a {
 ## Definitions
 ******************************************************/
 
-.word .definition {
+.definition {
 	font-size: 20px;
 }
 
@@ -161,11 +162,12 @@ a {
 
 .menuButton {
 	background-color: var(--color-dark-red);
-	width: 60px;
-	height: 60px;
 	border-radius: 50%;
-	font-size: 29px;
 	cursor: pointer;
+	font-size: 29px;
+	height: 60px;
+	width: 60px;
+
 	position: fixed;
 	bottom: 15px;
 	right: 15px;
@@ -184,10 +186,10 @@ a {
 }
 
 .menu div {
-	padding: 10px;
-	font-size: 23px;
-	text-align: center;
 	cursor: pointer;
+	font-size: 23px;
+	padding: 10px;
+	text-align: center;
 }
 
 /*****************************************************
@@ -202,17 +204,21 @@ a {
 	width: 100%;
 }
 
+.download p.ios {
+	line-height: 0; /* Fix for image */
+}
+
 /*****************************************************
 ## Contact
 ******************************************************/
 
 .contact input, .contact textarea {
-	width: 100%;
-	padding: 7px;
+	border-radius: 2px;
+	border: none; /* Reset */
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	border-radius: 2px;
-	border: none;
+	padding: 7px;
+	width: 100%;
 }
 
 .contact input {
@@ -230,6 +236,19 @@ a {
 .share a, .iosChrome a {
 	font-weight: bold;
 	text-decoration: none;
+}
+
+/*****************************************************
+## Loading
+******************************************************/
+
+.loading {
+	padding: 10px;
+	text-align: center;
+}
+
+.loading img {
+	width: 30px;
 }
 
 /*****************************************************

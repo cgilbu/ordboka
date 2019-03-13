@@ -13,11 +13,11 @@
   },
   {
     "Title": "Enfoldig",
-    "Definition": "Tenke enkelt om ting og være ærlig. Kan noen ganger (ikke vanligvis) bety dum."
+    "Definition": "Tenke enkelt om ting og være ærlig. Kan noen ganger (ikke vanligvis) bety at man er dum."
   },
   {
     "Title": "Ettergiven",
-    "Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en god måte. Det kan likevel være dumt å være altfor ettergivende."
+    "Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en god måte (kan være dumt å være altfor ettergivende)."
   },
   {
     "Title": "Formynder",
@@ -280,10 +280,6 @@
     "Definition": "Ikke egoistisk. Tenker på andre sitt beste."
   },
   {
-    "Title": "Broderskap",
-    "Definition": "Veldig gode venner, akkurat som to brødre som er glade i hverandre. Kan bli enda sterkere hvis man har opplevd noe vanskelig sammen. Vært i krig, for eksempel."
-  },
-  {
     "Title": "Fortære",
     "Definition": "Spise eller ødelegge"
   },
@@ -328,16 +324,16 @@
     "Definition": "Medfødt egenskap. Eksempel: Han er nøye av natur"
   },
   {
-    "Title": "Beredelse",
+    "Title": "Berede",
     "Definition": "Gjøre noe klart"
   },
   {
     "Title": "Dyrebart",
-    "Definition": "Verdifullt. Noe man setter stor pris på."
+    "Definition": "Noe verdifullt som man setter stor pris på"
   },
   {
-    "Title": "Edelt",
-    "Definition": "Fint eller spesielt bra. \"Være edel\" kan også bety å tenke fint om noe, og ikke være egoistisk."
+    "Title": "Edel",
+    "Definition": "Fin eller spesielt bra. \"Være edel\" kan også bety å tenke fint om noe, og ikke være egoistisk."
   },
   {
     "Title": "Vitnesbyrd",
@@ -365,7 +361,7 @@
   },
   {
     "Title": "Dyd",
-    "Definition": "Verdifull egenskap. Eksempler: Tålmodig, gavmild, barmhjertig, saktmodig osv."
+    "Definition": "Verdifull egenskap. For eksempel tålmodighet eller gavmildhet."
   },
   {
     "Title": "Tilgift",
@@ -413,7 +409,7 @@
   },
   {
     "Title": "Attrå",
-    "Definition": "Sterk lyst, lengsel eller ønske, ofte etter å få noe"
+    "Definition": "Sterk lengsel, ønske eller lyst, ofte etter å få eller klare noe"
   },
   {
     "Title": "Forsagt",
@@ -453,7 +449,7 @@
   },
   {
     "Title": "Bitter",
-    "Definition": "Brukes ofte om flere ting. Enten at man føler seg skuffet, krenket og satt til side. Eller at man er hatende og hard, og ikke vil bli venner igjen. Eller noe som svir eller gjør vondt. Eller noe som smaker veldig sterkt."
+    "Definition": "Brukes ofte om flere ting. Enten å føle seg skuffet, krenket eller satt til side. Eller være hatende og hard, og ikke ville bli venner igjen. Eller noe som svir eller gjør vondt. Eller noe som smaker veldig sterkt."
   },
   {
     "Title": "Således",
@@ -501,7 +497,7 @@
   },
   {
     "Title": "Bot",
-    "Definition": "(bibelen) En handling som viser at man angrer sin synd. Soning av synd."
+    "Definition": "(i bibelen) En handling som viser at man angrer sin synd. Soning av synd."
   },
   {
     "Title": "Usigelig",
@@ -537,7 +533,7 @@
   },
   {
     "Title": "Anstøt",
-    "Definition": "Ta avstand fra noe man ikke liker eller irriterer seg over. \"Legge anstøt\" også bety å få noen til å synde."
+    "Definition": "\"Ta anstøt\" betyr å ta avstand fra noe man ikke liker, eller irriterer seg over. \"Legge anstøt\" betyr å få noen til å synde."
   },
   {
     "Title": "Skåne",
@@ -658,5 +654,57 @@
   {
     "Title": "Gjenstridig",
     "Definition": "Stritter imot og er trassig. Vil ikke ta imot råd eller tips. Er sta."
+  },
+  {
+    "Title": "Brynde",
+    "Definition": "Kraftig og intens lidenskap, først og fremst et begjær etter noe"
+  },
+  {
+    "Title": "Skarn",
+    "Definition": "Møkk, søppel eller støv. Kan også bety elendighet."
+  },
+  {
+    "Title": "Barm",
+    "Definition": "Bryst eller hjerte. Kan også bety mellomrommet mellom klærna og brystet."
+  },
+  {
+    "Title": "Tande (tanne)",
+    "Definition": "Utbrent veke (den greia du tenner på) i et lys"
+  },
+  {
+    "Title": "Trell",
+    "Definition": "Person som ikke er fri. Slave."
+  },
+  {
+    "Title": "Skjønnsom",
+    "Definition": "Viser forstand (evnen til å forstå og tenke riktig)"
+  },
+  {
+    "Title": "Overflod",
+    "Definition": "Veldig mye. Mer enn du trenger."
+  },
+  {
+    "Title": "Sindig",
+    "Definition": "Oppføre seg forstandig eller klokt, etter å ha tenkt rolig gjennom ting"
+  },
+  {
+    "Title": "Medynk",
+    "Definition": "Medlidenhet. Synes synd på noen som sliter eller har det vondt."
+  },
+  {
+    "Title": "Vederstyggelig",
+    "Definition": "Forferdelig. Stygt. Farlig. Avskyelig. Motbydelig. Forkastelig."
+  },
+  {
+    "Title": "Vankundig",
+    "Definition": "Mangle kunnskap"
+  },
+  {
+    "Title": "Vansmekte",
+    "Definition": "Lide sterkt, enten på grunn av fysiske forhold, som mangel på mat og drikke, eller på grunn av lengsel"
+  },
+  {
+    "Title": "Avholde",
+    "Definition": "Holde tilbake fra å gjøre noe. Kan også bety å ikke gjøre noe man er fristet til."
   }
 ]

@@ -92,8 +92,8 @@
 
 	<div class="popup suggestionSent hidden">
 		<div class="popupContent">
-			<p>Forslaget ditt har blitt sendt inn. Tusen takk.</p>
-			<div class="button close">Lukk</div>
+			<p>Forslaget ditt har blitt sendt inn. Tusen takk! Dersom forslaget ikke blir godkjent, skyldes det mest sannsynlig at ordet ikke nevnes nok i bibelen og på møter, eller at det ikke er like relevant for yngre tenåringer, eller at det ikke er vesentlig for forståelsen av evangeliet. Vi er likevel takknemlige for alle forslagene vi får inn.</p>
+			<div class="button close">Greit</div>
 		</div>
 	</div>
 

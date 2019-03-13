@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 You need to have PHP installed on your local machine.
 
 ### Installing
-Simply set up the folder locally using some sort of local host system. Add your email address to config-sample.php and rename the file to config.php.
+Simply set up the folder locally using some sort of local host system. Add your email address to config-sample.php and rename the file to config.php. Then edit the hard coded URL in app.js.
 
 ## Deployment
 You need to have PHP running on the server xD

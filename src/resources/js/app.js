@@ -28,14 +28,25 @@ if ("serviceWorker" in navigator) {
 
 var _wordsLoaded = 0;
 var _loadingComplete = false;
+var _isSearching = false;
 
-$(window).scroll(_.debounce(function() {
+// Using setInterval due to bad scroll detection on iOS
+var checkForScroll = setInterval(function() {
+	if (_loadingComplete) {
+		clearInterval(checkForScroll);
+		return;
+	}
+
+	if (_isSearching) {
+		return;
+	}
+
 	var askingForMore = $(window).scrollTop() + $(window).height() > $(document).height() - 600; // 600px or closer to bottom of list
 
-	if (askingForMore && !_loadingComplete) {
+	if (askingForMore) {
 		Core.getWords(View.loadWords);
 	}
-}, 200));
+}, 500);
 
 // ******************************************************
 // Core: Get words
@@ -119,7 +130,7 @@ View.loadWords = function(words) {
 
 View.appendWord = function(number, title, definition) {
 	DOM.dictionary.append('<div class="word_' + number + '">' + title + '</div>');
-	DOM.definitions.append('<div class="popup definition word_' + number + ' hidden" onclick=""><div class="popupContent"><b>' + title + '</b><br>' + definition + '</div></div>'); // "onclick" is a fix for iPhone
+	DOM.definitions.append('<div class="popup definition word_' + number + ' hidden" onclick=""><div class="popupContent"><b>' + title + '</b><br>' + definition + '</div></div>'); // "onclick" is a fix for iOS
 }
 
 // ******************************************************
@@ -150,6 +161,8 @@ View.search = function(words, searchTerm) {
 		View.resetDictionary();
 		return;
 	}
+
+	_isSearching = true;
 
 	DOM.dictionary.text("");
 	DOM.definitions.text("");
@@ -194,7 +207,7 @@ View.triggerMenu = function() {
 // ******************************************************
 
 View.showPopup = function(popupID) {
-	DOM.body.css("overflow", "hidden"); // Doesn't work on iPhone
+	DOM.body.css("overflow", "hidden"); // Doesn't work on iOS
 	$(".popup." + popupID).removeClass("hidden");
 }
 
@@ -220,6 +233,7 @@ View.resetDictionary = function() {
 
 	_wordsLoaded = 0;
 	_loadingComplete = false;
+	_isSearching = false;
 
 	Core.getWords(View.loadWords);
 }

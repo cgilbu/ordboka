@@ -20,6 +20,7 @@
 
 	<link rel="stylesheet" href="/vendors/fontawesome/css/all.min.css">
 	<link rel="stylesheet" href="/resources/css/app.css">
+	<link rel="stylesheet" href="/resources/css/responsive.css">
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
 
 	<link rel="manifest" href="/manifest.json">

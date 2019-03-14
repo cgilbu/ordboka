@@ -129,10 +129,12 @@ View.appendWord = function(number, title, definition) {
 View.showTip = function(title, text) {
 	DOM.infoTip.text(text);
 
+	var isResponsive = window.matchMedia("(min-width: 768px)").matches;
+
 	setTimeout(function() {
 		DOM.infoTip.animate({ top: "0" }, 300, function() {
 			setTimeout(function() {
-				DOM.infoTip.animate({ top: "-40px" }, 300);
+				DOM.infoTip.animate({ top: (isResponsive ? "-63px" : "-40px") }, 300);
 				localStorage.setItem(title, true);
 			}, 4000);
 		});

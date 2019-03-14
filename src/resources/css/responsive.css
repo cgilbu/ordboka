@@ -1,0 +1,78 @@
+/*****************************************************
+## For tablets and up (768px)
+******************************************************/
+
+/* Everything is increased by 7px */
+
+@media only screen and (min-width: 768px) {
+	body, .contact input, .contact textarea {
+		font-size: 23px;
+	}
+
+	.tip {
+		font-size: 19px;
+	}
+
+	.tip.info {
+		height: 63px;
+		top: -63px;
+	}
+
+	.tip.close  {
+		bottom: 22px;
+	}
+
+	.popup .popupContent {
+		padding: 0 22px;
+	}
+
+	.popup .popupContent p:first-of-type {
+		margin-top: 22px; /* Flexbox padding */
+	}
+
+	.button {
+		padding: 14px;
+	}
+
+	.button:last-of-type {
+		margin-bottom: 22px; /* Flexbox padding */
+	}
+
+	.search, .dictionary div {
+		font-size: 25px;
+		padding: 15px 14px;
+	}
+
+	.search {
+		height: 63px; /* Applies the same height as the words below */
+	}
+
+	.definition {
+		font-size: 27px;
+	}
+
+	.menuButton {
+		bottom: 22px;
+		font-size: 45px;
+		height: 90px;
+		right: 22px;
+		width: 90px;
+	}
+
+	.menu div {
+		font-size: 30px;
+		padding: 17px;
+	}
+
+	.contact input, .contact textarea {
+		padding: 14px;
+	}
+
+	.contact textarea {
+		height: 100px;
+	}
+
+	.loading {
+		padding: 17px;
+	}
+}

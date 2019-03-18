@@ -428,7 +428,7 @@ Helpers.getStatistics = function(wordClicked) {
 	}
 
 	var d = new Date();
-	var utcDateTime = d.getUTCDate() + "/" + (d.getUTCMonth() + 1) + "/" + d.getUTCFullYear() + " " + d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds();
+	var utcDateTime = (d.getUTCMonth() + 1) + "/" + d.getUTCDate() + "/" + d.getUTCFullYear() + " " + d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds();
 
 	var newStats = { word: wordClicked, userID: localStorage.getItem("userID"), utcDateTime: utcDateTime, isStandalone: Helpers.isStandalone() };
 

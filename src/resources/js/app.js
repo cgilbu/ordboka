@@ -174,9 +174,10 @@ View.search = function(words, searchTerm) {
 		var number = index + 1;
 		var title = wordObject.Title;
 		var definition = wordObject.Definition;
+		var updated = wordObject.Updated;
 
 		if (title.toLowerCase().search(searchTerm) != -1) {
-			View.appendWord(number, title, definition);
+			View.appendWord(number, title, definition, updated);
 		}
 	});
 

@@ -107,8 +107,9 @@ View.loadWords = function(words) {
 
 		var title = wordObject.Title;
 		var definition = wordObject.Definition;
+		var updated = wordObject.Updated;
 
-		View.appendWord(number, title, definition);
+		View.appendWord(number, title, definition, updated);
 		wordsAdded++;
 
 		if (wordsAdded == 30) {
@@ -128,8 +129,8 @@ View.loadWords = function(words) {
 // View: Append word
 // ******************************************************
 
-View.appendWord = function(number, title, definition) {
-	DOM.dictionary.append('<div class="word_' + number + '">' + title + '</div>');
+View.appendWord = function(number, title, definition, updated) {
+	DOM.dictionary.append('<div class="word_' + number + '">' + title + (updated ? ' <span>&#9679;</span>' : '') + '</div>');
 	DOM.definitions.append('<div class="popup definition word_' + number + ' hidden" onclick=""><div class="popupContent"><b>' + title + '</b><br>' + definition + '</div></div>'); // "onclick" is a fix for iOS
 }
 

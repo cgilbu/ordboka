@@ -150,6 +150,10 @@ a {
 	background-color: var(--color-bright-blue);
 }
 
+.dictionary div span {
+	color: #3989F3;
+}
+
 /*****************************************************
 ## Definitions
 ******************************************************/

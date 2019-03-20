@@ -61,7 +61,7 @@
 
 	<div class="popup update hidden">
 		<div class="popupContent">
-			<p>En ny versjon av ordboka er tilgjengelig!</p>
+			<p>En <b>ny versjon</b> av ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt. Nye og oppdaterte ord vil ha en <b>blå prikk</b> på seg.</p>
 			<div class="button close update">Oppdater</div>
 		</div>
 	</div>

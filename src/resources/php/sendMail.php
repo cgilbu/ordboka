@@ -2,12 +2,12 @@
 
 include($_SERVER['DOCUMENT_ROOT'] . "/config.php");
 
-if (empty($_POST['subject']) || empty($_POST['message'])) {
+if (empty($_GET['subject']) || empty($_GET['message'])) {
 	header("HTTP/1.1 500 Internal Server Error");
 	exit();
 }
 
-$mailSent = mail($_config_admin_email, $_POST['subject'], $_POST['message']);
+$mailSent = mail($_config_admin_email, $_GET['subject'], $_GET['message']);
 
 if ($mailSent) {
 	exit();

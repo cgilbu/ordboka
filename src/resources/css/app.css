@@ -23,6 +23,10 @@ body {
 	padding-bottom: 7px; /* Prevents cutting edges on certain phones */
 }
 
+body.noOverflow {
+	overflow: hidden;
+}
+
 * {
 	box-sizing: border-box;
 	line-height: normal;
@@ -60,13 +64,13 @@ a {
 	user-select: none;
 }
 
-.tip.info {
+.tip#infoTip {
 	background-color: var(--color-dark-red);
 	height: 40px;
 	top: -40px;
 }
 
-.tip.close  {
+.tip#closeTip {
 	bottom: 15px;
 }
 
@@ -80,8 +84,8 @@ a {
 	width: 100%;
 
 	position: fixed;
-	top: 0;
 	bottom: 0;
+	top: 0;
 	z-index: 10;
 
 	display: flex;
@@ -125,7 +129,7 @@ a {
 ## Search
 ******************************************************/
 
-.search {
+#search {
 	border-radius: 0; /* Reset */
 	border: none; /* Reset */
 	font-size: 18px;
@@ -138,7 +142,7 @@ a {
 ## Dictionary
 ******************************************************/
 
-.dictionary div {
+#dictionary div {
 	cursor: pointer;
 	font-size: 18px;
 	padding: 8px 7px;
@@ -146,12 +150,12 @@ a {
 	-webkit-tap-highlight-color: transparent;
 }
 
-.dictionary div:nth-child(odd) {
+#dictionary div:nth-child(odd) {
 	background-color: var(--color-bright-blue);
 }
 
-.dictionary div span {
-	color: #3989F3;
+#dictionary div.updated {
+	font-weight: bold;
 }
 
 /*****************************************************
@@ -159,18 +163,20 @@ a {
 ******************************************************/
 
 .definition {
+	cursor: pointer; /* Enables onclick event on iOS */
 	font-size: 20px;
+
+	-webkit-tap-highlight-color: transparent;
 }
 
 /*****************************************************
 ## Menu
 ******************************************************/
 
-.menuButton {
+#menuButton {
 	background-color: var(--color-dark-red);
 	border-radius: 50%;
 	cursor: pointer;
-	font-size: 30px;
 	height: 60px;
 	width: 60px;
 
@@ -183,15 +189,15 @@ a {
 	justify-content: center;
 }
 
-.menuButton.isOpen {
+#menuButton img {
+	width: 27px;
+}
+
+#menuButton.isOpen {
 	z-index: 20;
 }
 
-.menuButton .fa-times {
-	display: none;
-}
-
-.menu div {
+#menu .popupContent div {
 	cursor: pointer;
 	font-size: 23px;
 	padding: 10px;
@@ -202,23 +208,19 @@ a {
 ## Download
 ******************************************************/
 
-.download p, .button.openInChrome {
-	display: none;
-}
-
-.download img {
+#downloadPopup img {
 	width: 100%;
 }
 
-.download p.ios {
-	line-height: 0; /* Fix for image */
+#downloadPopup #ios {
+	line-height: 0; /* Image-fix */
 }
 
 /*****************************************************
 ## Contact
 ******************************************************/
 
-.contact input, .contact textarea {
+#contactPopup input, #contactPopup textarea {
 	border-radius: 2px;
 	border: none; /* Reset */
 	font-family: 'Open Sans', sans-serif;
@@ -227,19 +229,19 @@ a {
 	width: 100%;
 }
 
-.contact input {
+#contactPopup input {
 	margin-bottom: 5px;
 }
 
-.contact textarea {
+#contactPopup textarea {
 	height: 70px;
 }
 
 /*****************************************************
-## Share-links
+## Special links
 ******************************************************/
 
-.share a, .iosChrome a {
+#downloadPopup a, #sharePopup a {
 	font-weight: bold;
 	text-decoration: none;
 }
@@ -248,7 +250,7 @@ a {
 ## Loading
 ******************************************************/
 
-.loading {
+#loading {
 	padding: 10px;
 	text-align: center;
 }

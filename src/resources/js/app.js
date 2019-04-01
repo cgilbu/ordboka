@@ -2,367 +2,258 @@
 // Modules
 // ******************************************************
 
-var Core = {};
 var DOM = {};
-var Events = {};
 var Helpers = {};
 var View = {};
 
-'use strict';
+"use strict";
 
 // ******************************************************
-// Service worker
+// DOM references
 // ******************************************************
 
-if ("serviceWorker" in navigator) {
-	navigator.serviceWorker.register("/service-worker.js");
-
-	navigator.serviceWorker.addEventListener("controllerchange", function() {
-		View.showPopup("update");
-	});
-}
+DOM.chromeButton = "#chromeButton";
+DOM.closeButtons = ".button.close";
+DOM.closeTip = "#closeTip";
+DOM.contactButton = "#contactButton";
+DOM.contactPopup = "#contactPopup";
+DOM.definitionPopups = ".popup.definition";
+DOM.definitions = "#definitions";
+DOM.dictionary = "#dictionary";
+DOM.downloadMenuItem = "#downloadMenuItem";
+DOM.infoTip = "#infoTip";
+DOM.loading = "#loading";
+DOM.menu = "#menu";
+DOM.menuButton = "#menuButton";
+DOM.search = "#search";
+DOM.shareMenuItem = "#shareMenuItem";
+DOM.sharePopup = "#sharePopup";
+DOM.startButton = "#startButton";
+DOM.suggestionSentPopup = "#suggestionSentPopup";
+DOM.updateButton = "#updateButton";
+DOM.updatePopup = "#updatePopup";
+DOM.welcomePopup = "#welcomePopup";
 
 // ******************************************************
-// Smart loading
+// Global variables
 // ******************************************************
 
-var _wordsLoaded = 0;
+var _allWords = []; // Contains a cache of all the words for faster loading
+var _wordsLoaded = []; // Contains words already loaded into the dictionary
 var _loadingComplete = false;
 var _isSearching = false;
 
-// Using setInterval due to bad scroll detection on iOS
-var checkForScroll = setInterval(function() {
-	if (_loadingComplete) {
-		clearInterval(checkForScroll);
-		return;
+// ******************************************************
+// View
+// ******************************************************
+
+View.loadDictionary = function(words) {
+	var placeholder = "Søk blant " + words.length + " ord";
+	document.querySelector(DOM.search).placeholder = placeholder;
+
+	_allWords = Helpers.sortWords(words);
+
+	if (!localStorage.getItem("storedWords")) {
+		localStorage.setItem("storedWords", JSON.stringify(_allWords)); // Used later for View.showChanges()
 	}
 
-	if (_isSearching) {
-		return;
-	}
-
-	var askingForMore = $(window).scrollTop() + $(window).height() > $(document).height() - 600; // 600px or closer to bottom of list
-
-	if (askingForMore) {
-		Core.getWords(View.loadWords);
-	}
-}, 500);
-
-// ******************************************************
-// Core: Get words
-// ******************************************************
-
-Core.getWords = function(callback, searchTerm) {
-	$.getJSON("/resources/data/words.json", function(data) {
-		callback(data, searchTerm);
-	}).fail(function() {
-		alert("Noe gikk galt: Kunne ikke laste ord");
-	});
+	View.loadWords();
+	Helpers.smartLoading();
 }
 
-// ******************************************************
-// View: Cache DOM
-// ******************************************************
-
-View.cacheDom = function() {
-	DOM.body = $("body");
-	DOM.chromeButton = $(".button.openInChrome");
-	DOM.closeButtons = $(".button.close");
-	DOM.closeTip = $(".tip.close");
-	DOM.contactButton = $(".button.contact");
-	DOM.definitions = $(".definitions");
-	DOM.dictionary = $(".dictionary");
-	DOM.downloadMenuItem = $(".menu .download");
-	DOM.downloadPopup = $(".popup.download");
-	DOM.infoTip = $(".tip.info");
-	DOM.loading = $(".loading");
-	DOM.menuButton = $(".menuButton");
-	DOM.menuItems = $(".menu").find(".popupContent").children();
-	DOM.search = $(".search");
-	DOM.shareMenuItem = $(".menu .share");
-	DOM.startButton = $(".button.start");
-	DOM.textSuggestion = $(".textSuggestion");
-	DOM.updateButton = $(".button.update");
-	DOM.wordSuggestion = $(".wordSuggestion");
-}
-
-// ******************************************************
-// View: Load words
-// ******************************************************
-
-View.loadWords = function(words) {
-	if (_wordsLoaded == 0) {
-		DOM.search.attr("placeholder", "Søk blant " + words.length + " ord");
-	}
-
-	words = Helpers.sortWords(words);
-	var wordsAdded = 0;
-
-	$.each(words, function(index, wordObject) {
-		var number = index + 1;
-
-		if (number <= _wordsLoaded) {
-			return true;
-		}
-
-		var title = wordObject.Title;
-		var definition = wordObject.Definition;
-		var updated = wordObject.Updated;
-
-		View.appendWord(number, title, definition, updated);
-		wordsAdded++;
-
-		if (wordsAdded == 30) {
-			return false;
-		}
-	});
-
-	_wordsLoaded = _wordsLoaded + wordsAdded;
-
-	if (_wordsLoaded == words.length) {
-		_loadingComplete = true;
-		DOM.loading.hide();
-	}
-}
-
-// ******************************************************
-// View: Append word
-// ******************************************************
-
-View.appendWord = function(number, title, definition, updated) {
-	DOM.dictionary.append('<div class="word_' + number + '">' + title + (updated ? ' <span>&#9679;</span>' : '') + '</div>');
-	DOM.definitions.append('<div class="popup definition word_' + number + ' hidden" onclick=""><div class="popupContent"><b>' + title + '</b><br>' + definition + '</div></div>'); // "onclick" is a fix for iOS
-}
-
-// ******************************************************
-// View: Show tip
-// ******************************************************
-
-View.showTip = function(title, text) {
-	DOM.infoTip.text(text);
-
-	var isResponsive = window.matchMedia("(min-width: 768px)").matches;
-
-	setTimeout(function() {
-		DOM.infoTip.animate({ top: "0" }, 300, function() {
-			setTimeout(function() {
-				DOM.infoTip.animate({ top: (isResponsive ? "-63px" : "-40px") }, 300);
-				localStorage.setItem(title, true);
-			}, 4000);
-		});
-	}, 4000);
-}
-
-// ******************************************************
-// View: Search
-// ******************************************************
-
-View.search = function(words, searchTerm) {
-	if (searchTerm == "") {
-		View.resetDictionary();
-		return;
-	}
-
-	_isSearching = true;
-
-	DOM.dictionary.text("");
-	DOM.definitions.text("");
-
-	words = Helpers.sortWords(words);
-
-	$.each(words, function(index, wordObject) {
-		var number = index + 1;
-		var title = wordObject.Title;
-		var definition = wordObject.Definition;
-		var updated = wordObject.Updated;
-
-		if (title.toLowerCase().search(searchTerm) != -1) {
-			View.appendWord(number, title, definition, updated);
-		}
-	});
-
-	DOM.loading.hide();
-}
-
-// ******************************************************
-// View: Trigger menu
-// ******************************************************
-
-View.triggerMenu = function() {
-	var isOpen = DOM.menuButton.hasClass("isOpen");
-
-	if (isOpen) {
-		DOM.menuButton.removeClass("isOpen");
-		DOM.menuButton.find(".fa-times").hide();
-		DOM.menuButton.find(".fa-bars").show();
-		View.hidePopups();
-	} else {
-		DOM.menuButton.addClass("isOpen");
-		DOM.menuButton.find(".fa-bars").hide();
-		DOM.menuButton.find(".fa-times").show();
-		View.showPopup("menu");
-	}
-}
-
-// ******************************************************
-// View: Popups
-// ******************************************************
-
-View.showPopup = function(popupID) {
-	DOM.body.css("overflow", "hidden"); // Doesn't work on iOS
-	$(".popup." + popupID).removeClass("hidden");
-}
-
-View.hidePopups = function() {
-	DOM.body.css("overflow", "visible");
-	$(document.getElementsByClassName("popup")).addClass("hidden");
-}
-
-// ******************************************************
-// View: Reset dictionary
-// ******************************************************
-
-View.resetDictionary = function() {
-	$(window).scrollTop(0);
-
-	DOM.loading.show();
-
-	DOM.search.val("");
-	DOM.search.blur();
-
-	DOM.dictionary.text("");
-	DOM.definitions.text("");
-
-	_wordsLoaded = 0;
+View.reloadDictionary = function(searchTerm) {
+	_wordsLoaded = [];
 	_loadingComplete = false;
 	_isSearching = false;
 
-	Core.getWords(View.loadWords);
+	if (searchTerm) {
+		_isSearching = true;
+		document.querySelector(DOM.loading).classList.add("hidden");
+	}
+
+	document.querySelector(DOM.dictionary).innerHTML = "";
+	document.querySelector(DOM.definitions).innerHTML = "";
+
+	View.loadWords(searchTerm);
 }
 
-// ******************************************************
-// Events: Bind events
-// ******************************************************
+View.loadWords = function(searchTerm) {
+	var words = _allWords.slice(_wordsLoaded.length);
+	var wordsAdded = 0;
 
-Events.bindEvents = function() {
-	DOM.startButton.click(function() {
-		Helpers.getStatistics();
-	});
+	for (let word of words) {
+		var title = word.Title;
+		var definition = word.Definition;
 
-	DOM.updateButton.click(function() {
-		window.location.reload();
-	});
-
-	DOM.closeButtons.click(function() {
-		View.hidePopups();
-	});
-
-	DOM.search.keyup(_.debounce(function() {
-		var searchTerm = $(this).val().toLowerCase();
-		Core.getWords(View.search, searchTerm);
-	}, 200));
-
-	DOM.search.click(function() {
-		if (DOM.search.val()) {
-			View.resetDictionary();
+		if (searchTerm && title.toLowerCase().search(searchTerm) == -1) {
+			continue; // Skips words not matching search
 		}
-	});
 
-	$(document).on("click", ".dictionary div", function() {
-		var definition = $(this).attr("class");
-		View.showPopup("definition." + definition);
-		DOM.closeTip.removeClass("hidden");
-		Helpers.getStatistics($(this).text());
-	});
+		View.appendWord(_wordsLoaded.length, title, definition);
 
-	$(document).on("click", ".definition", function(e) {
-		var target = $(e.target);
-		if (target.hasClass("popup")) {
-			View.hidePopups();
-			DOM.closeTip.addClass("hidden");
+		_wordsLoaded.push(word);
+		wordsAdded++;
+
+		if (wordsAdded == 40) {
+			break; // Loads 40 words at a time (ends here on search)
 		}
-	});
+	}
 
-	DOM.menuButton.click(function() {
-		View.triggerMenu();
-	});
+	if (_wordsLoaded.length == _allWords.length) {
+		_loadingComplete = true;
+		document.querySelector(DOM.loading).classList.add("hidden");
+	}
 
-	DOM.menuItems.click(function() {
-		var targetPopup = $(this).attr("class");
-		View.triggerMenu();
-		View.showPopup(targetPopup);
-	});
-
-	DOM.chromeButton.click(function() {
-		window.location.href = "googlechrome://ordbok.joinmyblog.com";
-	});
-
-	DOM.contactButton.click(function() {
-		if (DOM.wordSuggestion.val()) {
-			Helpers.sendSuggestion();
-		}
-	});
-
-	DOM.shareMenuItem.click(function() {
-		Helpers.shareApp();
-	});
+	View.showChanges();
+	View.showChangesHACK(); // Doing this until most users have a locally stored copy of the words
 }
 
-// ******************************************************
-// Helpers: Prepare download
-// ******************************************************
+View.appendWord = function(number, title, definition) {
+	GlobalHelpers.append(DOM.dictionary, "div", title, 'word_' + number);
+	GlobalHelpers.append(DOM.definitions, "div", '<div class="popupContent"><b>' + title + '</b><br>' + definition + '</div>', ['popup', 'definition', 'hidden', 'word_' + number]);
+}
 
-Helpers.prepareDownload = function() {
-	if (Helpers.isStandalone()) {
-		DOM.downloadMenuItem.hide();
+View.showChanges = function() {
+	if (localStorage.getItem("storedWordsLifespan") == null) {
 		return;
 	}
+
+	var storedWordsLifespan = parseInt(localStorage.getItem("storedWordsLifespan"));
+
+	if (storedWordsLifespan == 0) {
+		localStorage.removeItem("storedWordsLifespan");
+		localStorage.setItem("storedWords", JSON.stringify(_allWords));
+		return;
+	}
+
+	var storedWords = JSON.parse(localStorage.getItem("storedWords"));
+
+	var wordFound = false;
+	var definitionFound = false;
+
+	for (let [i, loadedWord] of _wordsLoaded.entries()) {
+		var title = loadedWord.Title;
+		var definition = loadedWord.Definition;
+
+		for (let storedWord of storedWords) {
+			var storedTitle = storedWord.Title;
+			var storedDefinition = storedWord.Definition;
+
+			if (storedTitle.toLowerCase() == title.toLowerCase()) {
+				wordFound = true;
+			}
+
+			if (storedDefinition.toLowerCase() == definition.toLowerCase()) {
+				definitionFound = true;
+			}
+		}
+
+		if (!wordFound || !definitionFound) {
+			document.querySelector(".word_" + i).classList.add("updated");
+		}
+
+		wordFound = false;
+		definitionFound = false;
+	}
+}
+
+View.showChangesHACK = function() {
+	for (let [i, loadedWord] of _wordsLoaded.entries()) {
+		if (loadedWord.Updated) {
+			document.querySelector(".word_" + i).classList.add("updated");
+		}
+	}
+}
+
+View.togglePopup = function(targetSelector) {
+	GlobalHelpers.toggleClass("body", "noOverflow"); // Have no effect on iOS
+	GlobalHelpers.toggleClass(targetSelector, "hidden");
+}
+
+View.toggleMenu = function() {
+	GlobalHelpers.toggleClass(DOM.menuButton, "isOpen");
+	GlobalHelpers.toggleClass("#openMenu", "hidden");
+	GlobalHelpers.toggleClass("#closeMenu", "hidden");
+	View.togglePopup(DOM.menu);
+}
+
+View.showTip = function(title, text) {
+	var infoTip = document.querySelector(DOM.infoTip);
+	infoTip.innerHTML = text;
+
+	setTimeout(function() {
+		GlobalHelpers.toggleSlide(infoTip, 0, 5, 4000);
+	}, 4000);
+
+	localStorage.setItem(title, true);
+}
+
+View.prepareDownload = function() {
+	if (GlobalHelpers.isStandalone()) {
+		GlobalHelpers.toggleClass(DOM.downloadMenuItem, "hidden");
+		return;
+	}
+
+	var androidChromeInfo = "#androidChrome";
+	var androidOtherInfo = "#androidOther";
+	var iosChromeInfo = "#iosChrome";
+	var iosInfo = "#ios";
+	var telegramInfo = "#telegram";
 
 	var iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
 
 	if (iOS) {
-		DOM.downloadPopup.find(".ios").show();
-		DOM.downloadPopup.find(".telegram").show();
-		var isIOSChrome = navigator.userAgent.match("CriOS");
+		GlobalHelpers.toggleClass(iosInfo, "hidden");
+		GlobalHelpers.toggleClass(telegramInfo, "hidden");
 
-		if (isIOSChrome) {
-			DOM.downloadPopup.find(".iosChrome").show();
-			DOM.downloadPopup.find(".telegram").hide();
+		var iOSChrome = navigator.userAgent.match("CriOS");
+
+		if (iOSChrome) {
+			GlobalHelpers.toggleClass(iosChromeInfo, "hidden");
+			GlobalHelpers.toggleClass(telegramInfo, "hidden");
 		}
 
 		return;
 	}
 
-	var isChrome = navigator.userAgent.match("Chrome");
+	var androidChrome = navigator.userAgent.match("Chrome");
 
-	if (!isChrome) {
-		DOM.downloadPopup.find(".androidOther").show();
-		DOM.chromeButton.show();
+	if (!androidChrome) {
+		GlobalHelpers.toggleClass(androidOtherInfo, "hidden");
+		GlobalHelpers.toggleClass(DOM.chromeButton, "hidden");
 		return;
 	}
 
-	DOM.downloadPopup.find(".androidChrome").show();
+	GlobalHelpers.toggleClass(androidChromeInfo, "hidden");
 }
 
 // ******************************************************
-// Helpers: Is standalone (launched from home screen)
+// Helpers
 // ******************************************************
 
-Helpers.isStandalone = function() {
-	if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone == true) {
-		return true;
+Helpers.getWords = function(callback, searchTerm) {
+	var request = new XMLHttpRequest();
+	request.open('GET', '/resources/data/words.json');
+
+	request.onload = function() {
+		if (request.status >= 200 && request.status < 400) {
+			var data = JSON.parse(request.responseText);
+			callback(data, searchTerm);
+		} else {
+			alert("Noe gikk galt: Kunne ikke laste ord");
+		}
 	}
 
-	return false;
+	request.onerror = function() {
+		alert("Noe gikk galt: Kunne ikke laste ord");
+	}
+
+	request.send();
 }
 
-// ******************************************************
-// Helpers: Sort words
-// ******************************************************
-
 Helpers.sortWords = function(words) {
-	var sortedWords = words.sort(function(a, b) {
-		var titleA = a.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz"); // Unicode sorting (room for improvement)
+	var sortedWords = words.sort((a, b) => { // Unicode sorting (room for improvement)
+		var titleA = a.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
 		var titleB = b.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
 
 		return titleA.localeCompare(titleB);
@@ -371,52 +262,41 @@ Helpers.sortWords = function(words) {
 	return sortedWords;
 }
 
-// ******************************************************
-// Helpers: Send suggestion
-// ******************************************************
-
 Helpers.sendSuggestion = function() {
-	var message = DOM.wordSuggestion.val();
+	var wordSuggestion = document.querySelector("#wordSuggestion");
+	var textSuggestion = document.querySelector("#textSuggestion");
 
-	if (DOM.textSuggestion.val()) {
-		message += ": " + DOM.textSuggestion.val();
+	if (!wordSuggestion.value) {
+		return;
 	}
 
-	$.ajax({
-		type: "post",
-		url: "/resources/php/sendMail.php",
-		data: { subject: "Ordboka: Nytt forslag", message: message }
-	}).done(function(data) {
-		View.hidePopups();
-		DOM.wordSuggestion.val("");
-		DOM.textSuggestion.val("");
-		View.showPopup("suggestionSent");
-	}).fail(function() {
+	var message = wordSuggestion.value;
+
+	if (textSuggestion.value) {
+		message += ": " + textSuggestion.value;
+	}
+
+	var request = new XMLHttpRequest();
+	var data = "?subject=Ordboka: Nytt forslag&message=" + message;
+	request.open('GET', '/resources/php/sendMail.php' + data);
+
+	request.onload = function() {
+		if (request.status >= 200 && request.status < 400) {
+			View.togglePopup(DOM.contactPopup);
+			View.togglePopup(DOM.suggestionSentPopup);
+			wordSuggestion.value = "";
+			textSuggestion.value = "";
+		} else {
+			alert("Noe gikk galt: Kunne ikke sende forslag. Sjekk at du er koblet til nettet.");
+		}
+	}
+
+	request.onerror = function() {
 		alert("Noe gikk galt: Kunne ikke sende forslag. Sjekk at du er koblet til nettet.");
-	});
-}
-
-// ******************************************************
-// Helpers: Share app
-// ******************************************************
-
-Helpers.shareApp = function() {
-	var link = window.location.href.replace(/\/$/, ""); // Removes trailing slash
-
-	if (navigator.share) {
-		navigator.share({
-			title: "Ordboka",
-			text: "Er det mange vanskelige ord i menigheten? Finn forklaringene her!",
-			url: link
-		});
-
-		View.hidePopups(); // Share-popup will only show if navigator.share is not supported
 	}
-}
 
-// ******************************************************
-// Helpers: Get statistics
-// ******************************************************
+	request.send();
+}
 
 Helpers.getStatistics = function(wordClicked) {
 	if (!localStorage.getItem("userID")) {
@@ -432,15 +312,119 @@ Helpers.getStatistics = function(wordClicked) {
 	var d = new Date();
 	var utcDateTime = (d.getUTCMonth() + 1) + "/" + d.getUTCDate() + "/" + d.getUTCFullYear() + " " + d.getUTCHours() + ":" + d.getUTCMinutes() + ":" + d.getUTCSeconds();
 
-	var newStats = { word: wordClicked, userID: localStorage.getItem("userID"), utcDateTime: utcDateTime, isStandalone: Helpers.isStandalone() };
+	var newStats = { word: wordClicked, userID: localStorage.getItem("userID"), utcDateTime: utcDateTime, isStandalone: GlobalHelpers.isStandalone() };
 
-	$.ajax({
-		type: "post",
-		url: "/resources/php/updateStats.php",
-		data: { newStats: JSON.stringify(newStats) },
-		error: function(data) {
-			console.log("Noe gikk galt: Kunne ikke oppdatere statistikk");
+	var request = new XMLHttpRequest();
+	var data = "?newStats=" + JSON.stringify(newStats);
+	request.open('GET', '/resources/php/updateStats.php' + data);
+
+	request.onerror = function() {
+		console.log("Noe gikk galt: Kunne ikke oppdatere statistikk");
+	}
+
+	request.send();
+}
+
+// ******************************************************
+// Smart loading
+// ******************************************************
+
+Helpers.smartLoading = function() {
+	setInterval(function() { // Uses setInterval due to bad scroll detection on iOS
+		if (_loadingComplete || _isSearching) {
+			return;
 		}
+
+		document.querySelector(DOM.loading).classList.remove("hidden");
+
+		var distanceFromBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
+
+		if (distanceFromBottom < 500) {
+			View.loadWords();
+		}
+	}, 500);
+}
+
+// ******************************************************
+// Events
+// ******************************************************
+
+document.addEventListener("click", function(e) {
+	if (!document.body.contains(e.target)) {
+		return;
+	}
+
+	if (e.target.matches(DOM.startButton)) {
+		Helpers.getStatistics();
+	}
+
+	if (e.target.matches(DOM.updateButton)) {
+		localStorage.setItem("storedWordsLifespan", 5); // Decreases on page load
+		window.location.reload();
+	}
+
+	if (e.target.matches(DOM.search)) {
+		if (e.target.value) {
+			e.target.value = "";
+			View.reloadDictionary();
+		}
+	}
+
+	if (e.target.parentNode.matches(DOM.dictionary)) {
+		var wordID = e.target.classList[0];
+		View.togglePopup(DOM.definitionPopups + "." + wordID);
+		GlobalHelpers.toggleClass(DOM.closeTip, "hidden");
+		Helpers.getStatistics(e.target.innerHTML);
+	}
+
+	if (e.target.parentNode.matches(DOM.definitions)) {
+		View.togglePopup(GlobalHelpers.getClassSelector(e.target));
+		GlobalHelpers.toggleClass(DOM.closeTip, "hidden");
+	}
+
+	if (e.target.matches(DOM.menuButton) || e.target.parentNode.matches(DOM.menuButton)) {
+		View.toggleMenu();
+	}
+
+	if (e.target.parentNode.parentNode.matches(DOM.menu)) {
+		View.toggleMenu();
+		View.togglePopup("#" + e.target.dataset.popupId);
+	}
+
+	if (e.target.matches(DOM.closeButtons)) {
+		View.togglePopup("#" + e.target.parentNode.parentNode.id);
+	}
+
+	if (e.target.matches(DOM.contactButton)) {
+		Helpers.sendSuggestion();
+	}
+
+	if (e.target.matches(DOM.shareMenuItem)) {
+		if (GlobalHelpers.shareApp("Ordboka", "Er det mange vanskelige ord i menigheten? Finn forklaringene her!")) {
+			View.togglePopup(DOM.sharePopup); // Share-popup will only show if navigator.share is not supported
+		}
+	}
+
+	if (e.target.matches(DOM.chromeButton)) {
+		var link = window.location.href.replace("http://", "");
+		window.location.href = "googlechrome://" + link;
+	}
+});
+
+document.querySelector(DOM.search).onkeyup = function(e) {
+	var searchTerm = e.target.value.toLowerCase();
+	View.reloadDictionary(searchTerm);
+}
+
+// ******************************************************
+// Service worker
+// ******************************************************
+
+if ("serviceWorker" in navigator) {
+	navigator.serviceWorker.register("/service-worker.js");
+
+	navigator.serviceWorker.addEventListener("controllerchange", function() {
+		View.togglePopup(DOM.updatePopup);
 	});
 }
 
@@ -448,17 +432,19 @@ Helpers.getStatistics = function(wordClicked) {
 // Init app
 // ******************************************************
 
-View.cacheDom();
-Events.bindEvents();
-Core.getWords(View.loadWords);
-Helpers.prepareDownload();
+Helpers.getWords(View.loadDictionary);
+View.prepareDownload();
+
+if (localStorage.getItem("storedWordsLifespan")) {
+	localStorage.setItem("storedWordsLifespan", parseInt(localStorage.getItem("storedWordsLifespan")) - 1);
+}
 
 if (!localStorage.getItem("userID")) {
-	View.showPopup("welcome");
+	View.togglePopup(DOM.welcomePopup);
 } else {
 	if (!localStorage.getItem("definitionTip")) {
 		View.showTip("definitionTip", "Tips: Les om hvordan vi definerer ord i menyen");
-	} else if (!localStorage.getItem("appTip") && !Helpers.isStandalone()) {
+	} else if (!localStorage.getItem("appTip") && !GlobalHelpers.isStandalone()) {
 		View.showTip("appTip", "Tips: Du kan lagre ordboka som en app via menyen");
 	}
 }

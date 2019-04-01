@@ -1,4 +1,4 @@
-var appVersion = '2.0';
+var appVersion = '3.0';
 var cacheObject = 'ordbok-' + appVersion;
 
 self.addEventListener('install', function(event) {
@@ -9,15 +9,17 @@ self.addEventListener('install', function(event) {
 				'/',
 				'/favicon.png',
 				'/resources/css/app.css',
+				'/resources/css/responsive.css',
 				'/resources/data/words.json',
 				'/resources/images/apple-touch-icon.png',
+				'/resources/images/bars.svg',
 				'/resources/images/icon-192.png',
 				'/resources/images/icon-512.png',
 				'/resources/images/ios-add-home-screen.png',
 				'/resources/images/loading.svg',
+				'/resources/images/times.svg',
 				'/resources/js/app.js',
-				'/vendors/jquery-3.3.1.min.js',
-				'/vendors/underscore-min.js'
+				'/resources/js/helpers.js'
 			]);
 		})
 	);

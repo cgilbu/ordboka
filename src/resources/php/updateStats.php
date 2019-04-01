@@ -1,6 +1,6 @@
 <?php
 
-if (empty($_POST['newStats'])) {
+if (empty($_GET['newStats'])) {
 	header("HTTP/1.1 500 Internal Server Error");
 	exit();
 }
@@ -9,9 +9,9 @@ $statsFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.php';
 $newStats = "";
 
 if (filesize($statsFile) > 1) {
-	$newStats = ',' . $_POST['newStats'];
+	$newStats = ',' . $_GET['newStats'];
 } else {
-	$newStats = $_POST['newStats'];
+	$newStats = $_GET['newStats'];
 }
 
 $write = file_put_contents($statsFile, $newStats.PHP_EOL, FILE_APPEND | LOCK_EX);

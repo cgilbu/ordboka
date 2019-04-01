@@ -1,1082 +1,951 @@
 [
 	{
 		"Title": "Barmhjertig",
-		"Definition": "Stor lyst til å være hjelpende, vennlig og god mot andre, selv om de kanskje ikke fortjener det",
-		"Updated": false
+		"Definition": "Stor lyst til å være hjelpende, vennlig og god mot andre, selv om de kanskje ikke fortjener det"
 	},
 	{
 		"Title": "Barnekår",
-		"Definition": "Ha de samme gode mulighetene og betingelsene som et barn har",
-		"Updated": false
+		"Definition": "Ha de samme gode mulighetene og betingelsene som et barn har"
 	},
 	{
 		"Title": "Blygsel",
-		"Definition": "Føle seg sjenert, skamfull og naken",
-		"Updated": false
+		"Definition": "Føle seg sjenert, skamfull og naken"
 	},
 	{
 		"Title": "Enfoldig",
-		"Definition": "Tenke enkelt om ting og være ærlig. Kan noen ganger (ikke vanligvis) bety at en er dum.",
-		"Updated": false
+		"Definition": "Tenke enkelt om ting og være ærlig. Kan noen ganger (ikke vanligvis) bety at en er dum."
 	},
 	{
 		"Title": "Ettergiven",
-		"Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en god måte (kan være dumt å være altfor ettergivende).",
-		"Updated": false
+		"Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en god måte (kan være dumt å være altfor ettergivende)."
 	},
 	{
 		"Title": "Formynder",
-		"Definition": "En som passer på, hjelper og tar personlige bestemmelser for noen som ikke er klare for å gjøre det selv",
-		"Updated": false
+		"Definition": "En som passer på, hjelper og tar personlige bestemmelser for noen som ikke er klare for å gjøre det selv"
 	},
 	{
 		"Title": "Førstegrøde",
-		"Definition": "Det første (og vanligvis beste) kornet som høstes inn fra åkeren. Kan også bety det første resultatet av noe.",
-		"Updated": false
+		"Definition": "Det første (og vanligvis beste) kornet som høstes inn fra åkeren. Kan også bety det første resultatet av noe."
 	},
 	{
 		"Title": "Gagnlig",
-		"Definition": "Noe som hjelper og er til nytte",
-		"Updated": false
+		"Definition": "Noe som hjelper og er til nytte"
 	},
 	{
 		"Title": "Husvalelse",
-		"Definition": "Glede, trøst, hjelp og lettelse",
-		"Updated": false
+		"Definition": "Glede, trøst, hjelp og lettelse"
 	},
 	{
 		"Title": "Især",
-		"Definition": "Særlig, spesielt eller først og fremst. \"Hver især\" kan også bety \"hver for seg\".",
-		"Updated": false
+		"Definition": "Særlig, spesielt eller først og fremst. \"Hver især\" kan også bety \"hver for seg\"."
 	},
 	{
 		"Title": "Kiv",
-		"Definition": "Krangel",
-		"Updated": false
+		"Definition": "Krangel"
 	},
 	{
 		"Title": "Kjød",
-		"Definition": "Den medfødte delen av et menneske som ønsker å gjøre det motsatte av det Gud vil. Kan også bety kroppen til et menneske. En må se det utifra sammenhengen. I det gamle testamentet betyr kjød ofte bare kropp.",
-		"Updated": true
+		"Definition": "Den medfødte delen av et menneske som ønsker å gjøre det motsatte av det Gud vil. Kan også bety kroppen til et menneske. En må se det utifra sammenhengen. I det gamle testamentet betyr kjød ofte bare kropp."
 	},
 	{
 		"Title": "Kjødelig",
-		"Definition": "Leve etter kroppens instinkter, følelser og tanker, uten å ha kontakt med Gud",
-		"Updated": false
+		"Definition": "Leve etter kroppens instinkter, følelser og tanker, uten å ha kontakt med Gud"
 	},
 	{
 		"Title": "Klædebon",
-		"Definition": "Klær eller klesplagg",
-		"Updated": false
+		"Definition": "Klær eller klesplagg"
 	},
 	{
 		"Title": "Langmodig",
-		"Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge og være tålmodig og tilgivende.",
-		"Updated": false
+		"Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge og være tålmodig og tilgivende."
 	},
 	{
 		"Title": "Legeme",
-		"Definition": "Kroppen til et menneske, uten tanker og indre følelser",
-		"Updated": false
+		"Definition": "Kroppen til et menneske, uten tanker og indre følelser"
 	},
 	{
 		"Title": "Miskunn",
-		"Definition": "Hjelp, nåde og godhet",
-		"Updated": false
+		"Definition": "Hjelp, nåde og godhet"
 	},
 	{
 		"Title": "Nidkjær",
-		"Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke. Kan noen ganger (ikke vanligvis) bety veldig streng og rettferdig.",
-		"Updated": false
+		"Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke. Kan noen ganger (ikke vanligvis) bety veldig streng og rettferdig."
 	},
 	{
 		"Title": "Nåde",
-		"Definition": "Få lov til å få hjelp og beskyttelse når du har problemer, ofte på en god og vennlig måte, fra noen som er større og mektigere enn deg",
-		"Updated": false
+		"Definition": "Få lov til å få hjelp og beskyttelse når du har problemer, ofte på en god og vennlig måte, fra noen som er større og mektigere enn deg"
 	},
 	{
 		"Title": "Oppriktig",
-		"Definition": "Ekte, åpen og ærlig",
-		"Updated": false
+		"Definition": "Ekte, åpen og ærlig"
 	},
 	{
 		"Title": "Overtredelse",
-		"Definition": "Lovbrudd. Gjøre noe galt.",
-		"Updated": false
+		"Definition": "Lovbrudd. Gjøre noe galt."
 	},
 	{
 		"Title": "Overvettes",
-		"Definition": "Uvanlig eller svært mye",
-		"Updated": false
+		"Definition": "Uvanlig eller svært mye"
 	},
 	{
 		"Title": "Redebonhet",
-		"Definition": "Lyst til å hjelpe andre",
-		"Updated": false
+		"Definition": "Lyst til å hjelpe andre"
 	},
 	{
 		"Title": "Ryggesløs",
-		"Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva en vil.",
-		"Updated": false
+		"Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva en vil."
 	},
 	{
 		"Title": "Saktmodig",
-		"Definition": "Stille og fredelig, selv om andre kanskje behandler en slemt og urettferdig",
-		"Updated": false
+		"Definition": "Stille og fredelig, selv om andre kanskje behandler en slemt og urettferdig"
 	},
 	{
 		"Title": "Sjel",
-		"Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger ligne på ånd.",
-		"Updated": false
+		"Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger ligne på ånd. <i>Kommentar: Alle mennesker har en ånd (som ikke er av denne verdenen) i tillegg til en sjel. Disse to må ikke forveksles.</i>",
+		"Updated": true
 	},
 	{
 		"Title": "Skussmål",
-		"Definition": "Hva noen har sagt eller skrevet om deg og det du har gjort. Ligner på vitnemål eller attest.",
-		"Updated": false
+		"Definition": "Hva noen har sagt eller skrevet om deg og det du har gjort. Ligner på vitnemål eller attest."
 	},
 	{
 		"Title": "Stadfeste",
-		"Definition": "Bekrefte på en skikkelig måte. Slå noe fast (ikke fysisk).",
-		"Updated": false
+		"Definition": "Bekrefte på en skikkelig måte. Slå noe fast (ikke fysisk)."
 	},
 	{
 		"Title": "Synd",
-		"Definition": "Noe som Gud har sagt at menneskene ikke skal gjøre eller tenke",
-		"Updated": false
+		"Definition": "Noe som Gud har sagt at menneskene ikke skal gjøre eller tenke"
 	},
 	{
 		"Title": "Sømmelig",
-		"Definition": "God folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg.",
-		"Updated": false
+		"Definition": "God folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg."
 	},
 	{
 		"Title": "Sønderbryte",
-		"Definition": "Knuse eller slå i stykker",
-		"Updated": false
+		"Definition": "Knuse eller slå i stykker"
 	},
 	{
 		"Title": "Tilbøyelig",
-		"Definition": "Ha lett for å gjøre noe, ofte noe dumt",
-		"Updated": false
+		"Definition": "Ha lett for å gjøre noe, ofte noe dumt"
 	},
 	{
 		"Title": "Tukt",
-		"Definition": "Streng oppdragelse som er hjelpende, nødvendig og positiv",
-		"Updated": false
+		"Definition": "Streng oppdragelse som er hjelpende, nødvendig og positiv"
 	},
 	{
 		"Title": "Uforgjengelig",
-		"Definition": "Blir aldri borte. Kommer alltid til å finnes.",
-		"Updated": false
+		"Definition": "Blir aldri borte. Kommer alltid til å finnes."
 	},
 	{
 		"Title": "Ulastelig",
-		"Definition": "Helt uten feil, slik at ingen kan klage på at en har gjort noe galt",
-		"Updated": false
+		"Definition": "Helt uten feil, slik at ingen kan klage på at en har gjort noe galt"
 	},
 	{
 		"Title": "Vanskjøtt",
-		"Definition": "Behandlet dårlig. Omsorgssvikt.",
-		"Updated": false
+		"Definition": "Behandlet dårlig. Omsorgssvikt."
 	},
 	{
 		"Title": "Vitterlig",
-		"Definition": "Kjent og åpenbart",
-		"Updated": false
+		"Definition": "Kjent og åpenbart"
 	},
 	{
 		"Title": "Vrede",
-		"Definition": "Sinne. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt.",
-		"Updated": false
+		"Definition": "Sinne. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt."
 	},
 	{
 		"Title": "Vantro",
-		"Definition": "Tvil. Skepsis. Mangel på overbevisning og tro.",
-		"Updated": false
+		"Definition": "Tvil. Skepsis. Mangel på overbevisning og tro."
 	},
 	{
 		"Title": "Fortapelse",
-		"Definition": "Tape. Gå til grunne. Miste retten sin. Gå glipp av noe. Miste håpet.",
-		"Updated": false
+		"Definition": "Tape. Gå til grunne. Miste retten sin. Gå glipp av noe. Miste håpet."
 	},
 	{
 		"Title": "Salig",
-		"Definition": "Utrolig glad og 100% lykkelig inni seg",
-		"Updated": false
+		"Definition": "Utrolig glad og 100% lykkelig inni seg"
 	},
 	{
 		"Title": "Gavmild",
-		"Definition": "Ofte gi gaver til andre fordi en har lyst",
-		"Updated": false
+		"Definition": "Ofte gi gaver til andre fordi en har lyst"
 	},
 	{
 		"Title": "Innvortes",
-		"Definition": "Innsiden av kroppen, enten fysisk eller i tankene",
-		"Updated": false
+		"Definition": "Innsiden av kroppen, enten fysisk eller i tankene"
 	},
 	{
 		"Title": "Surdeig",
-		"Definition": "Sterkt gjæret deig med sur lukt og smak. Gammel og verdiløs tradisjon for å lage mat.",
-		"Updated": false
+		"Definition": "Sterkt gjæret deig med sur lukt og smak. Gammel og verdiløs tradisjon for å lage mat."
 	},
 	{
 		"Title": "Fariseer",
-		"Definition": "En jøde som følger Moseloven veldig nøye, og som kanskje ser bra ut på utsiden (god oppførsel), men som lever et dårlig liv på innsiden - i tankene og når ingen ser",
-		"Updated": false
+		"Definition": "En jøde som følger Moseloven veldig nøye, og som kanskje ser bra ut på utsiden (god oppførsel), men som lever et dårlig liv på innsiden - i tankene og når ingen ser"
 	},
 	{
 		"Title": "Gi akt på",
-		"Definition": "Følge med og vise oppmerksomhet",
-		"Updated": false
+		"Definition": "Følge med og vise oppmerksomhet"
 	},
 	{
 		"Title": "Lefle",
-		"Definition": "Ikke tenke seg om. Ikke ta ting seriøst. Være overfladisk. Ikke tenke konsekvenser.",
-		"Updated": false
+		"Definition": "Ikke tenke seg om. Ikke ta ting seriøst. Være overfladisk. Ikke tenke konsekvenser."
 	},
 	{
 		"Title": "Skjøge",
-		"Definition": "En prostituert, eller en som er utro i ekteskapet",
-		"Updated": false
+		"Definition": "En prostituert, eller en som er utro i ekteskapet"
 	},
 	{
 		"Title": "Vederkvegelse",
-		"Definition": "Noe som fornyer, forfrisker, styrker, oppmuntrer, gleder og trøster",
-		"Updated": false
+		"Definition": "Noe som fornyer, forfrisker, styrker, oppmuntrer, gleder og trøster"
 	},
 	{
 		"Title": "Avind",
-		"Definition": "Veldig sterk misunnelse, nesten som hat, ofte rettet mot andre sine evner, status eller ting",
-		"Updated": false
+		"Definition": "Veldig sterk misunnelse, nesten som hat, ofte rettet mot andre sine evner, status eller ting"
 	},
 	{
 		"Title": "Begjær",
-		"Definition": "Sterk lengsel eller trang. Kan være både positivt eller negativt utifra sammenhengen. Kan noen ganger bety sterk seksuell lengsel eller tiltrekning.",
-		"Updated": false
+		"Definition": "Sterk lengsel eller trang. Kan være både positivt eller negativt utifra sammenhengen. Kan noen ganger bety sterk seksuell lengsel eller tiltrekning."
 	},
 	{
 		"Title": "Grunne",
-		"Definition": "Tenke dypt og lenge på noe",
-		"Updated": false
+		"Definition": "Tenke dypt og lenge på noe"
 	},
 	{
 		"Title": "Ånd",
-		"Definition": "Brukes ofte om flere ting. Først og fremst overnaturlig vesen eller kraft. Deretter sjelen og det indre mennesket. Kan noen ganger også bety sinnelag, innstilling eller tankesett.",
-		"Updated": false
+		"Definition": "Brukes ofte om flere ting. Først og fremst overnaturlig vesen eller kraft (spesielt i menigheten). Deretter sjelen og det indre mennesket. Kan noen ganger også bety sinnelag, innstilling eller tankesett. <i>Kommentar: Alle mennesker har en ånd (som ikke er av denne verdenen) i tillegg til en sjel. Disse to må ikke forveksles.</i>",
+		"Updated": true
 	},
 	{
 		"Title": "Gudsfrykt",
-		"Definition": "Frykte Gud. <i>Kommentar: Betyr mye mer i menigheten, som f.eks. å ha respekt og kjærlighet til Gud, og være redd for å svikte ham.</i>",
-		"Updated": false
+		"Definition": "Frykte Gud. <i>Kommentar: Betyr mye mer i menigheten, som f.eks. å ha respekt og kjærlighet til Gud, og være redd for å svikte ham.</i>"
 	},
 	{
 		"Title": "Higen",
-		"Definition": "Lengsel",
-		"Updated": false
+		"Definition": "Lengsel"
 	},
 	{
 		"Title": "Utukt",
-		"Definition": "Seksuell handling som går imot Guds lover og bud, eller som er umoralsk og usømmelig",
-		"Updated": false
+		"Definition": "Seksuell handling som går imot Guds lover og bud, eller som er umoralsk og usømmelig"
 	},
 	{
 		"Title": "Nøysom",
-		"Definition": "Klarer seg fint med det en har",
-		"Updated": false
+		"Definition": "Klarer seg fint med det en har"
 	},
 	{
 		"Title": "Formaning",
-		"Definition": "Sterk positiv oppmuntring til å gjøre noe",
-		"Updated": false
+		"Definition": "Sterk positiv oppmuntring til å gjøre noe"
 	},
 	{
 		"Title": "Refse",
-		"Definition": "Snakke strengt eller straffe",
-		"Updated": false
+		"Definition": "Snakke strengt eller straffe"
 	},
 	{
 		"Title": "Helliggjørelse",
-		"Definition": "Bli mer hellig, ren og rettferdig",
-		"Updated": false
+		"Definition": "Bli mer hellig, ren og rettferdig"
 	},
 	{
 		"Title": "Kolossalt",
-		"Definition": "Kjempestort, gigantisk eller veldig",
-		"Updated": false
+		"Definition": "Kjempestort, gigantisk eller veldig"
 	},
 	{
 		"Title": "Hvorledes",
-		"Definition": "Hvordan",
-		"Updated": false
+		"Definition": "Hvordan"
 	},
 	{
 		"Title": "Løseord",
-		"Definition": "Ord som løser opp vanskeligheter og setter deg fri. <i>Kommentar: Definisjonen mangler i norske ordbøker.</i>",
-		"Updated": false
+		"Definition": "Ord som løser opp vanskeligheter og setter deg fri. <i>Kommentar: Definisjonen mangler i norske ordbøker.</i>"
 	},
 	{
 		"Title": "Fredsommelig",
-		"Definition": "Lyst til å ha fred og ro rundt seg og med andre mennesker",
-		"Updated": false
+		"Definition": "Lyst til å ha fred og ro rundt seg og med andre mennesker"
 	},
 	{
 		"Title": "Rimelig",
-		"Definition": "Ikke lage vanskeligheter. Behandle andre på en smart måte. Være lett å samarbeide med.",
-		"Updated": false
+		"Definition": "Ikke lage vanskeligheter. Behandle andre på en smart måte. Være lett å samarbeide med."
 	},
 	{
 		"Title": "Skrømt",
-		"Definition": "Noe som ikke er ekte",
-		"Updated": false
+		"Definition": "Noe som ikke er ekte"
 	},
 	{
 		"Title": "Fåfengt",
-		"Definition": "Nytter ikke. Er ikke vits.",
-		"Updated": false
+		"Definition": "Nytter ikke. Er ikke vits."
 	},
 	{
 		"Title": "Hykleri",
-		"Definition": "Late som en er noe en ikke er",
-		"Updated": false
+		"Definition": "Late som en er noe en ikke er"
 	},
 	{
 		"Title": "Eder eller I",
-		"Definition": "Dere",
-		"Updated": false
+		"Definition": "Dere"
 	},
 	{
 		"Title": "Uselvisk",
-		"Definition": "Ikke egoistisk. Tenker på andre sitt beste.",
-		"Updated": false
+		"Definition": "Ikke egoistisk. Tenker på andre sitt beste."
 	},
 	{
 		"Title": "Fortære",
-		"Definition": "Spise eller ødelegge",
-		"Updated": false
+		"Definition": "Spise eller ødelegge"
 	},
 	{
 		"Title": "Fullende",
-		"Definition": "Avslutte noe så det blir helt ferdig",
-		"Updated": false
+		"Definition": "Avslutte noe så det blir helt ferdig"
 	},
 	{
 		"Title": "Radikal",
-		"Definition": "Ekstremt ivrig til å gjøre noe raskt og skikkelig",
-		"Updated": false
+		"Definition": "Ekstremt ivrig til å gjøre noe raskt og skikkelig"
 	},
 	{
 		"Title": "Religiøs",
-		"Definition": "Tror på noe overnaturlig (noe som ikke kan bevises med vitenskap), som for eksempel Gud. <i>Kommentar: Brukes ofte i menigheten om kristne som ikke vil tro på seier over synd.</i>",
-		"Updated": false
+		"Definition": "Tror på noe overnaturlig (noe som ikke kan bevises med vitenskap), som for eksempel Gud. <i>Kommentar: Brukes ofte i menigheten om kristne som tror på en løgn (typisk Jesus uten seier over synd).</i>",
+		"Updated": true
 	},
 	{
 		"Title": "Fornekte",
-		"Definition": "Nekte å kjenne eller ha forbindelse med noe eller noen. Kan også bety å tvinge seg selv til å ikke gjøre det en egentlig har lyst til.",
-		"Updated": false
+		"Definition": "Nekte å kjenne eller ha forbindelse med noe eller noen. Kan også bety å tvinge seg selv til å ikke gjøre det en egentlig har lyst til."
 	},
 	{
 		"Title": "Verdslig",
-		"Definition": "Er ikke kristen og tenker bare på tingene og menneskene i verden, uten å ha forbindelse med Gud",
-		"Updated": false
+		"Definition": "Er ikke kristen og tenker bare på tingene og menneskene i verden, uten å ha forbindelse med Gud"
 	},
 	{
 		"Title": "Utrette",
-		"Definition": "Gjøre noe, eller bli ferdig med noe",
-		"Updated": false
+		"Definition": "Gjøre noe, eller bli ferdig med noe"
 	},
 	{
 		"Title": "Helhjertet",
-		"Definition": "Gjøre noe 100% uten å tvile",
-		"Updated": false
+		"Definition": "Gjøre noe 100% uten å tvile"
 	},
 	{
 		"Title": "Dårskap",
-		"Definition": "Dumhet",
-		"Updated": false
+		"Definition": "Dumhet"
 	},
 	{
 		"Title": "Skikk",
-		"Definition": "Sånn en ønsker at ting skal være. Orden og riktighet. Kan også bety tradisjon, eller noe en vanligvis gjør.",
-		"Updated": false
+		"Definition": "Sånn en ønsker at ting skal være. Orden og riktighet. Kan også bety tradisjon, eller noe en vanligvis gjør."
 	},
 	{
 		"Title": "Natur",
-		"Definition": "Medfødt egenskap. For eksempel \"han er nøye av natur\".",
-		"Updated": false
+		"Definition": "Medfødt egenskap. For eksempel \"han er nøye av natur\"."
 	},
 	{
 		"Title": "Berede",
-		"Definition": "Gjøre noe klart",
-		"Updated": false
+		"Definition": "Gjøre noe klart"
 	},
 	{
 		"Title": "Dyrebart",
-		"Definition": "Noe verdifullt som en setter stor pris på",
-		"Updated": false
+		"Definition": "Noe verdifullt som en setter stor pris på"
 	},
 	{
 		"Title": "Edel",
-		"Definition": "Fin eller spesielt bra. \"Være edel\" kan også bety å tenke fint om noe, og ikke være egoistisk.",
-		"Updated": false
+		"Definition": "Fin eller spesielt bra. \"Være edel\" kan også bety å tenke fint om noe, og ikke være egoistisk."
 	},
 	{
 		"Title": "Vitnesbyrd",
-		"Definition": "Kort tale eller beskjed om hvordan en har det",
-		"Updated": false
+		"Definition": "Kort tale eller beskjed om hvordan en har det"
 	},
 	{
 		"Title": "Hedning",
-		"Definition": "En som ikke er kristen fordi en bor et sted hvor kristendommen ikke har kommet enda. Vokser opp uten å høre eller lære om kristendom.",
-		"Updated": false
+		"Definition": "En som ikke er kristen fordi en bor et sted hvor kristendommen ikke har kommet enda. Vokser opp uten å høre eller lære om kristendom."
 	},
 	{
 		"Title": "Ydmyk",
-		"Definition": "Små tanker om seg selv. Er ikke overlegen. Tar hensyn til egne begrensninger. Viser respekt og er høflig. Kan også bety at en er lydig mot Gud.",
-		"Updated": false
+		"Definition": "Små tanker om seg selv. Er ikke overlegen. Tar hensyn til egne begrensninger. Viser respekt og er høflig. Kan også bety at en er lydig mot Gud."
 	},
 	{
 		"Title": "Hovmodig",
-		"Definition": "Overlegen. Tror at en er viktig og bedre enn andre.",
-		"Updated": false
+		"Definition": "Overlegen. Tror at en er viktig og bedre enn andre."
 	},
 	{
 		"Title": "From",
-		"Definition": "Brukes ofte om flere ting. Først og fremst at en er ekte og ærlig, uten skjulte baktanker. Kan også bety at en er religiøs og gudfryktig.",
-		"Updated": false
+		"Definition": "Brukes ofte om flere ting. Først og fremst at en er ekte og ærlig, uten skjulte baktanker. Kan også bety at en er religiøs og gudfryktig."
 	},
 	{
 		"Title": "Ta seg i vare",
-		"Definition": "Passe seg for",
-		"Updated": false
+		"Definition": "Passe seg for"
 	},
 	{
 		"Title": "Dyd",
-		"Definition": "Verdifull egenskap. For eksempel tålmodighet eller gavmildhet.",
-		"Updated": false
+		"Definition": "Verdifull egenskap. For eksempel tålmodighet eller gavmildhet."
 	},
 	{
 		"Title": "Tilgift",
-		"Definition": "Noe en får i tillegg til noe annet",
-		"Updated": false
+		"Definition": "Noe en får i tillegg til noe annet"
 	},
 	{
 		"Title": "Omsorg",
-		"Definition": "God og omtenksom hjelp",
-		"Updated": false
+		"Definition": "God og omtenksom hjelp"
 	},
 	{
 		"Title": "Fremstille",
-		"Definition": "Føre eller sette frem",
-		"Updated": false
+		"Definition": "Føre eller sette frem"
 	},
 	{
 		"Title": "Armod",
-		"Definition": "Stor fattigdom",
-		"Updated": false
+		"Definition": "Stor fattigdom"
 	},
 	{
 		"Title": "Ingenlunde",
-		"Definition": "Absolutt ikke",
-		"Updated": false
+		"Definition": "Absolutt ikke"
 	},
 	{
 		"Title": "Bluferdig",
-		"Definition": "Sømmelig, høflig og forsiktig. Ikke for raskt til å vise følelser. Kan også inkludere at en kler seg ordentlig og passende.",
-		"Updated": false
+		"Definition": "Sømmelig, høflig og forsiktig. Ikke for raskt til å vise følelser. Kan også inkludere at en kler seg ordentlig og passende."
 	},
 	{
 		"Title": "Tvette",
-		"Definition": "Vaske eller rense",
-		"Updated": false
+		"Definition": "Vaske eller rense"
 	},
 	{
 		"Title": "Grunnfeste",
-		"Definition": "Gjøre urokkelig og solid",
-		"Updated": false
+		"Definition": "Gjøre urokkelig og solid"
 	},
 	{
 		"Title": "Dyktiggjøre",
-		"Definition": "Gi nødvendig opplæring",
-		"Updated": false
+		"Definition": "Gi nødvendig opplæring"
 	},
 	{
 		"Title": "Sinnelag",
-		"Definition": "Hva en helt innerst inne egentlig vil som person. Hva en tenker og føler inni seg. <i>Kommentar: Kan også ha andre betydninger, men vi valgte å legge vekt på dette.</i>",
-		"Updated": false
+		"Definition": "Hva en helt innerst inne egentlig vil som person. Hva en tenker og føler inni seg. <i>Kommentar: Kan også ha andre betydninger, men vi valgte å legge vekt på dette.</i>"
 	},
 	{
 		"Title": "Just",
-		"Definition": "Nettopp, nøyaktig eller akkurat",
-		"Updated": false
+		"Definition": "Nettopp, nøyaktig eller akkurat"
 	},
 	{
 		"Title": "Attrå",
-		"Definition": "Sterk lengsel, ønske eller lyst, ofte etter å få eller klare noe",
-		"Updated": false
+		"Definition": "Sterk lengsel, ønske eller lyst, ofte etter å få eller klare noe"
 	},
 	{
 		"Title": "Forsagt",
-		"Definition": "Engstelig, beskjeden og redd",
-		"Updated": false
+		"Definition": "Engstelig, beskjeden og redd"
 	},
 	{
 		"Title": "Opphav",
-		"Definition": "Begynnelse. Hvor noe kommer fra.",
-		"Updated": false
+		"Definition": "Begynnelse. Hvor noe kommer fra."
 	},
 	{
 		"Title": "Helligdom",
-		"Definition": "Et hellig sted eller en hellig ting",
-		"Updated": false
+		"Definition": "Et hellig sted eller en hellig ting"
 	},
 	{
 		"Title": "Lærdom",
-		"Definition": "Kunnskap",
-		"Updated": false
+		"Definition": "Kunnskap"
 	},
 	{
 		"Title": "Anvende",
-		"Definition": "Bruke",
-		"Updated": false
+		"Definition": "Bruke"
 	},
 	{
 		"Title": "Påskynde",
-		"Definition": "Øke hastigheten, eller gjøre sånn at noe skjer tidligere enn planlagt",
-		"Updated": false
+		"Definition": "Øke hastigheten, eller gjøre sånn at noe skjer tidligere enn planlagt"
 	},
 	{
 		"Title": "Fremskynde",
-		"Definition": "Gjøre sånn at noe skjer tidligere enn planlagt",
-		"Updated": false
+		"Definition": "Gjøre sånn at noe skjer tidligere enn planlagt"
 	},
 	{
 		"Title": "Ledemot",
-		"Definition": "Kroppsdel eller ledd",
-		"Updated": false
+		"Definition": "Kroppsdel eller ledd"
 	},
 	{
 		"Title": "Tveegget",
-		"Definition": "Skarpt på begge sider",
-		"Updated": false
+		"Definition": "Skarpt på begge sider"
 	},
 	{
 		"Title": "Bitter",
-		"Definition": "Brukes ofte om flere ting. Enten å føle seg skuffet, krenket eller satt til side. Eller være hatende og hard, og ikke ville bli venner igjen. Eller noe som svir eller gjør vondt. Eller noe som smaker veldig sterkt.",
-		"Updated": false
+		"Definition": "Brukes ofte om flere ting. Enten på en negativ måte føle seg skuffet, krenket eller satt til side. Eller være hatende og hard, og ikke ville bli venner igjen. Eller noe som svir eller gjør vondt. Eller noe som smaker veldig sterkt.",
+		"Updated": true
 	},
 	{
 		"Title": "Således",
-		"Definition": "På den måten",
-		"Updated": false
+		"Definition": "På den måten"
 	},
 	{
 		"Title": "Sinn",
-		"Definition": "Tanker og følelser",
-		"Updated": false
+		"Definition": "Tanker og følelser"
 	},
 	{
 		"Title": "Åsyn",
-		"Definition": "Ansikt",
-		"Updated": false
+		"Definition": "Ansikt"
 	},
 	{
 		"Title": "Beve",
-		"Definition": "Skjelve",
-		"Updated": false
+		"Definition": "Skjelve"
 	},
 	{
 		"Title": "Lite på",
-		"Definition": "Stole på og trøste seg til",
-		"Updated": false
+		"Definition": "Stole på og trøste seg til"
 	},
 	{
 		"Title": "Fylde",
-		"Definition": "Rikelig, veldig mye eller masse",
-		"Updated": false
+		"Definition": "Rikelig, veldig mye eller masse"
 	},
 	{
 		"Title": "Velbehag",
-		"Definition": "Tilfredshet og glede",
-		"Updated": false
+		"Definition": "Tilfredshet og glede"
 	},
 	{
 		"Title": "Tilskynde",
-		"Definition": "Oppmuntre til å gjøre noe",
-		"Updated": false
+		"Definition": "Oppmuntre til å gjøre noe"
 	},
 	{
 		"Title": "Laste",
-		"Definition": "Kritisere, klandre eller bebreide",
-		"Updated": false
+		"Definition": "Kritisere, klandre eller bebreide"
 	},
 	{
 		"Title": "Karrig",
-		"Definition": "Gjerrig",
-		"Updated": false
+		"Definition": "Gjerrig"
 	},
 	{
 		"Title": "Hjertelag",
-		"Definition": "En lyst til å hjelpe og glede andre, og vise medfølelse og varme",
-		"Updated": false
+		"Definition": "En lyst til å hjelpe og glede andre, og vise medfølelse og varme"
 	},
 	{
 		"Title": "Bot",
-		"Definition": "(i bibelen) En handling som viser at en angrer sin synd. Soning av synd.",
-		"Updated": false
+		"Definition": "(i bibelen) En handling som viser at en angrer sin synd. Soning av synd."
 	},
 	{
 		"Title": "Usigelig",
-		"Definition": "Ubeskrivelig. Uendelig. Kan ikke uttrykkes med ord.",
-		"Updated": false
+		"Definition": "Ubeskrivelig. Uendelig. Kan ikke uttrykkes med ord."
 	},
 	{
 		"Title": "Omstyrte",
-		"Definition": "Rive ned",
-		"Updated": false
+		"Definition": "Rive ned"
 	},
 	{
 		"Title": "Utvortes",
-		"Definition": "Utsiden av kroppen",
-		"Updated": false
+		"Definition": "Utsiden av kroppen"
 	},
 	{
 		"Title": "På hin side",
-		"Definition": "På motsatt side",
-		"Updated": false
+		"Definition": "På motsatt side"
 	},
 	{
 		"Title": "Gid",
-		"Definition": "Noe en sier i starten av en setning for å vise at en virkelig ønsker det som står i setningen",
-		"Updated": false
+		"Definition": "Noe en sier i starten av en setning for å vise at en virkelig ønsker det som står i setningen"
 	},
 	{
 		"Title": "Vederlag",
-		"Definition": "Erstatning",
-		"Updated": false
+		"Definition": "Erstatning"
 	},
 	{
 		"Title": "Foruten",
-		"Definition": "Bortsett fra",
-		"Updated": false
+		"Definition": "Bortsett fra"
 	},
 	{
 		"Title": "Volde",
-		"Definition": "Forårsake",
-		"Updated": false
+		"Definition": "Forårsake"
 	},
 	{
 		"Title": "Anstøt",
-		"Definition": "\"Ta anstøt\" betyr å ta avstand fra noe en ikke liker eller irriterer seg over. \"Legge anstøt\" betyr å få noen til å synde.",
-		"Updated": false
+		"Definition": "\"Ta anstøt\" betyr å ta avstand fra noe en ikke liker eller irriterer seg over. \"Legge anstøt\" betyr å få noen til å synde."
 	},
 	{
 		"Title": "Skåne",
-		"Definition": "Vise hensyn",
-		"Updated": false
+		"Definition": "Vise hensyn"
 	},
 	{
 		"Title": "Skjønt",
-		"Definition": "Selv om",
-		"Updated": false
+		"Definition": "Selv om"
 	},
 	{
 		"Title": "Nidingsverk",
-		"Definition": "Noe skammelig eller æresløst som er blitt gjort",
-		"Updated": false
+		"Definition": "Noe skammelig eller æresløst som er blitt gjort"
 	},
 	{
 		"Title": "Sette seg fore",
-		"Definition": "Bestemme seg for å gjøre noe",
-		"Updated": false
+		"Definition": "Bestemme seg for å gjøre noe"
 	},
 	{
 		"Title": "Samråd",
-		"Definition": "Rådslagning",
-		"Updated": false
+		"Definition": "Rådslagning"
 	},
 	{
 		"Title": "Særskilt",
-		"Definition": "Bestemt eller spesielt",
-		"Updated": false
+		"Definition": "Bestemt eller spesielt"
 	},
 	{
 		"Title": "Kom i hu",
-		"Definition": "Husk på",
-		"Updated": false
+		"Definition": "Husk på"
 	},
 	{
 		"Title": "Klagemål",
-		"Definition": "Klage",
-		"Updated": false
+		"Definition": "Klage"
 	},
 	{
 		"Title": "Ætling",
-		"Definition": "Etterkommer av en spesiell person",
-		"Updated": false
+		"Definition": "Etterkommer av en spesiell person"
 	},
 	{
 		"Title": "Tuktemester",
-		"Definition": "En som tukter, oppdrar eller straffer noen til anger og bekjennelse av synd",
-		"Updated": false
+		"Definition": "En som tukter, oppdrar eller straffer noen til anger og bekjennelse av synd"
 	},
 	{
 		"Title": "Såfremt",
-		"Definition": "Dersom",
-		"Updated": false
+		"Definition": "Dersom"
 	},
 	{
 		"Title": "Legge vinn på",
-		"Definition": "Bry seg veldig mye og bruke tid og krefter på noe",
-		"Updated": false
+		"Definition": "Bry seg veldig mye og bruke tid og krefter på noe"
 	},
 	{
 		"Title": "Uleilighet",
-		"Definition": "Noe som plager og er til bry",
-		"Updated": false
+		"Definition": "Noe som plager og er til bry"
 	},
 	{
 		"Title": "Umak",
-		"Definition": "Anstrenge seg for å gjøre noe på best mulig måte",
-		"Updated": false
+		"Definition": "Anstrenge seg for å gjøre noe på best mulig måte"
 	},
 	{
 		"Title": "Tykke",
-		"Definition": "Behag eller lyst",
-		"Updated": false
+		"Definition": "Behag eller lyst. \"Tykke seg\" betyr å synes eller mene noe.",
+		"Updated": true
 	},
 	{
 		"Title": "Fordum",
-		"Definition": "Før, eller i gamle dager",
-		"Updated": false
+		"Definition": "Før, eller i gamle dager"
 	},
 	{
 		"Title": "Forut for",
-		"Definition": "Før, eller foran",
-		"Updated": false
+		"Definition": "Før, eller foran"
 	},
 	{
 		"Title": "Arvelodd",
-		"Definition": "Den del av arven som en arving får",
-		"Updated": false
+		"Definition": "Den del av arven som en arving får"
 	},
 	{
 		"Title": "Forsett",
-		"Definition": "Noe en har bestemt seg for",
-		"Updated": false
+		"Definition": "Noe en har bestemt seg for"
 	},
 	{
 		"Title": "Innsegl",
-		"Definition": "Stempel",
-		"Updated": false
+		"Definition": "Stempel"
 	},
 	{
 		"Title": "Harme",
-		"Definition": "Sinne. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt.",
-		"Updated": false
+		"Definition": "Sinne. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt."
 	},
 	{
 		"Title": "Vanmakt",
-		"Definition": "Maktesløshet. Orker ikke å gjøre noe. Kan være både fysisk og mentalt.",
-		"Updated": false
+		"Definition": "Maktesløshet. Orker ikke å gjøre noe. Kan være både fysisk og mentalt."
 	},
 	{
 		"Title": "Sanndru",
-		"Definition": "Ærlig og oppriktig. Snakker sant. Er glad i sannheten.",
-		"Updated": false
+		"Definition": "Ærlig og oppriktig. Snakker sant. Er glad i sannheten."
 	},
 	{
 		"Title": "Lem",
-		"Definition": "Kroppsdel",
-		"Updated": false
+		"Definition": "Kroppsdel"
 	},
 	{
 		"Title": "Tekkelig",
-		"Definition": "Høflig, beskjeden og ordentlig. Kan også bety å kle seg ordentlig og passende.",
-		"Updated": false
+		"Definition": "Høflig, beskjeden og ordentlig. Kan også bety å kle seg ordentlig og passende."
 	},
 	{
 		"Title": "Forakte",
-		"Definition": "Se ned på noen. Tenke at en er ussel, uverdig og ikke verd å bry seg om.",
-		"Updated": false
+		"Definition": "Se ned på noen. Tenke at en er ussel, uverdig og ikke verd å bry seg om."
 	},
 	{
 		"Title": "Forlike",
-		"Definition": "Få noen til å slutte og stride, krangle eller være uenige. Gjøre at de blir enige og stifter fred.",
-		"Updated": false
+		"Definition": "Få noen til å slutte og stride, krangle eller være uenige. Gjøre at de blir enige og stifter fred."
 	},
 	{
 		"Title": "Almisse",
-		"Definition": "Gave til fattige eller nødlidende",
-		"Updated": false
+		"Definition": "Gave til fattige eller nødlidende"
 	},
 	{
 		"Title": "Forgjengelig",
-		"Definition": "Varer ikke evig. Blir borte til slutt.",
-		"Updated": false
+		"Definition": "Varer ikke evig. Blir borte til slutt."
 	},
 	{
 		"Title": "Gjenstridig",
-		"Definition": "Stritter imot og er trassig. Vil ikke ta imot råd eller tips. Er sta.",
-		"Updated": false
+		"Definition": "Stritter imot og er trassig. Vil ikke ta imot råd eller tips. Er sta."
 	},
 	{
 		"Title": "Brynde",
-		"Definition": "Kraftig og intens lidenskap, først og fremst et begjær etter noe",
-		"Updated": false
+		"Definition": "Kraftig og intens lidenskap, først og fremst et begjær etter noe"
 	},
 	{
 		"Title": "Skarn",
-		"Definition": "Møkk, søppel eller støv. Kan også bety elendighet.",
-		"Updated": false
+		"Definition": "Møkk, søppel eller støv. Kan også bety elendighet."
 	},
 	{
 		"Title": "Barm",
-		"Definition": "Bryst eller hjerte. Kan også bety mellomrommet mellom klærna og brystet.",
-		"Updated": false
+		"Definition": "Bryst eller hjerte. Kan også bety mellomrommet mellom klærna og brystet."
 	},
 	{
 		"Title": "Tande (tanne)",
-		"Definition": "Utbrent veke (den greia du tenner på) i et lys",
-		"Updated": false
+		"Definition": "Utbrent veke (den greia du tenner på) i et lys"
 	},
 	{
 		"Title": "Trell",
-		"Definition": "En som ikke er fri. Slave.",
-		"Updated": false
+		"Definition": "En som ikke er fri. Slave."
 	},
 	{
 		"Title": "Skjønnsom",
-		"Definition": "Viser forstand (evnen til å forstå og tenke riktig)",
-		"Updated": false
+		"Definition": "Viser forstand (evnen til å forstå og tenke riktig)"
 	},
 	{
 		"Title": "Overflod",
-		"Definition": "Veldig mye. Mer enn du trenger.",
-		"Updated": false
+		"Definition": "Veldig mye. Mer enn du trenger."
 	},
 	{
 		"Title": "Sindig",
-		"Definition": "Gjør noe forstandig eller klokt, etter å ha tenkt rolig gjennom ting",
-		"Updated": false
+		"Definition": "Gjør noe forstandig eller klokt, etter å ha tenkt rolig gjennom ting"
 	},
 	{
 		"Title": "Medynk",
-		"Definition": "Medlidenhet. Synes synd på noen som sliter eller har det vondt.",
-		"Updated": false
+		"Definition": "Medlidenhet. Synes synd på noen som sliter eller har det vondt."
 	},
 	{
 		"Title": "Vederstyggelig",
-		"Definition": "Forferdelig, stygt, farlig, avskyelig, motbydelig og forkastelig",
-		"Updated": false
+		"Definition": "Forferdelig, stygt, farlig, avskyelig, motbydelig og forkastelig"
 	},
 	{
 		"Title": "Vankundig",
-		"Definition": "Mangle kunnskap",
-		"Updated": false
+		"Definition": "Mangle kunnskap"
 	},
 	{
 		"Title": "Vansmekte",
-		"Definition": "Lide sterkt, enten på grunn av fysiske forhold, som mangel på mat og drikke, eller på grunn av lengsel",
-		"Updated": false
+		"Definition": "Lide sterkt, enten på grunn av fysiske forhold, som mangel på mat og drikke, eller på grunn av lengsel"
 	},
 	{
 		"Title": "Avholde",
-		"Definition": "Holde tilbake fra å gjøre noe. Kan også bety å ikke gjøre noe en er fristet til.",
-		"Updated": false
+		"Definition": "Holde tilbake fra å gjøre noe. Kan også bety å ikke gjøre noe en er fristet til."
 	},
 	{
 		"Title": "Bramme",
-		"Definition": "Skryte eller gjøre seg viktig",
-		"Updated": false
+		"Definition": "Skryte eller gjøre seg viktig"
 	},
 	{
 		"Title": "Forbarme",
-		"Definition": "Vise medlidenhet, tilgi og hjelpe",
-		"Updated": false
+		"Definition": "Vise medlidenhet, tilgi og hjelpe"
 	},
 	{
 		"Title": "Erkjenne",
-		"Definition": "Innrømme, eller bli klar over noe",
-		"Updated": false
+		"Definition": "Innrømme, eller bli klar over noe"
 	},
 	{
 		"Title": "Opphøye",
-		"Definition": "Sette på et høyt sted for å motta lovprisning eller ære. Gi høyere status.",
-		"Updated": false
+		"Definition": "Sette på et høyt sted for å motta lovprisning eller ære. Gi høyere status."
 	},
 	{
 		"Title": "Opprinne",
-		"Definition": "Bli synlig eller komme",
-		"Updated": false
+		"Definition": "Bli synlig eller komme"
 	},
 	{
 		"Title": "Skue",
-		"Definition": "Se, eller innse (erkjenne)",
-		"Updated": false
+		"Definition": "Se, eller innse (erkjenne)"
 	},
 	{
 		"Title": "Ve",
-		"Definition": "Brukes til å uttrykke smerte, fortvilelse, sorg eller lengsel",
-		"Updated": false
+		"Definition": "Brukes til å uttrykke smerte, fortvilelse, sorg eller lengsel"
 	},
 	{
 		"Title": "Fornedre",
-		"Definition": "Ydmyke eller bli sett ned på",
-		"Updated": false
+		"Definition": "Ydmyke eller bli sett ned på"
 	},
 	{
 		"Title": "Fullbyrde",
-		"Definition": "Fullføre, utføre eller virkeliggjøre",
-		"Updated": false
+		"Definition": "Fullføre, utføre eller virkeliggjøre"
 	},
 	{
 		"Title": "Møye",
-		"Definition": "Anstrengelse eller strev. Noe slitsomt som tynger eller er til bry.",
-		"Updated": false
+		"Definition": "Anstrengelse eller strev. Noe slitsomt som tynger eller er til bry."
 	},
 	{
 		"Title": "Ringe",
-		"Definition": "(i bibelen) Liten og ubetydelig",
-		"Updated": false
+		"Definition": "(i bibelen) Liten og ubetydelig"
 	},
 	{
 		"Title": "Lodd",
-		"Definition": "Noe en får tildelt eller allerede har",
-		"Updated": false
+		"Definition": "Noe en får tildelt eller allerede har"
 	},
 	{
 		"Title": "Hu",
-		"Definition": "Sinnelag eller tanke. Se også \"kom i hu\".",
-		"Updated": false
+		"Definition": "Sinnelag eller tanke. Se også \"kom i hu\"."
 	},
 	{
 		"Title": "Dog",
-		"Definition": "Allikevel",
-		"Updated": false
+		"Definition": "Allikevel"
 	},
 	{
 		"Title": "Derpå",
-		"Definition": "Ved dette",
-		"Updated": false
+		"Definition": "Ved dette"
 	},
 	{
 		"Title": "Prakt",
-		"Definition": "Stor skjønnhet",
-		"Updated": false
+		"Definition": "Stor skjønnhet"
 	},
 	{
 		"Title": "Svinne",
-		"Definition": "Litt etter litt bli borte",
-		"Updated": false
+		"Definition": "Litt etter litt bli borte"
 	},
 	{
 		"Title": "Pakt",
-		"Definition": "Avtale",
-		"Updated": false
+		"Definition": "Avtale"
 	},
 	{
 		"Title": "Midte",
-		"Definition": "Midterste del eller område. Kan også bety en samling av mennesker.",
-		"Updated": false
+		"Definition": "Midterste del eller område. Kan også bety en samling av mennesker."
 	},
 	{
 		"Title": "Kar",
-		"Definition": "Beholder. Noe man kan ha ting oppi.",
-		"Updated": false
+		"Definition": "Beholder. Noe man kan ha ting oppi."
 	},
 	{
 		"Title": "Bie",
-		"Definition": "(i bibelen) Vente tålmodig",
-		"Updated": false
+		"Definition": "(i bibelen) Vente tålmodig"
 	},
 	{
 		"Title": "Frelse",
-		"Definition": "Sette fri fra fangenskap eller redde. Sette fri fra synd og død og gjøre veldig lykkelig.",
-		"Updated": false
+		"Definition": "Sette fri fra fangenskap eller redde. Sette fri fra synd og død og gjøre veldig lykkelig."
 	},
 	{
 		"Title": "Forbønn",
-		"Definition": "Be for andre",
-		"Updated": false
+		"Definition": "Be for andre"
 	},
 	{
 		"Title": "Akte",
-		"Definition": "Vurdere eller betrakte. Se også \"gi akt på\".",
-		"Updated": false
+		"Definition": "Vurdere eller betrakte. Se også \"gi akt på\"."
 	},
 	{
 		"Title": "Ømhjertet",
-		"Definition": "Vise inderlig kjærlighet og omsorg",
-		"Updated": false
+		"Definition": "Vise inderlig kjærlighet og omsorg"
 	},
 	{
 		"Title": "Bli ved",
-		"Definition": "Fortsette",
-		"Updated": false
+		"Definition": "Fortsette"
 	},
 	{
 		"Title": "Levnet",
-		"Definition": "Måten å leve på. Kan også bety liv. Se også \"levne\".",
-		"Updated": false
+		"Definition": "Måten å leve på. Kan også bety liv. Se også \"levne\"."
 	},
 	{
 		"Title": "Levne",
-		"Definition": "Etterlate noe. La noe bli igjen. Se også \"levnet\".",
-		"Updated": false
+		"Definition": "Etterlate noe. La noe bli igjen. Se også \"levnet\"."
 	},
 	{
 		"Title": "Forferdet",
-		"Definition": "Engstelig, forskrekket, redd eller skremt",
-		"Updated": false
+		"Definition": "Engstelig, forskrekket, redd eller skremt"
 	},
 	{
 		"Title": "Velvillig",
-		"Definition": "Positiv og oppfyllende",
-		"Updated": false
+		"Definition": "Positiv og oppfyllende"
 	},
 	{
 		"Title": "Blues",
-		"Definition": "Skamme seg",
-		"Updated": false
+		"Definition": "Skamme seg"
 	},
 	{
 		"Title": "Forstand",
-		"Definition": "Evnen til å forstå og tenke riktig",
-		"Updated": true
+		"Definition": "Evnen til å forstå og tenke riktig"
 	},
 	{
 		"Title": "Bedrøvet",
-		"Definition": "Trist eller sorgfull",
-		"Updated": true
+		"Definition": "Trist eller sorgfull"
 	},
 	{
 		"Title": "Apostel",
-		"Definition": "En som har blitt sendt av sted for å forkynne eller fortelle om noe",
-		"Updated": true
+		"Definition": "En som har blitt sendt av sted for å forkynne eller fortelle om noe"
 	},
 	{
 		"Title": "Vellukt",
-		"Definition": "God lukt",
-		"Updated": true
+		"Definition": "God lukt"
 	},
 	{
 		"Title": "Jamre",
-		"Definition": "Klage gråtende eller hulke av smerte eller sorg",
-		"Updated": true
+		"Definition": "Klage gråtende eller hulke av smerte eller sorg"
 	},
 	{
 		"Title": "Overmåte",
-		"Definition": "Veldig eller svært",
-		"Updated": true
+		"Definition": "Veldig eller svært"
 	},
 	{
 		"Title": "Overmål",
-		"Definition": "Uvanlig eller veldig mye. Se også \"overflod\".",
-		"Updated": true
+		"Definition": "Uvanlig eller veldig mye. Se også \"overflod\"."
 	},
 	{
 		"Title": "Spotte",
-		"Definition": "Gjøre narr av noen på en sårende måte eller latterliggjøre",
+		"Definition": "Gjøre narr av noen på en sårende måte eller latterliggjøre"
+	},
+	{
+		"Title": "Uforskyldt",
+		"Definition": "Ufortjent, eller noe en ikke selv er skyld i",
+		"Updated": true
+	},
+	{
+		"Title": "Forfengelig",
+		"Definition": "Selvopptatt og ute etter ære. Er overdrevent opptatt av utseende eller anseelse.",
+		"Updated": true
+	},
+	{
+		"Title": "Basun",
+		"Definition": "Dypt og fyldig blåseinstrument. Ligner på lur (instrument) eller trombone.",
+		"Updated": true
+	},
+	{
+		"Title": "Stunde",
+		"Definition": "Lengte",
+		"Updated": true
+	},
+	{
+		"Title": "Kyndig",
+		"Definition": "Er dyktig (flink og egnet) og har kunnskap",
+		"Updated": true
+	},
+	{
+		"Title": "Formå",
+		"Definition": "Kunne gjøre eller få til noe. Greie eller klare noe.",
+		"Updated": true
+	},
+	{
+		"Title": "Stevne",
+		"Definition": "(verb) Sette kurs eller være på vei mot noe",
+		"Updated": true
+	},
+	{
+		"Title": "Bedra",
+		"Definition": "Lure eller narre",
+		"Updated": true
+	},
+	{
+		"Title": "Kjerub",
+		"Definition": "Engel av høy rang som har en spesiell oppgave som ofte handler om å vokte eller passe på noe",
+		"Updated": true
+	},
+	{
+		"Title": "Forkynne",
+		"Definition": "Gjøre noe kjent. Fortelle om noe.",
+		"Updated": true
+	},
+	{
+		"Title": "Lønnkammer",
+		"Definition": "Rom eller sted hvor en kan være alene",
+		"Updated": true
+	},
+	{
+		"Title": "Persekar",
+		"Definition": "Kar (beholder) til å presse druer",
+		"Updated": true
+	},
+	{
+		"Title": "Frimodig",
+		"Definition": "Uredd og modig fordi man har god samvittighet. Går løs på oppgavene med friskt mot. Kan også bety fryktløs eller åpen om meninger.",
+		"Updated": true
+	},
+	{
+		"Title": "Velde",
+		"Definition": "Overveldende (veldig sterk) makt eller kraft",
+		"Updated": true
+	},
+	{
+		"Title": "Fly",
+		"Definition": "(i bibelen) Flykte bort fra",
+		"Updated": true
+	},
+	{
+		"Title": "Disippel",
+		"Definition": "Lærling, elev eller skolegutt. Personlig elev og tilhenger av en som forkynner en ny lære.",
 		"Updated": true
 	}
 ]

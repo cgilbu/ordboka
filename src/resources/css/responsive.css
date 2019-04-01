@@ -5,7 +5,7 @@
 /* Everything is increased by 7px */
 
 @media only screen and (min-width: 768px) {
-	body, .contact input, .contact textarea {
+	body, #contactPopup input, #contactPopup textarea {
 		font-size: 23px;
 	}
 
@@ -13,12 +13,12 @@
 		font-size: 19px;
 	}
 
-	.tip.info {
+	.tip#infoTip {
 		height: 63px;
 		top: -63px;
 	}
 
-	.tip.close  {
+	.tip#closeTip {
 		bottom: 22px;
 	}
 
@@ -38,12 +38,12 @@
 		margin-bottom: 22px; /* Flexbox padding */
 	}
 
-	.search, .dictionary div {
+	#search, #dictionary div {
 		font-size: 25px;
 		padding: 15px 14px;
 	}
 
-	.search {
+	#search {
 		height: 63px; /* Applies the same height as the words below */
 	}
 
@@ -51,28 +51,31 @@
 		font-size: 27px;
 	}
 
-	.menuButton {
+	#menuButton {
 		bottom: 22px;
-		font-size: 45px;
 		height: 90px;
 		right: 22px;
 		width: 90px;
 	}
 
-	.menu div {
+	#menuButton img {
+		width: 40px;
+	}
+
+	#menu .popupContent div {
 		font-size: 30px;
 		padding: 17px;
 	}
 
-	.contact input, .contact textarea {
+	#contactPopup input, #contactPopup textarea {
 		padding: 14px;
 	}
 
-	.contact textarea {
+	#contactPopup textarea {
 		height: 100px;
 	}
 
-	.loading {
+	#loading {
 		padding: 17px;
 	}
 }

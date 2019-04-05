@@ -94,6 +94,7 @@ a {
 }
 
 .popup .popupContent {
+	cursor: default;
 	min-height: 0; /* Overflow scrolling */
 	padding: 0 15px;
 }
@@ -187,14 +188,29 @@ a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+
+	-webkit-tap-highlight-color: transparent;
 }
 
 #menuButton img {
 	width: 27px;
+	-webkit-tap-highlight-color: transparent;
 }
 
 #menuButton.isOpen {
 	z-index: 20;
+}
+
+#menuButton #closeMenu {
+	display: none;
+}
+
+#menuButton.isOpen #closeMenu {
+	display: block;
+}
+
+#menuButton.isOpen #openMenu {
+	display: none;
 }
 
 #menu .popupContent div {
@@ -235,15 +251,6 @@ a {
 
 #contactPopup textarea {
 	height: 70px;
-}
-
-/*****************************************************
-## Special links
-******************************************************/
-
-#downloadPopup a, #sharePopup a {
-	font-weight: bold;
-	text-decoration: none;
 }
 
 /*****************************************************

@@ -36,7 +36,7 @@
 
 	<div id="menuButton">
 		<img id="openMenu" src="/resources/images/bars.svg" alt="Åpne meny">
-		<img id="closeMenu" src="/resources/images/times.svg" class="hidden" alt="Lukk meny">
+		<img id="closeMenu" src="/resources/images/times.svg" alt="Lukk meny">
 	</div>
 
 	<div id="menu" class="popup hidden">
@@ -60,7 +60,7 @@
 
 	<div id="updatePopup" class="popup hidden">
 		<div class="popupContent">
-			<p>En <b>ny versjon</b> av ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt. Nye og oppdaterte ord vil være <b>uthevet</b> for en kortere periode.</p>
+			<p>En <b>ny versjon</b> av ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt. Nye og oppdaterte ord vil i starten være <b>uthevet</b>.</p>
 			<div id="updateButton" class="button close">Oppdater</div>
 		</div>
 	</div>
@@ -68,11 +68,10 @@
 	<div id="downloadPopup" class="popup hidden">
 		<div class="popupContent">
 			<p id="androidChrome" class="hidden">Du burde allerede ha fått opp et spørsmål nederst på skjermen om du vil lagre ordboka på mobilen. Hvis du takket nei kan du fortsatt gjøre det via menyen i Chrome: <b>Legg til på startsiden</b>.</p>
-			<p id="androidOther" class="hidden">Klikk på knappen nedenfor for å <b>åpne ordboka i Chrome</b>. Det vil da dukke opp et spørsmål nederst på skjermen om du vil lagre den på mobilen. Du kan også gjøre det via menyen i Chrome: <b>Legg til på startsiden</b>.</p>
-			<p id="iosChrome" class="hidden">Åpne ordboka i Safari og følg oppskriften nedenfor. Du kan kopiere denne linken over i Safari: <a href="#">https://<?= $_SERVER['HTTP_HOST'] ?></a></p>
+			<p id="androidOther" class="hidden">Åpne ordboka i Chrome. Det vil da dukke opp et spørsmål nederst på skjermen om du vil lagre den på mobilen. Du kan kopiere denne linken over i Chrome: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
+			<p id="iosChrome" class="hidden">Åpne ordboka i Safari og følg oppskriften nedenfor. Du kan kopiere denne linken over i Safari: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
 			<p id="ios" class="hidden"><img src="/resources/images/ios-add-home-screen.png" alt="Add to Home Screen"></p>
-			<p id="telegram" class="hidden"><b>Viktig:</b> Fungerer ikke hvis du åpnet appen via Telegram. Kopier heller denne linken over i Safari: <a href="#">https://<?= $_SERVER['HTTP_HOST'] ?></a></p>
-			<div id="chromeButton" class="button hidden">Åpne i Chrome</div>
+			<p id="telegram" class="hidden"><b>Viktig:</b> Fungerer ikke hvis du åpnet appen via Telegram. Kopier heller denne linken over i Safari: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
 			<div class="button close">Gå tilbake</div>
 		</div>
 	</div>
@@ -116,7 +115,7 @@
 	<div id="sharePopup" class="popup hidden">
 		<div class="popupContent">
 			<p>Du kan dele ordboka med andre ved å sende dem linken nedenfor, eller du kan trykke på <b>delingsknappen</b> på mobilen.</p>
-			<p><a href="#">https://<?= $_SERVER['HTTP_HOST'] ?></a></p>
+			<p><b><?= $_SERVER['HTTP_HOST'] ?></b></p>
 			<div class="button close">Lukk</div>
 		</div>
 	</div>

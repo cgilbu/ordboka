@@ -9,10 +9,17 @@ var View = {};
 "use strict";
 
 // ******************************************************
+// Directs web users from old to new domain
+// ******************************************************
+
+if (window.location.href.includes("joinmyblog") && !GlobalHelpers.isStandalone()) {
+	window.location.href = "https://ordboka.xyz";
+}
+
+// ******************************************************
 // DOM references
 // ******************************************************
 
-DOM.chromeButton = "#chromeButton";
 DOM.closeButtons = ".button.close";
 DOM.closeTip = "#closeTip";
 DOM.contactButton = "#contactButton";
@@ -69,6 +76,8 @@ View.reloadDictionary = function(searchTerm) {
 	if (searchTerm) {
 		_isSearching = true;
 		document.querySelector(DOM.loading).classList.add("hidden");
+	} else {
+		document.querySelector(DOM.loading).classList.remove("hidden");
 	}
 
 	document.querySelector(DOM.dictionary).innerHTML = "";
@@ -105,7 +114,6 @@ View.loadWords = function(searchTerm) {
 	}
 
 	View.showChanges();
-	View.showChangesHACK(); // Doing this until most users have a locally stored copy of the words
 }
 
 View.appendWord = function(number, title, definition) {
@@ -128,38 +136,22 @@ View.showChanges = function() {
 
 	var storedWords = JSON.parse(localStorage.getItem("storedWords"));
 
-	var wordFound = false;
-	var definitionFound = false;
-
 	for (let [i, loadedWord] of _wordsLoaded.entries()) {
-		var title = loadedWord.Title;
-		var definition = loadedWord.Definition;
+		var title = loadedWord.Title.toLowerCase();
+		var definition = loadedWord.Definition.toLowerCase();
+
+		var matchFound = false;
 
 		for (let storedWord of storedWords) {
-			var storedTitle = storedWord.Title;
-			var storedDefinition = storedWord.Definition;
+			var storedTitle = storedWord.Title.toLowerCase();
+			var storedDefinition = storedWord.Definition.toLowerCase();
 
-			if (storedTitle.toLowerCase() == title.toLowerCase()) {
-				wordFound = true;
-			}
-
-			if (storedDefinition.toLowerCase() == definition.toLowerCase()) {
-				definitionFound = true;
+			if (title == storedTitle && definition == storedDefinition) {
+				matchFound = true;
 			}
 		}
 
-		if (!wordFound || !definitionFound) {
-			document.querySelector(".word_" + i).classList.add("updated");
-		}
-
-		wordFound = false;
-		definitionFound = false;
-	}
-}
-
-View.showChangesHACK = function() {
-	for (let [i, loadedWord] of _wordsLoaded.entries()) {
-		if (loadedWord.Updated) {
+		if (!matchFound) {
 			document.querySelector(".word_" + i).classList.add("updated");
 		}
 	}
@@ -172,8 +164,6 @@ View.togglePopup = function(targetSelector) {
 
 View.toggleMenu = function() {
 	GlobalHelpers.toggleClass(DOM.menuButton, "isOpen");
-	GlobalHelpers.toggleClass("#openMenu", "hidden");
-	GlobalHelpers.toggleClass("#closeMenu", "hidden");
 	View.togglePopup(DOM.menu);
 }
 
@@ -220,7 +210,6 @@ View.prepareDownload = function() {
 
 	if (!androidChrome) {
 		GlobalHelpers.toggleClass(androidOtherInfo, "hidden");
-		GlobalHelpers.toggleClass(DOM.chromeButton, "hidden");
 		return;
 	}
 
@@ -330,19 +319,17 @@ Helpers.getStatistics = function(wordClicked) {
 // ******************************************************
 
 Helpers.smartLoading = function() {
-	setInterval(function() { // Uses setInterval due to bad scroll detection on iOS
+	setInterval(function() { // Using setInterval instead of onscroll due to bad scroll detection on iOS
 		if (_loadingComplete || _isSearching) {
 			return;
 		}
-
-		document.querySelector(DOM.loading).classList.remove("hidden");
 
 		var distanceFromBottom = document.body.scrollHeight - window.innerHeight - window.scrollY;
 
 		if (distanceFromBottom < 500) {
 			View.loadWords();
 		}
-	}, 500);
+	}, 100);
 }
 
 // ******************************************************
@@ -359,7 +346,7 @@ document.addEventListener("click", function(e) {
 	}
 
 	if (e.target.matches(DOM.updateButton)) {
-		localStorage.setItem("storedWordsLifespan", 5); // Decreases on page load
+		localStorage.setItem("storedWordsLifespan", 7); // Decreases on page load
 		window.location.reload();
 	}
 
@@ -403,11 +390,6 @@ document.addEventListener("click", function(e) {
 		if (GlobalHelpers.shareApp("Ordboka", "Er det mange vanskelige ord i menigheten? Finn forklaringene her!")) {
 			View.togglePopup(DOM.sharePopup); // Share-popup will only show if navigator.share is not supported
 		}
-	}
-
-	if (e.target.matches(DOM.chromeButton)) {
-		var link = window.location.href.replace("http://", "");
-		window.location.href = "googlechrome://" + link;
 	}
 });
 

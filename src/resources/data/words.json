@@ -101,7 +101,7 @@
 	},
 	{
 		"Title": "Sjel",
-		"Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger ligne på ånd. <i>Kommentar: Alle mennesker har en ånd (som ikke er av denne verdenen) i tillegg til en sjel. Disse to må ikke forveksles.</i>"
+		"Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger forveksles med ånd."
 	},
 	{
 		"Title": "Skussmål",
@@ -209,7 +209,7 @@
 	},
 	{
 		"Title": "Ånd",
-		"Definition": "Brukes ofte om flere ting. Først og fremst overnaturlig vesen eller kraft (spesielt i menigheten). Deretter sjelen og det indre mennesket. Kan noen ganger også bety sinnelag, innstilling eller tankesett. <i>Kommentar: Alle mennesker har en ånd (som ikke er av denne verdenen) i tillegg til en sjel. Disse to må ikke forveksles.</i>"
+		"Definition": "Overnaturlig vesen eller kraft som ikke er av denne verdenen. Forveksles noen ganger med sjel. I andre sammenhenger kan det også bety sinnelag, innstilling eller tankesett. <i>Kommentar: Alle mennesker har en ånd i tillegg til en sjel.</i>"
 	},
 	{
 		"Title": "Gudsfrykt",
@@ -942,5 +942,41 @@
 	{
 		"Title": "Gagn",
 		"Definition": "Noe som er til nytte (hjelp) eller som gjør at andre får det bra"
+	},
+	{
+		"Title": "Forårsake",
+		"Definition": "Være grunnen til at noe skjer. Føre til at noe skjer."
+	},
+	{
+		"Title": "Forsømme",
+		"Definition": "Velge å ikke gjøre noe en egentlig burde ha gjort"
+	},
+	{
+		"Title": "Visselig",
+		"Definition": "Virkelig. I sannhet. Helt sikkert."
+	},
+	{
+		"Title": "Forjettelse",
+		"Definition": "Løfte"
+	},
+	{
+		"Title": "Samvittighet",
+		"Definition": "Indre og veiledende følelse av hva som er rett og galt. <i>Kommentar: Kan ødelegges ved at en gjør noe en vet er galt gjentatte ganger. \"Skrøpelig samvittighet\" betyr at en blir anklaget av Satan for å ha gjort noe galt, selv om Gud og samvittigheten sier at alt er i orden.</i>"
+	},
+	{
+		"Title": "Innbyrdes",
+		"Definition": "Gjøre eller føle det samme for hverandre"
+	},
+	{
+		"Title": "Beleilig",
+		"Definition": "Noe som passer bra eller er gunstig"
+	},
+	{
+		"Title": "Forråd",
+		"Definition": "Noe som er oppsamlet eller spart opp til å brukes senere (ofte ganske mye)"
+	},
+	{
+		"Title": "Velle",
+		"Definition": "Noe (som oftest vann) som sprudler eller strømmer rikt og kraftig"
 	}
 ]

@@ -12,7 +12,7 @@ var View = {};
 // Directs web users from old to new domain
 // ******************************************************
 
-if (window.location.href.includes("joinmyblog") && !GlobalHelpers.isStandalone()) {
+if (window.location.href.includes("joinmyblog") && !window.location.href.includes("dev") && !GlobalHelpers.isStandalone()) {
 	window.location.href = "https://ordboka.xyz";
 }
 
@@ -35,6 +35,7 @@ DOM.menuButton = "#menuButton";
 DOM.search = "#search";
 DOM.shareMenuItem = "#shareMenuItem";
 DOM.sharePopup = "#sharePopup";
+DOM.showComment = ".showComment";
 DOM.startButton = "#startButton";
 DOM.suggestionSentPopup = "#suggestionSentPopup";
 DOM.updateButton = "#updateButton";
@@ -93,12 +94,14 @@ View.loadWords = function(searchTerm) {
 	for (let word of words) {
 		var title = word.Title;
 		var definition = word.Definition;
+		var comment = word.Comment;
+		var category = word.Category;
 
 		if (searchTerm && title.toLowerCase().search(searchTerm) == -1) {
 			continue; // Skips words not matching search
 		}
 
-		View.appendWord(_wordsLoaded.length, title, definition);
+		View.appendWord(_wordsLoaded.length, title, definition, comment, category);
 
 		_wordsLoaded.push(word);
 		wordsAdded++;
@@ -116,9 +119,21 @@ View.loadWords = function(searchTerm) {
 	View.showChanges();
 }
 
-View.appendWord = function(number, title, definition) {
+View.appendWord = function(number, title, definition, comment, category) {
 	GlobalHelpers.append(DOM.dictionary, "div", title, 'word_' + number);
-	GlobalHelpers.append(DOM.definitions, "div", '<div class="popupContent"><b>' + title + '</b><br>' + definition + '</div>', ['popup', 'definition', 'hidden', 'word_' + number]);
+
+	var hasComment = comment ? "" : " hidden";
+	var hasCategory = category ? "" : " hidden";
+
+	GlobalHelpers.append(DOM.definitions, "div", `
+	<div class="popupContent">
+		<b>${title}</b><span class="label${hasCategory}">${category}</span>
+		<br>
+		<div>${definition}</div>
+		<div class="label${hasComment} showComment">Vis kommentar</div>
+		<div class="comment hidden">${comment}</div>
+	</div>
+	`.trim(), ['popup', 'definition', 'hidden', 'word_' + number]);
 }
 
 View.showChanges = function() {
@@ -139,14 +154,16 @@ View.showChanges = function() {
 	for (let [i, loadedWord] of _wordsLoaded.entries()) {
 		var title = loadedWord.Title.toLowerCase();
 		var definition = loadedWord.Definition.toLowerCase();
+		var comment = loadedWord.Comment;
 
 		var matchFound = false;
 
 		for (let storedWord of storedWords) {
 			var storedTitle = storedWord.Title.toLowerCase();
 			var storedDefinition = storedWord.Definition.toLowerCase();
+			var storedComment = storedWord.Comment;
 
-			if (title == storedTitle && definition == storedDefinition) {
+			if (title == storedTitle && definition == storedDefinition && comment == storedComment) {
 				matchFound = true;
 			}
 		}
@@ -367,6 +384,18 @@ document.addEventListener("click", function(e) {
 	if (e.target.parentNode.matches(DOM.definitions)) {
 		View.togglePopup(GlobalHelpers.getClassSelector(e.target));
 		GlobalHelpers.toggleClass(DOM.closeTip, "hidden");
+	}
+
+	if (e.target.matches(DOM.showComment)) {
+		var comment = e.target.nextElementSibling;
+
+		if (comment.classList.contains("hidden")) {
+			e.target.innerHTML = "Skjul kommentar";
+		} else {
+			e.target.innerHTML = "Vis kommentar";
+		}
+
+		comment.classList.toggle("hidden");
 	}
 
 	if (e.target.matches(DOM.menuButton) || e.target.parentNode.matches(DOM.menuButton)) {

@@ -1,4 +1,4 @@
-var appVersion = '3.2';
+var appVersion = '3.3';
 var cacheObject = 'ordbok-' + appVersion;
 
 self.addEventListener('install', function(event) {

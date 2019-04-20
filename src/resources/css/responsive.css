@@ -51,6 +51,11 @@
 		font-size: 27px;
 	}
 
+	.definition .label {
+		font-size: 19px;
+		margin-left: 15px;
+	}
+
 	#menuButton {
 		bottom: 22px;
 		height: 90px;

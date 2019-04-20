@@ -170,6 +170,26 @@ a {
 	-webkit-tap-highlight-color: transparent;
 }
 
+.definition .label {
+	background-color: var(--color-dark-blue);
+	border-radius: 10px;
+	font-size: 12px;
+	margin-left: 8px;
+	padding: 3px 10px;
+	position: relative;
+	top: -3px;
+	white-space: nowrap;
+}
+
+.definition .label.showComment {
+	background-color: var(--color-dark-red);
+	cursor: pointer;
+	display: inline-block;
+	margin-bottom: 4px;
+	margin-left: 0;
+	position: static;
+}
+
 /*****************************************************
 ## Menu
 ******************************************************/

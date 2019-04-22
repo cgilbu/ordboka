@@ -55,6 +55,7 @@
 			<p>Velkommen til ordboka! <b>Klikk på ordene</b> for å se hva de betyr. Les om <b>hvordan vi definerer ord</b> i menyen, og kom gjerne med forslag til <b>nye ord</b> eller <b>endringer</b>.</p>
 			<p>Du kan laste ned ordboka som en <b>app på mobilen</b> via menyen.</p>
 			<div id="startButton" class="button close">Sett i gang</div>
+			<div id="adminButton" class="button close"></div>
 		</div>
 	</div>
 

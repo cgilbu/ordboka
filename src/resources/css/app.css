@@ -126,6 +126,18 @@ a {
 	margin-bottom: 15px; /* Flexbox padding */
 }
 
+.button#adminButton {
+	background-color: transparent;
+	cursor: default;
+	height: 30px;
+	left: 0;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	top: 0;
+	width: 30px;
+}
+
 /*****************************************************
 ## Search
 ******************************************************/

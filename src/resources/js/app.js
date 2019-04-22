@@ -20,6 +20,7 @@ if (window.location.href.includes("joinmyblog") && !window.location.href.include
 // DOM references
 // ******************************************************
 
+DOM.adminButton = "#adminButton";
 DOM.closeButtons = ".button.close";
 DOM.closeTip = "#closeTip";
 DOM.contactButton = "#contactButton";
@@ -305,6 +306,10 @@ Helpers.sendSuggestion = function() {
 }
 
 Helpers.getStatistics = function(wordClicked) {
+	if (localStorage.getItem("isAdmin")) {
+		return;
+	}
+
 	if (!localStorage.getItem("userID")) {
 		var randomID = new Uint32Array(1);
 		window.crypto.getRandomValues(randomID);
@@ -356,6 +361,10 @@ Helpers.smartLoading = function() {
 document.addEventListener("click", function(e) {
 	if (!document.body.contains(e.target)) {
 		return;
+	}
+
+	if (e.target.matches(DOM.adminButton)) {
+		localStorage.setItem("isAdmin", true);
 	}
 
 	if (e.target.matches(DOM.startButton)) {

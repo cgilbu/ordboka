@@ -1224,5 +1224,55 @@
 		"Title": "Velle",
 		"Definition": "Noe (som oftest vann) som sprudler eller strømmer rikt og kraftig",
 		"Category": "Verb"
+	},
+	{
+		"Title": "Dryge (drøye)",
+		"Definition": "Få noe til å vare lenger",
+		"Category": "Verb"
+	},
+	{
+		"Title": "Guddommelig",
+		"Definition": "Noe som er relatert til Gud, eller som kommer direkte fra Gud",
+		"Category": "Adjektiv"
+	},
+	{
+		"Title": "Omvende seg",
+		"Definition": "Bestemme seg for å følge en religion, og bruke sin tid og sine krefter på den. I kristendommen betyr det også å vende seg bort fra synd, og tro på Gud.",
+		"Category": "Verb"
+	},
+	{
+		"Title": "Trede frem (tre frem)",
+		"Definition": "Stille seg foran noe eller noen, ofte for å si noe. Kan også bety å bli synlig eller vise seg.",
+		"Category": "Verb"
+	},
+	{
+		"Title": "Lend",
+		"Definition": "Hoftepartiet på kroppen. \"Binde opp om sine lender\" betyr å gjøre seg klar til noe vanskelig eller slitsomt (muligens det samme som å \"omgjøre sine lender\"). \"Omhylle/omslutte sine lender\" betyr å dekke hoftepartiet.",
+		"Category": "Substantiv / Verb"
+	},
+	{
+		"Title": "Allehånde",
+		"Definition": "Alle slags. Alle mulige.",
+		"Category": "Adjektiv"
+	},
+	{
+		"Title": "Forslå",
+		"Definition": "Godt nok (tilstrekkelig) til å klare noe. Noe som duger og er til hjelp.",
+		"Category": "Verb"
+	},
+	{
+		"Title": "Årle",
+		"Definition": "Tidlig om morgenen (eller bare tidlig)",
+		"Category": "Adjektiv"
+	},
+	{
+		"Title": "Tvesinn",
+		"Definition": "Være ubesluttsom og vaklende i valgene en tar. Ha lett for å tvile.",
+		"Category": "Substantiv"
+	},
+	{
+		"Title": "Silde",
+		"Definition": "Sent",
+		"Category": "Adverb"
 	}
 ]

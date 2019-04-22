@@ -459,7 +459,7 @@ if (localStorage.getItem("storedWordsLifespan")) {
 	localStorage.setItem("storedWordsLifespan", parseInt(localStorage.getItem("storedWordsLifespan")) - 1);
 }
 
-if (!localStorage.getItem("userID")) {
+if (!localStorage.getItem("userID") && !localStorage.getItem("isAdmin")) {
 	View.togglePopup(DOM.welcomePopup);
 } else {
 	if (!localStorage.getItem("definitionTip")) {

@@ -1,1278 +1,1581 @@
 [
 	{
 		"Title": "Barmhjertig",
-		"Definition": "Stor lyst til å være hjelpende, vennlig og god mot andre, selv om de kanskje ikke fortjener det",
-		"Category": "Adjektiv"
+		"Definition": "Hjelper, beskytter og føler stor medlidenhet med andre selv om de ikke fortjener det",
+		"Category": "Adjektiv",
+		"InBible": 71
 	},
 	{
 		"Title": "Barnekår",
 		"Definition": "Ha de samme gode mulighetene og betingelsene som et barn har",
-		"Category": "Substantiv"
+		"Category": "Substantiv",
+		"InBible": 5
 	},
 	{
 		"Title": "Blygsel",
 		"Definition": "Føle seg sjenert, skamfull og naken",
-		"Category": "Substantiv"
+		"Category": "Substantiv",
+		"InBible": 8
 	},
 	{
 		"Title": "Enfoldig",
-		"Definition": "Tenke enkelt om ting og være ærlig. Kan noen ganger (ikke vanligvis) bety at en er dum.",
-		"Category": "Adjektiv"
+		"Definition": "Ærlig og oppriktig. Tenker godt om andre <b>|</b> Enkel og lite smart",
+		"Category": "Adjektiv",
+		"InBible": 16
 	},
 	{
-		"Title": "Ettergiven",
-		"Definition": "Oppfylle andre sine ønsker. Ofte bli enig om å gjøre det andre vil, vanligvis på en god måte (kan være dumt å være altfor ettergivende).",
-		"Category": "Adjektiv"
+		"Title": "Ettergivende",
+		"Definition": "Lett å samarbeide og være med. Går ofte med på å gjøre det andre vil.",
+		"Category": "Adjektiv",
+		"InBible": 7
 	},
 	{
 		"Title": "Formynder",
-		"Definition": "En som passer på, hjelper og tar personlige bestemmelser for noen som ikke er klare for å gjøre det selv",
-		"Category": "Substantiv"
+		"Definition": "Forsvarer eller beskytter <b>|</b> En som tar personlige bestemmelser for en som enda ikke er myndig",
+		"Category": "Substantiv",
+		"InBible": 3
 	},
 	{
 		"Title": "Førstegrøde",
-		"Definition": "Det første (og vanligvis beste) kornet som høstes inn fra åkeren. Kan også bety det første resultatet av noe.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Gagnlig",
-		"Definition": "Noe som hjelper og er til nytte",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Husvalelse",
-		"Definition": "Glede, trøst, hjelp og lettelse",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Især",
-		"Definition": "Særlig, spesielt eller først og fremst. \"Hver især\" kan også bety \"hver for seg\".",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Kiv",
-		"Definition": "Krangel",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Kjød",
-		"Definition": "Den medfødte delen av et menneske som ønsker å gjøre det motsatte av det Gud vil. Kan også bety kroppen til et menneske. En må se det utifra sammenhengen. I det gamle testamentet betyr kjød ofte bare kropp.",
+		"Definition": "Det første kornet som høstes inn fra åkeren <b>|</b> Det første eller beste",
 		"Category": "Substantiv",
-		"Expression": true
-	},
-	{
-		"Title": "Kjødelig",
-		"Definition": "Leve etter kroppens instinkter, følelser og tanker, uten å ha kontakt med Gud",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Kledebon",
-		"Definition": "Klær eller klesplagg",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Langmodig",
-		"Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge og være tålmodig og tilgivende.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Legeme",
-		"Definition": "Kroppen til et menneske, uten tanker og indre følelser",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Miskunn",
-		"Definition": "Hjelp, nåde og godhet",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Nidkjær",
-		"Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke. Kan noen ganger (ikke vanligvis) bety veldig streng og rettferdig.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Nåde",
-		"Definition": "Få lov til å få hjelp og beskyttelse når du har problemer, ofte på en god og vennlig måte, fra noen som er større og mektigere enn deg",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Oppriktig",
-		"Definition": "Ekte, åpen og ærlig",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Overtredelse",
-		"Definition": "Lovbrudd. Gjøre noe galt.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Overvettes",
-		"Definition": "Uvanlig eller svært mye",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Redebonhet",
-		"Definition": "Lyst til å hjelpe andre",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Ryggesløs",
-		"Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva en vil.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Saktmodig",
-		"Definition": "Stille og fredelig, selv om andre kanskje behandler en slemt og urettferdig",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Sjel",
-		"Definition": "Hvem du er som person. Tanker, vilje og følelser. Kan noen ganger forveksles med ånd.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Skussmål",
-		"Definition": "Hva noen har sagt eller skrevet om deg og det du har gjort. Ligner på vitnemål eller attest.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Stadfeste",
-		"Definition": "Bekrefte på en skikkelig måte. Slå noe fast (ikke fysisk).",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Synd",
-		"Definition": "Noe som Gud har sagt at menneskene ikke skal gjøre eller tenke",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Sømmelig",
-		"Definition": "God folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Sønderbryte",
-		"Definition": "Knuse eller slå i stykker",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Tilbøyelig",
-		"Definition": "Ha lett for å gjøre noe, ofte noe dumt",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Tukt",
-		"Definition": "Streng oppdragelse som er hjelpende, nødvendig og positiv",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Uforgjengelig",
-		"Definition": "Blir aldri borte. Kommer alltid til å finnes.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Ulastelig",
-		"Definition": "Helt uten feil, slik at ingen kan klage på at en har gjort noe galt",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Vanskjøtt",
-		"Definition": "Behandlet dårlig. Omsorgssvikt.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Vitterlig",
-		"Definition": "Kjent og åpenbart",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Vrede",
-		"Definition": "Sinne. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Vantro",
-		"Definition": "Tvil. Skepsis. Mangel på overbevisning og tro.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Fortapelse",
-		"Definition": "Tape. Gå til grunne. Miste retten sin. Gå glipp av noe. Miste håpet.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Salig",
-		"Definition": "Utrolig glad og 100% lykkelig inni seg",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Gavmild",
-		"Definition": "Ofte gi gaver til andre fordi en har lyst",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Innvortes",
-		"Definition": "Innsiden av kroppen, enten fysisk eller i tankene",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Surdeig",
-		"Definition": "Sterkt gjæret deig med sur lukt og smak. Gammel og verdiløs tradisjon for å lage mat.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Fariseer",
-		"Definition": "En jøde som følger Moseloven veldig nøye, og som kanskje ser bra ut på utsiden (god oppførsel), men som lever et dårlig liv på innsiden - i tankene og når ingen ser",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Gi akt på",
-		"Definition": "Følge med og vise oppmerksomhet"
-	},
-	{
-		"Title": "Lefle",
-		"Definition": "Ikke tenke seg om. Ikke ta ting seriøst. Være overfladisk. Ikke tenke konsekvenser.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Skjøge",
-		"Definition": "En prostituert, eller en som er utro i ekteskapet",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Vederkvegelse",
-		"Definition": "Noe som fornyer, forfrisker, styrker, oppmuntrer, gleder og trøster",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Avind",
-		"Definition": "Veldig sterk misunnelse, nesten som hat, ofte rettet mot andre sine evner, status eller ting",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Begjær",
-		"Definition": "Sterk lengsel eller trang. Kan være både positivt eller negativt utifra sammenhengen. Kan noen ganger bety sterk seksuell lengsel eller tiltrekning.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Grunne",
-		"Definition": "Tenke dypt og lenge på noe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Ånd",
-		"Definition": "Overnaturlig vesen eller kraft som ikke er av denne verdenen. Kan noen ganger forveksles med sjel. I enkelte sammenhenger kan ånd også bety sinnelag, innstilling eller tankesett.",
-		"Comment": "Alle mennesker har en menneskeånd i tillegg til en sjel",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Gudsfrykt",
-		"Definition": "Frykte Gud",
-		"Comment": "Har ofte en dypere betydning i menigheten. Blant annet det å ha respekt og kjærlighet til Gud.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Higen",
-		"Definition": "Lengsel",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Utukt",
-		"Definition": "Seksuell eller kjønnslig handling som går imot Guds lover og bud, eller som er umoralsk og usømmelig",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Nøysom",
-		"Definition": "Klarer seg fint med det en har",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Formaning",
-		"Definition": "Sterk positiv oppmuntring til å gjøre noe",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Refse",
-		"Definition": "Snakke strengt eller straffe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Helliggjørelse",
-		"Definition": "Bli mer hellig, ren og rettferdig",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Kolossalt",
-		"Definition": "Kjempestort, gigantisk eller veldig",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Hvorledes",
-		"Definition": "Hvordan",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Løseord",
-		"Definition": "Ord som løser opp vanskeligheter og setter deg fri",
-		"Comment": "Definisjonen mangler i norske ordbøker",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Fredsommelig",
-		"Definition": "Lyst til å ha fred og ro rundt seg og med andre mennesker",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Rimelig",
-		"Definition": "Ikke lage vanskeligheter. Behandle andre på en smart måte. Være lett å samarbeide med.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Skrømt",
-		"Definition": "Noe som ikke er ekte",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Fåfengt",
-		"Definition": "Nytter ikke. Er ikke vits.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Hykleri",
-		"Definition": "Late som en er noe en ikke er",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Eder eller I",
-		"Definition": "Dere",
-		"Category": "Pronomen"
-	},
-	{
-		"Title": "Uselvisk",
-		"Definition": "Ikke egoistisk. Tenker på andre sitt beste.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Fortære",
-		"Definition": "Spise eller ødelegge",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Fullende",
-		"Definition": "Avslutte noe så det blir helt ferdig",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Radikal",
-		"Definition": "Ekstremt ivrig til å gjøre noe raskt og skikkelig",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Religiøs",
-		"Definition": "Tror på noe overnaturlig (noe som ikke kan bevises med vitenskap), som for eksempel Gud",
-		"Comment": "Brukes ofte i menigheten om kristne som tror på en løgn (typisk Jesus uten seier over synd)",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Fornekte",
-		"Definition": "Nekte å kjenne eller ha forbindelse med noe eller noen. Kan også bety å tvinge seg selv til å ikke gjøre det en egentlig har lyst til.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Verdslig",
-		"Definition": "Er ikke kristen og tenker bare på tingene og menneskene i verden, uten å ha forbindelse med Gud",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Utrette",
-		"Definition": "Gjøre noe, eller bli ferdig med noe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Helhjertet",
-		"Definition": "Gjøre noe 100% uten å tvile",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Dårskap",
-		"Definition": "Dumhet",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Skikk",
-		"Definition": "Sånn en ønsker at ting skal være. Orden og riktighet. Kan også bety tradisjon, eller noe en vanligvis gjør.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Natur",
-		"Definition": "Medfødt egenskap. For eksempel \"han er nøye av natur\".",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Berede",
-		"Definition": "Gjøre noe klart",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Dyrebar",
-		"Definition": "Verdifull. Noe en setter stor pris på.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Edel",
-		"Definition": "Fin eller spesielt bra. \"Være edel\" kan også bety å tenke fint om noe, og ikke være egoistisk.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Vitnesbyrd",
-		"Definition": "Kort tale eller beskjed om hvordan en har det",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Hedning",
-		"Definition": "En som ikke er kristen fordi en bor et sted hvor kristendommen ikke har kommet enda. Vokser opp uten å høre eller lære om kristendom.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Ydmyk",
-		"Definition": "Små tanker om seg selv. Er ikke overlegen. Tar hensyn til egne begrensninger. Viser respekt og er høflig. Kan også bety at en er lydig mot Gud.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Hovmodig",
-		"Definition": "Overlegen. Tror at en er viktig og bedre enn andre.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "From",
-		"Definition": "Brukes ofte om flere ting. Først og fremst at en er ekte og ærlig, uten skjulte baktanker. Kan også bety at en er religiøs og gudfryktig.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Ta seg i vare",
-		"Definition": "Passe seg for"
-	},
-	{
-		"Title": "Dyd",
-		"Definition": "Verdifull egenskap. For eksempel tålmodighet eller gavmildhet.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Tilgift",
-		"Definition": "Noe en får i tillegg til noe annet",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Omsorg",
-		"Definition": "God og omtenksom hjelp",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Fremstille",
-		"Definition": "Føre eller sette frem",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Armod",
-		"Definition": "Stor fattigdom",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Ingenlunde",
-		"Definition": "Absolutt ikke",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Bluferdig",
-		"Definition": "Sømmelig, høflig og forsiktig. Ikke for raskt til å vise følelser. Kan også inkludere at en kler seg ordentlig og passende.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Tvette",
-		"Definition": "Vaske eller rense",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Grunnfeste",
-		"Definition": "Gjøre urokkelig og solid",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Dyktiggjøre",
-		"Definition": "Gi nødvendig opplæring",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Sinnelag",
-		"Definition": "Hva en helt innerst inne egentlig vil som person. Hva en tenker og føler inni seg.",
-		"Comment": "Kan også ha andre betydninger, men vi valgte å vektlegge dette",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Just",
-		"Definition": "Nettopp, nøyaktig eller akkurat",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Attrå",
-		"Definition": "Sterk lengsel, ønske eller lyst, ofte etter å få eller klare noe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Forsagt",
-		"Definition": "Engstelig, beskjeden og redd",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Opphav",
-		"Definition": "Begynnelse. Hvor noe kommer fra.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Helligdom",
-		"Definition": "Et hellig sted eller en hellig ting",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Lærdom",
-		"Definition": "Kunnskap",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Anvende",
-		"Definition": "Bruke",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Påskynde",
-		"Definition": "Øke hastigheten, eller gjøre sånn at noe skjer tidligere enn planlagt",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Fremskynde",
-		"Definition": "Gjøre sånn at noe skjer tidligere enn planlagt",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Ledemot",
-		"Definition": "Kroppsdel eller ledd",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Tveegget",
-		"Definition": "Skarpt på begge sider",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Bitter",
-		"Definition": "På en negativ måte føle seg skuffet, krenket eller satt til side. Eller være hatende og hard, og ikke ville bli venner igjen. Kan også bety noe som svir eller gjør vondt, eller noe som smaker veldig sterkt.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Således",
-		"Definition": "På den måten",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Sinn",
-		"Definition": "Tanker og følelser",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Åsyn",
-		"Definition": "Ansikt",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Beve",
-		"Definition": "Skjelve",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Lite på",
-		"Definition": "Stole på og trøste seg til",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Fylde",
-		"Definition": "Rikelig, veldig mye eller masse",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Velbehag",
-		"Definition": "Tilfredshet og glede",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Tilskynde",
-		"Definition": "Oppmuntre til å gjøre noe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Laste",
-		"Definition": "Kritisere, klandre eller bebreide",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Karrig",
-		"Definition": "Gjerrig",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Hjertelag",
-		"Definition": "En lyst til å hjelpe og glede andre, og vise medfølelse og varme",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Bot",
-		"Definition": "(i bibelen) En handling som viser at en angrer sin synd. Soning av synd.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Usigelig",
-		"Definition": "Ubeskrivelig. Uendelig. Kan ikke uttrykkes med ord.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Omstyrte",
-		"Definition": "Rive ned",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Utvortes",
-		"Definition": "Utsiden av kroppen",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "På hin side",
-		"Definition": "På motsatt side"
-	},
-	{
-		"Title": "Gid",
-		"Definition": "Noe en sier i starten av en setning for å vise at en virkelig ønsker det som står i setningen",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Vederlag",
-		"Definition": "Erstatning",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Foruten",
-		"Definition": "Bortsett fra",
-		"Category": "Preposisjon"
-	},
-	{
-		"Title": "Volde",
-		"Definition": "Forårsake",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Anstøt",
-		"Definition": "\"Ta anstøt\" betyr å ta avstand fra noe en ikke liker eller irriterer seg over. \"Legge anstøt\" betyr å få noen til å synde.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Skåne",
-		"Definition": "Vise hensyn",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Skjønt",
-		"Definition": "Selv om",
-		"Category": "Subjunksjon"
-	},
-	{
-		"Title": "Nidingsverk",
-		"Definition": "Noe skammelig eller æresløst som er blitt gjort",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Sette seg fore",
-		"Definition": "Bestemme seg for å gjøre noe"
-	},
-	{
-		"Title": "Samråd",
-		"Definition": "Rådslagning",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Særskilt",
-		"Definition": "Bestemt eller spesielt",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Kom i hu",
-		"Definition": "Husk på"
-	},
-	{
-		"Title": "Klagemål",
-		"Definition": "Klage",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Ætling",
-		"Definition": "Etterkommer av en spesiell person",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Tuktemester",
-		"Definition": "En som tukter, oppdrar eller straffer noen til anger og bekjennelse av synd",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Såfremt",
-		"Definition": "Dersom",
-		"Category": "Subjunksjon"
-	},
-	{
-		"Title": "Legge vinn på",
-		"Definition": "Bry seg veldig mye og bruke tid og krefter på noe"
-	},
-	{
-		"Title": "Uleilighet",
-		"Definition": "Noe som plager og er til bry",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Umak",
-		"Definition": "Anstrenge seg for å gjøre noe på best mulig måte",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Tykke",
-		"Definition": "Behag eller lyst. \"Tykke seg\" betyr å synes eller mene noe.",
-		"Category": "Substantiv / Verb"
-	},
-	{
-		"Title": "Fordum",
-		"Definition": "Før, eller i gamle dager",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Forut for",
-		"Definition": "Før, eller foran",
-		"Category": "Preposisjon"
-	},
-	{
-		"Title": "Arvelodd",
-		"Definition": "Den del av arven som en arving får",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Forsett",
-		"Definition": "Noe en har bestemt seg for",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Innsegl",
-		"Definition": "Stempel",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Harme",
-		"Definition": "Sinne. Vanligvis (ikke alltid) fordi noen har gjort noe slemt eller ondt.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Vanmakt",
-		"Definition": "Maktesløshet. Orker ikke å gjøre noe. Kan være både fysisk og mentalt.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Sanndru",
-		"Definition": "Ærlig og oppriktig. Snakker sant. Er glad i sannheten.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Lem",
-		"Definition": "Kroppsdel",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Tekkelig",
-		"Definition": "Høflig, beskjeden og ordentlig. Kan også bety å kle seg ordentlig og passende.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Forakte",
-		"Definition": "Se ned på noen. Tenke at en er ussel, uverdig og ikke verd å bry seg om.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Forlike",
-		"Definition": "Få noen til å slutte og stride, krangle eller være uenige. Gjøre at de blir enige og stifter fred.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Almisse",
-		"Definition": "Gave til fattige eller nødlidende",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Forgjengelig",
-		"Definition": "Varer ikke evig. Blir borte til slutt.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Gjenstridig",
-		"Definition": "Stritter imot og er trassig. Vil ikke ta imot råd eller tips. Er sta.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Brynde",
-		"Definition": "Kraftig og intens lidenskap, først og fremst et begjær etter noe",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Skarn",
-		"Definition": "Møkk, søppel eller støv. Kan også bety elendighet.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Barm",
-		"Definition": "Bryst eller hjerte. Kan også bety mellomrommet mellom klærna og brystet.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Tande (tanne)",
-		"Definition": "Utbrent veke (den greia du tenner på) i et lys",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Trell",
-		"Definition": "En som ikke er fri. Slave.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Skjønnsom",
-		"Definition": "Viser forstand (evnen til å forstå og tenke riktig)",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Overflod",
-		"Definition": "Veldig mye. Mer enn du trenger.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Sindig",
-		"Definition": "Gjør noe forstandig eller klokt, etter å ha tenkt rolig gjennom ting",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Medynk",
-		"Definition": "Medlidenhet. Synes synd på noen som sliter eller har det vondt.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Vederstyggelig",
-		"Definition": "Forferdelig, stygt, farlig, avskyelig, motbydelig og forkastelig",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Vankundig",
-		"Definition": "Mangle kunnskap",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Vansmekte",
-		"Definition": "Lide sterkt, enten på grunn av fysiske forhold, som mangel på mat og drikke, eller på grunn av lengsel",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Avholde",
-		"Definition": "Holde tilbake fra å gjøre noe. Kan også bety å ikke gjøre noe en er fristet til.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Bramme",
-		"Definition": "Skryte eller gjøre seg viktig",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Forbarme",
-		"Definition": "Vise medlidenhet, tilgi og hjelpe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Erkjenne",
-		"Definition": "Innrømme, eller bli klar over noe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Opphøye",
-		"Definition": "Sette på et høyt sted for å motta lovprisning eller ære. Gi høyere status.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Opprinne",
-		"Definition": "Bli synlig eller komme",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Skue",
-		"Definition": "Se, eller innse (erkjenne)",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Ve",
-		"Definition": "Brukes til å uttrykke smerte, fortvilelse, sorg eller lengsel",
-		"Category": "Interjeksjon"
-	},
-	{
-		"Title": "Fornedre",
-		"Definition": "Ydmyke eller bli sett ned på",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Fullbyrde",
-		"Definition": "Fullføre, utføre eller virkeliggjøre",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Møye",
-		"Definition": "Anstrengelse eller strev. Noe slitsomt som tynger eller er til bry.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Ringe",
-		"Definition": "(i bibelen) Liten og ubetydelig",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Lodd",
-		"Definition": "Noe en får tildelt eller allerede har",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Hu",
-		"Definition": "Sinnelag eller tanke. Se også \"kom i hu\".",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Dog",
-		"Definition": "Allikevel",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Derpå",
-		"Definition": "Ved dette",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Prakt",
-		"Definition": "Stor skjønnhet",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Svinne",
-		"Definition": "Litt etter litt bli borte",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Pakt",
-		"Definition": "Avtale",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Midte",
-		"Definition": "Midterste del eller område. Kan også bety en samling av mennesker.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Kar",
-		"Definition": "Beholder. Noe man kan ha ting oppi.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Bie",
-		"Definition": "(i bibelen) Vente tålmodig",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Frelse",
-		"Definition": "Sette fri fra fangenskap eller redde. Sette fri fra synd og død og gjøre veldig lykkelig.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Forbønn",
-		"Definition": "Be for andre",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Akte",
-		"Definition": "Vurdere eller betrakte. Se også \"gi akt på\".",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Ømhjertet",
-		"Definition": "Vise inderlig kjærlighet og omsorg",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Bli ved",
-		"Definition": "Fortsette",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Levnet",
-		"Definition": "Måten å leve på. Kan også bety liv. Se også \"levne\".",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Levne",
-		"Definition": "Etterlate noe. La noe bli igjen. Se også \"levnet\".",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Forferdet",
-		"Definition": "Engstelig, forskrekket, redd eller skremt",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Velvillig",
-		"Definition": "Positiv og oppfyllende",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Blues",
-		"Definition": "Skamme seg",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Forstand",
-		"Definition": "Evnen til å forstå og tenke riktig",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Bedrøvet",
-		"Definition": "Trist eller sorgfull",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Apostel",
-		"Definition": "En som har blitt sendt av sted for å forkynne eller fortelle om noe",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Vellukt",
-		"Definition": "God lukt",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Jamre",
-		"Definition": "Klage gråtende eller hulke av smerte eller sorg",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Overmåte",
-		"Definition": "Veldig eller svært",
-		"Category": "Adverb"
-	},
-	{
-		"Title": "Overmål",
-		"Definition": "Uvanlig eller veldig mye. Se også \"overflod\".",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Spotte",
-		"Definition": "Gjøre narr av noen på en sårende måte eller latterliggjøre",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Uforskyldt",
-		"Definition": "Ufortjent, eller noe en ikke selv er skyld i",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Forfengelig",
-		"Definition": "Selvopptatt og ute etter ære. Er overdrevent opptatt av utseende eller anseelse.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Basun",
-		"Definition": "Dypt og fyldig blåseinstrument. Ligner på lur (instrument) eller trombone.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Stunde",
-		"Definition": "Lengte",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Kyndig",
-		"Definition": "Er dyktig (flink og egnet) og har kunnskap",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Formå",
-		"Definition": "Kunne gjøre eller få til noe. Greie eller klare noe.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Stevne",
-		"Definition": "Sette kurs eller være på vei mot noe",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Bedra",
-		"Definition": "Lure eller narre",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Kjerub",
-		"Definition": "Engel av høy rang som har en spesiell oppgave som ofte handler om å vokte eller passe på noe",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Forkynne",
-		"Definition": "Gjøre noe kjent. Fortelle om noe.",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Lønnkammer",
-		"Definition": "Rom eller sted hvor en kan være alene",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Persekar",
-		"Definition": "Kar (beholder) til å presse druer",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Frimodig",
-		"Definition": "Uredd og modig fordi man har god samvittighet. Går løs på oppgavene med friskt mot. Kan også bety fryktløs eller åpen om meninger.",
-		"Category": "Adjektiv"
-	},
-	{
-		"Title": "Velde",
-		"Definition": "Overveldende (veldig sterk) makt eller kraft",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Fly",
-		"Definition": "(i bibelen) Flykte bort fra",
-		"Category": "Verb"
-	},
-	{
-		"Title": "Disippel",
-		"Definition": "Lærling, elev eller skolegutt. Personlig elev og tilhenger av en som forkynner en ny lære.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Hine",
-		"Definition": "Noe eller noen som er langt borte, enten i avstand eller i tid (for eksempel i gamle dager)",
-		"Category": "Determinativ"
-	},
-	{
-		"Title": "Lønndom",
-		"Definition": "Hemmelighet. \"I lønndom\" kan også bety i det skjulte, eller i hemmelighet.",
-		"Category": "Substantiv"
-	},
-	{
-		"Title": "Hudstryke",
-		"Definition": "Piske til en begynner å blø",
-		"Category": "Verb"
+		"InBible": 35
 	},
 	{
 		"Title": "Gagn",
 		"Definition": "Noe som er til nytte (hjelp) eller som gjør at andre får det bra",
-		"Category": "Substantiv"
+		"Category": "Substantiv",
+		"InBible": 56
+	},
+	{
+		"Title": "Husvalelse",
+		"Definition": "Trøst, oppmuntring, glede og lettelse",
+		"Category": "Substantiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Især",
+		"Definition": "Særlig <b>|</b> Spesielt <b>|</b> Først og fremst. \"Hver især\" betyr \"hver for seg\".",
+		"Category": "Adverb",
+		"InBible": 10
+	},
+	{
+		"Title": "Kiv",
+		"Definition": "Krangel",
+		"Category": "Substantiv",
+		"InBible": 27
+	},
+	{
+		"Title": "Kjød",
+		"Definition": "Den medfødte delen av et menneske som ønsker å gjøre det motsatte av det Gud vil <b>|</b> Kroppen til et menneske (stort sett i det gamle testamentet)",
+		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
+		"Category": "Substantiv",
+		"InBible": 200
+	},
+	{
+		"Title": "Kjødelig",
+		"Definition": "Se \"kjød\" <b>|</b> Noen man er i slekt med",
+		"Category": "Adjektiv",
+		"InBible": 17
+	},
+	{
+		"Title": "Kledebon",
+		"Definition": "Klær eller klesplagg",
+		"Category": "Substantiv",
+		"InBible": 37
+	},
+	{
+		"Title": "Langmodig",
+		"Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge og være tålmodig.",
+		"Category": "Adjektiv",
+		"InBible": 33
+	},
+	{
+		"Title": "Legeme",
+		"Definition": "Kroppen til et menneske, hvor sjel og ånd ikke er regnet med",
+		"Category": "Substantiv",
+		"InBible": 174
+	},
+	{
+		"Title": "Miskunn",
+		"Definition": "Nåde og barmhjertighet, ofte fra Gud. Se også \"Barmhjertig\".",
+		"Category": "Substantiv",
+		"InBible": 245
+	},
+	{
+		"Title": "Nidkjær",
+		"Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke <b>|</b> Streng og rettferdig",
+		"Category": "Adjektiv",
+		"InBible": 67
+	},
+	{
+		"Title": "Nåde",
+		"Definition": "Hjelp til seier over synd (Titus 2:11-13) <b>|</b> Guds kjærlighet, barmhjertighet og tilgivelse <b>|</b> Beskyttelse og hjelp",
+		"Comment": "Definisjonen er delvis basert på Bibelen",
+		"Category": "Substantiv",
+		"InBible": 303
+	},
+	{
+		"Title": "Oppriktig",
+		"Definition": "Ekte, åpen og ærlig",
+		"Category": "Adjektiv",
+		"InBible": 56
+	},
+	{
+		"Title": "Overtredelse",
+		"Definition": "Bryte loven. Gjøre noe galt.",
+		"Category": "Substantiv",
+		"InBible": 60
+	},
+	{
+		"Title": "Overvettes",
+		"Definition": "I veldig stor grad <b>|</b> Uvanlig mye",
+		"Category": "Adverb",
+		"InBible": 15
+	},
+	{
+		"Title": "Redebonhet",
+		"Definition": "Lyst til å hjelpe andre",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Ryggesløs",
+		"Definition": "Har ikke grenser. Er frekk og bryr seg ikke. Gjør hva man vil.",
+		"Category": "Adjektiv",
+		"InBible": 6
+	},
+	{
+		"Title": "Saktmodig",
+		"Definition": "Stille og fredelig, selv om andre kanskje behandler deg slemt og urettferdig",
+		"Category": "Adjektiv",
+		"InBible": 44
+	},
+	{
+		"Title": "Sjel",
+		"Definition": "Tanker, vilje og følelser. Hvem du er som person <b>|</b> En person",
+		"Comment": "Alle mennesker har en menneskeånd i tillegg til en sjel",
+		"Category": "Substantiv",
+		"InBible": 351
+	},
+	{
+		"Title": "Skussmål",
+		"Definition": "Hva noen har sagt eller skrevet om deg og det du har gjort. Ligner på vitnemål eller attest.",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Stadfeste",
+		"Definition": "Slå noe fast (uttrykk) <b>|</b> Bekrefte på en skikkelig måte",
+		"Category": "Verb",
+		"InBible": 25
+	},
+	{
+		"Title": "Synd",
+		"Definition": "Det Gud har sagt at menneskene ikke skal gjøre eller tenke",
+		"Category": "Substantiv",
+		"InBible": 758
+	},
+	{
+		"Title": "Sømmelig",
+		"Definition": "God folkeskikk og oppførsel. Gjøre det som er riktig og som passer seg.",
+		"Category": "Adjektiv",
+		"InBible": 27
+	},
+	{
+		"Title": "Sønderbryte",
+		"Definition": "Knuse eller slå i stykker",
+		"Category": "Verb",
+		"InBible": 17
+	},
+	{
+		"Title": "Tukt",
+		"Definition": "Streng oppdragelse <b>|</b> Irettesettelse ",
+		"Category": "Substantiv",
+		"InBible": 117
+	},
+	{
+		"Title": "Uforgjengelig",
+		"Definition": "Blir aldri borte. Varer evig.",
+		"Category": "Adjektiv",
+		"InBible": 16
+	},
+	{
+		"Title": "Ulastelig",
+		"Definition": "Helt uten feil, slik at ingen kan klage på at man har gjort noe galt",
+		"Category": "Adjektiv",
+		"InBible": 36
+	},
+	{
+		"Title": "Vanskjøtte",
+		"Definition": "Velge å ikke gjøre noe man egentlig burde ha gjort <b>|</b> Behandle dårlig. Omsorgssvikt.",
+		"Category": "Verb",
+		"InBible": 1
+	},
+	{
+		"Title": "Vitterlig",
+		"Definition": "Kjent og åpenbart",
+		"Category": "Adjektiv",
+		"InBible": 21
+	},
+	{
+		"Title": "Vrede",
+		"Definition": "Sinne. Ofte med god grunn fordi noen har gjort noe ondt.",
+		"Category": "Substantiv",
+		"InBible": 456
+	},
+	{
+		"Title": "Vantro",
+		"Definition": "Tvil. Skepsis. Mangel på overbevisning og tro.",
+		"Category": "Adjektiv / Substantiv",
+		"InBible": 42
+	},
+	{
+		"Title": "Fortape",
+		"Definition": "Tape. Miste helt. Gå glipp av noe.",
+		"Category": "Verb",
+		"InBible": 15
+	},
+	{
+		"Title": "Salig",
+		"Definition": "Utrolig glad. Fullkomment lykkelig <b>|</b> Velsignet av Gud",
+		"Category": "Adjektiv",
+		"InBible": 93
+	},
+	{
+		"Title": "Gavmild",
+		"Definition": "Gir gjerne gaver til andre fordi man har lyst",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Innvortes",
+		"Definition": "Innsiden av kroppen <b>|</b> I sjelen",
+		"Category": "Adjektiv / Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Surdeig",
+		"Definition": "Sterkt gjæret deig med sur lukt og smak <b>|</b> Gammel og verdiløs tradisjon",
+		"Category": "Substantiv",
+		"InBible": 18
+	},
+	{
+		"Title": "Fariseer",
+		"Definition": "En jøde som følger Moseloven veldig nøye, men som kanskje hykler og er selvrettferdig. Se også \"Hykle\".",
+		"Category": "Substantiv",
+		"InBible": 94
+	},
+	{
+		"Title": "Gi akt på",
+		"Definition": "Vise oppmerksomhet. Følge nøye med og være interessert.",
+		"InBible": 51
+	},
+	{
+		"Title": "Lefle",
+		"Definition": "Ikke tenke seg om. Ikke ta ting seriøst. Være overfladisk.",
+		"Category": "Verb",
+		"InBible": 0
+	},
+	{
+		"Title": "Skjøge",
+		"Definition": "Prostituert <b>|</b> Utro",
+		"Category": "Substantiv",
+		"InBible": 44
+	},
+	{
+		"Title": "Vederkvege",
+		"Definition": "Forfriske, styrke, fornye, oppmuntre, glede og trøste",
+		"Category": "Verb",
+		"InBible": 14
+	},
+	{
+		"Title": "Avind",
+		"Definition": "Veldig sterk misunnelse, nesten som hat, ofte rettet mot andre sine evner, status eller ting",
+		"Category": "Substantiv",
+		"InBible": 29
+	},
+	{
+		"Title": "Begjær",
+		"Definition": "Sterk lengsel eller trang. Kan være både positivt eller negativt utifra sammenhengen. Kan noen ganger bety sterk seksuell lengsel eller tiltrekning.",
+		"Category": "Substantiv",
+		"InBible": 36
+	},
+	{
+		"Title": "Grunne",
+		"Definition": "Tenke dypt og lenge på noe",
+		"Category": "Verb",
+		"InBible": 28
+	},
+	{
+		"Title": "Ånd",
+		"Definition": "Overnaturlig vesen eller kraft som ikke er av denne verdenen. I enkelte sammenhenger kan ånd også bety sinnelag, innstilling eller tankesett.",
+		"Comment": "Alle mennesker har en menneskeånd i tillegg til en sjel",
+		"Category": "Substantiv",
+		"InBible": 559
+	},
+	{
+		"Title": "Gudsfrykt",
+		"Definition": "Kraft til å forkaste det onde og velge det gode, og tenke på Guds ære istedenfor menneskers <b>|</b> Frykte Gud",
+		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
+		"Category": "Substantiv",
+		"InBible": 38
+	},
+	{
+		"Title": "Higen",
+		"Definition": "Lengsel",
+		"Category": "Substantiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Utukt",
+		"Definition": "Kjønnslig eller seksuell handling som går imot Guds lover og bud, eller som er umoralsk og usømmelig",
+		"Category": "Substantiv",
+		"InBible": 28
+	},
+	{
+		"Title": "Nøysom",
+		"Definition": "Klare seg fint med det man har",
+		"Category": "Adjektiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Formane",
+		"Definition": "Oppmuntre sterkt til å gjøre noe",
+		"Category": "Verb",
+		"InBible": 64
+	},
+	{
+		"Title": "Refse",
+		"Definition": "Snakke strengt eller straffe",
+		"Category": "Verb",
+		"InBible": 34
+	},
+	{
+		"Title": "Helliggjøre",
+		"Definition": "Bli hellig, ren og rettferdig",
+		"Category": "Verb",
+		"InBible": 12
+	},
+	{
+		"Title": "Kolossal",
+		"Definition": "Kjempestor, gigantisk eller veldig",
+		"Category": "Adjektiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Hvorledes",
+		"Definition": "Hvordan",
+		"Category": "Adverb",
+		"InBible": 303
+	},
+	{
+		"Title": "Løseord",
+		"Definition": "Ord som løser opp i vanskeligheter og setter deg fri",
+		"Comment": "Definisjonen mangler i norske ordbøker",
+		"Category": "Substantiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Fredsommelig",
+		"Definition": "Søker å ha fred og ro rundt seg. Er fredelig og rolig.",
+		"Category": "Adjektiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Rimelig",
+		"Definition": "Fornuftig og smart <b>|</b> Lager ikke vanskeligheter. Er lett å samarbeide med. Er ikke kravstor.",
+		"Category": "Adjektiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Skrømt",
+		"Definition": "Falskhet eller hykleri <b>|</b> Innbilning",
+		"Category": "Substantiv",
+		"InBible": 8
+	},
+	{
+		"Title": "Fåfengt",
+		"Definition": "Nytter ikke. Gir ikke resultater.",
+		"Category": "Adverb / Adjektiv",
+		"InBible": 8
+	},
+	{
+		"Title": "Hykle",
+		"Definition": "Late som om man er noe man ikke er",
+		"Category": "Verb",
+		"InBible": 26
+	},
+	{
+		"Title": "Eder eller I",
+		"Definition": "Dere",
+		"Category": "Pronomen",
+		"InBible": 2216
+	},
+	{
+		"Title": "Selvisk",
+		"Definition": "Egoistisk",
+		"Category": "Adjektiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Fortære",
+		"Definition": "Spise eller ødelegge",
+		"Category": "Verb",
+		"InBible": 162
+	},
+	{
+		"Title": "Fullende",
+		"Definition": "Avslutte noe så det blir helt ferdig",
+		"Category": "Verb",
+		"InBible": 9
+	},
+	{
+		"Title": "Religiøs",
+		"Definition": "Tro på noe overnaturlig (noe som ikke kan forklares med vitenskap), som for eksempel Gud",
+		"Comment": "Brukes ofte i menigheten om kristne som tror på en løgn (typisk Jesus uten seier over synd)",
+		"Category": "Adjektiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Fornekte",
+		"Definition": "Nekte å kjenne eller ha forbindelse med noe eller noen <b>|</b> Tvinge seg selv til å ikke gjøre det man egentlig har lyst til",
+		"Category": "Verb",
+		"InBible": 31
+	},
+	{
+		"Title": "Verdslig",
+		"Definition": "Er ikke kristen og tenker bare på jordiske forhold og ting",
+		"Category": "Adjektiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Utrette",
+		"Definition": "Utføre eller fullføre",
+		"Category": "Verb",
+		"InBible": 11
+	},
+	{
+		"Title": "Helhjertet",
+		"Definition": "Gjøre noe 100% uten å tvile",
+		"Category": "Adjektiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Dårskap",
+		"Definition": "Dumhet",
+		"Category": "Substantiv",
+		"InBible": 52
+	},
+	{
+		"Title": "Skikk",
+		"Definition": "Sånn man ønsker at ting skal være. Orden og riktighet <b>|</b> Tradisjon. Noe man vanligvis gjør.",
+		"Category": "Substantiv",
+		"InBible": 22
+	},
+	{
+		"Title": "Natur",
+		"Definition": "Medfødt egenskap. For eksempel \"han er nøye av natur\".",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Berede",
+		"Definition": "Forberede",
+		"Category": "Verb",
+		"InBible": 8
+	},
+	{
+		"Title": "Edel",
+		"Definition": "Fin eller spesielt bra <b>|</b> Tenke fint om noe og ikke være egoistisk",
+		"Category": "Adjektiv",
+		"InBible": 6
+	},
+	{
+		"Title": "Vitnesbyrd",
+		"Definition": "Fortelle om noe eller noen <b>|</b> Si noe kort om hvordan man har det og hva man tror på",
+		"Category": "Substantiv",
+		"InBible": 167
+	},
+	{
+		"Title": "Hedning",
+		"Definition": "En som ikke er kristen fordi man bor et sted hvor kristendommen ikke har kommet enda. Vokser opp uten å høre eller lære om kristendom <b>|</b> En som ikke tror på Gud",
+		"Category": "Substantiv",
+		"InBible": 283
+	},
+	{
+		"Title": "Ydmyk",
+		"Definition": "Små tanker om seg selv. Ikke overlegen. Lydig mot Gud. Tar hensyn til egne begrensninger. Viser respekt og er høflig.",
+		"Category": "Adjektiv",
+		"InBible": 103
+	},
+	{
+		"Title": "Hovmod",
+		"Definition": "Overdreven stolthet eller selvfølelse. For stor selvsikkerhet. Overlegenhet.",
+		"Category": "Substantiv",
+		"InBible": 74
+	},
+	{
+		"Title": "From",
+		"Definition": "God. Gjør det som er rett og riktig. Gudfryktig. Ydmyk. Ekte og ærlig, uten skjulte baktanker.",
+		"Category": "Adjektiv",
+		"InBible": 33
+	},
+	{
+		"Title": "Ta seg i vare",
+		"Definition": "Passe seg for",
+		"InBible": 48
+	},
+	{
+		"Title": "Dyd",
+		"Definition": "Verdifull egenskap. For eksempel tålmodighet eller gavmildhet.",
+		"Category": "Substantiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Tilgift",
+		"Definition": "Noe man får i tillegg til noe annet",
+		"Category": "Substantiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Omsorg",
+		"Definition": "Hjelp <b>|</b> Kjærlig oppmerksomhet eller omtanke",
+		"Category": "Substantiv",
+		"InBible": 19
+	},
+	{
+		"Title": "Fremstille",
+		"Definition": "Føre noe fram. Stå fram.",
+		"Category": "Verb",
+		"InBible": 13
+	},
+	{
+		"Title": "Armod",
+		"Definition": "Stor fattigdom",
+		"Category": "Substantiv",
+		"InBible": 7
+	},
+	{
+		"Title": "Ingenlunde",
+		"Definition": "Absolutt ikke",
+		"Category": "Adverb",
+		"InBible": 25
+	},
+	{
+		"Title": "Bluferdig",
+		"Definition": "Sømmelig, høflig og forsiktig. Ikke for rask til å vise følelser. Kan også inkludere at man kler seg ordentlig og passende.",
+		"Category": "Adjektiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Tvette",
+		"Definition": "Vaske eller rense",
+		"Category": "Verb",
+		"InBible": 93
+	},
+	{
+		"Title": "Grunnfeste",
+		"Definition": "Gjøre urokkelig og solid",
+		"Category": "Verb",
+		"InBible": 42
+	},
+	{
+		"Title": "Dyktiggjøre",
+		"Definition": "Gi opplæring <b>|</b> Kvalifisere",
+		"Category": "Verb",
+		"InBible": 1
+	},
+	{
+		"Title": "Sinnelag",
+		"Definition": "Hvordan man er som person. Hva man tenker, føler og vil.",
+		"Category": "Substantiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Just",
+		"Definition": "Nettopp, nøyaktig eller akkurat",
+		"Category": "Adverb",
+		"InBible": 22
+	},
+	{
+		"Title": "Attrå",
+		"Definition": "Sterk lengsel eller lyst, ofte etter å få eller klare noe",
+		"Category": "Verb / Substantiv",
+		"InBible": 51
+	},
+	{
+		"Title": "Forsagt",
+		"Definition": "Engstelig, beskjeden og redd",
+		"Category": "Adjektiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Opphav",
+		"Definition": "Utgangspunkt, begynnelse eller opprinnelse",
+		"Category": "Substantiv",
+		"InBible": 17
+	},
+	{
+		"Title": "Helligdom",
+		"Definition": "Guddommelighet eller hellighet <b>|</b> Et hellig sted eller en hellig ting",
+		"Category": "Substantiv",
+		"InBible": 175
+	},
+	{
+		"Title": "Lærdom",
+		"Definition": "Kunnskap",
+		"Category": "Substantiv",
+		"InBible": 33
+	},
+	{
+		"Title": "Fremskynde",
+		"Definition": "Øke hastigheten <b>|</b> Gjøre at noe skjer tidligere enn planlagt",
+		"Category": "Verb",
+		"InBible": 1
+	},
+	{
+		"Title": "Påskynde",
+		"Definition": "Se \"Fremskynde\"",
+		"Category": "Verb",
+		"InBible": 0
+	},
+	{
+		"Title": "Ledemot",
+		"Definition": "Kroppsdel eller ledd",
+		"Category": "Substantiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Tveegget",
+		"Definition": "Skarpt på begge sider",
+		"Category": "Adjektiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Bitter",
+		"Definition": "Skarp smak <b>|</b> Sorg og ubehag <b>|</b> Skarp og bitende <b>|</b> Hard og hatefull. Vil ikke bli venner igjen <b>|</b> Sviende smertefull <b>|</b> Føle seg smertelig krenket, skuffet eller tilsidesatt",
+		"Category": "Adjektiv",
+		"InBible": 31
+	},
+	{
+		"Title": "Således",
+		"Definition": "På den måten",
+		"Category": "Adverb",
+		"InBible": 923
+	},
+	{
+		"Title": "Sinn",
+		"Definition": "Tanker, følelser og vilje",
+		"Category": "Substantiv",
+		"InBible": 49
+	},
+	{
+		"Title": "Åsyn",
+		"Definition": "At noen ser på deg <b>|</b> Ansikt <b>|</b> Ansiktsuttrykk",
+		"Category": "Substantiv",
+		"InBible": 647
+	},
+	{
+		"Title": "Beve",
+		"Definition": "Skjelve, kanskje av frykt",
+		"Category": "Verb",
+		"InBible": 63
+	},
+	{
+		"Title": "Lite på",
+		"Definition": "Stole på <b>|</b> Trøste seg til",
+		"Category": "Verb",
+		"InBible": 3
+	},
+	{
+		"Title": "Fylde",
+		"Definition": "Rikelig, veldig mye eller masse",
+		"Category": "Substantiv",
+		"InBible": 21
+	},
+	{
+		"Title": "Velbehag",
+		"Definition": "Tilfredshet og glede",
+		"Category": "Substantiv",
+		"InBible": 107
+	},
+	{
+		"Title": "Tilskynde",
+		"Definition": "Få noen til å gjøre noe <b>|</b> Inspirere eller oppmuntre",
+		"Category": "Verb",
+		"InBible": 8
+	},
+	{
+		"Title": "Laste",
+		"Definition": "Kritisere. Ikke være fornøyd med hva noen har gjort.",
+		"Category": "Verb",
+		"InBible": 1
+	},
+	{
+		"Title": "Karrig",
+		"Definition": "Gjerrig <b>|</b> Sparsom",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Hjertelag",
+		"Definition": "Trang til å hjelpe og glede andre",
+		"Category": "Substantiv",
+		"InBible": 9
+	},
+	{
+		"Title": "Bot",
+		"Definition": "(i Bibelen) Soning av synd <b>|</b> Handling som viser at man angrer sin synd",
+		"Category": "Substantiv",
+		"InBible": 14
+	},
+	{
+		"Title": "Usigelig",
+		"Definition": "Noe som ikke kan uttrykkes med ord <b>|</b> Overstrømmende <b>|</b> Uvanlig stort <b>|</b> Ubeskrivelig eller uendelig",
+		"Category": "Adjektiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Omstyrte",
+		"Definition": "Rive ned",
+		"Category": "Verb",
+		"InBible": 13
+	},
+	{
+		"Title": "Utvortes",
+		"Definition": "Utsiden av kroppen <b>|</b> Utseende <b>|</b> Noe som skjer utenfor noe eller noen",
+		"Category": "Adjektiv / Substantiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Hin side",
+		"Definition": "Motsatt side",
+		"InBible": 57
+	},
+	{
+		"Title": "Gid",
+		"Definition": "Noe man sier i starten av en setning for å vise at man virkelig ønsker det som står i setningen",
+		"Category": "Adverb",
+		"InBible": 35
+	},
+	{
+		"Title": "Vederlag",
+		"Definition": "Erstatning <b>|</b> Belønning",
+		"Category": "Substantiv",
+		"InBible": 29
+	},
+	{
+		"Title": "Foruten",
+		"Definition": "Bortsett fra <b>|</b> Unntatt",
+		"Category": "Preposisjon",
+		"InBible": 80
+	},
+	{
+		"Title": "Volde",
+		"Definition": "Forårsake <b>|</b> Bli årsak til noe ubehagelig eller sørgelig",
+		"Category": "Verb",
+		"InBible": 50
+	},
+	{
+		"Title": "Anstøt",
+		"Definition": "\"Ta anstøt\" betyr å ta avstand fra noe man ikke liker eller irriterer seg over. \"Legge anstøt\" betyr å få noen til å synde.",
+		"Category": "Substantiv",
+		"InBible": 42
+	},
+	{
+		"Title": "Skåne",
+		"Definition": "Vise hensyn <b>|</b> Bevare eller beskytte",
+		"Category": "Verb",
+		"InBible": 7
+	},
+	{
+		"Title": "Skjønt",
+		"Definition": "Selv om",
+		"Category": "Subjunksjon",
+		"InBible": 10
+	},
+	{
+		"Title": "Nidingsverk",
+		"Definition": "Noe skammelig eller æresløst som er blitt gjort",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Sette seg fore",
+		"Definition": "Bestemme seg for noe",
+		"InBible": 25
+	},
+	{
+		"Title": "Ta seg fore",
+		"Definition": "Foreta seg noe. Gjøre noe.",
+		"InBible": 25
+	},
+	{
+		"Title": "Samråd",
+		"Definition": "Rådslagning. Spørre om råd.",
+		"Category": "Substantiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Særskilt",
+		"Definition": "Spesielt / Spesiell <b>|</b> Bestemt",
+		"Category": "Adjektiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Kom i hu",
+		"Definition": "Husk på",
+		"InBible": 42
+	},
+	{
+		"Title": "Klagemål",
+		"Definition": "Klage",
+		"Category": "Substantiv",
+		"InBible": 20
+	},
+	{
+		"Title": "Ætling",
+		"Definition": "Etterkommer av en spesiell person",
+		"Category": "Substantiv",
+		"InBible": 6
+	},
+	{
+		"Title": "Tuktemester",
+		"Definition": "En som tukter, oppdrar eller straffer noen til anger og bekjennelse av synd",
+		"Category": "Substantiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Såfremt",
+		"Definition": "Dersom",
+		"Category": "Subjunksjon",
+		"InBible": 20
+	},
+	{
+		"Title": "Legge vinn på",
+		"Definition": "Bruke tid og krefter på noe <b>|</b> Anstrenge seg",
+		"InBible": 18
+	},
+	{
+		"Title": "Uleilighet",
+		"Definition": "Noe som plager eller er til bry",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Umak",
+		"Definition": "Bruke tid og krefter på noe <b>|</b> Anstrenge seg",
+		"Category": "Substantiv",
+		"InBible": 13
+	},
+	{
+		"Title": "Etter eget tykke",
+		"Definition": "Sånn man ønsker det <b>|</b> Sånn man mener er best",
+		"InBible": 4
+	},
+	{
+		"Title": "Fordum",
+		"Definition": "Før <b>|</b> I gamle dager",
+		"Category": "Adverb",
+		"InBible": 58
+	},
+	{
+		"Title": "Forut for",
+		"Definition": "Før <b>|</b> Foran",
+		"Category": "Adverb",
+		"InBible": 9
+	},
+	{
+		"Title": "Arvelodd",
+		"Definition": "Den del av arven som en arving får",
+		"Category": "Substantiv",
+		"InBible": 52
+	},
+	{
+		"Title": "Forsett",
+		"Definition": "Noe man har bestemt seg for <b>|</b> Med vilje",
+		"Category": "Substantiv",
+		"InBible": 11
+	},
+	{
+		"Title": "Innsegl",
+		"Definition": "Merke eller stempel",
+		"Category": "Substantiv",
+		"InBible": 6
+	},
+	{
+		"Title": "Harme",
+		"Definition": "Sinne. Ofte med god grunn fordi noen har gjort noe ondt.",
+		"Category": "Substantiv",
+		"InBible": 184
+	},
+	{
+		"Title": "Vanmakt",
+		"Definition": "Fysisk kraftløshet. Maktesløshet. Ikke orke å gjøre noe.",
+		"Category": "Substantiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Sanndru",
+		"Definition": "Ærlig og oppriktig. Snakker sant. Er glad i sannheten.",
+		"Category": "Adjektiv",
+		"InBible": 16
+	},
+	{
+		"Title": "Lem",
+		"Definition": "Kroppsdel",
+		"Category": "Substantiv",
+		"InBible": 30
+	},
+	{
+		"Title": "Tekkelig",
+		"Definition": "Vekke glede eller behag på grunn av god oppførsel <b>|</b> Høflig, beskjeden og ordentlig <b>|</b> Kle seg ordentlig og passende",
+		"Category": "Adjektiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Forakte",
+		"Definition": "Tenke at noe ikke er verd å bry seg om <b>|</b> Tenke at noe er usselt <b>|</b> Se ned på noen",
+		"Category": "Verb",
+		"InBible": 115
+	},
+	{
+		"Title": "Forlike",
+		"Definition": "Få noen til å slutte og krige, krangle eller være uenige <b>|</b> Gjøre at noen blir enige og stifter fred",
+		"Category": "Verb",
+		"InBible": 14
+	},
+	{
+		"Title": "Almisse",
+		"Definition": "Gave til fattige eller nødlidende",
+		"Category": "Substantiv",
+		"InBible": 12
+	},
+	{
+		"Title": "Forgjengelig",
+		"Definition": "Blir borte. Varer ikke evig.",
+		"Category": "Adjektiv",
+		"InBible": 13
+	},
+	{
+		"Title": "Gjenstridig",
+		"Definition": "Trassig og sta. Vil ikke ta imot råd eller ordre. Vanskelig å behandle.",
+		"Category": "Adjektiv",
+		"InBible": 83
+	},
+	{
+		"Title": "Brynde",
+		"Definition": "Kraftig og intens lidenskap. Et begjær etter noe.",
+		"Category": "Substantiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Skarn",
+		"Definition": "Møkk, søppel eller støv <b>|</b> Elendighet",
+		"Category": "Substantiv",
+		"InBible": 27
+	},
+	{
+		"Title": "Barm",
+		"Definition": "Bryst eller hjerte <b>|</b> Mellomrommet mellom klærna og brystet",
+		"Category": "Substantiv",
+		"InBible": 14
+	},
+	{
+		"Title": "Tande (tanne)",
+		"Definition": "Utbrent veke (den greia man tenner på) i et lys",
+		"Category": "Substantiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Træl (trell)",
+		"Definition": "En som ikke er fri. Slave.",
+		"Category": "Substantiv",
+		"InBible": 190
+	},
+	{
+		"Title": "Skjønnsom",
+		"Definition": "Forstandig. Fornuftig. Klok.",
+		"Category": "Adjektiv",
+		"InBible": 7
+	},
+	{
+		"Title": "Overflod",
+		"Definition": "Veldig mye. Mer enn nødvendig.",
+		"Category": "Substantiv",
+		"InBible": 35
+	},
+	{
+		"Title": "Sindig",
+		"Definition": "Gjør noe forstandig, fornuftig eller klokt etter å ha tenkt rolig igjennom ting",
+		"Category": "Adjektiv",
+		"InBible": 9
+	},
+	{
+		"Title": "Medynk",
+		"Definition": "Medlidenhet. Synes synd på noen som sliter eller har det vondt.",
+		"Category": "Substantiv",
+		"InBible": 19
+	},
+	{
+		"Title": "Vederstyggelig",
+		"Definition": "Avskyelig, motbydelig eller plagsom <b>|</b> Forkastelig eller frastøtende <b>|</b> Skremmende eller farlig",
+		"Category": "Adjektiv",
+		"InBible": 164
+	},
+	{
+		"Title": "Vankundig",
+		"Definition": "Mangler kunnskap. Uopplyst.",
+		"Category": "Adjektiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Vansmekte",
+		"Definition": "Lide sterkt, enten på grunn av fysiske forhold, som mangel på mat og drikke, eller på grunn av lengsel",
+		"Category": "Verb",
+		"InBible": 39
+	},
+	{
+		"Title": "Avholde",
+		"Definition": "Velge å ikke gjøre noe <b>|</b> Velge å ikke gjøre noe man er fristet til",
+		"Category": "Verb",
+		"InBible": 25
+	},
+	{
+		"Title": "Bramme",
+		"Definition": "Skryte eller gjøre seg viktig",
+		"Category": "Verb",
+		"InBible": 1
+	},
+	{
+		"Title": "Forbarme",
+		"Definition": "Vise medlidenhet og tilgi eller hjelpe",
+		"Category": "Verb",
+		"InBible": 40
+	},
+	{
+		"Title": "Erkjenne",
+		"Definition": "Bli klar over noe <b>|</b> Innrømme",
+		"Category": "Verb",
+		"InBible": 5
+	},
+	{
+		"Title": "Opprinne",
+		"Definition": "Bli synlig",
+		"Category": "Verb",
+		"InBible": 1
+	},
+	{
+		"Title": "Skue",
+		"Definition": "Se <b>|</b> Innse (forstå)",
+		"Category": "Verb",
+		"InBible": 62
+	},
+	{
+		"Title": "Ve",
+		"Definition": "Brukes til å uttrykke smerte, fortvilelse, sorg eller engstelse",
+		"Category": "Interjeksjon",
+		"InBible": 0
+	},
+	{
+		"Title": "Fornedre",
+		"Definition": "Gjøre lavere <b>|</b> Ydmyke eller gjøre ubetydelig og uten verdi",
+		"Category": "Verb",
+		"InBible": 12
+	},
+	{
+		"Title": "Fullbyrde",
+		"Definition": "Utføre eller virkeliggjøre <b>|</b> Fullføre (gjøre ferdig)",
+		"Category": "Verb",
+		"InBible": 46
+	},
+	{
+		"Title": "Møie (møye)",
+		"Definition": "Anstrengelse, strev (slit) eller bryderi",
+		"Category": "Substantiv",
+		"InBible": 54
+	},
+	{
+		"Title": "Ringe",
+		"Definition": "(i Bibelen) Liten og ubetydelig",
+		"Category": "Adjektiv",
+		"InBible": 69
+	},
+	{
+		"Title": "Lodd",
+		"Definition": "En del man får når noe deles ut <b>|</b> Trekke lodd",
+		"Category": "Substantiv",
+		"InBible": 107
+	},
+	{
+		"Title": "Hu",
+		"Definition": "Sinn, sinnelag eller tanke. Se også \"Kom i hu\".",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Dog",
+		"Definition": "Allikevel",
+		"Category": "Adverb",
+		"InBible": 203
+	},
+	{
+		"Title": "Derpå",
+		"Definition": "Basert på det som ble nevnt (eller blir nevnt) <b>|</b> Etterpå",
+		"Category": "Adverb",
+		"InBible": 5
+	},
+	{
+		"Title": "Prakt",
+		"Definition": "Stor skjønnhet",
+		"Category": "Substantiv",
+		"InBible": 12
+	},
+	{
+		"Title": "Svinne",
+		"Definition": "Bli borte litt etter litt <b>|</b> Forsvinne",
+		"Category": "Verb",
+		"InBible": 11
+	},
+	{
+		"Title": "Pakt",
+		"Definition": "Avtale",
+		"Category": "Substantiv",
+		"InBible": 290
+	},
+	{
+		"Title": "Midte",
+		"Definition": "Midterste del eller område <b>|</b> Samling av mennesker",
+		"Category": "Substantiv",
+		"InBible": 35
+	},
+	{
+		"Title": "Kar",
+		"Definition": "Beholder (noe man kan ha ting oppi)",
+		"Category": "Substantiv",
+		"InBible": 94
+	},
+	{
+		"Title": "Bie",
+		"Definition": "(i Bibelen) Vente tålmodig",
+		"Category": "Verb",
+		"InBible": 38
+	},
+	{
+		"Title": "Frelse",
+		"Definition": "Fri fra synd og død og gjøre fullkomment lykkelig <b>|</b> Omvende <b>|</b> Sette fri <b>|</b> Løse fra slaveri <b>|</b> Fri fra fangenskap <b>|</b> Bevare fra fare, ulykke eller død",
+		"Category": "Verb",
+		"InBible": 353
+	},
+	{
+		"Title": "Forbønn",
+		"Definition": "Be for noen",
+		"Category": "Substantiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Akte",
+		"Definition": "Være oppmerksom. Legge merke til. Se også \"Gi akt på\".",
+		"Category": "Verb",
+		"InBible": 215
+	},
+	{
+		"Title": "Ømhjertet",
+		"Definition": "Viser inderlig kjærlighet og omsorg",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Bli ved",
+		"Definition": "Fortsette",
+		"Category": "Verb",
+		"InBible": 12
+	},
+	{
+		"Title": "Levnet",
+		"Definition": "Måten man lever på. Se også \"Levne\".",
+		"Category": "Substantiv",
+		"InBible": 21
+	},
+	{
+		"Title": "Levne",
+		"Definition": "La noe bli igjen <b>|</b> Etterlate noe. Se også \"Levnet\".",
+		"Category": "Verb",
+		"InBible": 21
+	},
+	{
+		"Title": "Forferdet",
+		"Definition": "Veldig skremt, engstelig eller redd <b>|</b> Forskrekket",
+		"Category": "Adjektiv",
+		"InBible": 102
+	},
+	{
+		"Title": "Velvillig",
+		"Definition": "Imøtekommende og positiv",
+		"Category": "Adjektiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Blues",
+		"Definition": "Sjenert eller beskjeden <b>|</b> Skamme seg",
+		"Category": "Verb",
+		"InBible": 12
+	},
+	{
+		"Title": "Forstand",
+		"Definition": "Evnen til å forstå og tenke riktig <b>|</b> Intelligens <b>|</b> Forståelse og innsikt",
+		"Category": "Substantiv",
+		"InBible": 241
+	},
+	{
+		"Title": "Bedrøvet",
+		"Definition": "Trist eller full av sorg",
+		"Category": "Adjektiv",
+		"InBible": 35
+	},
+	{
+		"Title": "Apostel",
+		"Definition": "En som har blitt sendt av sted for å forkynne eller fortelle om noe",
+		"Category": "Substantiv",
+		"InBible": 22
+	},
+	{
+		"Title": "Vellukt",
+		"Definition": "God lukt",
+		"Category": "Substantiv",
+		"InBible": 28
+	},
+	{
+		"Title": "Jamre",
+		"Definition": "Klage gråtende eller hulkende av smerte eller sorg",
+		"Category": "Verb",
+		"InBible": 30
+	},
+	{
+		"Title": "Overmåte",
+		"Definition": "I veldig stor grad",
+		"Category": "Adverb",
+		"InBible": 30
+	},
+	{
+		"Title": "Overmål",
+		"Definition": "Veldig mye. Mer enn nødvendig.",
+		"Category": "Substantiv",
+		"InBible": 8
+	},
+	{
+		"Title": "Spotte",
+		"Definition": "Gjøre narr av noen på en sårende måte <b>|</b> Forakte eller latterliggjøre",
+		"Category": "Verb",
+		"InBible": 208
+	},
+	{
+		"Title": "Uforskyldt",
+		"Definition": "Noe man ikke selv er skyld i <b>|</b> Urettferdig eller ufortjent",
+		"Category": "Adjektiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Forfengelig",
+		"Definition": "Ute etter ære <b>|</b> Overdrevent opptatt av hvordan man ser ut eller oppfattes <b>|</b> Selvopptatt",
+		"Category": "Adjektiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Basun",
+		"Definition": "Dypt og fyldig blåseinstrument. Ligner på lur (instrument) eller trombone.",
+		"Category": "Substantiv",
+		"InBible": 80
+	},
+	{
+		"Title": "Stunde",
+		"Definition": "Lengte",
+		"Category": "Verb",
+		"InBible": 21
+	},
+	{
+		"Title": "Kyndig",
+		"Definition": "Har kunnskap om noe <b>|</b> Er dyktig (flink eller egnet)",
+		"Category": "Adjektiv",
+		"InBible": 38
+	},
+	{
+		"Title": "Formå",
+		"Definition": "Klare noe",
+		"Category": "Verb",
+		"InBible": 7
+	},
+	{
+		"Title": "Stevne",
+		"Definition": "Sette kurs mot noe <b>|</b> Være på vei mot noe",
+		"Category": "Verb",
+		"InBible": 11
+	},
+	{
+		"Title": "Bedra",
+		"Definition": "Lure eller narre",
+		"Category": "Verb",
+		"InBible": 3
+	},
+	{
+		"Title": "Kjerub",
+		"Definition": "Engel av høy rang som har en spesiell oppgave som ofte handler om å vokte eller passe på noe",
+		"Category": "Substantiv",
+		"InBible": 68
+	},
+	{
+		"Title": "Forkynne",
+		"Definition": "Gjøre noe kjent. Fortelle om noe.",
+		"Category": "Verb",
+		"InBible": 154
+	},
+	{
+		"Title": "Lønnkammer",
+		"Definition": "Rom eller sted hvor man kan være alene",
+		"Category": "Substantiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Persekar",
+		"Definition": "Kar (beholder) til å presse druer",
+		"Category": "Substantiv",
+		"InBible": 7
+	},
+	{
+		"Title": "Frimodig",
+		"Definition": "Fryktløs, redd og modig. Spesielt fordi man har god samvittighet <b>|</b> Går løs på oppgaver med friskt mot",
+		"Category": "Adjektiv",
+		"InBible": 63
+	},
+	{
+		"Title": "Velde",
+		"Definition": "Ha makt over noen <b>|</b> Overveldende (veldig sterk) makt eller kraft",
+		"Category": "Substantiv",
+		"InBible": 40
+	},
+	{
+		"Title": "Fly",
+		"Definition": "(i Bibelen) Flykte <b>|</b> Holde seg borte fra",
+		"Category": "Verb",
+		"InBible": 20
+	},
+	{
+		"Title": "Disippel",
+		"Definition": "Lærling, elev eller skolegutt <b>|</b> Personlig elev og tilhenger av en som forkynner en ny lære",
+		"Category": "Substantiv",
+		"InBible": 25
+	},
+	{
+		"Title": "Hine",
+		"Definition": "Noe eller noen som er langt borte, enten i avstand eller i tid (for eksempel i gamle dager)",
+		"Category": "Determinativ",
+		"InBible": 21
+	},
+	{
+		"Title": "Lønndom",
+		"Definition": "Hemmelighet. \"I lønndom\" betyr \"i det skjulte\" eller \"i hemmelighet\".",
+		"Category": "Substantiv",
+		"InBible": 27
+	},
+	{
+		"Title": "Hudstryke",
+		"Definition": "Piske en forbryter til man begynner å blø",
+		"Category": "Verb",
+		"InBible": 18
 	},
 	{
 		"Title": "Forårsake",
-		"Definition": "Være grunnen til at noe skjer. Føre til at noe skjer.",
-		"Category": "Verb"
+		"Definition": "Være grunn til at noe skjer, eller føre til at det skjer",
+		"Category": "Verb",
+		"InBible": 1
 	},
 	{
 		"Title": "Forsømme",
-		"Definition": "Velge å ikke gjøre noe en egentlig burde ha gjort",
-		"Category": "Verb"
+		"Definition": "Velge å ikke gjøre noe man egentlig burde ha gjort",
+		"Category": "Verb",
+		"InBible": 11
 	},
 	{
 		"Title": "Visselig",
 		"Definition": "Virkelig. I sannhet. Helt sikkert.",
-		"Category": "Adverb"
+		"Category": "Adverb",
+		"InBible": 67
 	},
 	{
 		"Title": "Forjettelse",
 		"Definition": "Løfte",
-		"Category": "Substantiv"
+		"Category": "Substantiv",
+		"InBible": 0
 	},
 	{
 		"Title": "Samvittighet",
-		"Definition": "Indre og veiledende følelse av hva som er rett og galt",
-		"Comment": "\"Skrøpelig samvittighet\" betyr at en blir anklaget av Satan for å ha gjort noe galt, selv om Gud og samvittigheten sier at alt er i orden.",
-		"Category": "Substantiv"
+		"Definition": "Indre veiledende følelse av hva som er rett og galt",
+		"Comment": "\"Skrøpelig samvittighet\" betyr at man blir anklaget av Satan for å ha gjort noe galt, selv om Gud og samvittigheten sier at alt er i orden",
+		"Category": "Substantiv",
+		"InBible": 36
 	},
 	{
 		"Title": "Innbyrdes",
-		"Definition": "Gjøre eller føle det samme for hverandre",
-		"Category": "Adjektiv"
+		"Definition": "Seg imellom <b>|</b> Gjøre eller føle det samme for hverandre",
+		"Category": "Adjektiv",
+		"InBible": 7
 	},
 	{
 		"Title": "Beleilig",
-		"Definition": "Noe som passer bra eller er gunstig",
-		"Category": "Adjektiv"
+		"Definition": "Gunstig eller passende",
+		"Category": "Adjektiv",
+		"InBible": 3
 	},
 	{
 		"Title": "Forråd",
-		"Definition": "Noe som er oppsamlet eller spart opp til å brukes senere (ofte ganske mye)",
-		"Category": "Substantiv"
+		"Definition": "Noe som er spart opp eller lagret for senere bruk <b>|</b> Rikelig mengde",
+		"Category": "Substantiv",
+		"InBible": 36
 	},
 	{
 		"Title": "Velle",
 		"Definition": "Noe (som oftest vann) som sprudler eller strømmer rikt og kraftig",
-		"Category": "Verb"
+		"Category": "Verb",
+		"InBible": 6
 	},
 	{
 		"Title": "Dryge (drøye)",
-		"Definition": "Få noe til å vare lenger",
-		"Category": "Verb"
+		"Definition": "Få noe til å vare lenger <b>|</b> Utsette <b>|</b> Vente",
+		"Category": "Verb",
+		"InBible": 12
 	},
 	{
 		"Title": "Guddommelig",
 		"Definition": "Noe som er relatert til Gud, eller som kommer direkte fra Gud",
-		"Category": "Adjektiv"
+		"Category": "Adjektiv",
+		"InBible": 3
 	},
 	{
-		"Title": "Omvende seg",
-		"Definition": "Bestemme seg for å følge en religion, og bruke sin tid og sine krefter på den. I kristendommen betyr det også å vende seg bort fra synd, og tro på Gud.",
-		"Category": "Verb"
+		"Title": "Omvende",
+		"Definition": "Vende seg bort fra synd, og tro på Gud <b>|</b> Bestemme seg for å følge en religion, og bruke sin tid og sine krefter på den",
+		"Category": "Verb",
+		"InBible": 89
 	},
 	{
-		"Title": "Trede frem (tre frem)",
-		"Definition": "Stille seg foran noe eller noen, ofte for å si noe. Kan også bety å bli synlig eller vise seg.",
-		"Category": "Verb"
+		"Title": "Trede frem",
+		"Definition": "Tre fram. Gå fram. Komme fram. Stige fram.",
+		"Category": "Verb",
+		"InBible": 25
 	},
 	{
 		"Title": "Lend",
 		"Definition": "Hoftepartiet på kroppen. \"Binde opp om sine lender\" betyr å gjøre seg klar til noe vanskelig eller slitsomt (muligens det samme som å \"omgjøre sine lender\"). \"Omhylle/omslutte sine lender\" betyr å dekke hoftepartiet.",
-		"Category": "Substantiv / Verb"
+		"Category": "Substantiv",
+		"InBible": 80
 	},
 	{
 		"Title": "Allehånde",
-		"Definition": "Alle slags. Alle mulige.",
-		"Category": "Adjektiv"
+		"Definition": "Alle slags <b>|</b> Alle mulige",
+		"Category": "Adjektiv",
+		"InBible": 9
 	},
 	{
 		"Title": "Forslå",
-		"Definition": "Godt nok (tilstrekkelig) til å klare noe. Noe som duger og er til hjelp.",
-		"Category": "Verb"
+		"Definition": "Godt nok (tilstrekkelig) til å klare noe <b>|</b> Hjelpende eller nyttig",
+		"Category": "Verb",
+		"InBible": 1
 	},
 	{
 		"Title": "Årle",
-		"Definition": "Tidlig om morgenen (eller bare tidlig)",
-		"Category": "Adjektiv"
+		"Definition": "Tidlig <b>|</b> Tidlig om morgenen",
+		"Category": "Adjektiv",
+		"InBible": 6
 	},
 	{
 		"Title": "Tvesinn",
-		"Definition": "Være ubesluttsom og vaklende i valgene en tar. Ha lett for å tvile.",
-		"Category": "Substantiv"
+		"Definition": "Vaklende i sinnet (tanker og følelser) <b>|</b> Ubesluttsom <b>|</b> Uekte eller uoppriktig",
+		"Comment": "Definisjonen er delvis basert på engelske ordbøker",
+		"Category": "Substantiv",
+		"InBible": 4
 	},
 	{
 		"Title": "Silde",
 		"Definition": "Sent",
-		"Category": "Adverb"
+		"Category": "Adverb",
+		"InBible": 1
+	},
+	{
+		"Title": "Havesyke",
+		"Definition": "Trang til å eie mye eller stadig mer <b>|</b> Griskhet etter penger og ting",
+		"Category": "Substantiv",
+		"InBible": 14
+	},
+	{
+		"Title": "Forganget",
+		"Definition": "Tilhører fortiden og er forbi",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Vanhellig",
+		"Definition": "Motsatt av hellig",
+		"Category": "Adjektiv",
+		"InBible": 93
+	},
+	{
+		"Title": "Nag",
+		"Definition": "Noe som plager sinnet (tanker og følelser) <b>|</b> Stadig og skjult bitterhet, hat eller misunnelse",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Bange",
+		"Definition": "Engstelig eller redd",
+		"Category": "Adjektiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Tuktig",
+		"Definition": "Moralsk, passende og ordentlig",
+		"Category": "Adjektiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Vedholdende",
+		"Definition": "Utholdende <b>|</b> Noe som gjøres ofte <b>|</b> Langvarig",
+		"Category": "Adjektiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Yndest",
+		"Definition": "At noen er glad i deg <b>|</b> Være elsket <b>|</b> Godvilje",
+		"Category": "Substantiv",
+		"InBible": 21
+	},
+	{
+		"Title": "Leiesvenn",
+		"Definition": "En som vil ha penger for å gjøre en jobb (ofte negativ betydning)",
+		"Category": "Substantiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Åk",
+		"Definition": "Byrde eller belastning <b>|</b> Slit eller anstrengelse <b>|</b> Noe tungt som ligger over skuldrene (bæreredskap) <b>|</b> Slaveri <b>|</b> Mas",
+		"Category": "Substantiv",
+		"InBible": 20
+	},
+	{
+		"Title": "Isop",
+		"Definition": "En blomsterlignende plante med lilla blader og medisinske egenskaper",
+		"Category": "Substantiv",
+		"InBible": 12
+	},
+	{
+		"Title": "Byrde",
+		"Definition": "Noe tungt som bæres <b>|</b> Belastning eller forpliktelse",
+		"Category": "Substantiv",
+		"InBible": 44
+	},
+	{
+		"Title": "Kalk",
+		"Definition": "Smerte, lidelse eller sorg <b>|</b> Beger eller glass med nattverdsvin <b>|</b> Mineral som brukes til å lage materialer",
+		"Category": "Substantiv",
+		"InBible": 37
 	}
 ]

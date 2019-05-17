@@ -1577,5 +1577,35 @@
 		"Definition": "Smerte, lidelse eller sorg <b>|</b> Beger eller glass med nattverdsvin <b>|</b> Mineral som brukes til å lage materialer",
 		"Category": "Substantiv",
 		"InBible": 37
+	},
+	{
+		"Title": "Besk",
+		"Definition": "Sterk eller bitter smak <b>|</b> Bitende, sviende eller skarp <b>|</b> Bitter, pinefull eller sårende <b>|</b> Hard, streng og hensynsløs",
+		"Category": "Adjektiv",
+		"InBible": 9
+	},
+	{
+		"Title": "Samlag",
+		"Definition": "Fellesskap",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Aldersmål",
+		"Definition": "Bli fullvoksen. Få feste for livstid.",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Storaktig",
+		"Definition": "Overdreven stolthet eller selvfølelse. For stor selvsikkerhet. Overlegenhet.",
+		"Category": "Adjektiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Ringeakte",
+		"Definition": "Se på noe eller noen som ubetydelig, lite verdifull, uvesentlig, uheldig eller forkastelig <b>|</b> Se ned på noen",
+		"Category": "Verb",
+		"InBible": 25
 	}
 ]

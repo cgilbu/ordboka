@@ -47,6 +47,10 @@
 		height: 63px; /* Applies the same height as the words below */
 	}
 
+	#dictionary {
+		padding-top: 63px; /* Makes room for fixed search field */
+	}
+
 	.definition {
 		font-size: 27px;
 	}
@@ -56,20 +60,31 @@
 		margin-left: 15px;
 	}
 
-	#menuButton {
+	.actionButton {
 		bottom: 22px;
 		height: 90px;
-		right: 22px;
 		width: 90px;
 	}
 
-	#menuButton img {
+	.actionButton img {
 		width: 40px;
+	}
+
+	#menuButton {
+		right: 22px;
 	}
 
 	#menu .popupContent div {
 		font-size: 30px;
 		padding: 17px;
+	}
+
+	#sortButton {
+		right: 134px;
+	}
+
+	#sortButton img {
+		width: 34px;
 	}
 
 	#contactPopup input, #contactPopup textarea {

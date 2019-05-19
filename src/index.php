@@ -57,7 +57,7 @@
 	<div id="welcomePopup" class="popup hidden">
 		<div class="popupContent">
 			<p>Finn <b>forklaringer</b> på <b>vanskelige ord</b> i menigheten! <b>Trykk på ordene</b> for å se hva de betyr.</p>
-			<p><b>I menyen</b> finner du mer info. Der kan du også komme med forslag til <b>forbedringer</b>, og laste ned Ordboka som en <b>app på mobilen</b>.</p>
+			<p>I <b>menyen</b> finner du mer info. Der kan du også komme med forslag til <b>forbedringer</b>, og laste ned Ordboka som en <b>app på mobilen</b>.</p>
 			<div id="startButton" class="button close">Sett i gang</div>
 			<div id="adminButton" class="button close"></div>
 		</div>

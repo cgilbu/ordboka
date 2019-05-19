@@ -37,6 +37,8 @@ DOM.search = "#search";
 DOM.shareMenuItem = "#shareMenuItem";
 DOM.sharePopup = "#sharePopup";
 DOM.showComment = ".showComment";
+DOM.sortButton = "#sortButton";
+DOM.sortPopup = "#sortPopup";
 DOM.startButton = "#startButton";
 DOM.suggestionSentPopup = "#suggestionSentPopup";
 DOM.updateButton = "#updateButton";
@@ -79,6 +81,7 @@ View.reloadDictionary = function(searchTerm) {
 		_isSearching = true;
 		document.querySelector(DOM.loading).classList.add("hidden");
 	} else {
+		document.querySelector(DOM.search).value = "";
 		document.querySelector(DOM.loading).classList.remove("hidden");
 	}
 
@@ -86,6 +89,7 @@ View.reloadDictionary = function(searchTerm) {
 	document.querySelector(DOM.definitions).innerHTML = "";
 
 	View.loadWords(searchTerm);
+	window.scrollTo(0, 0);
 }
 
 View.loadWords = function(searchTerm) {
@@ -97,12 +101,13 @@ View.loadWords = function(searchTerm) {
 		var definition = word.Definition;
 		var comment = word.Comment;
 		var category = word.Category;
+		var inBible = word.InBible;
 
 		if (searchTerm && title.toLowerCase().search(searchTerm) == -1) {
 			continue; // Skips words not matching search
 		}
 
-		View.appendWord(_wordsLoaded.length, title, definition, comment, category);
+		View.appendWord(_wordsLoaded.length, title, definition, comment, category, inBible);
 
 		_wordsLoaded.push(word);
 		wordsAdded++;
@@ -120,15 +125,16 @@ View.loadWords = function(searchTerm) {
 	View.showChanges();
 }
 
-View.appendWord = function(number, title, definition, comment, category) {
+View.appendWord = function(number, title, definition, comment, category, inBible) {
 	GlobalHelpers.append(DOM.dictionary, "div", title, 'word_' + number);
 
 	var hasComment = comment ? "" : " hidden";
 	var hasCategory = category ? "" : " hidden";
+	var hasReferences = localStorage.getItem("sortByBible") && inBible > 0 ? "" : " hidden";
 
 	GlobalHelpers.append(DOM.definitions, "div", `
 	<div class="popupContent">
-		<b>${title}</b><span class="label${hasCategory}">${category}</span>
+		<b>${title}</b><span class="label${hasCategory}">${category}</span><span class="label${hasReferences} inBible">${inBible} funn</span>
 		<br>
 		<div>${definition}</div>
 		<div class="label${hasComment} showComment">Vis kommentar</div>
@@ -259,6 +265,14 @@ Helpers.getWords = function(callback, searchTerm) {
 }
 
 Helpers.sortWords = function(words) {
+	if (localStorage.getItem("sortByBible")) {
+		var sortedWords = words.sort((a, b) => {
+			return b.InBible - a.InBible;
+		});
+
+		return sortedWords;
+	}
+
 	var sortedWords = words.sort((a, b) => { // Unicode sorting (room for improvement)
 		var titleA = a.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
 		var titleB = b.Title.toLowerCase().replace("æ", "z").replace("ø", "zz").replace("å", "zzz");
@@ -378,7 +392,6 @@ document.addEventListener("click", function(e) {
 
 	if (e.target.matches(DOM.search)) {
 		if (e.target.value) {
-			e.target.value = "";
 			View.reloadDictionary();
 		}
 	}
@@ -409,6 +422,22 @@ document.addEventListener("click", function(e) {
 
 	if (e.target.matches(DOM.menuButton) || e.target.parentNode.matches(DOM.menuButton)) {
 		View.toggleMenu();
+	}
+
+	if (e.target.matches(DOM.sortButton) || e.target.parentNode.matches(DOM.sortButton)) {
+		if (localStorage.getItem("sortByBible")) {
+			localStorage.removeItem("sortByBible");
+		} else {
+			localStorage.setItem("sortByBible", true);
+		}
+
+		if (!localStorage.getItem("sortingTip")) {
+			View.togglePopup(DOM.sortPopup);
+			localStorage.setItem("sortingTip", true);
+		}
+
+		_allWords = Helpers.sortWords(_allWords);
+		View.reloadDictionary();
 	}
 
 	if (e.target.parentNode.parentNode.matches(DOM.menu)) {

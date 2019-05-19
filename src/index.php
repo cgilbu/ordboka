@@ -34,9 +34,13 @@
 	<div id="infoTip" class="tip"></div>
 	<div id="closeTip" class="tip hidden">Tips: Klikk utenfor teksten for å gå tilbake</div>
 
-	<div id="menuButton">
+	<div id="menuButton" class="actionButton">
 		<img id="openMenu" src="/resources/images/bars.svg" alt="Åpne meny">
 		<img id="closeMenu" src="/resources/images/times.svg" alt="Lukk meny">
+	</div>
+
+	<div id="sortButton" class="actionButton">
+		<img id="sort" src="/resources/images/sort.svg" alt="Endre sortering">
 	</div>
 
 	<div id="menu" class="popup hidden">
@@ -63,6 +67,13 @@
 		<div class="popupContent">
 			<p>En <b>ny versjon</b> av Ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt. Nye og oppdaterte ord vil være <b>uthevet</b>.</p>
 			<div id="updateButton" class="button close">Oppdater</div>
+		</div>
+	</div>
+
+	<div id="sortPopup" class="popup hidden">
+		<div class="popupContent">
+			<p>Ordene vil nå være sortert etter <b>hvor ofte de nevnes i Bibelen</b>. Trykk på knappen en gang til for å bytte tilbake til vanlig sortering.</p>
+			<div class="button close">Greit</div>
 		</div>
 	</div>
 

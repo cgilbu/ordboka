@@ -3,11 +3,10 @@
 ******************************************************/
 
 :root {
-	--color-bright-blue: #0b3049;
-	--color-bright-red: #f04e51;
 	--color-dark-blue: #08253b;
-	--color-dark-red: #bc4b50;
-	--color-yellow: #e5d948;
+	--color-bright-blue: #0b3049;
+	--color-red: #A31818;
+	--color-green: #08A334;
 }
 
 /*****************************************************
@@ -65,7 +64,7 @@ a {
 }
 
 .tip#infoTip {
-	background-color: var(--color-dark-red);
+	background-color: var(--color-red);
 	height: 40px;
 	top: -40px;
 }
@@ -108,7 +107,7 @@ a {
 ******************************************************/
 
 .button {
-	background-color: var(--color-dark-red);
+	background-color: var(--color-red);
 	border-radius: 2px;
 	cursor: pointer;
 	font-weight: bold;
@@ -148,12 +147,17 @@ a {
 	font-size: 18px;
 	height: 40px; /* Applies the same height as the words below */
 	padding: 8px 7px;
+	position: fixed;
 	width: 100%;
 }
 
 /*****************************************************
 ## Dictionary
 ******************************************************/
+
+#dictionary {
+	padding-top: 40px; /* Makes room for fixed search field */
+}
 
 #dictionary div {
 	cursor: pointer;
@@ -193,8 +197,12 @@ a {
 	white-space: nowrap;
 }
 
+.definition .label.inBible {
+	background-color: var(--color-red);
+}
+
 .definition .label.showComment {
-	background-color: var(--color-dark-red);
+	background-color: var(--color-green);
 	cursor: pointer;
 	display: inline-block;
 	margin-bottom: 4px;
@@ -203,11 +211,11 @@ a {
 }
 
 /*****************************************************
-## Menu
+## Actions
 ******************************************************/
 
-#menuButton {
-	background-color: var(--color-dark-red);
+.actionButton {
+	background-color: var(--color-red);
 	border-radius: 50%;
 	cursor: pointer;
 	height: 60px;
@@ -215,7 +223,6 @@ a {
 
 	position: fixed;
 	bottom: 15px;
-	right: 15px;
 
 	display: flex;
 	align-items: center;
@@ -224,9 +231,17 @@ a {
 	-webkit-tap-highlight-color: transparent;
 }
 
-#menuButton img {
+.actionButton img {
 	width: 27px;
 	-webkit-tap-highlight-color: transparent;
+}
+
+/*****************************************************
+## Menu
+******************************************************/
+
+#menuButton {
+	right: 15px;
 }
 
 #menuButton.isOpen {
@@ -250,6 +265,19 @@ a {
 	font-size: 23px;
 	padding: 10px;
 	text-align: center;
+}
+
+/*****************************************************
+## Sort
+******************************************************/
+
+#sortButton {
+	background-color: var(--color-green);
+	right: 90px;
+}
+
+#sortButton img {
+	width: 21px;
 }
 
 /*****************************************************

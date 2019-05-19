@@ -17,6 +17,7 @@ self.addEventListener('install', function(event) {
 				'/resources/images/icon-512.png',
 				'/resources/images/ios-add-home-screen.png',
 				'/resources/images/loading.svg',
+				'/resources/images/sort.svg',
 				'/resources/images/times.svg',
 				'/resources/js/app.js',
 				'/resources/js/helpers.js'

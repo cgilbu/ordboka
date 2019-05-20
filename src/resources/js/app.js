@@ -122,7 +122,7 @@ View.loadWords = function(searchTerm) {
 		document.querySelector(DOM.loading).classList.add("hidden");
 	}
 
-	View.showChanges();
+	//View.showChanges();
 }
 
 View.appendWord = function(number, title, definition, comment, category, inBible) {

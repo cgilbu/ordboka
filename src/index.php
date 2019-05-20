@@ -65,7 +65,7 @@
 
 	<div id="updatePopup" class="popup hidden">
 		<div class="popupContent">
-			<p>En <b>ny versjon</b> av Ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt. Nye og oppdaterte ord vil være <b>uthevet</b>.</p>
+			<p>En <b>ny versjon</b> av Ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt.</p>
 			<div id="updateButton" class="button close">Oppdater</div>
 		</div>
 	</div>

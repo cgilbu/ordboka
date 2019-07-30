@@ -1607,5 +1607,114 @@
 		"Definition": "Se på noe eller noen som ubetydelig, lite verdifull, uvesentlig, uheldig eller forkastelig <b>|</b> Se ned på noen",
 		"Category": "Verb",
 		"InBible": 25
+	},
+	{
+		"Title": "Egge",
+		"Definition": "På en veldig sterk måte få noen til å gjøre noe",
+		"Category": "Verb",
+		"InBible": 17
+	},
+	{
+		"Title": "Undfange (unnfange)",
+		"Definition": "Verb",
+		"Category": "Gi liv til noe <b>|</b> Skape noe <b>|</b> Bli gravid",
+		"InBible": 10
+	},
+	{
+		"Title": "Tilbørlig",
+		"Definition": "Passende",
+		"Category": "Adjektiv",
+		"InBible": 9
+	},
+	{
+		"Title": "Ingensinne",
+		"Definition": "Aldri",
+		"Category": "Adverb",
+		"InBible": 1
+	},
+	{
+		"Title": "Gjenløse",
+		"Definition": "Løse ut <b>|</b> Befri <b>|</b> Frelse",
+		"Category": "Verb",
+		"InBible": 29
+	},
+	{
+		"Title": "Ærgjerrig",
+		"Definition": "Ivrig etter å lykkes eller være best (og få ære for det)",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Uavlatelig",
+		"Definition": "Fortsette uten å stoppe. Uavbrutt.",
+		"Category": "Adjektiv",
+		"InBible": 11
+	},
+	{
+		"Title": "Unddra (unndra)",
+		"Definition": "Trekke seg unna <b>|</b> Prøve å unngå noe ubehagelig som man ikke ønsker",
+		"Category": "Verb",
+		"InBible": 3
+	},
+	{
+		"Title": "Opbygge (oppbygge)",
+		"Definition": "Løfte eller styrke (ofte følelsene) <b>|</b> Bygge opp",
+		"Category": "Verb",
+		"InBible": 26
+	},
+	{
+		"Title": "Jordisk",
+		"Definition": "Livet på jorden og alt som har med det å gjøre",
+		"Category": "Adjektiv",
+		"InBible": 11
+	},
+	{
+		"Title": "Enbåren",
+		"Definition": "Foreldres eneste barn",
+		"Category": "Adjektiv",
+		"InBible": 7
+	},
+	{
+		"Title": "Utgyte",
+		"Definition": "Strømme ut",
+		"Category": "Verb",
+		"InBible": 4
+	},
+	{
+		"Title": "Oplate (opplate)",
+		"Definition": "Åpne",
+		"Category": "Verb",
+		"InBible": 44
+	},
+	{
+		"Title": "Vanvidd",
+		"Definition": "Sinnstilstand, tanke eller handling som skyldes mangel på fornuft, ansvarlighet og/eller selvkontroll. Kan komme av alvorlig psykisk lidelse.",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Lettsindig",
+		"Definition": "Tenker ikke over, eller bryr seg ikke om, konsekvensene av hva man gjør <b>|</b> Tar ikke noen ting alvorlig",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Lettferdig",
+		"Definition": "Ansvarsløs eller tankeløs. Se også \"Lettsindig\".",
+		"Category": "Adjektiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Bød (by)",
+		"Definition": "Gi noen befaling om noe <b>|</b> Si at noen må gjøre noe",
+		"Comment": "Ordet \"bød\" er bøyet i fortid av \"by\"",
+		"Category": "Verb",
+		"InBible": 220
+	},
+	{
+		"Title": "Lerkar (leirkar)",
+		"Definition": "Beholder (noe man kan ha ting oppi) som er laget av brent leire",
+		"Category": "Substantiv",
+		"InBible": 11
 	}
 ]

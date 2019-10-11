@@ -116,7 +116,7 @@
 
 	<div id="suggestionSentPopup" class="popup hidden">
 		<div class="popupContent">
-			<p>Takk for forslaget! Alle henvendelser blir nøye vurdert og sjekket opp. Dersom forslaget ditt blir godkjent vil det bli synlig i Ordboka innen et par ukers tid.</p>
+			<p>Takk for forslaget! Alle henvendelser blir nøye vurdert og sjekket opp. Dersom forslaget ditt blir godkjent vil det bli synlig i Ordboka ved neste oppdatering.</p>
 			<div class="button close">Greit</div>
 		</div>
 	</div>

@@ -1716,5 +1716,133 @@
 		"Definition": "Beholder (noe man kan ha ting oppi) som er laget av brent leire",
 		"Category": "Substantiv",
 		"InBible": 11
+	},
+	{
+		"Title": "Vakle",
+		"Definition": "Stå eller gå ustødig eller svaiende, nesten så man faller",
+		"Category": "Verb",
+		"InBible": 24
+	},
+	{
+		"Title": "Antikrist",
+		"Definition": "Motstander av Kristus <b>|</b> En person som like før Tusenårsriket skal forsøke å ta over plassen til Jesus og vende menneskene bort fra Jesus ved å forkynne falsk frihet (ikke frihet ifra synden, men frihet ifra Guds lover og bud). \"Antikrists ånd\" er en ånd som arbeider med det samme målet som Antikrist.",
+		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Tungetale",
+		"Definition": "Snakke et fremmed og uforståelig språk, under guddommelig inspirasjon, som må tolkes for forsamlingen eller menigheten",
+		"Category": "Substantiv",
+		"InBible": 6
+	},
+	{
+		"Title": "Bekjenne",
+		"Definition": "Si hva man tror på <b>|</b> Tilstå noe man helst ikke vil si",
+		"Category": "Verb",
+		"InBible": 46
+	},
+	{
+		"Title": "Nederlag",
+		"Definition": "Tap <b>|</b> Være overvunnet",
+		"Category": "Substantiv",
+		"InBible": 13
+	},
+	{
+		"Title": "Virksom",
+		"Definition": "Arbeider energisk og er i aktivitet",
+		"Category": "Adjektiv",
+		"InBible": 19
+	},
+	{
+		"Title": "Trengsel",
+		"Definition": "Noe tungt og vanskelig. Prøvelse eller hindring.",
+		"Category": "Substantiv",
+		"InBible": 136
+	},
+	{
+		"Title": "Nådegave",
+		"Definition": "En gave fra Gud (typisk et talent) som man får uten selv å gjøre seg fortjent til det",
+		"Category": "Substantiv",
+		"InBible": 17
+	},
+	{
+		"Title": "Livsvesen",
+		"Definition": "Himmelsk vesen med spesielle egenskaper",
+		"Comment": "Definisjonen mangler i norske ordbøker",
+		"Category": "Substantiv",
+		"InBible": 29
+	},
+	{
+		"Title": "Skride",
+		"Definition": "Bevege seg på en eller annen måte, ofte til fots, kanskje langsomt og verdig <b>|</b> Utvikle seg",
+		"Category": "Verb",
+		"InBible": 18
+	},
+	{
+		"Title": "Preke",
+		"Definition": "Forklare, oppfordre eller formane <b>|</b> Snakke om Guds ord for en kirkelig forsamling <b>|</b> Prate i vei",
+		"Category": "Verb",
+		"InBible": 7
+	},
+	{
+		"Title": "Avstå",
+		"Definition": "Velge å ikke gjøre noe",
+		"Category": "Verb",
+		"InBible": 2
+	},
+	{
+		"Title": "Vike",
+		"Definition": "Trekke seg tilbake, kanskje som et resultat av press <b>|</b> Flytte eller fjerne seg",
+		"Category": "Verb",
+		"InBible": 117
+	},
+	{
+		"Title": "Lignelse",
+		"Definition": "Enkel fortelling som forklarer noe <b>|</b> Likhet",
+		"Category": "Substantiv",
+		"InBible": 57
+	},
+	{
+		"Title": "Avmakt",
+		"Definition": "Kraftløshet eller svakhet",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Åpenbaring",
+		"Definition": "Noe som blir tydelig, forståelig eller synlig, kanskje på en overnaturlig måte",
+		"Category": "Substantiv",
+		"InBible": 14
+	},
+	{
+		"Title": "Trette",
+		"Definition": "Krangle, eller si hverandre hissig imot",
+		"Category": "Verb / Substantiv",
+		"InBible": 30
+	},
+	{
+		"Title": "Svir",
+		"Definition": "Være på fylla (drikke seg full)",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Pryd",
+		"Definition": "Noe som gjør noe vakrere <b>|</b> Noe man kan være stolt av",
+		"Category": "Substantiv",
+		"InBible": 53
+	},
+	{
+		"Title": "Favne",
+		"Definition": "Holde armene rundt noe eller noen",
+		"Category": "Verb",
+		"InBible": 11
+	},
+	{
+		"Title": "Legedom",
+		"Definition": "Helbredelse (bli frisk)",
+		"Category": "Substantiv",
+		"InBible": 4
 	}
 ]

@@ -1844,5 +1844,47 @@
 		"Definition": "Helbredelse (bli frisk)",
 		"Category": "Substantiv",
 		"InBible": 4
+	},
+	{
+		"Title": "Avlegge",
+		"Definition": "Legge fra seg <b>|</b> Holde opp med <b>|</b> Vende seg bort fra <b>|</b> Gjøre seg fri fra noe som tynger en",
+		"Category": "Verb",
+		"InBible": 10
+	},
+	{
+		"Title": "Salve",
+		"Definition": "Gni inn med salve eller olje som en del av en religiøs renselse, eller for å gjøre noen klar for en spesiell eller hellig oppgave",
+		"Category": "Verb",
+		"InBible": 150
+	},
+	{
+		"Title": "Messias",
+		"Definition": "Den salvede <b>|</b> Kristus (Guds sønn) <b>|</b> Person som vil skape fred og lykke",
+		"Category": "Substantiv",
+		"InBible": 52
+	},
+	{
+		"Title": "Kristus",
+		"Definition": "Guds sønn <b>|</b> Messias (den salvede)",
+		"Category": "Substantiv",
+		"InBible": 303
+	},
+	{
+		"Title": "Beslutte",
+		"Definition": "Ta en avgjørelse etter å ha tenkt seg om <b>|</b> Bestemme seg for",
+		"Category": "Verb",
+		"InBible": 19
+	},
+	{
+		"Title": "Trofast",
+		"Definition": "En som ikke svikter og som man kan stole 100% på",
+		"Category": "Adjektiv",
+		"InBible": 113
+	},
+	{
+		"Title": "Forderve",
+		"Definition": "Gjøre dårlig, skade eller ødelegge",
+		"Category": "Verb",
+		"InBible": 39
 	}
 ]

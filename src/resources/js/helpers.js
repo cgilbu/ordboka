@@ -1,85 +1,87 @@
-// ******************************************************
-// Module: Global helpers
-// ******************************************************
+'use strict';
 
-var GlobalHelpers = {};
+var Helpers = {};
 
-"use strict";
-
-GlobalHelpers.append = function(targetSelector, tagName, content, className) {
-	var newElement = document.createElement(tagName);
-	newElement.innerHTML = content;
-
-	if (className) {
-		if (Array.isArray(className)) {
-			className.forEach(name => {
-				newElement.classList.add(name);
-			});
-		} else {
-			newElement.classList.add(className);
-		}
-	}
-
-	var targets = document.querySelectorAll(targetSelector);
-	[...targets].forEach(target => {
-		target.appendChild(newElement);
-	});
-}
-
-GlobalHelpers.getClassSelector = function(node) {
-	return "." + node.className.split(" ").join(".");
-}
-
-GlobalHelpers.isStandalone = function() {
-	if (window.matchMedia("(display-mode: standalone)").matches || window.navigator.standalone == true) {
+Helpers.isStandalone = function() {
+	if (window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone == true) {
 		return true;
 	}
 
 	return false;
 }
 
-GlobalHelpers.shareApp = function(title, text) {
-	var link = window.location.href.replace(/\/$/, ""); // Removes trailing slash
+Helpers.shareApp = function(title, text) {
+	let url = window.location.href.replace(/\/$/, ''); // Removes trailing slash
 
 	if (navigator.share) {
 		navigator.share({
 			title: title,
 			text: text,
-			url: link
+			url: url
 		});
 
 		return true;
 	}
 }
 
-GlobalHelpers.toggleClass = function(targetSelector, className) {
-	var targets = document.querySelectorAll(targetSelector);
-	[...targets].forEach(target => {
-		target.classList.toggle(className);
-	});
+Helpers.sendMail = function(title, text, callback) {
+	let mailData = `?subject=${title}&message=${text}`;
+	fetch('/resources/php/sendMail.php' + mailData)
+		.then(function(response) {
+			callback(response.status == 500 ? false : true);
+		});
 }
 
-GlobalHelpers.toggleSlide = function(node, targetPosition, speed, displayTime) {
-	var defaultPosition = node.getBoundingClientRect().top;
-	var currentPosition = defaultPosition;
-	var slidingDown = true;
-	var animation = setInterval(animate, speed);
+Helpers.toggleSlide = function(node, targetPosition, speed, displayTime) {
+	let defaultPosition = node.getBoundingClientRect().top;
+	let currentPosition = defaultPosition;
+	let slidingDown = true;
+	let animation = setInterval(animate, speed);
 
 	function animate() {
 		if (currentPosition == targetPosition) {
 			clearInterval(animation);
-			setTimeout(function() {
-				targetPosition = defaultPosition;
-				slidingDown = false;
-				animation = setInterval(animate, speed);
-			}, displayTime);
+			if (slidingDown) {
+				setTimeout(function() {
+					targetPosition = defaultPosition;
+					slidingDown = false;
+					animation = setInterval(animate, speed);
+				}, displayTime);
+			}
 		} else {
 			if (slidingDown) {
 				currentPosition++;
 			} else {
 				currentPosition--;
 			}
-			node.style.top = currentPosition + "px";
+			node.style.top = currentPosition + 'px';
 		}
 	}
+}
+
+Helpers.updateStats = function(wordClicked) {
+	if (localStorage.getItem('isAdmin')) {
+		return;
+	}
+
+	if (!localStorage.getItem('userID')) {
+		let randomID = new Uint32Array(1);
+		window.crypto.getRandomValues(randomID);
+		localStorage.setItem('userID', parseInt(randomID));
+	}
+
+	if (!wordClicked) {
+		return;
+	}
+
+	let utcDateTime = new Date().toISOString();
+	let statsObject = { word: wordClicked, userID: localStorage.getItem('userID'), utcDateTime: utcDateTime, isStandalone: Helpers.isStandalone() };
+
+	let statsData = '?newStats=' + JSON.stringify(statsObject);
+	fetch('/resources/php/updateStats.php' + statsData)
+		.then(function(response) {
+			if (response.status == 500) {
+				console.log('Noe gikk galt: Kunne ikke oppdatere statistikk');
+			}
+		});
 }

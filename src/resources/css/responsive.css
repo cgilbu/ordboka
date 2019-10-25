@@ -9,6 +9,36 @@
 		font-size: 23px;
 	}
 
+	#loading {
+		padding: 17px;
+	}
+
+	#search, #dictionary div {
+		font-size: 25px;
+		padding: 15px 14px;
+	}
+
+	#search {
+		height: 63px; /* Applies the same height as the words below */
+	}
+
+	#dictionary {
+		padding-top: 63px; /* Makes room for the search field */
+	}
+
+	#definition {
+		font-size: 27px;
+	}
+
+	#definition .label {
+		font-size: 19px;
+		margin-left: 15px;
+	}
+
+	.popup {
+		padding: 22px;
+	}
+
 	.tip {
 		font-size: 19px;
 	}
@@ -22,69 +52,24 @@
 		bottom: 22px;
 	}
 
-	.popup .popupContent {
-		padding: 0 22px;
-	}
-
-	.popup .popupContent p:first-of-type {
-		margin-top: 22px; /* Flexbox padding */
-	}
-
-	.button {
-		padding: 14px;
-	}
-
-	.button:last-of-type {
-		margin-bottom: 22px; /* Flexbox padding */
-	}
-
-	#search, #dictionary div {
-		font-size: 25px;
-		padding: 15px 14px;
-	}
-
-	#search {
-		height: 63px; /* Applies the same height as the words below */
-	}
-
-	#dictionary {
-		padding-top: 63px; /* Makes room for fixed search field */
-	}
-
-	.definition {
-		font-size: 27px;
-	}
-
-	.definition .label {
-		font-size: 19px;
-		margin-left: 15px;
-	}
-
-	.actionButton {
+	#menuButton {
 		bottom: 22px;
 		height: 90px;
+		right: 22px;
 		width: 90px;
 	}
 
-	.actionButton img {
+	#menuButton img {
 		width: 40px;
 	}
 
-	#menuButton {
-		right: 22px;
-	}
-
-	#menu .popupContent div {
+	#menu div {
 		font-size: 30px;
 		padding: 17px;
 	}
 
-	#sortButton {
-		right: 134px;
-	}
-
-	#sortButton img {
-		width: 34px;
+	.button {
+		padding: 14px;
 	}
 
 	#contactPopup input, #contactPopup textarea {
@@ -93,9 +78,5 @@
 
 	#contactPopup textarea {
 		height: 100px;
-	}
-
-	#loading {
-		padding: 17px;
 	}
 }

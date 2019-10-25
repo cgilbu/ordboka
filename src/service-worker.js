@@ -1,5 +1,5 @@
-var appVersion = '4.3';
-var cacheObject = 'ordbok-' + appVersion;
+var appVersion = '5.0';
+var cacheObject = 'ordboka-' + appVersion;
 
 self.addEventListener('install', function(event) {
 	self.skipWaiting();
@@ -8,6 +8,7 @@ self.addEventListener('install', function(event) {
 			return cache.addAll([
 				'/',
 				'/favicon.png',
+				'/manifest.json',
 				'/resources/css/app.css',
 				'/resources/css/responsive.css',
 				'/resources/data/words.json',
@@ -17,10 +18,11 @@ self.addEventListener('install', function(event) {
 				'/resources/images/icon-512.png',
 				'/resources/images/ios-add-home-screen.png',
 				'/resources/images/loading.svg',
-				'/resources/images/sort.svg',
 				'/resources/images/times.svg',
-				'/resources/js/app.js',
-				'/resources/js/helpers.js'
+				'/resources/js/controller.js',
+				'/resources/js/helpers.js',
+				'/resources/js/model.js',
+				'/resources/js/view.js'
 			]);
 		})
 	);

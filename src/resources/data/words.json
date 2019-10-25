@@ -1886,5 +1886,23 @@
 		"Definition": "Gjøre dårlig, skade eller ødelegge",
 		"Category": "Verb",
 		"InBible": 39
+	},
+	{
+		"Title": "Profeti",
+		"Definition": "Enten en profets forkynnelse av en beskjed gitt av en guddommelig makt, eller en spådom om noe som skal skje i fremtiden",
+		"Category": "Substantiv",
+		"InBible": 57
+	},
+	{
+		"Title": "Profet",
+		"Definition": "En som forkynner en beskjed gitt av en guddommelig makt, etter å ha fått en åpenbaring. Kan også bety en som spår om noe som skal skje i fremtiden.",
+		"Category": "Substantiv",
+		"InBible": 464
+	},
+	{
+		"Title": "Evangelist",
+		"Definition": "Kristen misjonær",
+		"Category": "Substantiv",
+		"InBible": 3
 	}
 ]

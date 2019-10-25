@@ -3,10 +3,10 @@
 ******************************************************/
 
 :root {
-	--color-dark-blue: #08253b;
 	--color-bright-blue: #0b3049;
-	--color-red: #A31818;
+	--color-dark-blue: #08253b;
 	--color-green: #08A334;
+	--color-red: #A31818;
 }
 
 /*****************************************************
@@ -14,6 +14,7 @@
 ******************************************************/
 
 body {
+	-webkit-text-size-adjust: none; /* Prevents iOS from messing with the font sizes */
 	background-color: var(--color-dark-blue);
 	color: white;
 	font-family: 'Open Sans', sans-serif;
@@ -38,8 +39,121 @@ a {
 /* Helps screen readers and rendering of hidden content */
 .hidden {
 	position: absolute !important;
-	top: -9999px !important;
 	left: -9999px !important;
+	top: -9999px !important;
+}
+
+/*****************************************************
+## Loading
+******************************************************/
+
+#loading {
+	padding: 10px;
+	text-align: center;
+}
+
+/*****************************************************
+## Search
+******************************************************/
+
+#search {
+	border-radius: 0; /* Reset */
+	border: none; /* Reset */
+	font-size: 18px;
+	height: 40px; /* Applies the same height as the words below */
+	padding: 8px 7px;
+	position: fixed;
+	width: 100%;
+}
+
+/*****************************************************
+## Dictionary
+******************************************************/
+
+#dictionary {
+	padding-top: 40px; /* Makes room for the search field */
+}
+
+#dictionary div {
+	cursor: pointer;
+	font-size: 18px;
+	padding: 8px 7px;
+
+	-webkit-tap-highlight-color: transparent;
+}
+
+#dictionary div:nth-child(odd) {
+	background-color: var(--color-bright-blue);
+}
+
+/*****************************************************
+## Definition
+******************************************************/
+
+#definition {
+	font-size: 20px;
+}
+
+#definition > div {
+	cursor: default;
+}
+
+#definition .label {
+	background-color: var(--color-dark-blue);
+	border-radius: 10px;
+	font-size: 12px;
+	margin-left: 8px;
+	padding: 3px 10px;
+	white-space: nowrap;
+
+	position: relative;
+	top: -3px;
+}
+
+#definition .label#showComment {
+	background-color: var(--color-green);
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 0;
+	position: static;
+
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+#definition #comment {
+	margin-top: 4px;
+}
+
+/*****************************************************
+## Popups
+******************************************************/
+
+.popup {
+	background-color: rgba(0,0,0,0.9);
+	cursor: pointer; /* Enables onclick event on iOS */
+	display: flex;
+	height: 100%;
+	overflow-y: scroll;
+	padding: 15px;
+	width: 100%;
+
+	position: fixed;
+	left: 0;
+	top: 0;
+
+	-webkit-tap-highlight-color: transparent;
+}
+
+.popup > div {
+	cursor: default;
+	margin: auto 0; /* Flexbox auto margins */
+}
+
+.popup p:first-of-type {
+	margin-top: 0;
 }
 
 /*****************************************************
@@ -74,32 +188,53 @@ a {
 }
 
 /*****************************************************
-## Popups
+## Menu
 ******************************************************/
 
-.popup {
-	background-color: rgba(0,0,0,0.9);
-	overflow-y: scroll; /* Overflow scrolling */
-	width: 100%;
+#menuButton {
+	background-color: var(--color-red);
+	border-radius: 50%;
+	cursor: pointer;
+	height: 60px;
+	width: 60px;
 
 	position: fixed;
-	bottom: 0;
-	top: 0;
-	z-index: 10;
+	bottom: 15px;
+	right: 15px;
 
 	display: flex;
-	flex-direction: column;
+	align-items: center;
 	justify-content: center;
+
+	-webkit-tap-highlight-color: transparent;
 }
 
-.popup .popupContent {
-	cursor: default;
-	min-height: 0; /* Overflow scrolling */
-	padding: 0 15px;
+#menuButton img {
+	width: 27px;
 }
 
-.popup .popupContent p:first-of-type {
-	margin-top: 15px; /* Flexbox padding */
+#menuButton #closeMenu {
+	display: none;
+}
+
+#menuButton.isOpen {
+	z-index: 20;
+}
+
+#menuButton.isOpen #closeMenu {
+	display: block;
+}
+
+#menuButton.isOpen #openMenu {
+	display: none;
+}
+
+#menu div {
+	cursor: pointer;
+	font-size: 23px;
+	padding: 10px;
+	text-align: center;
+	width: 100%;
 }
 
 /*****************************************************
@@ -122,162 +257,7 @@ a {
 }
 
 .button:last-of-type {
-	margin-bottom: 15px; /* Flexbox padding */
-}
-
-.button#adminButton {
-	background-color: transparent;
-	cursor: default;
-	height: 30px;
-	left: 0;
-	margin: 0;
-	padding: 0;
-	position: absolute;
-	top: 0;
-	width: 30px;
-}
-
-/*****************************************************
-## Search
-******************************************************/
-
-#search {
-	border-radius: 0; /* Reset */
-	border: none; /* Reset */
-	font-size: 18px;
-	height: 40px; /* Applies the same height as the words below */
-	padding: 8px 7px;
-	position: fixed;
-	width: 100%;
-}
-
-/*****************************************************
-## Dictionary
-******************************************************/
-
-#dictionary {
-	padding-top: 40px; /* Makes room for fixed search field */
-}
-
-#dictionary div {
-	cursor: pointer;
-	font-size: 18px;
-	padding: 8px 7px;
-
-	-webkit-tap-highlight-color: transparent;
-}
-
-#dictionary div:nth-child(odd) {
-	background-color: var(--color-bright-blue);
-}
-
-#dictionary div.updated {
-	font-weight: bold;
-}
-
-/*****************************************************
-## Definitions
-******************************************************/
-
-.definition {
-	cursor: pointer; /* Enables onclick event on iOS */
-	font-size: 20px;
-
-	-webkit-tap-highlight-color: transparent;
-}
-
-.definition .label {
-	background-color: var(--color-dark-blue);
-	border-radius: 10px;
-	font-size: 12px;
-	margin-left: 8px;
-	padding: 3px 10px;
-	position: relative;
-	top: -3px;
-	white-space: nowrap;
-}
-
-.definition .label.inBible {
-	background-color: var(--color-red);
-}
-
-.definition .label.showComment {
-	background-color: var(--color-green);
-	cursor: pointer;
-	display: inline-block;
-	margin-bottom: 4px;
-	margin-left: 0;
-	position: static;
-}
-
-/*****************************************************
-## Actions
-******************************************************/
-
-.actionButton {
-	background-color: var(--color-red);
-	border-radius: 50%;
-	cursor: pointer;
-	height: 60px;
-	width: 60px;
-
-	position: fixed;
-	bottom: 15px;
-
-	display: flex;
-	align-items: center;
-	justify-content: center;
-
-	-webkit-tap-highlight-color: transparent;
-}
-
-.actionButton img {
-	width: 27px;
-	-webkit-tap-highlight-color: transparent;
-}
-
-/*****************************************************
-## Menu
-******************************************************/
-
-#menuButton {
-	right: 15px;
-}
-
-#menuButton.isOpen {
-	z-index: 20;
-}
-
-#menuButton #closeMenu {
-	display: none;
-}
-
-#menuButton.isOpen #closeMenu {
-	display: block;
-}
-
-#menuButton.isOpen #openMenu {
-	display: none;
-}
-
-#menu .popupContent div {
-	cursor: pointer;
-	font-size: 23px;
-	padding: 10px;
-	text-align: center;
-}
-
-/*****************************************************
-## Sort
-******************************************************/
-
-#sortButton {
-	background-color: var(--color-green);
-	right: 90px;
-}
-
-#sortButton img {
-	width: 21px;
+	margin-bottom: 0;
 }
 
 /*****************************************************
@@ -289,7 +269,7 @@ a {
 }
 
 #downloadPopup #ios {
-	line-height: 0; /* Image-fix */
+	line-height: 0; /* Fixes random space below image */
 }
 
 /*****************************************************
@@ -311,13 +291,4 @@ a {
 
 #contactPopup textarea {
 	height: 70px;
-}
-
-/*****************************************************
-## Loading
-******************************************************/
-
-#loading {
-	padding: 10px;
-	text-align: center;
 }

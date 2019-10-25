@@ -77,7 +77,7 @@ Helpers.updateStats = function(wordClicked) {
 	let utcDateTime = new Date().toISOString();
 	let statsObject = { word: wordClicked, userID: localStorage.getItem('userID'), utcDateTime: utcDateTime, isStandalone: Helpers.isStandalone() };
 
-	let statsData = '?newStats=' + JSON.stringify(statsObject);
+	let statsData = '?statsData=' + JSON.stringify(statsObject);
 	fetch('/resources/php/updateStats.php' + statsData)
 		.then(function(response) {
 			if (response.status == 500) {

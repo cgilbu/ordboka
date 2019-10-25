@@ -76,7 +76,7 @@
 
 	<div id="faqPopup" class="popup hidden">
 		<div>
-			<p><b>Hva betyr tegnet | i forklaringene?</b><br>
+			<p><b>Hva betyr tegnet <span style="color: var(--color-green);">|</span> i forklaringene?</b><br>
 			Dersom et ord har flere betydninger er de delt opp med dette tegnet.</p>
 			<p><b>Kan dere se hvilke ord jeg klikker på?</b><br>
 			Nei. Vi ser hvilke ord som klikkes på, men ikke hvem som gjør det. Vi bruker ikke informasjonskapsler (cookies) og sporer ikke IP-adresser. Ta gjerne en titt på <a href="https://github.com/cgilbu/ordbok" target="_blank" rel="noreferrer">koden</a> for å være helt sikker.</p>

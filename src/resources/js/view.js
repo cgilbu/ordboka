@@ -70,7 +70,7 @@ View.showDefinition = function(word) {
 		html += `<span class="label">${word.Category}</span>`;
 	}
 
-	html += `<div>${word.Definition}</div>`;
+	html += `<div id="definitionText">${word.Definition}</div>`;
 
 	if (word.Comment) {
 		html += `<div id="showComment" class="label">Vis kommentar</div>`;

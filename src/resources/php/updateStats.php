@@ -1,26 +1,24 @@
 <?php
 
-if (empty($_GET['newStats'])) {
-	header("HTTP/1.1 500 Internal Server Error");
+if (empty($_GET['statsData'])) {
+	header('HTTP/1.1 500 Internal Server Error');
 	exit();
 }
 
 $statsFile = $_SERVER['DOCUMENT_ROOT'] . '/statistics.php';
-$newStats = "";
+$statsData = strip_tags($_GET['statsData']);
 
 if (filesize($statsFile) > 1) {
-	$newStats = ',' . $_GET['newStats'];
-} else {
-	$newStats = $_GET['newStats'];
+	$statsData = ',' . $statsData;
 }
 
-$write = file_put_contents($statsFile, $newStats.PHP_EOL, FILE_APPEND | LOCK_EX);
+$write = file_put_contents($statsFile, $statsData.PHP_EOL, FILE_APPEND | LOCK_EX);
 
 if ($write > 0) {
 	exit();
 }
 
-header("HTTP/1.1 500 Internal Server Error");
+header('HTTP/1.1 500 Internal Server Error');
 exit();
 
 ?>

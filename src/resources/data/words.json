@@ -1904,5 +1904,77 @@
 		"Definition": "Kristen misjonær",
 		"Category": "Substantiv",
 		"InBible": 3
+	},
+	{
+		"Title": "Leilighet",
+		"Definition": "Noe som gjør noe mulig eller passende <b>|</b> Anledning <b>|</b> Tidspunkt for noe som skal skje",
+		"Category": "Substantiv",
+		"InBible": 16
+	},
+	{
+		"Title": "Djerv",
+		"Definition": "Uredd, modig, kjekk eller kraftig",
+		"Category": "Adjektiv",
+		"InBible": 46
+	},
+	{
+		"Title": "Hvormed",
+		"Definition": "Refererer til det som ble nevnt foran, i sammenheng med det som står etterpå <b>|</b> Ved hvilken <b>|</b> Hvordan <b>|</b> På hvilken måte",
+		"Category": "Adverb",
+		"InBible": 26
+	},
+	{
+		"Title": "Somme",
+		"Definition": "Enkelte <b>|</b> Visse <b>|</b> Noen bestemte",
+		"Category": "Determinativ",
+		"InBible": 14
+	},
+	{
+		"Title": "Viss",
+		"Definition": "Helt sikker på <b>|</b> Overbevist om noe",
+		"Category": "Adjektiv",
+		"InBible": 12
+	},
+	{
+		"Title": "Atter",
+		"Definition": "Enda en gang",
+		"Category": "Adverb",
+		"InBible": 216
+	},
+	{
+		"Title": "Likesom",
+		"Definition": "Slik som <b>|</b> På samme måte som <b>|</b> I samme grad som",
+		"Category": "Subjunksjon",
+		"InBible": 420
+	},
+	{
+		"Title": "Over all måte",
+		"Definition": "I veldig stor grad",
+		"Category": "Substantiv",
+		"InBible": 7
+	},
+	{
+		"Title": "Umåtelig",
+		"Definition": "Har ingen begrensninger",
+		"Category": "Adjektiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Ordspråk",
+		"Definition": "Noe som sier noe som er sant, eller som gir råd om noe <b>|</b> Ordtak",
+		"Category": "Substantiv",
+		"InBible": 8
+	},
+	{
+		"Title": "Forløsning",
+		"Definition": "Frelse fra synd og onde makter <b>|</b> Befrielse fra en ubehagelig eller frustrerende tilstand",
+		"Category": "Substantiv",
+		"InBible": 13
+	},
+	{
+		"Title": "Rettferdig",
+		"Definition": "De fleste har en forståelse av hva dette ordet betyr, men i Bibelen betyr det ofte at man lever i harmoni med Guds vilje og holder Guds bud",
+		"Category": "Adjektiv",
+		"InBible": 657
 	}
 ]

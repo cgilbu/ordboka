@@ -99,15 +99,19 @@ a {
 }
 
 #definition .label {
-	background-color: var(--color-dark-blue);
-	border-radius: 10px;
+	background-color: var(--color-green);
+	border-radius: 5px;
 	font-size: 12px;
 	margin-left: 8px;
-	padding: 3px 10px;
+	padding: 4px 12px;
 	white-space: nowrap;
 
 	position: relative;
 	top: -3px;
+}
+
+#definition #definitionText b {
+	color: var(--color-green); /* Definition separator */
 }
 
 #definition .label#showComment {
@@ -132,7 +136,7 @@ a {
 ******************************************************/
 
 .popup {
-	background-color: rgba(0,0,0,0.9);
+	background-color: rgba(8,37,59,0.95);
 	cursor: pointer; /* Enables onclick event on iOS */
 	display: flex;
 	height: 100%;
@@ -192,11 +196,11 @@ a {
 ******************************************************/
 
 #menuButton {
-	background-color: var(--color-red);
+	background-color: var(--color-green);
 	border-radius: 50%;
 	cursor: pointer;
-	height: 60px;
-	width: 60px;
+	height: 65px;
+	width: 65px;
 
 	position: fixed;
 	bottom: 15px;
@@ -210,7 +214,7 @@ a {
 }
 
 #menuButton img {
-	width: 27px;
+	width: 30px;
 }
 
 #menuButton #closeMenu {
@@ -242,7 +246,7 @@ a {
 ******************************************************/
 
 .button {
-	background-color: var(--color-bright-blue);
+	background-color: var(--color-green);
 	border-radius: 2px;
 	cursor: pointer;
 	font-weight: bold;

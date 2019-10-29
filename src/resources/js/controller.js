@@ -63,13 +63,14 @@ document.addEventListener('click', function(e) {
 		return;
 	}
 
-	if (e.target.parentNode.matches(View.DOM.dictionary)) {
-		View.showDefinition(Model.CachedWords[e.target.dataset.index]);
-		Helpers.updateStats(e.target.innerHTML);
+	if (e.target.closest(View.DOM.dictionary)) {
+		const wordIndex = e.target.dataset.index ? e.target.dataset.index : e.target.parentNode.dataset.index; // In case the star is clicked
+		View.showDefinition(Model.CachedWords[wordIndex]);
+		Helpers.updateStats(Model.CachedWords[wordIndex].Title);
 		return;
 	}
 
-	if (e.target.matches(View.DOM.menuButton) || e.target.parentNode.matches(View.DOM.menuButton)) {
+	if (e.target.closest(View.DOM.menuButton)) {
 		View.toggleMenu();
 		return;
 	}

@@ -3,7 +3,6 @@
 ******************************************************/
 
 :root {
-	--color-bright-blue: #0b3049;
 	--color-dark-blue: #08253b;
 	--color-green: #08A334;
 	--color-red: #A31818;
@@ -15,7 +14,7 @@
 
 body {
 	-webkit-text-size-adjust: none; /* Prevents iOS from messing with the font sizes */
-	background-color: var(--color-dark-blue);
+	background: linear-gradient(to right, var(--color-dark-blue), #143f60);
 	color: white;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
@@ -83,7 +82,11 @@ a {
 }
 
 #dictionary div:nth-child(odd) {
-	background-color: var(--color-bright-blue);
+	background: linear-gradient(to right, var(--color-dark-blue), #1b496c);
+}
+
+#dictionary div img {
+	width: 13px;
 }
 
 /*****************************************************

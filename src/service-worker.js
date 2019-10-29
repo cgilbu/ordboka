@@ -1,4 +1,4 @@
-var appVersion = '5.1';
+var appVersion = '5.2';
 var cacheObject = 'ordboka-' + appVersion;
 
 self.addEventListener('install', function(event) {
@@ -18,6 +18,7 @@ self.addEventListener('install', function(event) {
 				'/resources/images/icon-512.png',
 				'/resources/images/ios-add-home-screen.png',
 				'/resources/images/loading.svg',
+				'/resources/images/star.svg',
 				'/resources/images/times.svg',
 				'/resources/js/controller.js',
 				'/resources/js/helpers.js',

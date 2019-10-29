@@ -26,6 +26,10 @@
 		padding-top: 63px; /* Makes room for the search field */
 	}
 
+	#dictionary div img {
+		width: 18px;
+	}
+
 	#definition {
 		font-size: 27px;
 	}

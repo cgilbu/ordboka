@@ -3,7 +3,8 @@
 		"Title": "Barmhjertig",
 		"Definition": "Hjelper, beskytter og føler stor medlidenhet med andre selv om de ikke fortjener det",
 		"Category": "Adjektiv",
-		"InBible": 71
+		"InBible": 71,
+		"IsEssential": true
 	},
 	{
 		"Title": "Barnekår",
@@ -21,7 +22,8 @@
 		"Title": "Enfoldig",
 		"Definition": "Ærlig og oppriktig. Tenker godt om andre <b>|</b> Enkel og lite smart",
 		"Category": "Adjektiv",
-		"InBible": 16
+		"InBible": 16,
+		"IsEssential": true
 	},
 	{
 		"Title": "Ettergivende",
@@ -45,7 +47,8 @@
 		"Title": "Gagn",
 		"Definition": "Noe som er til nytte (hjelp) eller som gjør at andre får det bra",
 		"Category": "Substantiv",
-		"InBible": 56
+		"InBible": 56,
+		"IsEssential": true
 	},
 	{
 		"Title": "Husvalelse",
@@ -70,7 +73,8 @@
 		"Definition": "Den medfødte delen av et menneske som ønsker å gjøre det motsatte av det Gud vil <b>|</b> Kroppen til et menneske (stort sett i det gamle testamentet)",
 		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
 		"Category": "Substantiv",
-		"InBible": 200
+		"InBible": 200,
+		"IsEssential": true
 	},
 	{
 		"Title": "Kjødelig",
@@ -88,7 +92,8 @@
 		"Title": "Langmodig",
 		"Definition": "Tåle at andre gjør feil og dumme ting. Holde ut lenge og være tålmodig.",
 		"Category": "Adjektiv",
-		"InBible": 33
+		"InBible": 33,
+		"IsEssential": true
 	},
 	{
 		"Title": "Legeme",
@@ -100,26 +105,30 @@
 		"Title": "Miskunn",
 		"Definition": "Nåde og barmhjertighet, ofte fra Gud. Se også \"Barmhjertig\".",
 		"Category": "Substantiv",
-		"InBible": 245
+		"InBible": 245,
+		"IsEssential": true
 	},
 	{
 		"Title": "Nidkjær",
 		"Definition": "Utrolig ivrig til å gjøre noe, vanligvis med stor kraft og viljestyrke <b>|</b> Streng og rettferdig",
 		"Category": "Adjektiv",
-		"InBible": 67
+		"InBible": 67,
+		"IsEssential": true
 	},
 	{
 		"Title": "Nåde",
 		"Definition": "Hjelp til seier over synd (Titus 2:11-13) <b>|</b> Guds kjærlighet, barmhjertighet og tilgivelse <b>|</b> Beskyttelse og hjelp",
 		"Comment": "Definisjonen er delvis basert på Bibelen",
 		"Category": "Substantiv",
-		"InBible": 303
+		"InBible": 303,
+		"IsEssential": true
 	},
 	{
 		"Title": "Oppriktig",
 		"Definition": "Ekte, åpen og ærlig",
 		"Category": "Adjektiv",
-		"InBible": 56
+		"InBible": 56,
+		"IsEssential": true
 	},
 	{
 		"Title": "Overtredelse",
@@ -149,14 +158,16 @@
 		"Title": "Saktmodig",
 		"Definition": "Stille og fredelig, selv om andre kanskje behandler deg slemt og urettferdig",
 		"Category": "Adjektiv",
-		"InBible": 44
+		"InBible": 44,
+		"IsEssential": true
 	},
 	{
 		"Title": "Sjel",
 		"Definition": "Tanker, vilje og følelser. Hvem du er som person <b>|</b> En person",
 		"Comment": "Alle mennesker har en menneskeånd i tillegg til en sjel",
 		"Category": "Substantiv",
-		"InBible": 351
+		"InBible": 351,
+		"IsEssential": true
 	},
 	{
 		"Title": "Skussmål",
@@ -240,7 +251,8 @@
 		"Title": "Salig",
 		"Definition": "Utrolig glad. Fullkomment lykkelig <b>|</b> Velsignet av Gud",
 		"Category": "Adjektiv",
-		"InBible": 93
+		"InBible": 93,
+		"IsEssential": true
 	},
 	{
 		"Title": "Gavmild",
@@ -264,12 +276,14 @@
 		"Title": "Fariseer",
 		"Definition": "En jøde som følger Moseloven veldig nøye, men som kanskje hykler og er selvrettferdig. Se også \"Hykle\".",
 		"Category": "Substantiv",
-		"InBible": 94
+		"InBible": 94,
+		"IsEssential": true
 	},
 	{
 		"Title": "Gi akt på",
 		"Definition": "Vise oppmerksomhet. Følge nøye med og være interessert.",
-		"InBible": 51
+		"InBible": 51,
+		"IsEssential": true
 	},
 	{
 		"Title": "Lefle",
@@ -287,7 +301,8 @@
 		"Title": "Vederkvege",
 		"Definition": "Forfriske, styrke, fornye, oppmuntre, glede og trøste",
 		"Category": "Verb",
-		"InBible": 14
+		"InBible": 14,
+		"IsEssential": true
 	},
 	{
 		"Title": "Avind",
@@ -299,7 +314,8 @@
 		"Title": "Begjær",
 		"Definition": "Sterk lengsel eller trang. Kan være både positivt eller negativt utifra sammenhengen. Kan noen ganger bety sterk seksuell lengsel eller tiltrekning.",
 		"Category": "Substantiv",
-		"InBible": 36
+		"InBible": 36,
+		"IsEssential": true
 	},
 	{
 		"Title": "Grunne",
@@ -312,14 +328,16 @@
 		"Definition": "Overnaturlig vesen eller kraft som ikke er av denne verdenen. I enkelte sammenhenger kan ånd også bety sinnelag, innstilling eller tankesett.",
 		"Comment": "Alle mennesker har en menneskeånd i tillegg til en sjel",
 		"Category": "Substantiv",
-		"InBible": 559
+		"InBible": 559,
+		"IsEssential": true
 	},
 	{
 		"Title": "Gudsfrykt",
 		"Definition": "Kraft til å forkaste det onde og velge det gode, og tenke på Guds ære istedenfor menneskers <b>|</b> Frykte Gud",
 		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
 		"Category": "Substantiv",
-		"InBible": 38
+		"InBible": 38,
+		"IsEssential": true
 	},
 	{
 		"Title": "Higen",
@@ -343,7 +361,8 @@
 		"Title": "Formane",
 		"Definition": "Oppmuntre sterkt til å gjøre noe",
 		"Category": "Verb",
-		"InBible": 64
+		"InBible": 64,
+		"IsEssential": true
 	},
 	{
 		"Title": "Refse",
@@ -404,7 +423,8 @@
 		"Title": "Hykle",
 		"Definition": "Late som om man er noe man ikke er",
 		"Category": "Verb",
-		"InBible": 26
+		"InBible": 26,
+		"IsEssential": true
 	},
 	{
 		"Title": "Eder eller I",
@@ -441,7 +461,8 @@
 		"Title": "Fornekte",
 		"Definition": "Nekte å kjenne eller ha forbindelse med noe eller noen <b>|</b> Tvinge seg selv til å ikke gjøre det man egentlig har lyst til",
 		"Category": "Verb",
-		"InBible": 31
+		"InBible": 31,
+		"IsEssential": true
 	},
 	{
 		"Title": "Verdslig",
@@ -459,7 +480,8 @@
 		"Title": "Helhjertet",
 		"Definition": "Gjøre noe 100% uten å tvile",
 		"Category": "Adjektiv",
-		"InBible": 0
+		"InBible": 0,
+		"IsEssential": true
 	},
 	{
 		"Title": "Dårskap",
@@ -501,19 +523,22 @@
 		"Title": "Hedning",
 		"Definition": "En som ikke er kristen fordi man bor et sted hvor kristendommen ikke har kommet enda. Vokser opp uten å høre eller lære om kristendom <b>|</b> En som ikke tror på Gud",
 		"Category": "Substantiv",
-		"InBible": 283
+		"InBible": 283,
+		"IsEssential": true
 	},
 	{
 		"Title": "Ydmyk",
 		"Definition": "Små tanker om seg selv. Ikke overlegen. Lydig mot Gud. Tar hensyn til egne begrensninger. Viser respekt og er høflig.",
 		"Category": "Adjektiv",
-		"InBible": 103
+		"InBible": 103,
+		"IsEssential": true
 	},
 	{
 		"Title": "Hovmod",
 		"Definition": "Overdreven stolthet eller selvfølelse. For stor selvsikkerhet. Overlegenhet.",
 		"Category": "Substantiv",
-		"InBible": 74
+		"InBible": 74,
+		"IsEssential": true
 	},
 	{
 		"Title": "From",
@@ -524,19 +549,22 @@
 	{
 		"Title": "Ta seg i vare",
 		"Definition": "Passe seg for",
-		"InBible": 48
+		"InBible": 48,
+		"IsEssential": true
 	},
 	{
 		"Title": "Dyd",
 		"Definition": "Verdifull egenskap. For eksempel tålmodighet eller gavmildhet.",
 		"Category": "Substantiv",
-		"InBible": 3
+		"InBible": 3,
+		"IsEssential": true
 	},
 	{
 		"Title": "Tilgift",
 		"Definition": "Noe man får i tillegg til noe annet",
 		"Category": "Substantiv",
-		"InBible": 2
+		"InBible": 2,
+		"IsEssential": true
 	},
 	{
 		"Title": "Omsorg",
@@ -602,7 +630,8 @@
 		"Title": "Attrå",
 		"Definition": "Sterk lengsel eller lyst, ofte etter å få eller klare noe",
 		"Category": "Verb / Substantiv",
-		"InBible": 51
+		"InBible": 51,
+		"IsEssential": true
 	},
 	{
 		"Title": "Forsagt",
@@ -668,7 +697,8 @@
 		"Title": "Sinn",
 		"Definition": "Tanker, følelser og vilje",
 		"Category": "Substantiv",
-		"InBible": 49
+		"InBible": 49,
+		"IsEssential": true
 	},
 	{
 		"Title": "Åsyn",
@@ -826,7 +856,8 @@
 	{
 		"Title": "Kom i hu",
 		"Definition": "Husk på",
-		"InBible": 42
+		"InBible": 42,
+		"IsEssential": true
 	},
 	{
 		"Title": "Klagemål",
@@ -938,7 +969,8 @@
 		"Title": "Forakte",
 		"Definition": "Tenke at noe ikke er verd å bry seg om <b>|</b> Tenke at noe er usselt <b>|</b> Se ned på noen",
 		"Category": "Verb",
-		"InBible": 115
+		"InBible": 115,
+		"IsEssential": true
 	},
 	{
 		"Title": "Forlike",
@@ -962,7 +994,8 @@
 		"Title": "Gjenstridig",
 		"Definition": "Trassig og sta. Vil ikke ta imot råd eller ordre. Vanskelig å behandle.",
 		"Category": "Adjektiv",
-		"InBible": 83
+		"InBible": 83,
+		"IsEssential": true
 	},
 	{
 		"Title": "Brynde",
@@ -974,7 +1007,8 @@
 		"Title": "Skarn",
 		"Definition": "Møkk, søppel eller støv <b>|</b> Elendighet",
 		"Category": "Substantiv",
-		"InBible": 27
+		"InBible": 27,
+		"IsEssential": true
 	},
 	{
 		"Title": "Barm",
@@ -1010,7 +1044,8 @@
 		"Title": "Sindig",
 		"Definition": "Gjør noe forstandig, fornuftig eller klokt etter å ha tenkt rolig igjennom ting",
 		"Category": "Adjektiv",
-		"InBible": 9
+		"InBible": 9,
+		"IsEssential": true
 	},
 	{
 		"Title": "Medynk",
@@ -1052,7 +1087,8 @@
 		"Title": "Forbarme",
 		"Definition": "Vise medlidenhet og tilgi eller hjelpe",
 		"Category": "Verb",
-		"InBible": 40
+		"InBible": 40,
+		"IsEssential": true
 	},
 	{
 		"Title": "Erkjenne",
@@ -1166,7 +1202,8 @@
 		"Title": "Frelse",
 		"Definition": "Fri fra synd og død og gjøre fullkomment lykkelig <b>|</b> Omvende <b>|</b> Sette fri <b>|</b> Løse fra slaveri <b>|</b> Fri fra fangenskap <b>|</b> Bevare fra fare, ulykke eller død",
 		"Category": "Verb",
-		"InBible": 353
+		"InBible": 353,
+		"IsEssential": true
 	},
 	{
 		"Title": "Forbønn",
@@ -1322,7 +1359,8 @@
 		"Title": "Kjerub",
 		"Definition": "Engel av høy rang som har en spesiell oppgave som ofte handler om å vokte eller passe på noe",
 		"Category": "Substantiv",
-		"InBible": 68
+		"InBible": 68,
+		"IsEssential": true
 	},
 	{
 		"Title": "Forkynne",
@@ -1334,7 +1372,8 @@
 		"Title": "Lønnkammer",
 		"Definition": "Rom eller sted hvor man kan være alene",
 		"Category": "Substantiv",
-		"InBible": 2
+		"InBible": 2,
+		"IsEssential": true
 	},
 	{
 		"Title": "Persekar",
@@ -1346,7 +1385,8 @@
 		"Title": "Frimodig",
 		"Definition": "Fryktløs, redd og modig. Spesielt fordi man har god samvittighet <b>|</b> Går løs på oppgaver med friskt mot",
 		"Category": "Adjektiv",
-		"InBible": 63
+		"InBible": 63,
+		"IsEssential": true
 	},
 	{
 		"Title": "Velde",
@@ -1364,7 +1404,8 @@
 		"Title": "Disippel",
 		"Definition": "Lærling, elev eller skolegutt <b>|</b> Personlig elev og tilhenger av en som forkynner en ny lære",
 		"Category": "Substantiv",
-		"InBible": 25
+		"InBible": 25,
+		"IsEssential": true
 	},
 	{
 		"Title": "Hine",
@@ -1413,7 +1454,8 @@
 		"Definition": "Indre veiledende følelse av hva som er rett og galt",
 		"Comment": "\"Skrøpelig samvittighet\" betyr at man blir anklaget av Satan for å ha gjort noe galt, selv om Gud og samvittigheten sier at alt er i orden",
 		"Category": "Substantiv",
-		"InBible": 36
+		"InBible": 36,
+		"IsEssential": true
 	},
 	{
 		"Title": "Innbyrdes",
@@ -1473,7 +1515,8 @@
 		"Title": "Allehånde",
 		"Definition": "Alle slags <b>|</b> Alle mulige",
 		"Category": "Adjektiv",
-		"InBible": 9
+		"InBible": 9,
+		"IsEssential": true
 	},
 	{
 		"Title": "Forslå",
@@ -1492,7 +1535,8 @@
 		"Definition": "Vaklende i sinnet (tanker og følelser) <b>|</b> Ubesluttsom <b>|</b> Uekte eller uoppriktig",
 		"Comment": "Definisjonen er delvis basert på engelske ordbøker",
 		"Category": "Substantiv",
-		"InBible": 4
+		"InBible": 4,
+		"IsEssential": true
 	},
 	{
 		"Title": "Silde",
@@ -1504,13 +1548,15 @@
 		"Title": "Havesyke",
 		"Definition": "Trang til å eie mye eller stadig mer <b>|</b> Griskhet etter penger og ting",
 		"Category": "Substantiv",
-		"InBible": 14
+		"InBible": 14,
+		"IsEssential": true
 	},
 	{
 		"Title": "Forganget",
 		"Definition": "Tilhører fortiden og er forbi",
 		"Category": "Adjektiv",
-		"InBible": 2
+		"InBible": 2,
+		"IsEssential": true
 	},
 	{
 		"Title": "Vanhellig",
@@ -1558,7 +1604,8 @@
 		"Title": "Åk",
 		"Definition": "Byrde eller belastning <b>|</b> Slit eller anstrengelse <b>|</b> Noe tungt som ligger over skuldrene (bæreredskap) <b>|</b> Slaveri <b>|</b> Mas",
 		"Category": "Substantiv",
-		"InBible": 20
+		"InBible": 20,
+		"IsEssential": true
 	},
 	{
 		"Title": "Isop",
@@ -1660,7 +1707,8 @@
 		"Title": "Opbygge (oppbygge)",
 		"Definition": "Løfte eller styrke (ofte følelsene) <b>|</b> Bygge opp",
 		"Category": "Verb",
-		"InBible": 26
+		"InBible": 26,
+		"IsEssential": true
 	},
 	{
 		"Title": "Jordisk",
@@ -1728,13 +1776,15 @@
 		"Definition": "Motstander av Kristus <b>|</b> En person som like før Tusenårsriket skal forsøke å ta over plassen til Jesus og vende menneskene bort fra Jesus ved å forkynne falsk frihet (ikke frihet ifra synden, men frihet ifra Guds lover og bud). \"Antikrists ånd\" er en ånd som arbeider med det samme målet som Antikrist.",
 		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
 		"Category": "Substantiv",
-		"InBible": 4
+		"InBible": 4,
+		"IsEssential": true
 	},
 	{
 		"Title": "Tungetale",
 		"Definition": "Snakke et fremmed og uforståelig språk, under guddommelig inspirasjon, som må tolkes for forsamlingen eller menigheten",
 		"Category": "Substantiv",
-		"InBible": 6
+		"InBible": 6,
+		"IsEssential": true
 	},
 	{
 		"Title": "Bekjenne",
@@ -1764,7 +1814,8 @@
 		"Title": "Nådegave",
 		"Definition": "En gave fra Gud (typisk et talent) som man får uten selv å gjøre seg fortjent til det",
 		"Category": "Substantiv",
-		"InBible": 17
+		"InBible": 17,
+		"IsEssential": true
 	},
 	{
 		"Title": "Livsvesen",
@@ -1801,7 +1852,8 @@
 		"Title": "Lignelse",
 		"Definition": "Enkel fortelling som forklarer noe <b>|</b> Likhet",
 		"Category": "Substantiv",
-		"InBible": 57
+		"InBible": 57,
+		"IsEssential": true
 	},
 	{
 		"Title": "Avmakt",
@@ -1849,7 +1901,8 @@
 		"Title": "Avlegge",
 		"Definition": "Legge fra seg <b>|</b> Holde opp med <b>|</b> Vende seg bort fra <b>|</b> Gjøre seg fri fra noe som tynger en",
 		"Category": "Verb",
-		"InBible": 10
+		"InBible": 10,
+		"IsEssential": true
 	},
 	{
 		"Title": "Salve",
@@ -1891,13 +1944,15 @@
 		"Title": "Profeti",
 		"Definition": "Enten en profets forkynnelse av en beskjed gitt av en guddommelig makt, eller en spådom om noe som skal skje i fremtiden",
 		"Category": "Substantiv",
-		"InBible": 57
+		"InBible": 57,
+		"IsEssential": true
 	},
 	{
 		"Title": "Profet",
 		"Definition": "En som forkynner en beskjed gitt av en guddommelig makt, etter å ha fått en åpenbaring. Kan også bety en som spår om noe som skal skje i fremtiden.",
 		"Category": "Substantiv",
-		"InBible": 464
+		"InBible": 464,
+		"IsEssential": true
 	},
 	{
 		"Title": "Evangelist",
@@ -1933,7 +1988,8 @@
 		"Title": "Viss",
 		"Definition": "Helt sikker på <b>|</b> Overbevist om noe",
 		"Category": "Adjektiv",
-		"InBible": 12
+		"InBible": 12,
+		"IsEssential": true
 	},
 	{
 		"Title": "Atter",
@@ -1969,12 +2025,27 @@
 		"Title": "Forløsning",
 		"Definition": "Frelse fra synd og onde makter <b>|</b> Befrielse fra en ubehagelig eller frustrerende tilstand",
 		"Category": "Substantiv",
-		"InBible": 13
+		"InBible": 13,
+		"IsEssential": true
 	},
 	{
 		"Title": "Rettferdig",
-		"Definition": "De fleste har en forståelse av hva dette ordet betyr, men i Bibelen betyr det ofte at man lever i harmoni med Guds vilje og holder Guds bud",
+		"Definition": "De fleste har en viss forståelse av hva dette ordet betyr, men i Bibelen betyr det ofte at man lever i harmoni med Guds vilje og holder Guds bud",
 		"Category": "Adjektiv",
 		"InBible": 657
+	},
+	{
+		"Title": "Mødig",
+		"Definition": "Utmattet eller trett",
+		"Category": "Adjektiv",
+		"InBible": 7
+	},
+	{
+		"Title": "Fullkommen",
+		"Definition": "Uten feil eller mangler (feilfri). Kan ikke bli bedre <b>|</b> Fullt ut, ubetinget (uten betingelser) eller helt",
+		"Comment": "Å være fullkommen ifølge Bibelen betyr å ordne ting slik de burde være, etter den forståelse man har, slik at man er fullkommen etter samvittigheten",
+		"Category": "Adjektiv / Adverb",
+		"InBible": 40,
+		"IsEssential": true
 	}
 ]

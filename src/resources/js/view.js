@@ -53,7 +53,7 @@ View.listWords = function(words, searchTerm) {
 
 		let element = document.createElement('div');
 		element.dataset.index = i;
-		element.innerHTML = word.Title;
+		element.innerHTML = word.Title + (word.IsEssential ? ' <img src="/resources/images/star.svg" alt="Essensielt ord">' : '');
 		target.appendChild(element);
 	}
 }
@@ -101,6 +101,7 @@ View.closeDefinition = function() {
 
 View.resetSearch = function(words) {
 	$(View.DOM.search).value = '';
+	$(View.DOM.search).blur();
 	View.listWords(words);
 }
 

@@ -80,7 +80,7 @@ document.addEventListener('click', function(e) {
 		View.togglePopup('#' + e.target.dataset.popupId);
 
 		if (e.target.matches(View.DOM.shareMenuItem)) {
-			if (Helpers.shareApp('Ordboka', 'Er det mange vanskelige ord i menigheten? Finn forklaringene her!')) {
+			if (Helpers.shareApp('Ordboka', 'Er det mange vanskelige ord i Bibelen? Finn forklaringene her!')) {
 				View.togglePopup(View.DOM.sharePopup); // Closes share-popup if navigator.share is supported
 			}
 		}

@@ -2046,5 +2046,81 @@
 		"Category": "Adjektiv / Adverb",
 		"InBible": 40,
 		"IsEssential": true
+	},
+	{
+		"Title": "Enhver",
+		"Definition": "Hver og en <b>|</b> Hvem som helst",
+		"Category": "Determinativ",
+		"InBible": 200
+	},
+	{
+		"Title": "Troverdig",
+		"Definition": "Noe eller noen man kan tro og stole på <b>|</b> Pålitelig",
+		"Category": "Adjektiv",
+		"InBible": 13
+	},
+	{
+		"Title": "Arming",
+		"Definition": "Stakkar",
+		"Category": "Substantiv",
+		"InBible": 10
+	},
+	{
+		"Title": "Gjerning",
+		"Definition": "Handling <b>|</b> Arbeid <b>|</b> Aktivitet <b>|</b> Gjøre noe",
+		"Category": "Substantiv",
+		"InBible": 430,
+		"IsEssential": true
+	},
+	{
+		"Title": "Misgjerning",
+		"Definition": "Forkastelig handling <b>|</b> Ugjerning eller forbrytelse <b>|</b> Synd",
+		"Category": "Substantiv",
+		"InBible": 215,
+		"IsEssential": true
+	},
+	{
+		"Title": "Tilbøielig (tilbøyelig)",
+		"Definition": "Pleie å gjøre <b>|</b> Ha tendens til",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Vanære",
+		"Definition": "Være æreløs <b>|</b> Skam <b>|</b> Fornedrelse",
+		"Category": "Substantiv",
+		"InBible": 81
+	},
+	{
+		"Title": "Ørkesløs",
+		"Definition": "Uvirksom (gjør ingenting) <b>|</b> Uten nyttig arbeid",
+		"Category": "Adjektiv",
+		"InBible": 2
+	},
+	{
+		"Title": "Spedalskhet",
+		"Definition": "Infeksjonssykdom forårsaket av leprabakterien som angriper hud, perifere nerver og andre organer",
+		"Comment": "Flere hundre tusen mennesker får fortsatt sykdommen hvert år, de fleste i India. Siste leprapasient i Norge var en 78 år gammel kvinne som døde i 2002.",
+		"Category": "Substantiv",
+		"InBible": 65,
+		"IsEssential": true
+	},
+	{
+		"Title": "Blylodd",
+		"Definition": "Lodd (gammel måleenhet for vekt) av bly",
+		"Category": "Substantiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Utskjemme",
+		"Definition": "Ødelegge eller forderve <b>|</b> Søle til",
+		"Category": "Verb",
+		"InBible": 5
+	},
+	{
+		"Title": "Tilmed",
+		"Definition": "Til og med",
+		"Category": "Adverb",
+		"InBible": 4
 	}
 ]

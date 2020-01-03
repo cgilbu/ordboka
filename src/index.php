@@ -13,10 +13,10 @@
 	<meta property="og:url" content="https://<?= $_SERVER['HTTP_HOST'] ?>">
 	<meta property="og:title" content="Ordboka">
 	<meta property="og:description" content="Er det mange vanskelige ord i menigheten? Finn forklaringene her!">
-	<meta property="og:image" content="https://<?= $_SERVER['HTTP_HOST'] ?>/resources/images/apple-touch-icon.png">
+	<meta property="og:image" content="https://<?= $_SERVER['HTTP_HOST'] ?>/resources/images/apple-touch-icon.png?v=2">
 
 	<link rel="shortcut icon" href="/favicon.png">
-	<link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png?v=2">
 
 	<link rel="stylesheet" href="/resources/css/app.css">
 	<link rel="stylesheet" href="/resources/css/responsive.css">

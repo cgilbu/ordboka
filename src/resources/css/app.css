@@ -157,6 +157,7 @@ a {
 .popup > div {
 	cursor: default;
 	margin: auto 0; /* Flexbox auto margins */
+	width: 100%;
 }
 
 .popup p:first-of-type {

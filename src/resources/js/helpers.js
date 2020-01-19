@@ -57,7 +57,7 @@ Helpers.sendMail = function(title, text, callback) {
 }
 
 Helpers.toggleSlide = function(node, targetPosition, speed, displayTime) {
-	let defaultPosition = node.getBoundingClientRect().top;
+	let defaultPosition = Math.round(node.getBoundingClientRect().top);
 	let currentPosition = defaultPosition;
 	let slidingDown = true;
 	let animation = setInterval(animate, speed);

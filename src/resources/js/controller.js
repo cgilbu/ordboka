@@ -75,6 +75,13 @@ document.addEventListener('click', function(e) {
 		return;
 	}
 
+	if (e.target.matches(View.DOM.downloadMenuItem)) {
+		if (Helpers.isAndroid()) {
+			window.location.href = 'https://play.google.com/store/apps/details?id=com.redcreek.ordboka';
+			return;
+		}
+	}
+
 	if (e.target.parentNode.parentNode.matches(View.DOM.menu)) {
 		View.toggleMenu();
 		View.togglePopup('#' + e.target.dataset.popupId);

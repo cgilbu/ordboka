@@ -58,18 +58,30 @@
 
 	<div id="updatePopup" class="popup hidden">
 		<div>
-			<p>En <b>ny versjon</b> av Ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt.</p>
+			<p>En <b>ny versjon</b> av Ordboka er tilgjengelig! <a href="https://github.com/cgilbu/ordboka/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt.</p>
 			<div id="updateButton" class="button close">Oppdater</div>
+		</div>
+	</div>
+
+	<div id="playStorePopup" class="popup hidden">
+		<div>
+			<p id="webUser">Ordboka kan lastes ned fra <b>Google Play Store</b>. For å gjøre det <a href="https://play.google.com/store/apps/details?id=com.redcreek.ordboka" target="_blank" rel="noreferrer"><b>klikk her</b></a>. Du kan også gjøre det senere via menyen.</p>
+			<p id="appUser" class="hidden">Ordboka kan nå lastes ned fra <b>Google Play Store</b>. For å gjøre det <a href="https://play.google.com/store/apps/details?id=com.redcreek.ordboka" target="_blank" rel="noreferrer"><b>klikk her</b></a>. Vi anbefaler at du sletter denne appen og laster ned den nye derfra.</p>
+			<div class="button close">Greit</div>
 		</div>
 	</div>
 
 	<div id="downloadPopup" class="popup hidden">
 		<div>
-			<p id="androidChrome" class="hidden">Du burde allerede ha fått opp et spørsmål nederst på skjermen om du vil lagre ordboka på mobilen. Hvis du takket nei kan du fortsatt gjøre det via menyen i Chrome: <b>Legg til på startsiden</b>.</p>
-			<p id="androidOther" class="hidden">Åpne ordboka i Chrome. Det vil da dukke opp et spørsmål nederst på skjermen om du vil lagre den på mobilen. Du kan kopiere denne linken over i Chrome: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
-			<p id="iosChrome" class="hidden">Åpne ordboka i Safari og følg oppskriften nedenfor. Du kan kopiere denne linken over i Safari: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
-			<p id="ios" class="hidden"><img src="/resources/images/ios-add-home-screen.png" alt="Add to Home Screen"></p>
-			<p id="telegram" class="hidden"><b>Viktig:</b> Fungerer ikke hvis du åpnet appen via Telegram. Kopier heller denne linken over i Safari: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
+			<div id="iosInfo" class="hidden">
+				<p><b>Sørg for at du åpnet Ordboka i nettleseren Safari</b>. Nedlastingen fungerer <b>IKKE</b> dersom du klikket på linken i Telegram eller WhatsApp (Apple sin skyld).</p>
+				<p>Her er linken hvis du trenger den: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
+				<p><b>Hvis du er i Safari så gjør dette:</b></p>
+				<p><img src="/resources/images/ios-add-home-screen.png" alt="Add to Home Screen"></p>
+			</div>
+			<div id="otherInfo" class="hidden">
+				<p>Det ser ut til at du bruker en PC eller mobil uten iOS eller Android. Du kan forsøke å lagre Ordboka på skrivebordet eller hjem-skjermen via menyen i nettleseren din.</p>
+			</div>
 			<div class="button close">Gå tilbake</div>
 		</div>
 	</div>
@@ -126,10 +138,10 @@
 
 	<div id="aboutPopup" class="popup hidden">
 		<div>
-			<p>Ordboka er et <b>frivillig samarbeidsprosjekt</b>, og de fleste av ordene stammer fra innsendte forslag. Appen har en <a href="https://github.com/cgilbu/ordbok" target="_blank" rel="noreferrer">åpen kildekode</a> og er tilgjengelig for alle.</p>
+			<p>Ordboka er et <b>frivillig samarbeidsprosjekt</b>, og de fleste av ordene stammer fra innsendte forslag. Appen har en <a href="https://github.com/cgilbu/ordboka" target="_blank" rel="noreferrer">åpen kildekode</a> og er tilgjengelig for alle.</p>
 			<p>Ordboka er utarbeidet av medlemmer i Brunstad Christian Church (BCC). Nesten halvparten av BCC sine norske medlemmer er under 20 år og behovet for en slik app er derfor stort. Ordboka er likevel et <b>privat initiativ</b> og en <b>frittstående app</b> uten direkte tilknytning til denne foreningen.</p>
 			<p>Vi gjør vårt beste for at definisjonene skal bli så korrekte som mulig, men står ikke ansvarlige for feilaktige eller mangelfulle definisjoner. Alle som vil kan sende inn forslag til forbedringer.</p>
-			<p><a href="https://github.com/cgilbu/ordbok/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt i siste versjon av Ordboka.</p>
+			<p><a href="https://github.com/cgilbu/ordboka/releases" target="_blank" rel="noreferrer">Klikk her</a> for å se hva som er nytt i siste versjon av Ordboka.</p>
 			<div class="button close">Greit</div>
 		</div>
 	</div>

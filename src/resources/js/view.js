@@ -21,6 +21,7 @@ View.DOM.infoTip = '#infoTip';
 View.DOM.loading = '#loading';
 View.DOM.menu = '#menu';
 View.DOM.menuButton = '#menuButton';
+View.DOM.playStorePopup = '#playStorePopup';
 View.DOM.search = '#search';
 View.DOM.shareMenuItem = '#shareMenuItem';
 View.DOM.sharePopup = '#sharePopup';
@@ -119,10 +120,10 @@ View.handleTips = function() {
 	if (!localStorage.getItem('userID') && !localStorage.getItem('isAdmin')) {
 		View.togglePopup(View.DOM.welcomePopup);
 	} else {
-		if (!localStorage.getItem('definitionTip')) {
-			View.showInfoTip('definitionTip', 'Tips: Les om hvordan vi definerer ord i menyen');
-		} else if (!localStorage.getItem('appTip') && !Helpers.isStandalone()) {
+		if (!localStorage.getItem('appTip') && !Helpers.isStandalone()) {
 			View.showInfoTip('appTip', 'Tips: Du kan lagre Ordboka som en app via menyen');
+		} else if (!localStorage.getItem('definitionTip')) {
+			View.showInfoTip('definitionTip', 'Tips: Les om hvordan vi definerer ord i menyen');
 		}
 	}
 }
@@ -139,41 +140,33 @@ View.showInfoTip = function(title, text) {
 }
 
 View.prepareDownload = function() {
-	if (Helpers.isStandalone()) {
-		$(View.DOM.downloadMenuItem).classList.toggle('hidden');
+	if (Helpers.isAndroidApp()) {
+		$(View.DOM.downloadMenuItem).classList.add('hidden');
 		return;
 	}
 
-	const androidChromeInfo = '#androidChrome';
-	const androidOtherInfo = '#androidOther';
-	const iosChromeInfo = '#iosChrome';
-	const iosInfo = '#ios';
-	const telegramInfo = '#telegram';
+	if (Helpers.isIOS()) {
+		$('#iosInfo').classList.remove('hidden');
+		return;
+	}
 
-	let iOS = /(iPad|iPhone|iPod)/g.test(navigator.userAgent);
+	if (!Helpers.isIOS() && !Helpers.isAndroid()) {
+		$('#otherInfo').classList.remove('hidden');
+		return;
+	}
 
-	if (iOS) {
-		$(iosInfo).classList.toggle('hidden');
-		$(telegramInfo).classList.toggle('hidden');
+	if (Helpers.isAndroid() && !Helpers.isAndroidApp() && !localStorage.getItem('playStoreTip')) {
+		const webUser = '#playStorePopup #webUser';
+		const appUser = '#playStorePopup #appUser';
 
-		let iOSChrome = navigator.userAgent.match('CriOS');
-
-		if (iOSChrome) {
-			$(iosChromeInfo).classList.toggle('hidden');
-			$(telegramInfo).classList.toggle('hidden');
+		if (Helpers.isStandalone()) {
+			$(webUser).classList.add('hidden');
+			$(appUser).classList.remove('hidden');
 		}
 
-		return;
+		View.togglePopup(View.DOM.playStorePopup);
+		localStorage.setItem('playStoreTip', true);
 	}
-
-	let androidChrome = navigator.userAgent.match('Chrome');
-
-	if (!androidChrome) {
-		$(androidOtherInfo).classList.toggle('hidden');
-		return;
-	}
-
-	$(androidChromeInfo).classList.toggle('hidden');
 }
 
 View.sendSuggestion = function() {

@@ -71,7 +71,7 @@
 	{
 		"Title": "Kjød",
 		"Definition": "Den medfødte delen av et menneske som ønsker å gjøre det motsatte av det Gud vil <b>|</b> Kroppen til et menneske (stort sett i det gamle testamentet)",
-		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
+		"Comment": "Definisjonen er delvis basert på BCC sine skrifter",
 		"Category": "Substantiv",
 		"InBible": 200,
 		"IsEssential": true
@@ -333,7 +333,7 @@
 	{
 		"Title": "Gudsfrykt",
 		"Definition": "Kraft til å forkaste det onde og velge det gode, og tenke på Guds ære istedenfor menneskers <b>|</b> Frykte Gud",
-		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
+		"Comment": "Definisjonen er delvis basert på BCC sine skrifter",
 		"Category": "Substantiv",
 		"InBible": 38,
 		"IsEssential": true
@@ -452,7 +452,7 @@
 	{
 		"Title": "Religiøs",
 		"Definition": "Tro på noe overnaturlig (noe som ikke kan forklares med vitenskap), som for eksempel Gud",
-		"Comment": "Brukes ofte i menigheten om kristne som tror på en løgn (typisk Jesus uten seier over synd)",
+		"Comment": "Brukes ofte i BCC om kristne som bevisst eller ubevisst tror på en løgn (typisk at Jesus kun kan gi oss tilgivelse og ikke seier over synd)",
 		"Category": "Adjektiv",
 		"InBible": 0
 	},
@@ -1602,6 +1602,7 @@
 	{
 		"Title": "Åk",
 		"Definition": "Byrde eller belastning <b>|</b> Slit eller anstrengelse <b>|</b> Noe tungt som ligger over skuldrene (bæreredskap) <b>|</b> Slaveri <b>|</b> Mas",
+		"Comment": "\"Dra i fremmed åk\" betyr å arbeide sammen med noen fremmede (som tilhører noe annet)",
 		"Category": "Substantiv",
 		"InBible": 20,
 		"IsEssential": true
@@ -1773,7 +1774,7 @@
 	{
 		"Title": "Antikrist",
 		"Definition": "Motstander av Kristus <b>|</b> En person som like før Tusenårsriket skal forsøke å ta over plassen til Jesus og vende menneskene bort fra Jesus ved å forkynne falsk frihet (ikke frihet ifra synden, men frihet ifra Guds lover og bud). \"Antikrists ånd\" er en ånd som arbeider med det samme målet som Antikrist.",
-		"Comment": "Definisjonen er delvis basert på menighetens skrifter",
+		"Comment": "Definisjonen er delvis basert på BCC sine skrifter",
 		"Category": "Substantiv",
 		"InBible": 4,
 		"IsEssential": true
@@ -2122,5 +2123,65 @@
 		"Definition": "Til og med",
 		"Category": "Adverb",
 		"InBible": 4
+	},
+	{
+		"Title": "Rettvis",
+		"Definition": "Rettferdig",
+		"Category": "Adjektiv",
+		"InBible": 20
+	},
+	{
+		"Title": "Undfly (unnfly)",
+		"Definition": "Rømme eller flykte <b>|</b> Slippe unna eller redde seg selv",
+		"Category": "Verb",
+		"InBible": 9
+	},
+	{
+		"Title": "Gremmelse",
+		"Definition": "Sterk og bitter sorg. Kan også skje på en negativ måte fordi man er misfornøyd eller irritert.",
+		"Category": "Substantiv",
+		"InBible": 12
+	},
+	{
+		"Title": "Mangehånde",
+		"Definition": "Mange slags",
+		"Category": "Adjektiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Lyte",
+		"Definition": "Feil eller mangel",
+		"Category": "Substantiv",
+		"InBible": 60
+	},
+	{
+		"Title": "Forherde",
+		"Definition": "Gjøre hard eller ufølsom",
+		"Category": "Verb",
+		"InBible": 39
+	},
+	{
+		"Title": "Forbitret",
+		"Definition": "Sint, bitter eller arg (ondskapsfull)",
+		"Category": "Adjektiv",
+		"InBible": 8
+	},
+	{
+		"Title": "List",
+		"Definition": "Lurhet <b>|</b> Lur eller slu plan <b>|</b> Lureri",
+		"Category": "Substantiv",
+		"InBible": 19
+	},
+	{
+		"Title": "Evindelig",
+		"Definition": "Evig",
+		"Category": "Adjektiv",
+		"InBible": 122
+	},
+	{
+		"Title": "Ildslue",
+		"Definition": "Flamme",
+		"Category": "Substantiv",
+		"InBible": 16
 	}
 ]

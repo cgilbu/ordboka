@@ -10,6 +10,30 @@ Helpers.isStandalone = function() {
 	return false;
 }
 
+Helpers.isAndroidApp = function() {
+	if (document.referrer.includes('android-app://')) {
+		return true;
+	}
+
+	return false;
+}
+
+Helpers.isAndroid = function() {
+	if (/android/i.test(navigator.userAgent)) {
+		return true;
+	}
+
+	return false;
+}
+
+Helpers.isIOS = function() {
+	if (/(iPad|iPhone|iPod|Mac)/g.test(navigator.userAgent)) {
+		return true;
+	}
+
+	return false;
+}
+
 Helpers.shareApp = function(title, text) {
 	let url = window.location.href.replace(/\/$/, ''); // Removes trailing slash
 
@@ -75,7 +99,7 @@ Helpers.updateStats = function(wordClicked) {
 	}
 
 	let utcDateTime = new Date().toISOString();
-	let statsObject = { word: wordClicked, userID: localStorage.getItem('userID'), utcDateTime: utcDateTime, isStandalone: Helpers.isStandalone() };
+	let statsObject = { word: wordClicked, userID: localStorage.getItem('userID'), utcDateTime: utcDateTime, isStandalone: Helpers.isStandalone(), isAndroidApp: Helpers.isAndroidApp(), isIosPwa: (Helpers.isStandalone() && Helpers.isIOS()) };
 
 	let statsData = '?statsData=' + JSON.stringify(statsObject);
 	fetch('/resources/php/updateStats.php' + statsData)

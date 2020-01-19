@@ -66,7 +66,7 @@
 	<div id="playStorePopup" class="popup hidden">
 		<div>
 			<p id="webUser">Ordboka kan lastes ned fra <b>Google Play Store</b>. For å gjøre det <a href="https://play.google.com/store/apps/details?id=com.redcreek.ordboka" target="_blank" rel="noreferrer"><b>klikk her</b></a>. Du kan også gjøre det senere via menyen.</p>
-			<p id="appUser" class="hidden">Ordboka kan nå lastes ned fra <b>Google Play Store</b>. For å gjøre det <a href="https://play.google.com/store/apps/details?id=com.redcreek.ordboka" target="_blank" rel="noreferrer"><b>klikk her</b></a>. Vi anbefaler at du sletter denne appen og laster ned den nye derfra.</p>
+			<p id="appUser" class="hidden">Ordboka kan nå lastes ned fra <b>Google Play Store</b>. For å gjøre det <a href="https://play.google.com/store/apps/details?id=com.redcreek.ordboka" target="_blank" rel="noreferrer"><b>klikk her</b></a>. Vi anbefaler at du sletter denne appen og laster ned den nye.</p>
 			<div class="button close">Greit</div>
 		</div>
 	</div>

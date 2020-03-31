@@ -120,7 +120,7 @@ View.handleTips = function() {
 	if (!localStorage.getItem('userID') && !localStorage.getItem('isAdmin')) {
 		View.togglePopup(View.DOM.welcomePopup);
 	} else {
-		if (!localStorage.getItem('appTip') && !Helpers.isStandalone()) {
+		if (!localStorage.getItem('appTip') && !Helpers.isStandalone() && !Helpers.isAndroidApp()) {
 			View.showInfoTip('appTip', 'Tips: Du kan lagre Ordboka som en app via menyen');
 		} else if (!localStorage.getItem('definitionTip')) {
 			View.showInfoTip('definitionTip', 'Tips: Les om hvordan vi definerer ord i menyen');

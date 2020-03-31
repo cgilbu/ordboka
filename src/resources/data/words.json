@@ -1382,7 +1382,7 @@
 	},
 	{
 		"Title": "Frimodig",
-		"Definition": "Fryktløs, redd og modig. Spesielt fordi man har god samvittighet <b>|</b> Går løs på oppgaver med friskt mot",
+		"Definition": "Fryktløs, uredd og modig. Spesielt fordi man har god samvittighet <b>|</b> Går løs på oppgaver med friskt mot",
 		"Category": "Adjektiv",
 		"InBible": 63,
 		"IsEssential": true
@@ -2183,5 +2183,89 @@
 		"Definition": "Flamme",
 		"Category": "Substantiv",
 		"InBible": 16
+	},
+	{
+		"Title": "Troskyldig",
+		"Definition": "Tror på andre uten mistanker <b>|</b> Trofast eller lydig",
+		"Category": "Adjektiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Mismodig",
+		"Definition": "Motløs, trist eller nedslått",
+		"Category": "Adjektiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Vanvare",
+		"Definition": "Uforsiktighet eller uoppmerksomhet",
+		"Category": "Substantiv",
+		"InBible": 21
+	},
+	{
+		"Title": "Omskjærelse",
+		"Definition": "En gammel tradisjon som jødene gjorde som et tegn på avtalen mellom dem og Gud. I det nye testamentet fikk de beskjed om å slutte med dette og heller omskjære hjertet sitt ved Ånden. Det vil si at man man skiller seg helt fra det onde i verden (lyster, begjæringer osv.) og bestemmer seg for å leve helt for Gud og tro på ham.",
+		"Category": "Substantiv",
+		"InBible": 46
+	},
+	{
+		"Title": "Forseelse",
+		"Definition": "Gjøre noe galt som ikke er veldig alvorlig",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Broderkjærlighet",
+		"Definition": "Ha kjærlighet til noen akkurat som to brødre som elsker hverandre, ikke på grunn av utseendet, som ved forelskelse, men av hjertet, på samme måte som Jesus elsker oss. Kan kanskje sammenlignes med å være utrolig glad i noen.",
+		"Category": "Substantiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Broderskap",
+		"Definition": "Broderskap kan bety veldig mye og det er vanskelig å forklare alt med noen få setninger. Kan kanskje sammenlignes med et veldig sterkt vennskap. Se \"broderkjærlighet\".",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Berge",
+		"Definition": "Få noe eller noen vekk fra farer eller vanskeligheter <b>|</b> Redde",
+		"Category": "Verb",
+		"InBible": 29
+	},
+	{
+		"Title": "Uskrømtet",
+		"Definition": "Ekte, åpent og ærlig. Ingenting er skjult.",
+		"Category": "Adjektiv",
+		"InBible": 3
+	},
+	{
+		"Title": "Tilflukt",
+		"Definition": "Finne en person eller et sted hvor det er trygt og man kan få hjelp",
+		"Category": "Substantiv",
+		"InBible": 67
+	},
+	{
+		"Title": "Foreldet",
+		"Definition": "Gammelt eller utdatert",
+		"Category": "Adjektiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Ed",
+		"Definition": "Noe som på en høytidelig måte har blitt skikkelig bestemt av en høyere makt",
+		"Category": "Substantiv",
+		"InBible": 0
+	},
+	{
+		"Title": "Akk",
+		"Definition": "Noe man sier fordi noe er sørgelig, fortvilet eller håpløst",
+		"Category": "Interjeksjon",
+		"InBible": 23
+	},
+	{
+		"Title": "Dynd (dynn)",
+		"Definition": "Gjørme eller søle",
+		"Category": "Substantiv",
+		"InBible": 5
 	}
 ]

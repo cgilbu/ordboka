@@ -10,6 +10,10 @@ if (localStorage.getItem('appTip')) {
 	localStorage.setItem('returning', true); // Fix for users prior to analytics update
 }
 
+if (Helpers.isAndroidApp()) {
+	localStorage.setItem('playStoreTip', true); // Prevents real app users to see playStoreTip after first update since referrer has an unexpected behavior after window.location.reload
+}
+
 Model.getWords(View.openDictionary); // Fires up the engine
 
 if ('serviceWorker' in navigator) {

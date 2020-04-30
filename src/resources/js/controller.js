@@ -6,6 +6,10 @@ if (window.location.href.includes('joinmyblog') && !window.location.href.include
 	window.location.href = 'https://ordboka.xyz'; // Redirects web users to new domain
 }
 
+if (localStorage.getItem('appTip')) {
+	localStorage.setItem('returning', true); // Fix for users prior to analytics update
+}
+
 Model.getWords(View.openDictionary); // Fires up the engine
 
 if ('serviceWorker' in navigator) {
@@ -23,17 +27,6 @@ document.addEventListener('click', function(e) {
 
 	if (e.target.matches(View.DOM.closeButtons)) {
 		View.togglePopup('#' + e.target.parentNode.parentNode.id);
-	}
-
-	if (e.target.matches(View.DOM.adminButton)) {
-		localStorage.setItem('isAdmin', true);
-		View.togglePopup(View.DOM.welcomePopup);
-		return;
-	}
-
-	if (e.target.matches(View.DOM.startButton)) {
-		Helpers.updateStats();
-		return;
 	}
 
 	if (e.target.matches(View.DOM.updateButton)) {
@@ -66,7 +59,6 @@ document.addEventListener('click', function(e) {
 	if (e.target.closest(View.DOM.dictionary)) {
 		const wordIndex = e.target.dataset.index ? e.target.dataset.index : e.target.parentNode.dataset.index; // In case the star is clicked
 		View.showDefinition(Model.CachedWords[wordIndex]);
-		Helpers.updateStats(Model.CachedWords[wordIndex].Title);
 		return;
 	}
 

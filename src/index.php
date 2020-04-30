@@ -51,8 +51,8 @@
 	<div id="welcomePopup" class="popup hidden">
 		<div>
 			<p>Finn <b>forklaringer</b> på <b>vanskelige ord</b> i Bibelen! <b>Trykk på ordene</b> for å se hva de betyr.</p>
-			<p>I <b id="adminButton">menyen</b> finner du mer info. Der kan du også komme med forslag til <b>forbedringer</b>.</p>
-			<div id="startButton" class="button close">Sett i gang</div>
+			<p>I <b>menyen</b> finner du mer info. Der kan du også komme med forslag til <b>forbedringer</b>.</p>
+			<div class="button close">Sett i gang</div>
 		</div>
 	</div>
 
@@ -146,6 +146,7 @@
 		</div>
 	</div>
 
+	<script src="https://analytics.joinmyblog.com/js/analytics.js"></script>
 	<script src="/resources/js/helpers.js"></script>
 	<script src="/resources/js/model.js"></script>
 	<script src="/resources/js/view.js"></script>

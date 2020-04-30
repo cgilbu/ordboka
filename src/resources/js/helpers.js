@@ -11,7 +11,7 @@ Helpers.isStandalone = function() {
 }
 
 Helpers.isAndroidApp = function() {
-	if (document.referrer.includes('android-app://')) {
+	if (document.referrer.includes('android-app://com.redcreek')) {
 		return true;
 	}
 
@@ -27,7 +27,7 @@ Helpers.isAndroid = function() {
 }
 
 Helpers.isIOS = function() {
-	if (/(iPad|iPhone|iPod|Mac)/g.test(navigator.userAgent)) {
+	if (/(iPad|iPhone|iPod|Mac)/g.test(navigator.userAgent)) { // New iPads look like Macs
 		return true;
 	}
 
@@ -81,31 +81,4 @@ Helpers.toggleSlide = function(node, targetPosition, speed, displayTime) {
 			node.style.top = currentPosition + 'px';
 		}
 	}
-}
-
-Helpers.updateStats = function(wordClicked) {
-	if (localStorage.getItem('isAdmin')) {
-		return;
-	}
-
-	if (!localStorage.getItem('userID')) {
-		let randomID = new Uint32Array(1);
-		window.crypto.getRandomValues(randomID);
-		localStorage.setItem('userID', parseInt(randomID));
-	}
-
-	if (!wordClicked) {
-		return;
-	}
-
-	let utcDateTime = new Date().toISOString();
-	let statsObject = { word: wordClicked, userID: localStorage.getItem('userID'), utcDateTime: utcDateTime, isStandalone: Helpers.isStandalone(), isAndroidApp: Helpers.isAndroidApp(), isIosPwa: (Helpers.isStandalone() && Helpers.isIOS()) };
-
-	let statsData = '?statsData=' + JSON.stringify(statsObject);
-	fetch('/resources/php/updateStats.php' + statsData)
-		.then(function(response) {
-			if (response.status == 500) {
-				console.log('Noe gikk galt: Kunne ikke oppdatere statistikk');
-			}
-		});
 }

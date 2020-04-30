@@ -8,7 +8,6 @@ var $ = function(selector) {
 	return document.querySelector(selector);
 };
 
-View.DOM.adminButton = '#adminButton';
 View.DOM.closeButtons = '.button.close';
 View.DOM.closeTip = '#closeTip';
 View.DOM.comment = '#comment';
@@ -26,7 +25,6 @@ View.DOM.search = '#search';
 View.DOM.shareMenuItem = '#shareMenuItem';
 View.DOM.sharePopup = '#sharePopup';
 View.DOM.showComment = '#showComment';
-View.DOM.startButton = '#startButton';
 View.DOM.suggestionSentPopup = '#suggestionSentPopup';
 View.DOM.textSuggestion = '#textSuggestion';
 View.DOM.updateButton = '#updateButton';
@@ -117,8 +115,9 @@ View.togglePopup = function(targetSelector) {
 }
 
 View.handleTips = function() {
-	if (!localStorage.getItem('userID') && !localStorage.getItem('isAdmin')) {
+	if (!localStorage.getItem('returning')) {
 		View.togglePopup(View.DOM.welcomePopup);
+		localStorage.setItem('returning', true);
 	} else {
 		if (!localStorage.getItem('appTip') && !Helpers.isStandalone() && !Helpers.isAndroidApp()) {
 			View.showInfoTip('appTip', 'Tips: Du kan lagre Ordboka som en app via menyen');

@@ -93,7 +93,7 @@
 			<p><b>Hvorfor har noen av ordene en stjerne ved siden av seg?</b><br>
 			Dette er utvalgte ord vi tenker det er verdt å ta en titt på.</p>
 			<p><b>Kan dere se hvilke ord jeg klikker på?</b><br>
-			Nei. Vi ser hvilke ord som klikkes på, men ikke hvem som gjør det. <a href="/privacy.php" target="_blank" rel="noreferrer">Klikk her</a> for å lese mer om personvern.</p>
+			Nei. <a href="/privacy.php" target="_blank" rel="noreferrer">Klikk her</a> for å lese mer om personvern.</p>
 			<p><b>Jeg fant en feil forklaring</b><br>
 			Vi gjør vårt beste for at definisjonene skal bli så korrekte som mulig og beklager dersom noe er feil. Du kan selv sende inn forslag til endringer via menyen.</p>
 			<div class="button close">Gå tilbake</div>

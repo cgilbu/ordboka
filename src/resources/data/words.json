@@ -20,7 +20,7 @@
 	},
 	{
 		"Title": "Enfoldig",
-		"Definition": "Ærlig og oppriktig. Tenker godt om andre <b>|</b> Enkel og lite smart",
+		"Definition": "Ærlig og oppriktig. Tenker godt om andre <b>|</b> Enkel tankegang (kan være positivt - som et lite barn) <b>|</b> Enkel og lite smart",
 		"Category": "Adjektiv",
 		"InBible": 16,
 		"IsEssential": true
@@ -2267,5 +2267,138 @@
 		"Definition": "Gjørme eller søle",
 		"Category": "Substantiv",
 		"InBible": 5
+	},
+	{
+		"Title": "Dåre",
+		"Definition": "Enkel og lite smart <b>|</b> Tåpelig <b>|</b> \"Å dåre\" betyr å lokke, lure eller bedra",
+		"Category": "Verb / Substantiv",
+		"InBible": 150
+	},
+	{
+		"Title": "Ærbødighet",
+		"Definition": "Dyp respekt",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Hjord",
+		"Definition": "Stor flokk av dyr <b>|</b> En gruppe mennesker i forhold til Gud",
+		"Category": "Substantiv",
+		"InBible": 92
+	},
+	{
+		"Title": "Utlendighet",
+		"Definition": "Leve i et fremmed land, ofte som flyktning",
+		"Category": "Substantiv",
+		"InBible": 6
+	},
+	{
+		"Title": "Amen",
+		"Definition": "Noe man sier i slutten av en bønn eller tale <b>|</b> En helhjertet og dyptfølt godkjennelse",
+		"Category": "Interjeksjon",
+		"InBible": 51
+	},
+	{
+		"Title": "Forvalte",
+		"Definition": "Lede, styre eller administrere",
+		"Category": "Verb",
+		"InBible": 2
+	},
+	{
+		"Title": "Mammon",
+		"Definition": "Jordiske eiendeler, penger eller rikdom",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Kløve",
+		"Definition": "Dele i to",
+		"Category": "Verb",
+		"InBible": 8
+	},
+	{
+		"Title": "Nardus",
+		"Definition": "Planter (eller ting som er laget av planter) som lukter godt",
+		"Category": "Substantiv",
+		"InBible": 4
+	},
+	{
+		"Title": "Inderlig",
+		"Definition": "Noe ekte som kommer fra hjertet (ikke det fysiske hjertet)",
+		"Category": "Adjektiv",
+		"InBible": 40
+	},
+	{
+		"Title": "Kverve",
+		"Definition": "Forvrenge synet på noe så det blir uriktig eller skjevt og ser annerledes ut enn det egentlig er",
+		"Category": "Verb",
+		"InBible": 3
+	},
+	{
+		"Title": "Leske",
+		"Definition": "Gi vann til en som er tørst <b>|</b> Forfriske <b>|</b> Glede",
+		"Category": "Verb",
+		"InBible": 1
+	},
+	{
+		"Title": "Agn",
+		"Definition": "Det tynne skallet rundt kjernen på forskjellige korntyper",
+		"Category": "Substantiv",
+		"InBible": 10
+	},
+	{
+		"Title": "Skamløs",
+		"Definition": "Føler ikke skam",
+		"Category": "Adjektiv",
+		"InBible": 18
+	},
+	{
+		"Title": "Skam",
+		"Definition": "Se \"vanære\" og \"fornedre\"",
+		"Category": "Substantiv",
+		"InBible": 93
+	},
+	{
+		"Title": "Sabbat",
+		"Definition": "Jødenes helligdag og hviledag (fra fredag kveld til lørdag kveld)",
+		"Category": "Substantiv",
+		"InBible": 144
+	},
+	{
+		"Title": "Gjenmæle",
+		"Definition": "Protestere mot anklage eller kritikk",
+		"Category": "Substantiv",
+		"InBible": 1
+	},
+	{
+		"Title": "Buk",
+		"Definition": "Mage",
+		"Category": "Substantiv",
+		"InBible": 28
+	},
+	{
+		"Title": "Sambånd",
+		"Definition": "Forbindelse eller sammenheng",
+		"Category": "Substantiv",
+		"InBible": 5
+	},
+	{
+		"Title": "Kremmer",
+		"Definition": "Handelsmann eller forretningsmann",
+		"Category": "Substantiv",
+		"InBible": 22
+	},
+	{
+		"Title": "Snare",
+		"Definition": "Felle laget av tau på bakken, vanligvis for å fange dyr",
+		"Category": "Substantiv",
+		"InBible": 65
+	},
+	{
+		"Title": "Fristelse",
+		"Definition": "Dras og lokkes til å gjøre noe man vet er synd (Jakob 1)",
+		"Comment": "Fristelse er ikke synd. Det er STOR forskjell på fristelse og synd. Hvis jeg synder, da VET jeg om det, jeg VET hva jeg gjør - jeg har da blitt fristet og har med min bevissthet samtykket (altså i våken tilstand og med klare sanser vært enig og gitt min tillatelse). Jakob sier at vi kan glede oss når vi blir fristet.",
+		"Category": "Substantiv",
+		"InBible": 15
 	}
 ]

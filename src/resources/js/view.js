@@ -139,18 +139,13 @@ View.showInfoTip = function(title, text) {
 }
 
 View.prepareDownload = function() {
-	if (Helpers.isAndroidApp()) {
+	if (Helpers.isAndroidApp() || (!Helpers.isIOS() && !Helpers.isAndroid())) {
 		$(View.DOM.downloadMenuItem).classList.add('hidden');
 		return;
 	}
 
 	if (Helpers.isIOS()) {
 		$('#iosInfo').classList.remove('hidden');
-		return;
-	}
-
-	if (!Helpers.isIOS() && !Helpers.isAndroid()) {
-		$('#otherInfo').classList.remove('hidden');
 		return;
 	}
 

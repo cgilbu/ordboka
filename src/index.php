@@ -74,13 +74,7 @@
 	<div id="downloadPopup" class="popup hidden">
 		<div>
 			<div id="iosInfo" class="hidden">
-				<p><b>Sørg for at du åpnet Ordboka i nettleseren Safari</b>. Nedlastingen fungerer <b>IKKE</b> dersom du klikket på linken i Telegram eller WhatsApp (Apple sin skyld).</p>
-				<p>Her er linken hvis du trenger den: <b><?= $_SERVER['HTTP_HOST'] ?></b></p>
-				<p><b>Hvis du er i Safari så gjør dette:</b></p>
 				<p><img src="/resources/images/ios-add-home-screen.png" alt="Add to Home Screen"></p>
-			</div>
-			<div id="otherInfo" class="hidden">
-				<p>Det ser ut til at du bruker en PC eller mobil uten iOS eller Android. Du kan forsøke å lagre Ordboka på skrivebordet eller hjem-skjermen via menyen i nettleseren din.</p>
 			</div>
 			<div class="button close">Gå tilbake</div>
 		</div>

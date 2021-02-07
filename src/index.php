@@ -140,7 +140,7 @@
 		</div>
 	</div>
 
-	<script src="https://analytics.joinmyblog.com/js/analytics.js"></script>
+	<script src="https://analytics.redcreek.no/js/analytics.js"></script>
 	<script src="/resources/js/helpers.js"></script>
 	<script src="/resources/js/model.js"></script>
 	<script src="/resources/js/view.js"></script>

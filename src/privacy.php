@@ -11,7 +11,9 @@
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700">
 </head>
 <body style="margin:0 25px;padding:0px;">
-	<h1 style="margin:16px 0;">Personvern</h1>
+	<h1 style="margin:16px 0;">Personvern for Ordboka</h1>
+
+	<p><b>(Privacy Policy for Ordboka)</b></p>
 
 	<p>Vi tar personvern svært alvorlig og samler på ingen måte inn sensitive personopplysninger om deg.</p>
 

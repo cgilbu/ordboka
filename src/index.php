@@ -96,12 +96,9 @@
 
 	<div id="contactPopup" class="popup hidden">
 		<div>
+			<p>Ordboka inneholder nå såpass mange ord at vi kun ser over nye forslag et par ganger i året. Du kan likevel fortsatt sende inn forslag til nye ord nedenfor.</p>
 			<p>Ordet burde være vesentlig for forståelsen av evangeliet for yngre tenåringer, og helst nevnes ofte i Bibelen eller under kristelige sammenkomster.</p>
-			<p>
-				<input id="wordSuggestion" type="text" placeholder="Nytt eller eksisterende ord" maxlength="20">
-				<textarea id="textSuggestion" placeholder="Forslag til definisjon eller endring" maxlength="150"></textarea>
-			</p>
-			<div id="contactButton" class="button">Send inn</div>
+			<p>Du kan sende inn forslag til nye ord ved å opprette en "Issue" på <a href="https://github.com/cgilbu/ordboka/issues" target="_blank">denne siden</a>.</p>
 			<div class="button close">Gå tilbake</div>
 		</div>
 	</div>
